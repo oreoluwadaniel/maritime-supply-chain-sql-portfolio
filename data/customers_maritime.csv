@@ -1,0 +1,3001 @@
+customer_id,company_name,industry,country,contract_value
+CUST000001,Shell Trading,E-commerce,China,8797254.84
+CUST000002,Amazon Supply Chain,Retail,Germany,7873231.12
+CUST000003,Toyota Logistics,Retail,China,4043457.21
+CUST000004,DHL Global,Retail,UAE,1734709.98
+CUST000005,Maersk Logistics,E-commerce,UAE,1375725.04
+CUST000006,Walmart Imports,E-commerce,Germany,1968857.81
+CUST000007,Toyota Logistics,Retail,UK,8781385.78
+CUST000008,DHL Global,Oil & Gas,UK,2517983.46
+CUST000009,Shell Trading,Manufacturing,China,5880625.01
+CUST000010,Toyota Logistics,Retail,China,1875464.63
+CUST000011,Nestle Global,Retail,China,9964682.5
+CUST000012,Nestle Global,Oil & Gas,UK,4267195.3
+CUST000013,Nestle Global,E-commerce,USA,3909491.23
+CUST000014,Shell Trading,E-commerce,UAE,1624412.56
+CUST000015,DHL Global,Oil & Gas,Germany,6893432.67
+CUST000016,Toyota Logistics,Manufacturing,USA,3329831.05
+CUST000017,Nestle Global,Retail,Germany,7675162.19
+CUST000018,Walmart Imports,E-commerce,USA,1407152.2
+CUST000019,Toyota Logistics,Manufacturing,Germany,425344.94
+CUST000020,Toyota Logistics,Oil & Gas,UK,726235.04
+CUST000021,Toyota Logistics,Manufacturing,China,9848800.27
+CUST000022,DHL Global,E-commerce,USA,7250558.29
+CUST000023,Walmart Imports,Retail,Germany,4599195.81
+CUST000024,DHL Global,Oil & Gas,UK,4918924.67
+CUST000025,Samsung Shipping,Manufacturing,UAE,228638.72
+CUST000026,DHL Global,Retail,Germany,5386312.41
+CUST000027,Walmart Imports,E-commerce,UAE,2301000.91
+CUST000028,Shell Trading,Manufacturing,China,8366919.05
+CUST000029,Amazon Supply Chain,Retail,UAE,960101.63
+CUST000030,Nestle Global,Retail,Germany,4460589.8
+CUST000031,Nestle Global,E-commerce,Nigeria,1931394.68
+CUST000032,Toyota Logistics,E-commerce,Nigeria,7166846.99
+CUST000033,Samsung Shipping,Oil & Gas,Nigeria,7334302.16
+CUST000034,Toyota Logistics,Oil & Gas,Nigeria,7739622.98
+CUST000035,Maersk Logistics,E-commerce,UK,6720665.57
+CUST000036,Shell Trading,Manufacturing,USA,9302801.89
+CUST000037,Walmart Imports,E-commerce,UAE,1597038.25
+CUST000038,Amazon Supply Chain,E-commerce,Germany,8903980.69
+CUST000039,Maersk Logistics,Manufacturing,China,8869573.82
+CUST000040,DHL Global,Oil & Gas,China,8470857.67
+CUST000041,Samsung Shipping,Oil & Gas,UAE,5899899.54
+CUST000042,Amazon Supply Chain,Retail,China,1582175.7
+CUST000043,Maersk Logistics,E-commerce,China,7972589.07
+CUST000044,Toyota Logistics,E-commerce,Germany,6733734.99
+CUST000045,Samsung Shipping,Retail,UK,3676459.72
+CUST000046,Maersk Logistics,Retail,USA,7402079.86
+CUST000047,Shell Trading,Manufacturing,UAE,4852451.28
+CUST000048,DHL Global,Manufacturing,UK,3170764.26
+CUST000049,Toyota Logistics,E-commerce,UAE,1312334.5
+CUST000050,Samsung Shipping,Oil & Gas,Germany,7148138.82
+CUST000051,Shell Trading,Retail,UK,9354839.73
+CUST000052,Walmart Imports,E-commerce,Germany,3365580.54
+CUST000053,DHL Global,E-commerce,China,4572109.94
+CUST000054,Walmart Imports,Oil & Gas,UAE,6949552.97
+CUST000055,Amazon Supply Chain,Retail,China,8256877.9
+CUST000056,Maersk Logistics,Oil & Gas,Nigeria,992884.32
+CUST000057,Maersk Logistics,Manufacturing,UK,9890602.08
+CUST000058,Walmart Imports,Manufacturing,UK,7476800.92
+CUST000059,Nestle Global,Manufacturing,USA,8926977.56
+CUST000060,Walmart Imports,E-commerce,China,1081913.56
+CUST000061,Samsung Shipping,Retail,USA,4219372.31
+CUST000062,Maersk Logistics,E-commerce,Germany,6998582.68
+CUST000063,Maersk Logistics,Manufacturing,UK,2354202.75
+CUST000064,Amazon Supply Chain,Manufacturing,Nigeria,6997866.73
+CUST000065,Walmart Imports,Manufacturing,UK,3512866.77
+CUST000066,Toyota Logistics,E-commerce,Germany,2427410.78
+CUST000067,Amazon Supply Chain,Manufacturing,Nigeria,7773372.21
+CUST000068,Maersk Logistics,Oil & Gas,USA,8495547.8
+CUST000069,Samsung Shipping,Oil & Gas,Germany,6633845.93
+CUST000070,Nestle Global,Oil & Gas,UAE,3557682.65
+CUST000071,Maersk Logistics,E-commerce,UAE,6499626.4
+CUST000072,Samsung Shipping,Oil & Gas,USA,3325215.82
+CUST000073,Nestle Global,Oil & Gas,UK,9397694.63
+CUST000074,Toyota Logistics,Retail,Nigeria,809184.28
+CUST000075,Toyota Logistics,Manufacturing,China,1659525.87
+CUST000076,Nestle Global,Manufacturing,Germany,390796.72
+CUST000077,Amazon Supply Chain,Retail,USA,1006195.14
+CUST000078,Toyota Logistics,Oil & Gas,UK,7136867.08
+CUST000079,Shell Trading,Manufacturing,USA,5766822.69
+CUST000080,Maersk Logistics,E-commerce,Nigeria,9327944.67
+CUST000081,Walmart Imports,E-commerce,UAE,5208988.08
+CUST000082,Walmart Imports,E-commerce,China,1033178.07
+CUST000083,Maersk Logistics,Retail,UK,6879527.93
+CUST000084,Toyota Logistics,Oil & Gas,USA,5718568.15
+CUST000085,Toyota Logistics,Oil & Gas,China,1157048.19
+CUST000086,DHL Global,E-commerce,Germany,308128.6
+CUST000087,DHL Global,E-commerce,Germany,6163327.27
+CUST000088,Samsung Shipping,Retail,Nigeria,9326115.0
+CUST000089,Walmart Imports,Oil & Gas,Nigeria,9802648.06
+CUST000090,Maersk Logistics,Manufacturing,Germany,2329462.93
+CUST000091,Amazon Supply Chain,Manufacturing,China,4450933.52
+CUST000092,Nestle Global,Oil & Gas,Nigeria,7708779.19
+CUST000093,DHL Global,Manufacturing,USA,2108304.45
+CUST000094,Shell Trading,E-commerce,Nigeria,6749536.55
+CUST000095,DHL Global,E-commerce,Germany,6290838.72
+CUST000096,Amazon Supply Chain,E-commerce,UK,3330749.56
+CUST000097,Nestle Global,Retail,China,6467785.8
+CUST000098,Maersk Logistics,Manufacturing,USA,3897270.62
+CUST000099,DHL Global,Retail,Nigeria,701382.95
+CUST000100,DHL Global,Retail,China,7934625.24
+CUST000101,Nestle Global,Retail,Nigeria,5422989.78
+CUST000102,Maersk Logistics,Retail,UK,9161686.47
+CUST000103,Amazon Supply Chain,E-commerce,China,3120882.16
+CUST000104,Samsung Shipping,E-commerce,UAE,8940656.0
+CUST000105,Shell Trading,Manufacturing,UAE,2131929.65
+CUST000106,Nestle Global,Retail,UK,3517954.69
+CUST000107,Maersk Logistics,E-commerce,Nigeria,9625709.2
+CUST000108,Walmart Imports,Oil & Gas,China,203184.13
+CUST000109,Amazon Supply Chain,Manufacturing,USA,4106188.97
+CUST000110,Maersk Logistics,E-commerce,UK,4840850.86
+CUST000111,Toyota Logistics,Manufacturing,USA,1731195.62
+CUST000112,Shell Trading,Manufacturing,Nigeria,7019919.24
+CUST000113,Samsung Shipping,Oil & Gas,Germany,7440407.4
+CUST000114,Shell Trading,Retail,China,982122.71
+CUST000115,DHL Global,Oil & Gas,Germany,7420271.55
+CUST000116,Amazon Supply Chain,Oil & Gas,Nigeria,2743431.62
+CUST000117,Nestle Global,Manufacturing,China,4752539.98
+CUST000118,DHL Global,E-commerce,Nigeria,2463104.11
+CUST000119,Toyota Logistics,Oil & Gas,Nigeria,4661005.93
+CUST000120,Maersk Logistics,Retail,UK,9088893.08
+CUST000121,Amazon Supply Chain,E-commerce,UAE,5485300.6
+CUST000122,DHL Global,E-commerce,China,8234653.95
+CUST000123,Maersk Logistics,Manufacturing,UK,445433.84
+CUST000124,DHL Global,Retail,China,8111246.96
+CUST000125,DHL Global,E-commerce,Nigeria,5920391.2
+CUST000126,Maersk Logistics,Oil & Gas,China,9017909.5
+CUST000127,DHL Global,Retail,China,3195037.0
+CUST000128,Amazon Supply Chain,Oil & Gas,China,8530399.32
+CUST000129,Walmart Imports,E-commerce,Germany,4475262.44
+CUST000130,Amazon Supply Chain,Manufacturing,China,9287459.71
+CUST000131,Toyota Logistics,Manufacturing,Germany,4269217.09
+CUST000132,DHL Global,Oil & Gas,UAE,3793658.24
+CUST000133,DHL Global,Retail,UK,1805292.08
+CUST000134,Walmart Imports,E-commerce,USA,8616591.21
+CUST000135,Maersk Logistics,Oil & Gas,USA,2998175.06
+CUST000136,Maersk Logistics,Retail,UAE,8533292.35
+CUST000137,Samsung Shipping,Retail,UAE,1600416.71
+CUST000138,Nestle Global,Oil & Gas,Nigeria,439136.41
+CUST000139,DHL Global,Oil & Gas,UK,6848635.46
+CUST000140,Maersk Logistics,Oil & Gas,UK,8484101.71
+CUST000141,Walmart Imports,Manufacturing,USA,3608967.22
+CUST000142,Walmart Imports,Manufacturing,UK,3700512.83
+CUST000143,Toyota Logistics,Oil & Gas,UAE,1337167.6
+CUST000144,Toyota Logistics,Oil & Gas,UAE,8612355.96
+CUST000145,Toyota Logistics,E-commerce,Germany,5254225.8
+CUST000146,Maersk Logistics,Retail,USA,625102.49
+CUST000147,Amazon Supply Chain,E-commerce,UK,4359389.1
+CUST000148,Shell Trading,Oil & Gas,China,1803550.0
+CUST000149,Toyota Logistics,Manufacturing,China,2990870.8
+CUST000150,Samsung Shipping,Oil & Gas,USA,7182275.66
+CUST000151,Shell Trading,E-commerce,USA,8939693.25
+CUST000152,Shell Trading,Manufacturing,UK,7186368.47
+CUST000153,Amazon Supply Chain,Retail,Germany,5087081.91
+CUST000154,Toyota Logistics,Manufacturing,USA,9578158.09
+CUST000155,Toyota Logistics,Oil & Gas,UAE,8819686.79
+CUST000156,Nestle Global,Oil & Gas,China,4508072.35
+CUST000157,Amazon Supply Chain,Manufacturing,Nigeria,8320545.39
+CUST000158,Shell Trading,Retail,USA,6799142.77
+CUST000159,Maersk Logistics,Manufacturing,Germany,3997979.62
+CUST000160,Nestle Global,Manufacturing,Nigeria,8063600.22
+CUST000161,Nestle Global,Manufacturing,UAE,2361497.63
+CUST000162,Nestle Global,Retail,UK,5993200.88
+CUST000163,Shell Trading,Retail,China,1411534.39
+CUST000164,DHL Global,E-commerce,UAE,7279692.56
+CUST000165,Shell Trading,Manufacturing,Nigeria,6766542.64
+CUST000166,Toyota Logistics,E-commerce,China,3914969.19
+CUST000167,Nestle Global,Manufacturing,China,6388768.52
+CUST000168,Shell Trading,Oil & Gas,USA,4087924.66
+CUST000169,Nestle Global,Oil & Gas,Nigeria,4455354.76
+CUST000170,DHL Global,Oil & Gas,USA,7873141.79
+CUST000171,Samsung Shipping,E-commerce,UK,4131176.9
+CUST000172,Shell Trading,Manufacturing,Germany,179552.15
+CUST000173,Maersk Logistics,E-commerce,UK,3178683.69
+CUST000174,Maersk Logistics,Oil & Gas,USA,9719923.79
+CUST000175,Nestle Global,Manufacturing,Germany,6305596.05
+CUST000176,DHL Global,Retail,USA,9451746.36
+CUST000177,Maersk Logistics,Retail,UK,5987725.18
+CUST000178,Nestle Global,Retail,China,2527389.62
+CUST000179,Shell Trading,E-commerce,UK,4714593.89
+CUST000180,Shell Trading,Retail,UK,4773076.56
+CUST000181,Amazon Supply Chain,Manufacturing,UAE,4473681.56
+CUST000182,Samsung Shipping,Manufacturing,UAE,9508476.18
+CUST000183,Maersk Logistics,Retail,Nigeria,9877347.4
+CUST000184,Nestle Global,Oil & Gas,UAE,3506579.27
+CUST000185,Maersk Logistics,Retail,Germany,1347272.21
+CUST000186,Walmart Imports,Manufacturing,Germany,777503.93
+CUST000187,Samsung Shipping,Retail,UAE,9144098.34
+CUST000188,Nestle Global,Manufacturing,Germany,6831973.62
+CUST000189,Toyota Logistics,Manufacturing,Nigeria,5600996.73
+CUST000190,Shell Trading,Manufacturing,Nigeria,6269707.82
+CUST000191,DHL Global,E-commerce,Nigeria,6312954.61
+CUST000192,DHL Global,Retail,UK,8034820.33
+CUST000193,Toyota Logistics,E-commerce,USA,9391141.69
+CUST000194,DHL Global,E-commerce,Germany,3695654.22
+CUST000195,Nestle Global,E-commerce,UAE,1656799.7
+CUST000196,Toyota Logistics,Manufacturing,UK,2344720.27
+CUST000197,Nestle Global,E-commerce,Germany,8930070.0
+CUST000198,DHL Global,Oil & Gas,USA,3642530.31
+CUST000199,DHL Global,E-commerce,UAE,373981.77
+CUST000200,Walmart Imports,Manufacturing,Germany,8676315.15
+CUST000201,Samsung Shipping,E-commerce,USA,6869273.86
+CUST000202,Toyota Logistics,E-commerce,China,5779805.69
+CUST000203,Walmart Imports,Manufacturing,UAE,2710378.75
+CUST000204,Samsung Shipping,Manufacturing,Germany,5886594.11
+CUST000205,Shell Trading,E-commerce,Germany,3450872.24
+CUST000206,Samsung Shipping,Oil & Gas,UAE,9011706.68
+CUST000207,DHL Global,Retail,USA,9918415.44
+CUST000208,Samsung Shipping,Retail,Germany,7315925.34
+CUST000209,Toyota Logistics,Manufacturing,UAE,8308604.66
+CUST000210,Maersk Logistics,Manufacturing,Nigeria,134939.49
+CUST000211,Shell Trading,Oil & Gas,Nigeria,2885209.24
+CUST000212,DHL Global,E-commerce,China,6520267.95
+CUST000213,Walmart Imports,Retail,USA,7711112.18
+CUST000214,Walmart Imports,E-commerce,UK,9471761.0
+CUST000215,Walmart Imports,Retail,Germany,3882806.52
+CUST000216,Toyota Logistics,Retail,Germany,9820181.09
+CUST000217,Toyota Logistics,Oil & Gas,UK,2710749.32
+CUST000218,Toyota Logistics,Manufacturing,Nigeria,4280427.27
+CUST000219,Maersk Logistics,Retail,USA,8559169.93
+CUST000220,Walmart Imports,E-commerce,China,8014900.18
+CUST000221,Amazon Supply Chain,Oil & Gas,Nigeria,9334821.41
+CUST000222,Toyota Logistics,Retail,UK,9856224.51
+CUST000223,DHL Global,E-commerce,UK,1588667.75
+CUST000224,Amazon Supply Chain,Manufacturing,Nigeria,3389818.19
+CUST000225,DHL Global,Manufacturing,Germany,2065931.35
+CUST000226,Amazon Supply Chain,E-commerce,Nigeria,8763597.77
+CUST000227,DHL Global,E-commerce,UK,6012758.46
+CUST000228,Toyota Logistics,Manufacturing,USA,2495101.51
+CUST000229,Shell Trading,Oil & Gas,USA,7272295.92
+CUST000230,Amazon Supply Chain,Retail,Nigeria,102580.33
+CUST000231,Nestle Global,Oil & Gas,USA,7567152.5
+CUST000232,Shell Trading,Oil & Gas,USA,8798139.41
+CUST000233,Walmart Imports,Oil & Gas,UAE,3333165.15
+CUST000234,Nestle Global,E-commerce,USA,2746917.5
+CUST000235,Nestle Global,Retail,UAE,9193385.41
+CUST000236,Samsung Shipping,E-commerce,USA,1283844.56
+CUST000237,Walmart Imports,Manufacturing,UK,776526.16
+CUST000238,Maersk Logistics,Retail,USA,4659040.34
+CUST000239,Toyota Logistics,E-commerce,Nigeria,4808693.95
+CUST000240,Amazon Supply Chain,E-commerce,USA,6171646.04
+CUST000241,Amazon Supply Chain,Retail,UAE,686635.74
+CUST000242,Maersk Logistics,Oil & Gas,USA,6530302.32
+CUST000243,Toyota Logistics,Manufacturing,Germany,1439712.76
+CUST000244,Maersk Logistics,Manufacturing,Germany,2207699.21
+CUST000245,Samsung Shipping,Manufacturing,China,128117.06
+CUST000246,Toyota Logistics,Oil & Gas,Nigeria,5778690.42
+CUST000247,Toyota Logistics,E-commerce,UAE,4618108.84
+CUST000248,Amazon Supply Chain,E-commerce,Germany,6238331.11
+CUST000249,Nestle Global,Oil & Gas,USA,1206068.98
+CUST000250,Maersk Logistics,Manufacturing,UAE,1017360.56
+CUST000251,Nestle Global,Oil & Gas,Nigeria,7724920.15
+CUST000252,Amazon Supply Chain,Retail,Nigeria,6873639.88
+CUST000253,Amazon Supply Chain,Retail,UAE,380751.29
+CUST000254,Maersk Logistics,Oil & Gas,Nigeria,680198.47
+CUST000255,Walmart Imports,Oil & Gas,USA,9017247.5
+CUST000256,DHL Global,Oil & Gas,UK,7683048.7
+CUST000257,Samsung Shipping,E-commerce,Germany,9285327.16
+CUST000258,Shell Trading,Retail,Nigeria,3527855.4
+CUST000259,Nestle Global,Oil & Gas,UK,4743590.53
+CUST000260,Amazon Supply Chain,E-commerce,UAE,9538100.58
+CUST000261,Shell Trading,E-commerce,UK,3821548.49
+CUST000262,Shell Trading,Retail,UK,8948084.66
+CUST000263,Nestle Global,Oil & Gas,UK,4600709.15
+CUST000264,Samsung Shipping,Retail,UAE,3419081.09
+CUST000265,Maersk Logistics,Retail,UK,311152.69
+CUST000266,Samsung Shipping,Manufacturing,USA,2764894.42
+CUST000267,Samsung Shipping,Oil & Gas,USA,4314393.92
+CUST000268,Samsung Shipping,Oil & Gas,UAE,2500136.18
+CUST000269,Toyota Logistics,E-commerce,USA,2517947.55
+CUST000270,Walmart Imports,Oil & Gas,Nigeria,6245782.18
+CUST000271,DHL Global,Retail,China,5441946.26
+CUST000272,Amazon Supply Chain,Manufacturing,China,503856.55
+CUST000273,Maersk Logistics,Retail,USA,9515965.79
+CUST000274,Walmart Imports,Manufacturing,UAE,1107798.21
+CUST000275,Walmart Imports,E-commerce,USA,9761142.0
+CUST000276,Toyota Logistics,Manufacturing,UK,6300708.49
+CUST000277,Nestle Global,Oil & Gas,Germany,8532738.73
+CUST000278,Nestle Global,Manufacturing,Germany,1455888.79
+CUST000279,Walmart Imports,E-commerce,Germany,8014998.86
+CUST000280,Toyota Logistics,Retail,UK,9549743.45
+CUST000281,Amazon Supply Chain,Manufacturing,USA,5386396.27
+CUST000282,DHL Global,Manufacturing,Germany,2673672.2
+CUST000283,Walmart Imports,Oil & Gas,Germany,1226971.27
+CUST000284,Maersk Logistics,E-commerce,Germany,6902195.4
+CUST000285,Shell Trading,Oil & Gas,Germany,7175644.21
+CUST000286,Walmart Imports,Oil & Gas,Nigeria,6726619.74
+CUST000287,Amazon Supply Chain,Retail,Germany,8646002.16
+CUST000288,Toyota Logistics,Oil & Gas,Nigeria,9547463.34
+CUST000289,Walmart Imports,Manufacturing,UK,5819278.86
+CUST000290,DHL Global,Manufacturing,UAE,7905235.45
+CUST000291,Maersk Logistics,Oil & Gas,UK,901018.21
+CUST000292,Maersk Logistics,Manufacturing,UK,9458835.17
+CUST000293,Shell Trading,Oil & Gas,UK,1784846.33
+CUST000294,Samsung Shipping,E-commerce,China,3514043.27
+CUST000295,Amazon Supply Chain,Oil & Gas,UAE,5623040.74
+CUST000296,DHL Global,Retail,Nigeria,2602121.98
+CUST000297,Samsung Shipping,Retail,Nigeria,1379504.91
+CUST000298,DHL Global,Oil & Gas,Germany,9392282.42
+CUST000299,Samsung Shipping,E-commerce,Germany,9421810.9
+CUST000300,DHL Global,Manufacturing,Nigeria,8458930.8
+CUST000301,Shell Trading,Retail,USA,9082460.89
+CUST000302,Toyota Logistics,Retail,Germany,505761.84
+CUST000303,Amazon Supply Chain,Oil & Gas,Nigeria,1611246.45
+CUST000304,Samsung Shipping,Oil & Gas,USA,1861152.76
+CUST000305,Nestle Global,Manufacturing,UAE,7671960.21
+CUST000306,Nestle Global,E-commerce,USA,2045838.25
+CUST000307,Maersk Logistics,E-commerce,USA,980611.72
+CUST000308,Walmart Imports,E-commerce,USA,4543406.17
+CUST000309,Amazon Supply Chain,E-commerce,China,4588972.76
+CUST000310,Nestle Global,E-commerce,China,6883766.06
+CUST000311,Maersk Logistics,Oil & Gas,UAE,736211.97
+CUST000312,Shell Trading,E-commerce,Nigeria,2458068.62
+CUST000313,Samsung Shipping,Oil & Gas,China,7933306.82
+CUST000314,Walmart Imports,Oil & Gas,UAE,9136161.36
+CUST000315,Samsung Shipping,Oil & Gas,USA,2312018.44
+CUST000316,DHL Global,Oil & Gas,UAE,826227.93
+CUST000317,Nestle Global,Oil & Gas,UK,1585081.4
+CUST000318,Nestle Global,Manufacturing,UK,2600070.65
+CUST000319,Amazon Supply Chain,Manufacturing,USA,1320878.83
+CUST000320,Shell Trading,Manufacturing,USA,7699043.85
+CUST000321,Walmart Imports,E-commerce,Nigeria,253483.83
+CUST000322,Nestle Global,Retail,USA,5437024.81
+CUST000323,Samsung Shipping,Retail,UAE,3868461.93
+CUST000324,Walmart Imports,Oil & Gas,Germany,760799.7
+CUST000325,Toyota Logistics,Oil & Gas,China,1245059.19
+CUST000326,Nestle Global,Manufacturing,UK,9941168.37
+CUST000327,Maersk Logistics,Oil & Gas,Germany,4446536.8
+CUST000328,Maersk Logistics,Retail,China,357198.83
+CUST000329,Toyota Logistics,Oil & Gas,Nigeria,163399.87
+CUST000330,Amazon Supply Chain,Manufacturing,China,7332840.22
+CUST000331,Walmart Imports,Manufacturing,China,4440249.23
+CUST000332,Toyota Logistics,Oil & Gas,Germany,2502554.0
+CUST000333,Shell Trading,Retail,Nigeria,7527663.59
+CUST000334,Nestle Global,Oil & Gas,Germany,6308589.48
+CUST000335,DHL Global,Oil & Gas,Nigeria,3344371.67
+CUST000336,Shell Trading,E-commerce,China,5409911.35
+CUST000337,Maersk Logistics,Manufacturing,China,4136387.72
+CUST000338,Shell Trading,E-commerce,China,6024784.47
+CUST000339,Maersk Logistics,Retail,Nigeria,1049580.98
+CUST000340,Shell Trading,Retail,China,7663975.63
+CUST000341,DHL Global,Oil & Gas,USA,2884570.0
+CUST000342,Toyota Logistics,Manufacturing,China,3270816.93
+CUST000343,Amazon Supply Chain,Retail,UAE,8942236.14
+CUST000344,Shell Trading,Manufacturing,USA,4464448.87
+CUST000345,DHL Global,Manufacturing,Nigeria,506650.84
+CUST000346,DHL Global,E-commerce,China,7580224.46
+CUST000347,Nestle Global,Retail,Germany,2430505.78
+CUST000348,Amazon Supply Chain,E-commerce,Germany,9523686.21
+CUST000349,Walmart Imports,E-commerce,Germany,2737354.54
+CUST000350,Maersk Logistics,Manufacturing,UAE,6563620.66
+CUST000351,Shell Trading,E-commerce,Germany,523369.87
+CUST000352,Toyota Logistics,Retail,USA,5958450.53
+CUST000353,Toyota Logistics,Oil & Gas,USA,3128883.35
+CUST000354,Nestle Global,Retail,UAE,6557694.06
+CUST000355,Maersk Logistics,Oil & Gas,China,2002441.11
+CUST000356,Amazon Supply Chain,E-commerce,UAE,3895638.51
+CUST000357,Maersk Logistics,E-commerce,UK,2325547.61
+CUST000358,DHL Global,Retail,China,8118482.68
+CUST000359,Walmart Imports,Retail,Germany,8397081.97
+CUST000360,Nestle Global,Oil & Gas,Nigeria,8672660.0
+CUST000361,Shell Trading,E-commerce,China,1303742.68
+CUST000362,Toyota Logistics,Manufacturing,USA,5629656.72
+CUST000363,Walmart Imports,Oil & Gas,UAE,927371.28
+CUST000364,Samsung Shipping,E-commerce,USA,3592888.2
+CUST000365,Maersk Logistics,E-commerce,Germany,4780793.44
+CUST000366,Maersk Logistics,E-commerce,China,3701176.85
+CUST000367,Toyota Logistics,Retail,Germany,2030737.45
+CUST000368,Nestle Global,Retail,UAE,8626768.31
+CUST000369,Samsung Shipping,Oil & Gas,Germany,1010812.16
+CUST000370,Shell Trading,E-commerce,China,1354676.5
+CUST000371,Samsung Shipping,E-commerce,Germany,8984926.46
+CUST000372,Walmart Imports,E-commerce,Germany,5872182.55
+CUST000373,Samsung Shipping,E-commerce,Germany,6708144.12
+CUST000374,DHL Global,E-commerce,USA,2214367.96
+CUST000375,Walmart Imports,Retail,UAE,9015308.69
+CUST000376,Maersk Logistics,Manufacturing,China,8219394.15
+CUST000377,Maersk Logistics,Manufacturing,Nigeria,4743320.47
+CUST000378,DHL Global,Manufacturing,China,3335246.7
+CUST000379,Samsung Shipping,Oil & Gas,UK,1349950.29
+CUST000380,Amazon Supply Chain,Manufacturing,Nigeria,8121709.4
+CUST000381,Shell Trading,E-commerce,China,8194404.47
+CUST000382,Amazon Supply Chain,Manufacturing,UAE,6755538.16
+CUST000383,Toyota Logistics,Manufacturing,Nigeria,2492861.85
+CUST000384,DHL Global,E-commerce,UK,6331535.88
+CUST000385,Shell Trading,Oil & Gas,UAE,79215.89
+CUST000386,Toyota Logistics,Oil & Gas,China,6175864.0
+CUST000387,Samsung Shipping,E-commerce,Nigeria,89160.98
+CUST000388,Toyota Logistics,Retail,UK,1178018.97
+CUST000389,Nestle Global,Manufacturing,Nigeria,5983431.81
+CUST000390,Amazon Supply Chain,Retail,Nigeria,8968554.88
+CUST000391,Samsung Shipping,Retail,UAE,5534410.63
+CUST000392,Walmart Imports,E-commerce,China,8452931.03
+CUST000393,Shell Trading,Manufacturing,UK,5878911.64
+CUST000394,DHL Global,Manufacturing,Nigeria,7420910.72
+CUST000395,Maersk Logistics,Oil & Gas,Germany,3468668.99
+CUST000396,Samsung Shipping,Manufacturing,USA,7742403.28
+CUST000397,Shell Trading,Retail,UAE,9443991.38
+CUST000398,Nestle Global,E-commerce,Germany,4856375.38
+CUST000399,Amazon Supply Chain,E-commerce,Germany,7311319.38
+CUST000400,Samsung Shipping,Oil & Gas,UAE,7475081.68
+CUST000401,DHL Global,Retail,Germany,6029175.44
+CUST000402,Amazon Supply Chain,Oil & Gas,Nigeria,2830232.72
+CUST000403,Maersk Logistics,Oil & Gas,USA,9836027.16
+CUST000404,Amazon Supply Chain,E-commerce,Nigeria,508216.72
+CUST000405,Amazon Supply Chain,E-commerce,UK,1677789.64
+CUST000406,Amazon Supply Chain,Oil & Gas,UAE,1706800.7
+CUST000407,Walmart Imports,Manufacturing,UAE,6848128.98
+CUST000408,Amazon Supply Chain,Retail,UK,9670578.42
+CUST000409,Samsung Shipping,Oil & Gas,USA,123803.53
+CUST000410,Maersk Logistics,Manufacturing,China,3575859.08
+CUST000411,Nestle Global,E-commerce,USA,3894149.69
+CUST000412,Maersk Logistics,Oil & Gas,UAE,6476365.24
+CUST000413,Shell Trading,Manufacturing,Nigeria,3555928.26
+CUST000414,Maersk Logistics,Manufacturing,Nigeria,3544007.23
+CUST000415,Nestle Global,Oil & Gas,Nigeria,4352327.79
+CUST000416,DHL Global,E-commerce,UK,7632188.77
+CUST000417,Samsung Shipping,Retail,Nigeria,5674619.74
+CUST000418,Shell Trading,E-commerce,China,3760670.74
+CUST000419,Shell Trading,Retail,Nigeria,2693489.71
+CUST000420,Amazon Supply Chain,Retail,Nigeria,7821104.54
+CUST000421,DHL Global,Manufacturing,Nigeria,4696508.54
+CUST000422,Toyota Logistics,E-commerce,Nigeria,1429384.29
+CUST000423,DHL Global,E-commerce,Nigeria,7056809.21
+CUST000424,Samsung Shipping,E-commerce,China,4907556.35
+CUST000425,Maersk Logistics,Oil & Gas,China,6120009.98
+CUST000426,Maersk Logistics,Oil & Gas,China,6026041.57
+CUST000427,DHL Global,Retail,UK,3373822.15
+CUST000428,Toyota Logistics,E-commerce,Nigeria,2008528.76
+CUST000429,Toyota Logistics,Oil & Gas,Germany,4606822.47
+CUST000430,Maersk Logistics,Manufacturing,UAE,3699732.14
+CUST000431,DHL Global,Oil & Gas,China,2304090.99
+CUST000432,Shell Trading,E-commerce,USA,1663156.4
+CUST000433,Nestle Global,E-commerce,Nigeria,7694934.92
+CUST000434,Maersk Logistics,Manufacturing,USA,4291631.58
+CUST000435,DHL Global,Manufacturing,UK,1806851.16
+CUST000436,Amazon Supply Chain,Oil & Gas,USA,5155138.75
+CUST000437,DHL Global,Oil & Gas,Germany,8871066.99
+CUST000438,Shell Trading,Retail,China,4890257.77
+CUST000439,Walmart Imports,Oil & Gas,USA,4045294.0
+CUST000440,Amazon Supply Chain,Retail,China,8259924.45
+CUST000441,DHL Global,Retail,Nigeria,5154289.56
+CUST000442,Maersk Logistics,Oil & Gas,UAE,1849582.95
+CUST000443,DHL Global,Oil & Gas,UK,8346349.2
+CUST000444,Amazon Supply Chain,E-commerce,China,2475253.58
+CUST000445,Samsung Shipping,Manufacturing,UAE,8378153.74
+CUST000446,DHL Global,Retail,USA,4884372.17
+CUST000447,Shell Trading,Oil & Gas,Nigeria,1155653.25
+CUST000448,Maersk Logistics,Oil & Gas,Nigeria,8536364.98
+CUST000449,Maersk Logistics,Oil & Gas,China,5252875.37
+CUST000450,DHL Global,E-commerce,China,3103908.64
+CUST000451,Walmart Imports,Oil & Gas,Germany,8965166.98
+CUST000452,Shell Trading,Retail,China,8723359.15
+CUST000453,Nestle Global,Oil & Gas,UAE,1988183.22
+CUST000454,Toyota Logistics,E-commerce,UAE,8409897.69
+CUST000455,Samsung Shipping,E-commerce,UAE,7375157.83
+CUST000456,Walmart Imports,Retail,USA,2837697.51
+CUST000457,Nestle Global,Retail,Nigeria,4245105.51
+CUST000458,Samsung Shipping,Oil & Gas,USA,8576063.1
+CUST000459,Walmart Imports,E-commerce,Nigeria,9804156.66
+CUST000460,Nestle Global,E-commerce,China,8469809.32
+CUST000461,Walmart Imports,Oil & Gas,China,1738620.32
+CUST000462,Shell Trading,E-commerce,Nigeria,9966094.69
+CUST000463,Toyota Logistics,Oil & Gas,UK,1253492.93
+CUST000464,Toyota Logistics,Retail,USA,2237144.87
+CUST000465,Nestle Global,Manufacturing,Germany,2016416.53
+CUST000466,Toyota Logistics,Manufacturing,UAE,9255683.32
+CUST000467,Walmart Imports,Manufacturing,UAE,9015919.05
+CUST000468,Walmart Imports,Retail,Nigeria,4287721.2
+CUST000469,DHL Global,E-commerce,Germany,1195680.57
+CUST000470,DHL Global,Oil & Gas,China,1482832.88
+CUST000471,Amazon Supply Chain,Retail,Nigeria,3878914.45
+CUST000472,DHL Global,E-commerce,China,6076560.64
+CUST000473,DHL Global,Retail,China,8659423.63
+CUST000474,Amazon Supply Chain,Manufacturing,UAE,3074353.01
+CUST000475,Walmart Imports,Retail,USA,1432475.5
+CUST000476,Walmart Imports,E-commerce,UK,8289210.87
+CUST000477,Amazon Supply Chain,Oil & Gas,Germany,2633053.99
+CUST000478,Toyota Logistics,Oil & Gas,USA,2022095.12
+CUST000479,Nestle Global,Oil & Gas,China,4495452.3
+CUST000480,Amazon Supply Chain,Manufacturing,Germany,8510048.14
+CUST000481,Nestle Global,Retail,Germany,4032144.99
+CUST000482,Samsung Shipping,E-commerce,China,2086865.81
+CUST000483,Maersk Logistics,Oil & Gas,USA,3513696.42
+CUST000484,DHL Global,Oil & Gas,China,9415450.59
+CUST000485,Samsung Shipping,Manufacturing,UK,2760303.5
+CUST000486,DHL Global,Oil & Gas,USA,9224203.49
+CUST000487,Toyota Logistics,Retail,UAE,8644101.63
+CUST000488,Samsung Shipping,Manufacturing,Nigeria,4477512.1
+CUST000489,DHL Global,Retail,Nigeria,2890946.38
+CUST000490,Amazon Supply Chain,E-commerce,UK,116765.04
+CUST000491,Maersk Logistics,Manufacturing,Germany,9596053.56
+CUST000492,Samsung Shipping,Oil & Gas,UK,715804.6
+CUST000493,Samsung Shipping,Manufacturing,Nigeria,3057855.23
+CUST000494,Maersk Logistics,Retail,China,4563508.95
+CUST000495,Toyota Logistics,Manufacturing,UK,4984812.67
+CUST000496,Samsung Shipping,E-commerce,UAE,9912516.59
+CUST000497,Nestle Global,E-commerce,UK,4353727.83
+CUST000498,DHL Global,Oil & Gas,China,6575752.1
+CUST000499,Amazon Supply Chain,Manufacturing,China,4447186.99
+CUST000500,Amazon Supply Chain,Oil & Gas,USA,1218444.72
+CUST000501,Toyota Logistics,E-commerce,Germany,5578132.24
+CUST000502,DHL Global,Retail,China,9976279.43
+CUST000503,Nestle Global,Retail,UK,4156744.53
+CUST000504,Maersk Logistics,E-commerce,China,4001310.4
+CUST000505,Nestle Global,E-commerce,UK,5059639.96
+CUST000506,Maersk Logistics,Retail,UAE,4154092.04
+CUST000507,Shell Trading,Manufacturing,UK,3634552.17
+CUST000508,DHL Global,Retail,UAE,9847478.12
+CUST000509,Samsung Shipping,Manufacturing,UK,5538685.02
+CUST000510,Toyota Logistics,Retail,USA,8135234.24
+CUST000511,Shell Trading,Oil & Gas,UK,6341024.41
+CUST000512,Maersk Logistics,E-commerce,Nigeria,287287.54
+CUST000513,Amazon Supply Chain,Oil & Gas,USA,8194593.34
+CUST000514,Maersk Logistics,Oil & Gas,China,4727138.48
+CUST000515,DHL Global,Manufacturing,Nigeria,86656.47
+CUST000516,Amazon Supply Chain,E-commerce,USA,3694430.2
+CUST000517,Amazon Supply Chain,Manufacturing,UK,1955596.91
+CUST000518,Amazon Supply Chain,Manufacturing,Germany,1200138.96
+CUST000519,Maersk Logistics,Retail,Nigeria,2131177.32
+CUST000520,Walmart Imports,E-commerce,UAE,4393559.17
+CUST000521,Maersk Logistics,Oil & Gas,USA,5863176.99
+CUST000522,Samsung Shipping,Retail,UAE,9432251.88
+CUST000523,Samsung Shipping,E-commerce,Germany,9804705.81
+CUST000524,Walmart Imports,E-commerce,USA,1614776.81
+CUST000525,Toyota Logistics,Manufacturing,USA,6372733.41
+CUST000526,Toyota Logistics,Manufacturing,USA,4451711.18
+CUST000527,Shell Trading,E-commerce,Nigeria,4664459.36
+CUST000528,Walmart Imports,E-commerce,UAE,473287.87
+CUST000529,Samsung Shipping,Manufacturing,China,1955199.37
+CUST000530,Nestle Global,Manufacturing,USA,6547344.6
+CUST000531,Samsung Shipping,Oil & Gas,Germany,7497804.59
+CUST000532,Toyota Logistics,E-commerce,Germany,9744772.43
+CUST000533,Shell Trading,Manufacturing,UAE,7061814.33
+CUST000534,Toyota Logistics,Retail,Germany,9609073.47
+CUST000535,Nestle Global,Oil & Gas,UAE,6042018.5
+CUST000536,DHL Global,Retail,UK,8429997.61
+CUST000537,Toyota Logistics,E-commerce,Nigeria,3917255.45
+CUST000538,Walmart Imports,Retail,UK,4935641.69
+CUST000539,Amazon Supply Chain,Retail,UAE,3548666.6
+CUST000540,Shell Trading,Oil & Gas,Nigeria,9603361.55
+CUST000541,Amazon Supply Chain,E-commerce,Germany,184421.66
+CUST000542,Amazon Supply Chain,E-commerce,Germany,5750999.7
+CUST000543,Nestle Global,Manufacturing,UK,5898814.42
+CUST000544,Toyota Logistics,Retail,China,1902448.0
+CUST000545,Maersk Logistics,Manufacturing,Germany,1796305.96
+CUST000546,Walmart Imports,Retail,Nigeria,6563059.9
+CUST000547,Toyota Logistics,Retail,UK,6971450.29
+CUST000548,DHL Global,Manufacturing,UK,4818343.12
+CUST000549,Toyota Logistics,Oil & Gas,Nigeria,7535722.8
+CUST000550,Amazon Supply Chain,Manufacturing,USA,8184630.53
+CUST000551,Nestle Global,Retail,UK,1564128.95
+CUST000552,Samsung Shipping,Oil & Gas,China,9476422.09
+CUST000553,DHL Global,Manufacturing,Nigeria,1396430.66
+CUST000554,Walmart Imports,Oil & Gas,UAE,8475441.57
+CUST000555,Amazon Supply Chain,E-commerce,UK,7581560.62
+CUST000556,Amazon Supply Chain,Manufacturing,China,4710553.93
+CUST000557,Samsung Shipping,Retail,China,5879169.91
+CUST000558,Shell Trading,Manufacturing,UK,4885901.08
+CUST000559,DHL Global,Manufacturing,China,5664500.11
+CUST000560,Nestle Global,Oil & Gas,UK,7008644.36
+CUST000561,Amazon Supply Chain,E-commerce,Germany,9235385.33
+CUST000562,DHL Global,E-commerce,UK,7486220.51
+CUST000563,Amazon Supply Chain,Oil & Gas,Germany,7392678.11
+CUST000564,Samsung Shipping,Oil & Gas,Nigeria,189697.62
+CUST000565,Shell Trading,Retail,China,686155.08
+CUST000566,Toyota Logistics,E-commerce,UK,4957161.47
+CUST000567,Amazon Supply Chain,E-commerce,China,8316351.14
+CUST000568,Walmart Imports,Oil & Gas,UAE,3149830.01
+CUST000569,Toyota Logistics,Oil & Gas,UK,5087997.52
+CUST000570,Samsung Shipping,Retail,Nigeria,9619811.73
+CUST000571,Samsung Shipping,E-commerce,USA,9783264.26
+CUST000572,Walmart Imports,E-commerce,USA,9472139.97
+CUST000573,Shell Trading,E-commerce,Nigeria,7088297.89
+CUST000574,Amazon Supply Chain,Manufacturing,UK,4869284.22
+CUST000575,Shell Trading,Manufacturing,China,9317962.95
+CUST000576,Shell Trading,Retail,UK,9231317.6
+CUST000577,DHL Global,Oil & Gas,Germany,7940109.83
+CUST000578,Amazon Supply Chain,Manufacturing,USA,5757600.81
+CUST000579,Nestle Global,Oil & Gas,China,6063961.96
+CUST000580,Maersk Logistics,Retail,China,2484834.05
+CUST000581,Samsung Shipping,E-commerce,UK,6402726.7
+CUST000582,Amazon Supply Chain,Manufacturing,China,6168389.17
+CUST000583,Nestle Global,Manufacturing,Nigeria,9874316.76
+CUST000584,Toyota Logistics,Manufacturing,Germany,6212135.05
+CUST000585,Amazon Supply Chain,Retail,Nigeria,2026319.43
+CUST000586,Walmart Imports,Manufacturing,China,4139620.72
+CUST000587,Nestle Global,E-commerce,USA,7963373.18
+CUST000588,Toyota Logistics,E-commerce,UAE,9479730.57
+CUST000589,Samsung Shipping,Retail,UAE,8880909.04
+CUST000590,Shell Trading,Oil & Gas,UK,1783209.5
+CUST000591,Samsung Shipping,Retail,China,5030781.54
+CUST000592,Maersk Logistics,Manufacturing,UAE,8410200.71
+CUST000593,Shell Trading,E-commerce,UK,2598260.05
+CUST000594,Toyota Logistics,Oil & Gas,Nigeria,2399072.68
+CUST000595,Shell Trading,Retail,UK,4238015.32
+CUST000596,Maersk Logistics,Retail,China,1720153.82
+CUST000597,Samsung Shipping,Oil & Gas,Germany,1010288.41
+CUST000598,Amazon Supply Chain,E-commerce,UAE,9037411.14
+CUST000599,DHL Global,Manufacturing,Germany,1832663.23
+CUST000600,Nestle Global,E-commerce,China,1942712.76
+CUST000601,DHL Global,E-commerce,Germany,6716673.33
+CUST000602,Maersk Logistics,E-commerce,Germany,8939427.44
+CUST000603,Amazon Supply Chain,E-commerce,USA,5217420.77
+CUST000604,Shell Trading,E-commerce,UAE,293358.65
+CUST000605,DHL Global,Retail,Germany,8966156.75
+CUST000606,Walmart Imports,Retail,USA,2208793.96
+CUST000607,Amazon Supply Chain,Oil & Gas,UAE,7307824.4
+CUST000608,Maersk Logistics,Manufacturing,UK,2011105.03
+CUST000609,Amazon Supply Chain,Manufacturing,UK,6229579.86
+CUST000610,Maersk Logistics,Oil & Gas,UAE,2251622.66
+CUST000611,Maersk Logistics,Oil & Gas,USA,3250872.18
+CUST000612,Maersk Logistics,Retail,Germany,7081870.46
+CUST000613,Toyota Logistics,E-commerce,UAE,6214430.33
+CUST000614,Nestle Global,Retail,USA,9593484.43
+CUST000615,Shell Trading,Oil & Gas,Nigeria,7512179.88
+CUST000616,Maersk Logistics,Retail,USA,1988032.56
+CUST000617,Maersk Logistics,E-commerce,Germany,7212363.2
+CUST000618,Maersk Logistics,Oil & Gas,USA,3968942.73
+CUST000619,Amazon Supply Chain,Oil & Gas,UAE,3420252.6
+CUST000620,Maersk Logistics,Manufacturing,Nigeria,9248642.36
+CUST000621,Toyota Logistics,Oil & Gas,Germany,5929244.59
+CUST000622,Walmart Imports,Oil & Gas,UAE,3565227.59
+CUST000623,Amazon Supply Chain,Manufacturing,China,3083981.52
+CUST000624,Toyota Logistics,Retail,UAE,2067371.21
+CUST000625,DHL Global,Retail,UK,9511977.16
+CUST000626,Shell Trading,Manufacturing,USA,326296.48
+CUST000627,Amazon Supply Chain,Oil & Gas,China,6695506.04
+CUST000628,Maersk Logistics,Retail,China,5618662.37
+CUST000629,Walmart Imports,E-commerce,UK,2832822.68
+CUST000630,Shell Trading,Retail,UK,7046676.09
+CUST000631,Nestle Global,E-commerce,USA,2179439.62
+CUST000632,Nestle Global,Oil & Gas,UAE,8969129.68
+CUST000633,DHL Global,Retail,USA,4285086.16
+CUST000634,Nestle Global,E-commerce,Germany,9949138.81
+CUST000635,Maersk Logistics,E-commerce,USA,4957934.45
+CUST000636,Toyota Logistics,Manufacturing,China,7152453.19
+CUST000637,Samsung Shipping,E-commerce,China,1285751.19
+CUST000638,Samsung Shipping,E-commerce,UAE,4113909.06
+CUST000639,Nestle Global,E-commerce,UK,4568259.71
+CUST000640,DHL Global,Oil & Gas,UAE,848785.35
+CUST000641,Toyota Logistics,E-commerce,China,4984123.18
+CUST000642,DHL Global,Oil & Gas,UAE,8123788.34
+CUST000643,Toyota Logistics,Retail,UK,3949007.61
+CUST000644,Nestle Global,Retail,China,7771086.13
+CUST000645,Shell Trading,Oil & Gas,USA,3469708.38
+CUST000646,Samsung Shipping,Oil & Gas,Nigeria,8447408.78
+CUST000647,DHL Global,Oil & Gas,UAE,2187848.42
+CUST000648,Nestle Global,Oil & Gas,Nigeria,3816450.99
+CUST000649,DHL Global,E-commerce,China,2564447.52
+CUST000650,Toyota Logistics,Manufacturing,China,5454450.41
+CUST000651,Amazon Supply Chain,Oil & Gas,USA,3722456.5
+CUST000652,Walmart Imports,Manufacturing,China,4103795.23
+CUST000653,Amazon Supply Chain,E-commerce,USA,3128412.97
+CUST000654,Maersk Logistics,Retail,Nigeria,7516218.25
+CUST000655,DHL Global,E-commerce,China,1269597.17
+CUST000656,Amazon Supply Chain,Oil & Gas,USA,7067932.63
+CUST000657,Maersk Logistics,Retail,Germany,4434724.77
+CUST000658,Amazon Supply Chain,Manufacturing,Nigeria,3594019.39
+CUST000659,Maersk Logistics,Oil & Gas,USA,5161963.62
+CUST000660,Toyota Logistics,Oil & Gas,UK,4737645.74
+CUST000661,Toyota Logistics,Retail,Nigeria,8595055.21
+CUST000662,Maersk Logistics,Manufacturing,UAE,2099313.42
+CUST000663,Samsung Shipping,Manufacturing,Nigeria,5488518.42
+CUST000664,Toyota Logistics,Manufacturing,Germany,8520441.29
+CUST000665,Toyota Logistics,Manufacturing,Germany,5910307.99
+CUST000666,Walmart Imports,Oil & Gas,USA,7638897.51
+CUST000667,Samsung Shipping,E-commerce,UK,5127991.73
+CUST000668,Amazon Supply Chain,Retail,Germany,2561573.05
+CUST000669,Samsung Shipping,Retail,UK,8267078.56
+CUST000670,Maersk Logistics,E-commerce,Germany,4444107.65
+CUST000671,Toyota Logistics,E-commerce,Germany,3641050.46
+CUST000672,Walmart Imports,Manufacturing,China,6843898.1
+CUST000673,Toyota Logistics,E-commerce,Germany,3720526.25
+CUST000674,Nestle Global,Retail,USA,9459073.83
+CUST000675,DHL Global,Manufacturing,Nigeria,9167236.25
+CUST000676,Walmart Imports,Oil & Gas,Germany,7596368.75
+CUST000677,Samsung Shipping,Retail,UAE,7916630.66
+CUST000678,Amazon Supply Chain,Retail,UAE,6274083.57
+CUST000679,DHL Global,E-commerce,UK,4777545.27
+CUST000680,Nestle Global,Oil & Gas,UAE,2595981.7
+CUST000681,DHL Global,Oil & Gas,China,3330698.73
+CUST000682,Walmart Imports,E-commerce,UAE,8924072.59
+CUST000683,Shell Trading,Oil & Gas,UAE,7411927.5
+CUST000684,Toyota Logistics,Manufacturing,USA,3292883.23
+CUST000685,Shell Trading,E-commerce,China,8231276.93
+CUST000686,DHL Global,E-commerce,UAE,371542.49
+CUST000687,Maersk Logistics,E-commerce,UK,3640316.58
+CUST000688,Samsung Shipping,Retail,USA,3296657.03
+CUST000689,Maersk Logistics,Retail,Nigeria,3658991.44
+CUST000690,Amazon Supply Chain,Retail,UAE,2371673.67
+CUST000691,Amazon Supply Chain,Manufacturing,China,3020885.94
+CUST000692,Shell Trading,E-commerce,USA,9583175.04
+CUST000693,Amazon Supply Chain,Oil & Gas,Germany,2316813.59
+CUST000694,Samsung Shipping,E-commerce,Germany,1182243.5
+CUST000695,Nestle Global,E-commerce,UK,3299881.74
+CUST000696,Nestle Global,Oil & Gas,UK,4189418.85
+CUST000697,DHL Global,E-commerce,USA,7657730.11
+CUST000698,Nestle Global,Oil & Gas,UAE,7599523.77
+CUST000699,Walmart Imports,E-commerce,UK,2544847.03
+CUST000700,Toyota Logistics,Retail,Germany,2335274.3
+CUST000701,Nestle Global,E-commerce,Nigeria,1357592.79
+CUST000702,Shell Trading,E-commerce,Germany,4151152.81
+CUST000703,Samsung Shipping,Retail,Nigeria,7772021.37
+CUST000704,Shell Trading,Oil & Gas,Nigeria,788002.4
+CUST000705,Amazon Supply Chain,E-commerce,UK,6740254.93
+CUST000706,Shell Trading,Retail,UAE,3226169.44
+CUST000707,Walmart Imports,Retail,China,6089212.25
+CUST000708,Toyota Logistics,E-commerce,China,1810167.55
+CUST000709,Walmart Imports,Oil & Gas,UK,3922433.47
+CUST000710,Amazon Supply Chain,E-commerce,China,303861.68
+CUST000711,Shell Trading,Manufacturing,Nigeria,7894804.38
+CUST000712,Toyota Logistics,Retail,UK,4887412.4
+CUST000713,Maersk Logistics,Retail,Nigeria,4653012.61
+CUST000714,Maersk Logistics,Manufacturing,Nigeria,2046508.45
+CUST000715,Amazon Supply Chain,Manufacturing,UAE,4315607.59
+CUST000716,DHL Global,Oil & Gas,Nigeria,4784011.12
+CUST000717,DHL Global,Manufacturing,China,878087.07
+CUST000718,Walmart Imports,Oil & Gas,Germany,3932096.13
+CUST000719,Walmart Imports,Manufacturing,Germany,4423224.58
+CUST000720,Walmart Imports,Manufacturing,China,6700404.26
+CUST000721,Samsung Shipping,Retail,China,3788971.38
+CUST000722,DHL Global,E-commerce,Nigeria,4414596.94
+CUST000723,Samsung Shipping,E-commerce,Nigeria,7866634.19
+CUST000724,Nestle Global,E-commerce,China,6613017.07
+CUST000725,Maersk Logistics,Manufacturing,USA,7285526.95
+CUST000726,Shell Trading,Oil & Gas,UAE,9192829.58
+CUST000727,Maersk Logistics,E-commerce,UK,9048586.94
+CUST000728,Maersk Logistics,Oil & Gas,UK,1188409.49
+CUST000729,DHL Global,E-commerce,USA,286060.15
+CUST000730,Amazon Supply Chain,E-commerce,Germany,1333918.31
+CUST000731,Nestle Global,Oil & Gas,USA,6294288.46
+CUST000732,Samsung Shipping,E-commerce,Nigeria,302117.26
+CUST000733,Toyota Logistics,E-commerce,China,9111488.2
+CUST000734,Amazon Supply Chain,Retail,China,8062171.53
+CUST000735,Shell Trading,Retail,UAE,4818213.11
+CUST000736,Toyota Logistics,E-commerce,Germany,4513767.92
+CUST000737,Nestle Global,Manufacturing,China,5030574.78
+CUST000738,Shell Trading,E-commerce,UAE,2160900.92
+CUST000739,Maersk Logistics,Manufacturing,China,6727646.36
+CUST000740,Samsung Shipping,Manufacturing,China,1593042.89
+CUST000741,Samsung Shipping,Manufacturing,Germany,7136373.59
+CUST000742,Samsung Shipping,Retail,UAE,9270888.47
+CUST000743,Maersk Logistics,Oil & Gas,Nigeria,4356977.72
+CUST000744,Samsung Shipping,Manufacturing,USA,6189695.91
+CUST000745,Amazon Supply Chain,Manufacturing,UK,9453131.52
+CUST000746,Maersk Logistics,E-commerce,UK,544649.25
+CUST000747,Shell Trading,E-commerce,Germany,6862536.64
+CUST000748,DHL Global,Manufacturing,UAE,53716.55
+CUST000749,DHL Global,Retail,Nigeria,7691174.13
+CUST000750,Maersk Logistics,Oil & Gas,UK,5234255.98
+CUST000751,Maersk Logistics,E-commerce,USA,2589482.55
+CUST000752,Samsung Shipping,Oil & Gas,Germany,9132697.96
+CUST000753,Nestle Global,Manufacturing,UK,3273647.29
+CUST000754,Amazon Supply Chain,Oil & Gas,Nigeria,1298623.41
+CUST000755,Nestle Global,Retail,Nigeria,8432815.19
+CUST000756,Walmart Imports,Oil & Gas,UK,3468435.01
+CUST000757,Amazon Supply Chain,Manufacturing,China,3148035.69
+CUST000758,Samsung Shipping,Oil & Gas,Nigeria,9842738.99
+CUST000759,DHL Global,Oil & Gas,USA,4012488.52
+CUST000760,DHL Global,E-commerce,Germany,9975803.45
+CUST000761,Samsung Shipping,Manufacturing,UK,703693.55
+CUST000762,DHL Global,Oil & Gas,UK,7307906.05
+CUST000763,Amazon Supply Chain,Oil & Gas,Germany,5530378.81
+CUST000764,Shell Trading,E-commerce,UAE,9908779.08
+CUST000765,Samsung Shipping,Oil & Gas,Germany,2948594.27
+CUST000766,Nestle Global,Manufacturing,USA,8271323.49
+CUST000767,Walmart Imports,E-commerce,Germany,8248516.65
+CUST000768,Amazon Supply Chain,Manufacturing,China,8616120.26
+CUST000769,Walmart Imports,E-commerce,USA,8922682.71
+CUST000770,DHL Global,Retail,UAE,8382627.52
+CUST000771,Samsung Shipping,E-commerce,Nigeria,6020270.32
+CUST000772,Maersk Logistics,Oil & Gas,China,1153514.66
+CUST000773,Toyota Logistics,Retail,Germany,4088884.7
+CUST000774,Maersk Logistics,E-commerce,Germany,9005132.99
+CUST000775,Samsung Shipping,E-commerce,UAE,1470055.44
+CUST000776,Walmart Imports,Oil & Gas,Nigeria,6501356.59
+CUST000777,Shell Trading,Oil & Gas,China,8010017.89
+CUST000778,Maersk Logistics,Manufacturing,UAE,6227952.49
+CUST000779,Walmart Imports,E-commerce,UK,3968731.79
+CUST000780,Walmart Imports,Manufacturing,UAE,4083475.82
+CUST000781,Amazon Supply Chain,Oil & Gas,USA,995416.0
+CUST000782,DHL Global,Manufacturing,Germany,7956606.54
+CUST000783,Amazon Supply Chain,Retail,UAE,1338582.81
+CUST000784,Samsung Shipping,E-commerce,Germany,4034283.38
+CUST000785,Maersk Logistics,Oil & Gas,UAE,6026765.86
+CUST000786,Maersk Logistics,E-commerce,Germany,8744708.03
+CUST000787,Toyota Logistics,E-commerce,UK,3356801.12
+CUST000788,Maersk Logistics,Retail,Nigeria,8759081.33
+CUST000789,Shell Trading,Retail,UK,1559852.47
+CUST000790,Nestle Global,Retail,China,3431535.83
+CUST000791,Toyota Logistics,Retail,Germany,9412406.36
+CUST000792,Shell Trading,Manufacturing,China,5798193.65
+CUST000793,Samsung Shipping,Manufacturing,China,3216599.41
+CUST000794,Toyota Logistics,Retail,China,7680595.26
+CUST000795,Shell Trading,E-commerce,USA,7303983.04
+CUST000796,Samsung Shipping,Oil & Gas,China,9179291.33
+CUST000797,Amazon Supply Chain,Oil & Gas,UAE,8483186.05
+CUST000798,DHL Global,Manufacturing,Nigeria,7789628.16
+CUST000799,DHL Global,E-commerce,USA,2937540.21
+CUST000800,Toyota Logistics,Oil & Gas,Nigeria,3613602.53
+CUST000801,DHL Global,Retail,UAE,9787203.06
+CUST000802,Samsung Shipping,E-commerce,Germany,6100154.19
+CUST000803,Toyota Logistics,Manufacturing,UK,5246732.94
+CUST000804,DHL Global,Manufacturing,UAE,9138749.0
+CUST000805,Toyota Logistics,Oil & Gas,UK,7512270.15
+CUST000806,Maersk Logistics,Manufacturing,UAE,7308848.6
+CUST000807,DHL Global,Manufacturing,UAE,4180582.14
+CUST000808,Samsung Shipping,Retail,UK,7561278.36
+CUST000809,Samsung Shipping,Manufacturing,USA,3295052.82
+CUST000810,Toyota Logistics,E-commerce,UK,5152274.41
+CUST000811,Amazon Supply Chain,Oil & Gas,UK,2342641.88
+CUST000812,Nestle Global,Oil & Gas,UAE,3540606.02
+CUST000813,Toyota Logistics,E-commerce,USA,8337367.7
+CUST000814,Walmart Imports,Oil & Gas,Nigeria,8814164.73
+CUST000815,Maersk Logistics,Manufacturing,Nigeria,5305061.88
+CUST000816,Walmart Imports,Oil & Gas,Nigeria,76275.31
+CUST000817,Walmart Imports,Oil & Gas,China,4492782.46
+CUST000818,Amazon Supply Chain,E-commerce,Germany,5656229.72
+CUST000819,DHL Global,Oil & Gas,Germany,7100589.31
+CUST000820,Maersk Logistics,E-commerce,China,1045750.67
+CUST000821,Nestle Global,Retail,China,3899313.96
+CUST000822,Amazon Supply Chain,E-commerce,Nigeria,6452173.8
+CUST000823,Toyota Logistics,Manufacturing,UAE,4828309.86
+CUST000824,Toyota Logistics,E-commerce,UAE,5936871.5
+CUST000825,Shell Trading,E-commerce,UK,8674881.44
+CUST000826,Samsung Shipping,Oil & Gas,Nigeria,4574254.07
+CUST000827,Toyota Logistics,Retail,Germany,5845376.98
+CUST000828,Nestle Global,Manufacturing,UAE,869185.27
+CUST000829,Maersk Logistics,E-commerce,Nigeria,2077058.52
+CUST000830,Nestle Global,Oil & Gas,USA,6247586.74
+CUST000831,Shell Trading,Oil & Gas,UAE,5581060.52
+CUST000832,Amazon Supply Chain,Oil & Gas,China,9063845.9
+CUST000833,Walmart Imports,Oil & Gas,Germany,1609149.12
+CUST000834,Samsung Shipping,Retail,UAE,5221227.35
+CUST000835,Toyota Logistics,E-commerce,UAE,6048057.89
+CUST000836,DHL Global,Retail,Nigeria,3698158.48
+CUST000837,Amazon Supply Chain,Oil & Gas,Germany,9896990.22
+CUST000838,Maersk Logistics,Retail,China,4779997.8
+CUST000839,Maersk Logistics,Oil & Gas,UK,7314801.84
+CUST000840,Toyota Logistics,Retail,UAE,303934.27
+CUST000841,Maersk Logistics,Retail,UAE,1155126.31
+CUST000842,Walmart Imports,Manufacturing,UAE,8546810.68
+CUST000843,Samsung Shipping,Oil & Gas,UAE,5199601.06
+CUST000844,Toyota Logistics,E-commerce,China,7100377.48
+CUST000845,Amazon Supply Chain,Oil & Gas,UAE,887196.15
+CUST000846,Toyota Logistics,E-commerce,Germany,7077137.5
+CUST000847,Toyota Logistics,E-commerce,USA,6057117.06
+CUST000848,Nestle Global,E-commerce,USA,6779473.3
+CUST000849,Samsung Shipping,E-commerce,UAE,4605155.52
+CUST000850,DHL Global,E-commerce,Nigeria,6310636.28
+CUST000851,DHL Global,Retail,China,5610313.02
+CUST000852,DHL Global,E-commerce,Germany,6152106.36
+CUST000853,Shell Trading,Manufacturing,UK,9509173.67
+CUST000854,Nestle Global,Retail,USA,6189293.34
+CUST000855,Nestle Global,Oil & Gas,USA,3884329.19
+CUST000856,DHL Global,Oil & Gas,USA,5580902.11
+CUST000857,Samsung Shipping,Retail,Nigeria,7341324.3
+CUST000858,Nestle Global,Manufacturing,UAE,7094247.55
+CUST000859,Amazon Supply Chain,Oil & Gas,Germany,7519827.67
+CUST000860,Amazon Supply Chain,Retail,USA,5852324.89
+CUST000861,Walmart Imports,Retail,Nigeria,4924620.06
+CUST000862,Toyota Logistics,Manufacturing,UK,4226227.57
+CUST000863,Toyota Logistics,Manufacturing,Germany,4321437.32
+CUST000864,Toyota Logistics,Oil & Gas,UK,1506876.78
+CUST000865,Maersk Logistics,Oil & Gas,Nigeria,9372780.75
+CUST000866,DHL Global,Retail,UK,2294006.13
+CUST000867,Amazon Supply Chain,Oil & Gas,Nigeria,2426758.74
+CUST000868,Toyota Logistics,Manufacturing,China,6803150.39
+CUST000869,Toyota Logistics,Retail,USA,6145901.75
+CUST000870,Amazon Supply Chain,Oil & Gas,Nigeria,2997315.37
+CUST000871,DHL Global,E-commerce,UK,1248426.7
+CUST000872,Toyota Logistics,Oil & Gas,UK,6751430.05
+CUST000873,Amazon Supply Chain,Retail,UAE,8475355.36
+CUST000874,Maersk Logistics,Retail,China,9318867.41
+CUST000875,Toyota Logistics,Retail,China,8689290.99
+CUST000876,Shell Trading,Retail,UAE,9478808.77
+CUST000877,Maersk Logistics,E-commerce,Nigeria,9402226.45
+CUST000878,Toyota Logistics,Manufacturing,UAE,9320835.18
+CUST000879,Walmart Imports,E-commerce,Germany,7048902.52
+CUST000880,Samsung Shipping,E-commerce,USA,5834962.35
+CUST000881,Samsung Shipping,Retail,USA,6114034.71
+CUST000882,Samsung Shipping,E-commerce,UK,896567.45
+CUST000883,Amazon Supply Chain,Retail,USA,8573671.02
+CUST000884,Walmart Imports,Oil & Gas,UK,2669168.51
+CUST000885,Samsung Shipping,Retail,UAE,2591385.08
+CUST000886,Nestle Global,Retail,Germany,6486244.21
+CUST000887,Nestle Global,E-commerce,Nigeria,3354659.11
+CUST000888,Samsung Shipping,E-commerce,Nigeria,3981792.51
+CUST000889,DHL Global,E-commerce,USA,9041658.08
+CUST000890,Maersk Logistics,Retail,China,5210049.86
+CUST000891,Walmart Imports,Retail,Nigeria,910486.31
+CUST000892,Samsung Shipping,Oil & Gas,UAE,7830698.9
+CUST000893,Walmart Imports,Retail,UAE,4700261.72
+CUST000894,Toyota Logistics,Retail,USA,3412340.05
+CUST000895,Shell Trading,Manufacturing,USA,4184772.93
+CUST000896,Shell Trading,E-commerce,USA,463426.55
+CUST000897,Toyota Logistics,Manufacturing,UAE,482238.15
+CUST000898,Toyota Logistics,Retail,USA,4935218.45
+CUST000899,Walmart Imports,E-commerce,UK,2959664.96
+CUST000900,Samsung Shipping,Manufacturing,China,5450911.37
+CUST000901,Walmart Imports,E-commerce,USA,5749826.04
+CUST000902,Samsung Shipping,Oil & Gas,UK,1553128.4
+CUST000903,Nestle Global,E-commerce,Germany,4360888.31
+CUST000904,Toyota Logistics,Retail,UAE,9536554.65
+CUST000905,Samsung Shipping,Retail,USA,920965.29
+CUST000906,Amazon Supply Chain,Oil & Gas,China,160332.62
+CUST000907,Shell Trading,E-commerce,USA,3107737.23
+CUST000908,DHL Global,E-commerce,UK,9228209.87
+CUST000909,Shell Trading,E-commerce,UK,5846823.5
+CUST000910,Amazon Supply Chain,Manufacturing,UAE,8925787.96
+CUST000911,DHL Global,Retail,UK,6868750.1
+CUST000912,Amazon Supply Chain,E-commerce,UK,8102611.82
+CUST000913,Maersk Logistics,E-commerce,UAE,4783884.36
+CUST000914,Walmart Imports,Retail,UAE,5843150.69
+CUST000915,Samsung Shipping,Manufacturing,Germany,4321068.61
+CUST000916,Amazon Supply Chain,E-commerce,UK,5777702.62
+CUST000917,Nestle Global,E-commerce,USA,3995331.72
+CUST000918,Amazon Supply Chain,Oil & Gas,UK,7232528.29
+CUST000919,Amazon Supply Chain,Oil & Gas,Germany,6617824.4
+CUST000920,Maersk Logistics,Oil & Gas,Nigeria,1902884.06
+CUST000921,Maersk Logistics,Manufacturing,USA,4149960.89
+CUST000922,Amazon Supply Chain,Retail,USA,2067567.38
+CUST000923,Samsung Shipping,E-commerce,UAE,2943140.07
+CUST000924,Maersk Logistics,Oil & Gas,USA,896128.41
+CUST000925,Walmart Imports,Oil & Gas,UK,9503950.86
+CUST000926,Shell Trading,Retail,Germany,279319.96
+CUST000927,Walmart Imports,Oil & Gas,USA,1195028.16
+CUST000928,Maersk Logistics,Retail,UK,1201330.73
+CUST000929,Nestle Global,Manufacturing,China,7805313.48
+CUST000930,Toyota Logistics,Retail,USA,2352132.71
+CUST000931,Shell Trading,Oil & Gas,Germany,6831408.62
+CUST000932,Walmart Imports,E-commerce,China,4974507.27
+CUST000933,Maersk Logistics,E-commerce,UAE,6323512.54
+CUST000934,DHL Global,Retail,Nigeria,4715984.18
+CUST000935,DHL Global,Retail,Nigeria,3174229.77
+CUST000936,Nestle Global,Manufacturing,China,5354556.78
+CUST000937,Maersk Logistics,Manufacturing,Nigeria,3606852.95
+CUST000938,Nestle Global,Manufacturing,Germany,125804.06
+CUST000939,Samsung Shipping,Retail,Germany,423094.25
+CUST000940,Toyota Logistics,E-commerce,UK,919012.3
+CUST000941,Samsung Shipping,Manufacturing,UAE,1809435.95
+CUST000942,Nestle Global,Oil & Gas,China,5410571.83
+CUST000943,Samsung Shipping,Retail,China,97560.44
+CUST000944,Amazon Supply Chain,E-commerce,Nigeria,8364247.34
+CUST000945,Maersk Logistics,Oil & Gas,Nigeria,9735447.33
+CUST000946,DHL Global,Manufacturing,Nigeria,7063593.52
+CUST000947,Amazon Supply Chain,E-commerce,Germany,9285499.2
+CUST000948,Maersk Logistics,Manufacturing,Germany,4364755.47
+CUST000949,Samsung Shipping,Oil & Gas,UAE,1226409.54
+CUST000950,Shell Trading,Retail,China,7059933.83
+CUST000951,Nestle Global,Retail,China,5369801.61
+CUST000952,DHL Global,Manufacturing,Nigeria,743246.9
+CUST000953,Shell Trading,Retail,USA,1898595.8
+CUST000954,Nestle Global,Oil & Gas,USA,3567729.53
+CUST000955,Samsung Shipping,E-commerce,Germany,6473244.09
+CUST000956,Maersk Logistics,E-commerce,China,639823.94
+CUST000957,Maersk Logistics,Manufacturing,Nigeria,3511308.7
+CUST000958,Samsung Shipping,Manufacturing,Nigeria,5645878.92
+CUST000959,Toyota Logistics,Retail,Nigeria,4650387.37
+CUST000960,Walmart Imports,Manufacturing,UK,4304464.61
+CUST000961,DHL Global,Oil & Gas,China,2176856.72
+CUST000962,Toyota Logistics,E-commerce,Nigeria,1588342.8
+CUST000963,Nestle Global,Oil & Gas,USA,8177663.41
+CUST000964,Amazon Supply Chain,E-commerce,UK,9628077.5
+CUST000965,DHL Global,Retail,Germany,5658671.02
+CUST000966,Toyota Logistics,E-commerce,USA,3310286.31
+CUST000967,Nestle Global,Oil & Gas,UAE,7159333.79
+CUST000968,Maersk Logistics,Manufacturing,China,3275700.4
+CUST000969,DHL Global,Manufacturing,China,3290670.98
+CUST000970,Shell Trading,Oil & Gas,China,8446184.13
+CUST000971,Shell Trading,Manufacturing,Nigeria,9339325.96
+CUST000972,Samsung Shipping,Manufacturing,Germany,3735472.43
+CUST000973,Samsung Shipping,Retail,USA,9700291.63
+CUST000974,Shell Trading,E-commerce,Nigeria,4186041.44
+CUST000975,Nestle Global,Oil & Gas,UK,8784272.73
+CUST000976,Samsung Shipping,Retail,Nigeria,2922168.8
+CUST000977,Nestle Global,E-commerce,Germany,6448216.29
+CUST000978,DHL Global,E-commerce,China,4762356.83
+CUST000979,Shell Trading,Retail,China,6372930.68
+CUST000980,DHL Global,Oil & Gas,Germany,4291284.53
+CUST000981,Shell Trading,Retail,Germany,769234.22
+CUST000982,Toyota Logistics,Oil & Gas,USA,9946062.61
+CUST000983,Shell Trading,Retail,USA,9893994.1
+CUST000984,Toyota Logistics,Oil & Gas,UK,4582377.56
+CUST000985,Amazon Supply Chain,E-commerce,UAE,5646580.49
+CUST000986,Amazon Supply Chain,E-commerce,UK,5169361.82
+CUST000987,Shell Trading,Retail,UK,5429153.91
+CUST000988,Walmart Imports,Oil & Gas,Germany,2581677.75
+CUST000989,Samsung Shipping,E-commerce,Nigeria,4550911.89
+CUST000990,Shell Trading,Manufacturing,UAE,138228.24
+CUST000991,Maersk Logistics,E-commerce,Nigeria,7941425.85
+CUST000992,Samsung Shipping,Retail,Nigeria,7381074.87
+CUST000993,Walmart Imports,Manufacturing,Nigeria,9738447.57
+CUST000994,Amazon Supply Chain,Retail,UK,4708464.41
+CUST000995,Amazon Supply Chain,Oil & Gas,Nigeria,8216761.93
+CUST000996,Amazon Supply Chain,Manufacturing,USA,7578528.5
+CUST000997,Samsung Shipping,Oil & Gas,Nigeria,5144848.63
+CUST000998,Samsung Shipping,Oil & Gas,UAE,5410732.01
+CUST000999,Walmart Imports,Oil & Gas,Nigeria,7738763.96
+CUST001000,Toyota Logistics,E-commerce,China,1477993.72
+CUST001001,Amazon Supply Chain,E-commerce,Germany,2890073.84
+CUST001002,Toyota Logistics,E-commerce,UK,5262585.17
+CUST001003,Toyota Logistics,Retail,UK,3307976.49
+CUST001004,Amazon Supply Chain,Oil & Gas,China,7289274.34
+CUST001005,Samsung Shipping,Retail,USA,8828226.87
+CUST001006,Shell Trading,Manufacturing,USA,9255416.87
+CUST001007,DHL Global,E-commerce,Germany,6071950.78
+CUST001008,Samsung Shipping,E-commerce,China,2512429.1
+CUST001009,Toyota Logistics,Oil & Gas,Germany,9555737.06
+CUST001010,Maersk Logistics,Manufacturing,USA,2568958.42
+CUST001011,Samsung Shipping,Manufacturing,Germany,4069588.6
+CUST001012,Maersk Logistics,Retail,Nigeria,2759646.37
+CUST001013,DHL Global,Manufacturing,UK,2252715.9
+CUST001014,Walmart Imports,Oil & Gas,China,3867071.55
+CUST001015,Maersk Logistics,E-commerce,Nigeria,4416032.59
+CUST001016,DHL Global,E-commerce,USA,9873985.97
+CUST001017,Samsung Shipping,Manufacturing,Germany,2696228.24
+CUST001018,Shell Trading,E-commerce,China,3179488.55
+CUST001019,Samsung Shipping,E-commerce,China,3467596.38
+CUST001020,Walmart Imports,Oil & Gas,Nigeria,4776019.84
+CUST001021,Maersk Logistics,E-commerce,China,8422081.02
+CUST001022,Toyota Logistics,E-commerce,USA,6069119.5
+CUST001023,DHL Global,Oil & Gas,UK,5970389.97
+CUST001024,Nestle Global,Manufacturing,Nigeria,3281264.02
+CUST001025,Shell Trading,Oil & Gas,China,9715985.14
+CUST001026,DHL Global,Oil & Gas,USA,9701890.27
+CUST001027,Maersk Logistics,E-commerce,USA,8640286.58
+CUST001028,Samsung Shipping,Retail,China,9877649.46
+CUST001029,Nestle Global,Retail,UK,6411644.25
+CUST001030,Walmart Imports,Oil & Gas,China,5045635.86
+CUST001031,Toyota Logistics,Retail,UAE,9234128.57
+CUST001032,Amazon Supply Chain,Manufacturing,UK,2263354.69
+CUST001033,Samsung Shipping,E-commerce,UK,2118861.37
+CUST001034,Nestle Global,Oil & Gas,China,2183611.18
+CUST001035,Walmart Imports,Oil & Gas,USA,1471534.84
+CUST001036,Toyota Logistics,Retail,UAE,8298030.45
+CUST001037,Walmart Imports,Oil & Gas,UAE,7340717.05
+CUST001038,DHL Global,E-commerce,Germany,3086511.33
+CUST001039,Maersk Logistics,E-commerce,Nigeria,957523.4
+CUST001040,Walmart Imports,Oil & Gas,Nigeria,7112697.24
+CUST001041,Nestle Global,E-commerce,China,8930652.02
+CUST001042,Amazon Supply Chain,Manufacturing,UAE,2228896.41
+CUST001043,Amazon Supply Chain,Manufacturing,UAE,4050045.56
+CUST001044,Maersk Logistics,E-commerce,China,8438655.72
+CUST001045,Shell Trading,Oil & Gas,Nigeria,8921891.04
+CUST001046,Nestle Global,Manufacturing,Germany,4704331.27
+CUST001047,Toyota Logistics,Oil & Gas,China,366828.5
+CUST001048,Samsung Shipping,Manufacturing,Germany,5919262.61
+CUST001049,Nestle Global,Oil & Gas,Nigeria,3034351.5
+CUST001050,DHL Global,Manufacturing,UAE,3898833.72
+CUST001051,Walmart Imports,Retail,UK,769432.92
+CUST001052,Maersk Logistics,E-commerce,Nigeria,3335768.74
+CUST001053,Maersk Logistics,Oil & Gas,USA,1880166.52
+CUST001054,Samsung Shipping,E-commerce,UK,2811564.84
+CUST001055,Samsung Shipping,Manufacturing,UK,6273898.04
+CUST001056,Amazon Supply Chain,Retail,Germany,7664608.63
+CUST001057,Walmart Imports,Manufacturing,UK,4580845.5
+CUST001058,DHL Global,E-commerce,UK,853616.36
+CUST001059,Maersk Logistics,E-commerce,Nigeria,3521635.08
+CUST001060,Toyota Logistics,Oil & Gas,USA,6953259.12
+CUST001061,Shell Trading,E-commerce,UK,5815858.4
+CUST001062,Walmart Imports,Oil & Gas,China,4782932.23
+CUST001063,Maersk Logistics,Oil & Gas,China,4448576.74
+CUST001064,Nestle Global,Oil & Gas,Nigeria,9133250.93
+CUST001065,DHL Global,Retail,China,5928421.65
+CUST001066,Maersk Logistics,Retail,China,2808913.2
+CUST001067,DHL Global,Retail,China,9135386.62
+CUST001068,Walmart Imports,Retail,UAE,1621631.41
+CUST001069,Walmart Imports,Oil & Gas,USA,8244850.74
+CUST001070,Amazon Supply Chain,E-commerce,Germany,3601752.24
+CUST001071,Walmart Imports,Retail,UAE,1945350.87
+CUST001072,DHL Global,Manufacturing,Nigeria,6130535.29
+CUST001073,Shell Trading,E-commerce,China,3237318.42
+CUST001074,Nestle Global,Retail,Germany,4766282.71
+CUST001075,Samsung Shipping,Retail,UAE,6769346.54
+CUST001076,DHL Global,Oil & Gas,Nigeria,2044011.59
+CUST001077,Nestle Global,Manufacturing,Germany,3191472.14
+CUST001078,Walmart Imports,Oil & Gas,UAE,90922.73
+CUST001079,Nestle Global,E-commerce,UK,8326121.18
+CUST001080,Samsung Shipping,Oil & Gas,UK,9120437.8
+CUST001081,Maersk Logistics,Manufacturing,USA,7428725.16
+CUST001082,Maersk Logistics,Oil & Gas,Germany,1928172.42
+CUST001083,Amazon Supply Chain,Manufacturing,Nigeria,2267381.06
+CUST001084,Nestle Global,Retail,UK,1539969.9
+CUST001085,Nestle Global,Oil & Gas,Nigeria,8657351.72
+CUST001086,DHL Global,E-commerce,USA,9161837.07
+CUST001087,DHL Global,E-commerce,Germany,8282601.34
+CUST001088,Toyota Logistics,E-commerce,Germany,4745829.09
+CUST001089,Walmart Imports,Manufacturing,USA,4052056.33
+CUST001090,Toyota Logistics,Oil & Gas,UK,6493240.53
+CUST001091,Nestle Global,Retail,China,9887816.95
+CUST001092,DHL Global,Retail,USA,3114647.5
+CUST001093,DHL Global,Oil & Gas,Germany,3033993.06
+CUST001094,Nestle Global,Retail,Nigeria,799190.3
+CUST001095,Toyota Logistics,Retail,Nigeria,905148.01
+CUST001096,Shell Trading,Manufacturing,Nigeria,7174544.32
+CUST001097,Amazon Supply Chain,E-commerce,China,299288.39
+CUST001098,Nestle Global,Manufacturing,China,5977885.76
+CUST001099,DHL Global,Oil & Gas,Nigeria,557502.74
+CUST001100,Walmart Imports,Retail,Germany,131584.66
+CUST001101,Nestle Global,Retail,UK,7951639.01
+CUST001102,Amazon Supply Chain,Manufacturing,Nigeria,5025552.44
+CUST001103,Maersk Logistics,Oil & Gas,USA,5831439.99
+CUST001104,Toyota Logistics,Oil & Gas,USA,6430028.15
+CUST001105,Maersk Logistics,E-commerce,USA,3090390.44
+CUST001106,Amazon Supply Chain,Retail,UAE,6605719.3
+CUST001107,Walmart Imports,Manufacturing,UAE,3229106.46
+CUST001108,Amazon Supply Chain,Manufacturing,China,6645243.9
+CUST001109,DHL Global,Oil & Gas,Nigeria,6638986.9
+CUST001110,Samsung Shipping,Oil & Gas,China,1619277.85
+CUST001111,Shell Trading,Oil & Gas,UAE,2952189.86
+CUST001112,Maersk Logistics,Retail,USA,8746416.35
+CUST001113,DHL Global,Manufacturing,Germany,9865744.29
+CUST001114,Walmart Imports,Oil & Gas,Germany,1585134.25
+CUST001115,Walmart Imports,E-commerce,USA,1536733.17
+CUST001116,Samsung Shipping,Retail,Nigeria,7011029.12
+CUST001117,Shell Trading,Retail,UAE,6706817.44
+CUST001118,Amazon Supply Chain,Manufacturing,Germany,6658887.6
+CUST001119,Shell Trading,Retail,USA,3890418.35
+CUST001120,Maersk Logistics,E-commerce,UK,1306568.73
+CUST001121,Samsung Shipping,Retail,USA,1335112.48
+CUST001122,Shell Trading,E-commerce,Germany,159162.71
+CUST001123,Amazon Supply Chain,Retail,UAE,6375420.44
+CUST001124,Nestle Global,Oil & Gas,China,1391206.4
+CUST001125,Shell Trading,Oil & Gas,UAE,3715596.06
+CUST001126,Nestle Global,Retail,China,963193.95
+CUST001127,Samsung Shipping,Manufacturing,Nigeria,1177292.86
+CUST001128,Maersk Logistics,Manufacturing,USA,5838530.95
+CUST001129,DHL Global,Manufacturing,USA,6448418.16
+CUST001130,Walmart Imports,Retail,China,1849871.65
+CUST001131,Toyota Logistics,Retail,Nigeria,744820.36
+CUST001132,Nestle Global,Oil & Gas,USA,2023799.74
+CUST001133,Shell Trading,Oil & Gas,UAE,2995799.72
+CUST001134,DHL Global,Manufacturing,Nigeria,3770466.09
+CUST001135,Walmart Imports,Retail,China,9546610.83
+CUST001136,Toyota Logistics,E-commerce,Nigeria,3389373.1
+CUST001137,Samsung Shipping,Oil & Gas,UK,9317420.11
+CUST001138,Toyota Logistics,Retail,UK,3096420.86
+CUST001139,Amazon Supply Chain,E-commerce,China,7217139.03
+CUST001140,Nestle Global,Oil & Gas,Germany,153464.26
+CUST001141,Walmart Imports,Manufacturing,UK,3252918.34
+CUST001142,Nestle Global,Manufacturing,China,6891964.65
+CUST001143,Nestle Global,Oil & Gas,Germany,9403600.2
+CUST001144,Nestle Global,Manufacturing,Germany,6791151.34
+CUST001145,DHL Global,Retail,UAE,9706381.45
+CUST001146,Maersk Logistics,E-commerce,Nigeria,8312553.98
+CUST001147,Walmart Imports,Oil & Gas,Germany,788557.76
+CUST001148,Amazon Supply Chain,Manufacturing,Germany,9175948.22
+CUST001149,Walmart Imports,E-commerce,Germany,2519510.44
+CUST001150,Toyota Logistics,Retail,China,7717300.58
+CUST001151,Shell Trading,Retail,Nigeria,5596445.36
+CUST001152,Toyota Logistics,Retail,USA,4623098.29
+CUST001153,Samsung Shipping,E-commerce,Nigeria,4092189.45
+CUST001154,Maersk Logistics,E-commerce,Germany,3250599.29
+CUST001155,Shell Trading,Oil & Gas,China,4194657.91
+CUST001156,Walmart Imports,E-commerce,Nigeria,3400613.54
+CUST001157,Samsung Shipping,Retail,Nigeria,2221058.99
+CUST001158,Walmart Imports,E-commerce,UAE,5490347.34
+CUST001159,DHL Global,Manufacturing,UK,2034570.34
+CUST001160,Walmart Imports,E-commerce,Germany,5791341.28
+CUST001161,Samsung Shipping,Retail,UAE,6459560.74
+CUST001162,Nestle Global,Retail,Germany,6014815.04
+CUST001163,Nestle Global,Manufacturing,China,7262079.44
+CUST001164,Shell Trading,Oil & Gas,Nigeria,8410917.47
+CUST001165,Maersk Logistics,Oil & Gas,USA,6615422.07
+CUST001166,Samsung Shipping,E-commerce,Nigeria,7481831.89
+CUST001167,DHL Global,Oil & Gas,Germany,4275979.83
+CUST001168,Toyota Logistics,Manufacturing,China,7193505.0
+CUST001169,DHL Global,Manufacturing,USA,9987972.09
+CUST001170,Shell Trading,Retail,UAE,2606141.2
+CUST001171,Shell Trading,Manufacturing,Nigeria,2040695.37
+CUST001172,Amazon Supply Chain,E-commerce,Nigeria,8550485.26
+CUST001173,Walmart Imports,E-commerce,UAE,416160.56
+CUST001174,Maersk Logistics,Manufacturing,China,380857.24
+CUST001175,Shell Trading,Manufacturing,USA,8049423.58
+CUST001176,Amazon Supply Chain,Oil & Gas,UK,6333315.95
+CUST001177,Walmart Imports,Retail,UAE,7701660.81
+CUST001178,Nestle Global,Manufacturing,UAE,8487288.07
+CUST001179,DHL Global,Oil & Gas,Nigeria,9906182.68
+CUST001180,Walmart Imports,E-commerce,UK,9532250.31
+CUST001181,Toyota Logistics,E-commerce,China,5929529.5
+CUST001182,Shell Trading,Retail,UAE,6169631.45
+CUST001183,Toyota Logistics,E-commerce,USA,5274374.34
+CUST001184,Nestle Global,Manufacturing,UAE,7263258.14
+CUST001185,Samsung Shipping,Retail,UAE,5674020.11
+CUST001186,Toyota Logistics,Manufacturing,China,230276.14
+CUST001187,Samsung Shipping,Retail,China,1596170.48
+CUST001188,DHL Global,Manufacturing,Germany,4730656.69
+CUST001189,Nestle Global,Oil & Gas,Nigeria,9314687.68
+CUST001190,Toyota Logistics,Retail,UAE,966648.73
+CUST001191,DHL Global,Oil & Gas,China,9713053.93
+CUST001192,Shell Trading,Oil & Gas,UAE,7785418.27
+CUST001193,Samsung Shipping,E-commerce,China,5370095.63
+CUST001194,Nestle Global,Manufacturing,China,3568807.99
+CUST001195,Shell Trading,Oil & Gas,USA,6777686.07
+CUST001196,Toyota Logistics,E-commerce,UAE,734535.22
+CUST001197,Amazon Supply Chain,Manufacturing,UAE,3987391.23
+CUST001198,Walmart Imports,Retail,UK,5460287.67
+CUST001199,Toyota Logistics,E-commerce,Nigeria,4107362.28
+CUST001200,Toyota Logistics,Manufacturing,UK,2045937.85
+CUST001201,Maersk Logistics,Oil & Gas,Germany,625399.15
+CUST001202,Nestle Global,Manufacturing,China,5335159.19
+CUST001203,Shell Trading,Manufacturing,China,7678297.77
+CUST001204,DHL Global,E-commerce,Germany,5236269.15
+CUST001205,Walmart Imports,E-commerce,Germany,6738952.64
+CUST001206,Amazon Supply Chain,Oil & Gas,Nigeria,9894440.85
+CUST001207,Toyota Logistics,Oil & Gas,USA,5582798.09
+CUST001208,Shell Trading,Oil & Gas,Nigeria,6687050.37
+CUST001209,Toyota Logistics,Retail,USA,6278108.57
+CUST001210,Shell Trading,Manufacturing,UK,7854280.51
+CUST001211,Amazon Supply Chain,Manufacturing,Nigeria,9520971.92
+CUST001212,Shell Trading,Retail,USA,5996679.98
+CUST001213,Samsung Shipping,Retail,USA,8080119.96
+CUST001214,Nestle Global,E-commerce,Nigeria,359962.74
+CUST001215,Maersk Logistics,Oil & Gas,Germany,3992343.34
+CUST001216,Shell Trading,Retail,Nigeria,3541630.47
+CUST001217,DHL Global,Manufacturing,USA,5926531.23
+CUST001218,Shell Trading,Retail,China,283221.61
+CUST001219,Amazon Supply Chain,Oil & Gas,USA,4547436.8
+CUST001220,Walmart Imports,E-commerce,Germany,3212406.3
+CUST001221,Samsung Shipping,Oil & Gas,Germany,6627129.73
+CUST001222,DHL Global,Retail,UK,6266592.33
+CUST001223,Nestle Global,Retail,UAE,8928377.02
+CUST001224,Toyota Logistics,Oil & Gas,UAE,4074469.96
+CUST001225,Nestle Global,Oil & Gas,UAE,573703.2
+CUST001226,Toyota Logistics,E-commerce,UK,9898544.2
+CUST001227,Maersk Logistics,Oil & Gas,Nigeria,9033028.77
+CUST001228,Maersk Logistics,E-commerce,USA,5463726.53
+CUST001229,Amazon Supply Chain,Manufacturing,Germany,5876008.96
+CUST001230,Maersk Logistics,Manufacturing,China,6674963.73
+CUST001231,Toyota Logistics,Retail,Nigeria,6567483.35
+CUST001232,Walmart Imports,E-commerce,China,4606568.93
+CUST001233,Walmart Imports,Oil & Gas,Germany,3877453.41
+CUST001234,DHL Global,Retail,UK,1531133.39
+CUST001235,Shell Trading,Retail,UK,145642.43
+CUST001236,Amazon Supply Chain,E-commerce,UK,6813213.19
+CUST001237,Nestle Global,Oil & Gas,UAE,4364369.51
+CUST001238,Toyota Logistics,E-commerce,USA,5202934.5
+CUST001239,DHL Global,Manufacturing,Nigeria,1205396.48
+CUST001240,Amazon Supply Chain,E-commerce,UAE,6542222.86
+CUST001241,Nestle Global,Retail,UK,4791157.68
+CUST001242,Toyota Logistics,E-commerce,USA,2505883.88
+CUST001243,Samsung Shipping,Manufacturing,Germany,8199106.39
+CUST001244,Amazon Supply Chain,Oil & Gas,Germany,3824489.71
+CUST001245,Shell Trading,E-commerce,UK,5470613.42
+CUST001246,Samsung Shipping,Retail,UK,8246981.55
+CUST001247,Toyota Logistics,E-commerce,UAE,6717573.27
+CUST001248,Toyota Logistics,E-commerce,Germany,9614565.11
+CUST001249,Samsung Shipping,Retail,UAE,9470905.39
+CUST001250,Samsung Shipping,Manufacturing,Germany,5565794.77
+CUST001251,Shell Trading,Retail,Germany,5601086.74
+CUST001252,Walmart Imports,E-commerce,UAE,4501644.21
+CUST001253,Shell Trading,Retail,USA,8428614.57
+CUST001254,Toyota Logistics,Oil & Gas,USA,3923466.91
+CUST001255,Walmart Imports,E-commerce,USA,2648907.07
+CUST001256,Samsung Shipping,E-commerce,UAE,6848234.31
+CUST001257,Nestle Global,Oil & Gas,UK,5644134.04
+CUST001258,Samsung Shipping,Manufacturing,UK,9231884.38
+CUST001259,Samsung Shipping,E-commerce,China,2985796.93
+CUST001260,DHL Global,Oil & Gas,USA,1091026.58
+CUST001261,Amazon Supply Chain,Manufacturing,UAE,2343818.38
+CUST001262,Toyota Logistics,Oil & Gas,UK,1368730.95
+CUST001263,Nestle Global,Manufacturing,Nigeria,8249566.16
+CUST001264,Samsung Shipping,Oil & Gas,China,1013268.0
+CUST001265,Shell Trading,Oil & Gas,UAE,3538458.48
+CUST001266,Shell Trading,E-commerce,China,8276399.28
+CUST001267,Nestle Global,E-commerce,China,9185373.82
+CUST001268,Walmart Imports,Manufacturing,USA,6505694.1
+CUST001269,Walmart Imports,E-commerce,UAE,3006289.18
+CUST001270,Walmart Imports,Retail,UK,5370592.4
+CUST001271,Amazon Supply Chain,Oil & Gas,UAE,2635227.99
+CUST001272,DHL Global,Manufacturing,Germany,1287259.07
+CUST001273,DHL Global,E-commerce,Nigeria,7526579.7
+CUST001274,DHL Global,Oil & Gas,Germany,8053799.81
+CUST001275,Walmart Imports,Manufacturing,Germany,3597909.43
+CUST001276,Samsung Shipping,E-commerce,UAE,7078619.14
+CUST001277,Samsung Shipping,E-commerce,Germany,3262720.5
+CUST001278,Walmart Imports,Retail,Nigeria,7234789.94
+CUST001279,DHL Global,E-commerce,Germany,9344428.45
+CUST001280,DHL Global,Retail,Nigeria,4093623.95
+CUST001281,Shell Trading,Manufacturing,Nigeria,9781209.42
+CUST001282,Samsung Shipping,E-commerce,Nigeria,9818454.94
+CUST001283,Toyota Logistics,E-commerce,UAE,7597720.97
+CUST001284,Nestle Global,E-commerce,UK,2480807.52
+CUST001285,Toyota Logistics,Oil & Gas,USA,9759367.17
+CUST001286,Toyota Logistics,Manufacturing,Nigeria,9680340.73
+CUST001287,Shell Trading,Manufacturing,UK,7396314.27
+CUST001288,Walmart Imports,Manufacturing,Germany,900136.77
+CUST001289,Samsung Shipping,Manufacturing,USA,1645678.08
+CUST001290,Amazon Supply Chain,Retail,UK,861899.94
+CUST001291,Shell Trading,E-commerce,China,9095963.89
+CUST001292,Amazon Supply Chain,Oil & Gas,UAE,4890948.91
+CUST001293,Maersk Logistics,Manufacturing,USA,9886041.84
+CUST001294,Walmart Imports,Retail,UAE,1819433.2
+CUST001295,Toyota Logistics,Oil & Gas,UAE,2154751.33
+CUST001296,Amazon Supply Chain,Retail,UAE,3739271.44
+CUST001297,Amazon Supply Chain,Manufacturing,USA,4319157.96
+CUST001298,Maersk Logistics,Retail,China,3333628.81
+CUST001299,Nestle Global,E-commerce,UK,9202977.4
+CUST001300,DHL Global,Manufacturing,Nigeria,3398018.35
+CUST001301,Nestle Global,Retail,USA,4821122.17
+CUST001302,Toyota Logistics,Manufacturing,UAE,6342864.84
+CUST001303,Walmart Imports,Retail,Germany,2640252.53
+CUST001304,Samsung Shipping,E-commerce,USA,2575480.83
+CUST001305,Amazon Supply Chain,Retail,China,6383245.12
+CUST001306,Samsung Shipping,E-commerce,UK,7221197.15
+CUST001307,Walmart Imports,Oil & Gas,UAE,384748.93
+CUST001308,Shell Trading,E-commerce,Nigeria,6483050.07
+CUST001309,Samsung Shipping,E-commerce,China,1635850.45
+CUST001310,Nestle Global,Retail,USA,1828396.01
+CUST001311,Toyota Logistics,Manufacturing,Nigeria,5594020.34
+CUST001312,Samsung Shipping,Retail,UAE,6468735.01
+CUST001313,DHL Global,Manufacturing,Nigeria,4680835.65
+CUST001314,Maersk Logistics,E-commerce,China,3313602.33
+CUST001315,DHL Global,E-commerce,Germany,8304224.69
+CUST001316,Samsung Shipping,Retail,UK,2724462.17
+CUST001317,DHL Global,Retail,China,8368600.1
+CUST001318,Maersk Logistics,E-commerce,Germany,9358239.52
+CUST001319,Samsung Shipping,Manufacturing,UK,2759275.51
+CUST001320,Walmart Imports,Manufacturing,USA,4317839.82
+CUST001321,Samsung Shipping,Retail,Germany,9717030.44
+CUST001322,Samsung Shipping,Manufacturing,USA,9837436.33
+CUST001323,Walmart Imports,E-commerce,USA,7314159.46
+CUST001324,Maersk Logistics,Manufacturing,Nigeria,3921352.67
+CUST001325,Samsung Shipping,Retail,UK,3292578.75
+CUST001326,DHL Global,E-commerce,USA,7369063.41
+CUST001327,Amazon Supply Chain,Oil & Gas,China,1120506.42
+CUST001328,Amazon Supply Chain,Retail,Nigeria,7110251.84
+CUST001329,Samsung Shipping,Manufacturing,UK,6939223.83
+CUST001330,Maersk Logistics,Manufacturing,Germany,849299.24
+CUST001331,Samsung Shipping,Retail,UAE,7347660.77
+CUST001332,Walmart Imports,Retail,China,6619870.62
+CUST001333,DHL Global,Manufacturing,Nigeria,478381.89
+CUST001334,Amazon Supply Chain,Retail,Nigeria,2881195.39
+CUST001335,Maersk Logistics,Manufacturing,UK,2264419.17
+CUST001336,Walmart Imports,Manufacturing,China,6552202.71
+CUST001337,Maersk Logistics,E-commerce,UK,9660164.76
+CUST001338,Amazon Supply Chain,Oil & Gas,USA,7206131.05
+CUST001339,Shell Trading,Retail,UAE,4151512.41
+CUST001340,Amazon Supply Chain,Manufacturing,USA,3078886.09
+CUST001341,Maersk Logistics,E-commerce,Nigeria,5263081.57
+CUST001342,DHL Global,E-commerce,UK,6573206.3
+CUST001343,Amazon Supply Chain,Oil & Gas,UK,9989953.82
+CUST001344,Maersk Logistics,Oil & Gas,USA,6728003.89
+CUST001345,Shell Trading,Manufacturing,Germany,7354657.28
+CUST001346,Amazon Supply Chain,E-commerce,Nigeria,319170.92
+CUST001347,DHL Global,Manufacturing,China,7837329.04
+CUST001348,Walmart Imports,Manufacturing,Germany,6680518.12
+CUST001349,Shell Trading,Manufacturing,USA,8930445.74
+CUST001350,Nestle Global,Retail,China,7717925.33
+CUST001351,Nestle Global,E-commerce,UAE,4984646.5
+CUST001352,Walmart Imports,Retail,China,2579121.23
+CUST001353,Nestle Global,Oil & Gas,Nigeria,8218109.31
+CUST001354,Shell Trading,E-commerce,UAE,6420968.62
+CUST001355,Walmart Imports,Oil & Gas,China,934285.35
+CUST001356,Amazon Supply Chain,Manufacturing,UAE,4486127.2
+CUST001357,Samsung Shipping,Manufacturing,Germany,3500773.47
+CUST001358,Amazon Supply Chain,Manufacturing,UK,3776395.99
+CUST001359,Shell Trading,Retail,UAE,2493868.32
+CUST001360,Samsung Shipping,E-commerce,USA,1374595.75
+CUST001361,Toyota Logistics,Manufacturing,Nigeria,1092024.14
+CUST001362,Toyota Logistics,Oil & Gas,USA,641804.27
+CUST001363,DHL Global,Retail,Germany,4036870.34
+CUST001364,Toyota Logistics,Retail,UK,2831916.3
+CUST001365,Walmart Imports,Manufacturing,USA,7693139.13
+CUST001366,Walmart Imports,Retail,China,9094219.24
+CUST001367,Maersk Logistics,Retail,UAE,2428813.1
+CUST001368,Toyota Logistics,Retail,Nigeria,2177397.64
+CUST001369,Maersk Logistics,Oil & Gas,China,7177388.45
+CUST001370,Walmart Imports,Manufacturing,Germany,8410463.64
+CUST001371,Walmart Imports,Oil & Gas,UK,2659484.85
+CUST001372,DHL Global,Manufacturing,UK,7272264.76
+CUST001373,Amazon Supply Chain,E-commerce,UK,2272479.14
+CUST001374,Amazon Supply Chain,E-commerce,UAE,5345526.99
+CUST001375,Shell Trading,E-commerce,UK,5499953.39
+CUST001376,Samsung Shipping,Retail,Germany,8028406.33
+CUST001377,Maersk Logistics,E-commerce,USA,185435.83
+CUST001378,Shell Trading,Retail,China,3575986.98
+CUST001379,Nestle Global,Retail,USA,9070605.12
+CUST001380,Nestle Global,Manufacturing,UAE,6828825.9
+CUST001381,Maersk Logistics,E-commerce,Nigeria,5327197.29
+CUST001382,Nestle Global,E-commerce,Germany,2037337.73
+CUST001383,Maersk Logistics,Manufacturing,USA,3565055.21
+CUST001384,Amazon Supply Chain,Oil & Gas,UAE,453306.61
+CUST001385,DHL Global,E-commerce,USA,2109950.45
+CUST001386,Samsung Shipping,Manufacturing,Nigeria,7871669.29
+CUST001387,Samsung Shipping,E-commerce,UK,8349970.83
+CUST001388,Amazon Supply Chain,E-commerce,China,5075996.51
+CUST001389,Walmart Imports,Manufacturing,Germany,4619023.54
+CUST001390,Maersk Logistics,Retail,UK,3251463.04
+CUST001391,Shell Trading,Manufacturing,UAE,5028712.95
+CUST001392,Samsung Shipping,Manufacturing,Nigeria,4852564.02
+CUST001393,Walmart Imports,E-commerce,China,6116407.88
+CUST001394,Walmart Imports,Oil & Gas,USA,960539.46
+CUST001395,DHL Global,E-commerce,USA,5577488.36
+CUST001396,Walmart Imports,Manufacturing,USA,4384517.09
+CUST001397,Walmart Imports,Manufacturing,Germany,2498678.85
+CUST001398,Toyota Logistics,E-commerce,China,3683099.58
+CUST001399,Walmart Imports,E-commerce,UAE,7658084.47
+CUST001400,Walmart Imports,Manufacturing,UAE,836699.5
+CUST001401,Amazon Supply Chain,E-commerce,UAE,2412039.32
+CUST001402,Maersk Logistics,Retail,UAE,3676750.25
+CUST001403,Amazon Supply Chain,E-commerce,Nigeria,6341207.97
+CUST001404,DHL Global,Retail,China,2291740.51
+CUST001405,Toyota Logistics,Retail,Germany,3783534.17
+CUST001406,Nestle Global,Retail,USA,2383689.23
+CUST001407,Walmart Imports,E-commerce,China,9823773.78
+CUST001408,Maersk Logistics,Manufacturing,Nigeria,2964856.79
+CUST001409,Amazon Supply Chain,Retail,UAE,5621828.46
+CUST001410,Nestle Global,Manufacturing,Germany,7174353.11
+CUST001411,Maersk Logistics,E-commerce,UK,9082997.1
+CUST001412,Walmart Imports,Oil & Gas,Germany,9814417.65
+CUST001413,Samsung Shipping,Manufacturing,UK,4357508.53
+CUST001414,Toyota Logistics,Retail,Germany,1939243.64
+CUST001415,DHL Global,Manufacturing,USA,7367184.47
+CUST001416,Walmart Imports,Retail,UAE,732064.93
+CUST001417,Shell Trading,Retail,China,9912885.23
+CUST001418,Maersk Logistics,Retail,China,909373.57
+CUST001419,Samsung Shipping,Manufacturing,China,3025310.27
+CUST001420,Toyota Logistics,Manufacturing,USA,7155773.92
+CUST001421,Amazon Supply Chain,E-commerce,China,6736492.92
+CUST001422,DHL Global,Manufacturing,UAE,4932198.85
+CUST001423,Maersk Logistics,Manufacturing,UK,2817207.46
+CUST001424,Nestle Global,Oil & Gas,Germany,1360218.11
+CUST001425,Samsung Shipping,E-commerce,Nigeria,8632392.43
+CUST001426,Maersk Logistics,E-commerce,USA,415131.68
+CUST001427,Samsung Shipping,Retail,Germany,9438233.55
+CUST001428,Walmart Imports,E-commerce,Nigeria,6145737.1
+CUST001429,Walmart Imports,Retail,UAE,6469071.32
+CUST001430,Shell Trading,Retail,Germany,6745411.58
+CUST001431,DHL Global,Retail,USA,1293243.5
+CUST001432,Walmart Imports,Retail,China,6064541.46
+CUST001433,Samsung Shipping,Manufacturing,Nigeria,5159775.0
+CUST001434,Samsung Shipping,Manufacturing,China,3848755.47
+CUST001435,DHL Global,Oil & Gas,UAE,2180587.79
+CUST001436,Samsung Shipping,Retail,Germany,9189139.38
+CUST001437,Shell Trading,E-commerce,UK,5866402.91
+CUST001438,Shell Trading,Manufacturing,Nigeria,9593792.33
+CUST001439,Maersk Logistics,Retail,UK,4253598.14
+CUST001440,Amazon Supply Chain,Oil & Gas,USA,7397878.19
+CUST001441,Nestle Global,Oil & Gas,UAE,7714434.11
+CUST001442,Nestle Global,Oil & Gas,UAE,7777896.75
+CUST001443,Maersk Logistics,E-commerce,Germany,6603354.3
+CUST001444,Samsung Shipping,Manufacturing,Germany,722160.16
+CUST001445,Walmart Imports,Oil & Gas,UK,7842898.37
+CUST001446,DHL Global,Oil & Gas,USA,9790744.16
+CUST001447,Nestle Global,Manufacturing,Germany,7817512.32
+CUST001448,Samsung Shipping,E-commerce,Germany,577641.85
+CUST001449,Shell Trading,Retail,Nigeria,1148938.91
+CUST001450,Maersk Logistics,Oil & Gas,Nigeria,99168.71
+CUST001451,Toyota Logistics,Retail,Nigeria,3129952.08
+CUST001452,Shell Trading,Retail,Nigeria,4489684.33
+CUST001453,Walmart Imports,Oil & Gas,UAE,4967192.88
+CUST001454,Shell Trading,Oil & Gas,China,9668637.3
+CUST001455,Maersk Logistics,Retail,Nigeria,6204999.32
+CUST001456,Walmart Imports,E-commerce,USA,4355376.33
+CUST001457,DHL Global,Oil & Gas,Nigeria,2081564.44
+CUST001458,Maersk Logistics,Manufacturing,USA,915271.68
+CUST001459,DHL Global,Manufacturing,UK,2045901.82
+CUST001460,DHL Global,E-commerce,USA,7910733.81
+CUST001461,Toyota Logistics,Manufacturing,Nigeria,7365485.85
+CUST001462,Toyota Logistics,Oil & Gas,UK,3986031.93
+CUST001463,Walmart Imports,Manufacturing,Nigeria,8342099.48
+CUST001464,Amazon Supply Chain,Retail,China,1957503.17
+CUST001465,Amazon Supply Chain,Manufacturing,China,7850139.53
+CUST001466,Toyota Logistics,Retail,Germany,7528918.48
+CUST001467,Amazon Supply Chain,Manufacturing,UAE,5836018.46
+CUST001468,Walmart Imports,Retail,USA,196485.15
+CUST001469,Toyota Logistics,Manufacturing,Germany,8790556.3
+CUST001470,Walmart Imports,Retail,USA,8639398.27
+CUST001471,Samsung Shipping,E-commerce,Germany,2607373.67
+CUST001472,Toyota Logistics,Oil & Gas,China,9594966.83
+CUST001473,Shell Trading,Manufacturing,UK,8798430.39
+CUST001474,Samsung Shipping,Oil & Gas,USA,8485838.89
+CUST001475,Samsung Shipping,Retail,Nigeria,9991340.61
+CUST001476,Maersk Logistics,Oil & Gas,UAE,4551635.25
+CUST001477,Amazon Supply Chain,E-commerce,Germany,8044284.4
+CUST001478,Walmart Imports,Retail,UAE,1986783.02
+CUST001479,Nestle Global,Manufacturing,China,1591395.3
+CUST001480,Nestle Global,Manufacturing,UAE,8132165.98
+CUST001481,DHL Global,E-commerce,UAE,9420944.88
+CUST001482,Shell Trading,Retail,Germany,2050198.07
+CUST001483,Maersk Logistics,E-commerce,Nigeria,4625769.31
+CUST001484,Amazon Supply Chain,Retail,UAE,5273165.8
+CUST001485,Nestle Global,E-commerce,Nigeria,1158058.99
+CUST001486,Walmart Imports,Manufacturing,UAE,4096336.34
+CUST001487,Walmart Imports,Retail,UK,2230050.66
+CUST001488,Nestle Global,Oil & Gas,USA,2510807.69
+CUST001489,Amazon Supply Chain,Manufacturing,USA,3524527.16
+CUST001490,Nestle Global,Oil & Gas,Nigeria,5890525.53
+CUST001491,Shell Trading,E-commerce,China,2766634.16
+CUST001492,Walmart Imports,E-commerce,Nigeria,5874128.07
+CUST001493,DHL Global,Manufacturing,Germany,1876638.11
+CUST001494,Nestle Global,E-commerce,Nigeria,9374014.05
+CUST001495,Amazon Supply Chain,Retail,USA,5866215.35
+CUST001496,Maersk Logistics,E-commerce,UK,6471921.21
+CUST001497,Samsung Shipping,Retail,UAE,7235337.59
+CUST001498,Maersk Logistics,Retail,Germany,8995752.02
+CUST001499,Amazon Supply Chain,E-commerce,China,6026301.44
+CUST001500,Maersk Logistics,Oil & Gas,UAE,9274746.93
+CUST001501,Walmart Imports,Retail,USA,8474081.69
+CUST001502,Nestle Global,Manufacturing,Germany,3339251.01
+CUST001503,DHL Global,E-commerce,China,8370389.28
+CUST001504,Amazon Supply Chain,Oil & Gas,UAE,2964098.22
+CUST001505,Maersk Logistics,Manufacturing,Nigeria,8603664.46
+CUST001506,Maersk Logistics,Oil & Gas,UAE,5170643.71
+CUST001507,Nestle Global,Oil & Gas,UAE,5410653.75
+CUST001508,Amazon Supply Chain,Oil & Gas,USA,5769788.36
+CUST001509,Amazon Supply Chain,Retail,Nigeria,8723845.76
+CUST001510,Samsung Shipping,Manufacturing,China,8192645.04
+CUST001511,Amazon Supply Chain,E-commerce,UK,9628143.36
+CUST001512,Samsung Shipping,Retail,UAE,3811806.32
+CUST001513,Amazon Supply Chain,Manufacturing,UAE,5687525.45
+CUST001514,Shell Trading,E-commerce,USA,217679.43
+CUST001515,Walmart Imports,Oil & Gas,Nigeria,3187321.89
+CUST001516,Amazon Supply Chain,Manufacturing,China,1268760.28
+CUST001517,Samsung Shipping,Manufacturing,UK,2105334.42
+CUST001518,Nestle Global,Oil & Gas,China,2855160.41
+CUST001519,Toyota Logistics,Oil & Gas,Germany,2778601.39
+CUST001520,Amazon Supply Chain,E-commerce,UAE,1940355.88
+CUST001521,Amazon Supply Chain,Retail,China,7860351.76
+CUST001522,Amazon Supply Chain,Oil & Gas,UAE,163824.53
+CUST001523,Maersk Logistics,Manufacturing,China,8958287.31
+CUST001524,Amazon Supply Chain,E-commerce,Germany,7737934.59
+CUST001525,Amazon Supply Chain,Retail,Germany,8932831.9
+CUST001526,Maersk Logistics,E-commerce,Germany,6041814.29
+CUST001527,Toyota Logistics,Oil & Gas,Nigeria,9987705.36
+CUST001528,Samsung Shipping,Oil & Gas,Nigeria,1359649.81
+CUST001529,Amazon Supply Chain,Retail,USA,4994892.51
+CUST001530,Nestle Global,Oil & Gas,UAE,9805600.43
+CUST001531,Nestle Global,Manufacturing,Germany,8531852.07
+CUST001532,DHL Global,Retail,UK,2358756.86
+CUST001533,Walmart Imports,E-commerce,China,7772145.87
+CUST001534,DHL Global,Manufacturing,Germany,3810234.79
+CUST001535,Samsung Shipping,E-commerce,UK,2538024.34
+CUST001536,Maersk Logistics,Retail,USA,7546514.65
+CUST001537,Walmart Imports,Retail,Germany,2333792.56
+CUST001538,Toyota Logistics,E-commerce,Nigeria,3252901.39
+CUST001539,DHL Global,E-commerce,Germany,5972018.22
+CUST001540,Nestle Global,Retail,USA,5632431.77
+CUST001541,Samsung Shipping,Retail,USA,3555624.41
+CUST001542,Walmart Imports,E-commerce,UK,9236007.91
+CUST001543,Nestle Global,E-commerce,Germany,4345147.35
+CUST001544,Walmart Imports,Manufacturing,UK,88130.03
+CUST001545,Amazon Supply Chain,Oil & Gas,UAE,1138527.43
+CUST001546,Samsung Shipping,Retail,Germany,676626.83
+CUST001547,Maersk Logistics,Manufacturing,Nigeria,3352279.07
+CUST001548,Toyota Logistics,Retail,Nigeria,4869870.57
+CUST001549,Nestle Global,Retail,UK,793714.14
+CUST001550,Nestle Global,Retail,Germany,512512.78
+CUST001551,Nestle Global,Oil & Gas,USA,8420558.12
+CUST001552,Toyota Logistics,Oil & Gas,Germany,7699409.52
+CUST001553,Maersk Logistics,Retail,China,1725528.58
+CUST001554,Amazon Supply Chain,Retail,UAE,8045312.47
+CUST001555,Toyota Logistics,Oil & Gas,UK,1530047.56
+CUST001556,DHL Global,Oil & Gas,Nigeria,7430968.48
+CUST001557,DHL Global,Oil & Gas,China,1132388.58
+CUST001558,Walmart Imports,Manufacturing,USA,9705749.84
+CUST001559,Toyota Logistics,E-commerce,Nigeria,1394751.13
+CUST001560,Amazon Supply Chain,E-commerce,Nigeria,2510175.01
+CUST001561,Shell Trading,E-commerce,USA,7361491.82
+CUST001562,DHL Global,E-commerce,Nigeria,4461929.62
+CUST001563,Walmart Imports,Manufacturing,Nigeria,2952992.7
+CUST001564,Shell Trading,E-commerce,USA,5048505.23
+CUST001565,Maersk Logistics,E-commerce,USA,1064884.84
+CUST001566,Samsung Shipping,Oil & Gas,UK,9160947.54
+CUST001567,Nestle Global,Oil & Gas,UK,2917683.26
+CUST001568,Walmart Imports,E-commerce,Nigeria,1630564.37
+CUST001569,DHL Global,E-commerce,Germany,108703.13
+CUST001570,Shell Trading,E-commerce,Nigeria,3611216.79
+CUST001571,Toyota Logistics,Manufacturing,USA,7373309.04
+CUST001572,DHL Global,Oil & Gas,Nigeria,3179512.9
+CUST001573,Amazon Supply Chain,E-commerce,China,5448299.23
+CUST001574,Amazon Supply Chain,Retail,UK,4212894.44
+CUST001575,Amazon Supply Chain,E-commerce,Germany,5914329.88
+CUST001576,Nestle Global,Retail,Nigeria,9671362.45
+CUST001577,Walmart Imports,E-commerce,USA,4044981.88
+CUST001578,Maersk Logistics,Manufacturing,Nigeria,6482405.57
+CUST001579,Maersk Logistics,Retail,China,6346169.78
+CUST001580,Shell Trading,E-commerce,Germany,7422772.17
+CUST001581,Maersk Logistics,Oil & Gas,Germany,2270053.13
+CUST001582,Samsung Shipping,Manufacturing,USA,7126765.89
+CUST001583,Maersk Logistics,Manufacturing,Nigeria,5610034.25
+CUST001584,Toyota Logistics,Manufacturing,UAE,7091481.93
+CUST001585,Maersk Logistics,Retail,Germany,6025546.42
+CUST001586,Nestle Global,Retail,Nigeria,271779.44
+CUST001587,Shell Trading,E-commerce,UAE,9655855.99
+CUST001588,Amazon Supply Chain,Manufacturing,China,1251912.05
+CUST001589,DHL Global,E-commerce,Nigeria,8291349.18
+CUST001590,Walmart Imports,Manufacturing,UK,1557361.04
+CUST001591,Maersk Logistics,Retail,China,4842716.71
+CUST001592,Walmart Imports,Retail,Germany,678300.71
+CUST001593,Samsung Shipping,E-commerce,USA,7033073.33
+CUST001594,DHL Global,Retail,Nigeria,1663462.95
+CUST001595,Amazon Supply Chain,Manufacturing,China,184210.39
+CUST001596,DHL Global,Retail,China,7109018.93
+CUST001597,Shell Trading,Retail,UK,4685713.57
+CUST001598,Shell Trading,Oil & Gas,UK,8120056.01
+CUST001599,DHL Global,Manufacturing,UK,6174637.33
+CUST001600,Maersk Logistics,E-commerce,UK,7923999.06
+CUST001601,DHL Global,Oil & Gas,USA,9469164.16
+CUST001602,Shell Trading,Oil & Gas,USA,1157739.63
+CUST001603,Walmart Imports,E-commerce,China,2684232.65
+CUST001604,Samsung Shipping,Oil & Gas,China,3853296.73
+CUST001605,Maersk Logistics,Oil & Gas,Germany,1687754.8
+CUST001606,DHL Global,Retail,Nigeria,8606192.59
+CUST001607,Maersk Logistics,Oil & Gas,USA,4347517.05
+CUST001608,Shell Trading,Manufacturing,UAE,4252298.1
+CUST001609,Shell Trading,Oil & Gas,Germany,1575843.32
+CUST001610,Shell Trading,Retail,USA,9886057.4
+CUST001611,Toyota Logistics,Manufacturing,Nigeria,748745.56
+CUST001612,Nestle Global,Manufacturing,USA,397740.41
+CUST001613,DHL Global,E-commerce,USA,8216987.88
+CUST001614,Maersk Logistics,E-commerce,China,3158979.39
+CUST001615,Toyota Logistics,Retail,USA,7803733.86
+CUST001616,Maersk Logistics,E-commerce,Germany,8087033.34
+CUST001617,Amazon Supply Chain,Manufacturing,UAE,5219473.63
+CUST001618,Maersk Logistics,Retail,UAE,3476486.34
+CUST001619,Shell Trading,Retail,Germany,2881590.01
+CUST001620,Walmart Imports,Manufacturing,USA,7243557.04
+CUST001621,Shell Trading,Retail,UAE,1694941.15
+CUST001622,Shell Trading,Manufacturing,UK,5755917.0
+CUST001623,Nestle Global,E-commerce,UK,3483487.39
+CUST001624,Amazon Supply Chain,E-commerce,Germany,6283314.54
+CUST001625,Maersk Logistics,Manufacturing,UAE,1352307.82
+CUST001626,Nestle Global,Manufacturing,Nigeria,8897075.3
+CUST001627,Samsung Shipping,Manufacturing,China,4497732.08
+CUST001628,Amazon Supply Chain,Retail,China,133804.75
+CUST001629,Samsung Shipping,Manufacturing,UK,6968913.3
+CUST001630,Nestle Global,Manufacturing,China,1693073.3
+CUST001631,Nestle Global,E-commerce,Nigeria,1542393.07
+CUST001632,Toyota Logistics,Manufacturing,UAE,2299505.53
+CUST001633,Walmart Imports,E-commerce,Germany,5785950.25
+CUST001634,Shell Trading,Manufacturing,Nigeria,3578218.45
+CUST001635,DHL Global,Manufacturing,Nigeria,6718483.87
+CUST001636,Walmart Imports,Oil & Gas,UAE,8895968.77
+CUST001637,Walmart Imports,Manufacturing,China,3815098.53
+CUST001638,Samsung Shipping,Retail,Nigeria,3782816.43
+CUST001639,Shell Trading,Oil & Gas,China,5114976.68
+CUST001640,Shell Trading,Retail,Germany,4275788.12
+CUST001641,Nestle Global,E-commerce,UAE,1173049.18
+CUST001642,Shell Trading,E-commerce,Germany,4272395.65
+CUST001643,Nestle Global,Retail,Nigeria,5199036.59
+CUST001644,Shell Trading,Oil & Gas,China,2855179.54
+CUST001645,Toyota Logistics,E-commerce,Nigeria,5434536.11
+CUST001646,Amazon Supply Chain,Retail,China,6765848.47
+CUST001647,Walmart Imports,Oil & Gas,China,5434481.05
+CUST001648,DHL Global,Oil & Gas,UAE,7259760.07
+CUST001649,DHL Global,Manufacturing,UK,2074563.99
+CUST001650,Samsung Shipping,Retail,Germany,2250941.38
+CUST001651,Maersk Logistics,Retail,Germany,8070302.17
+CUST001652,Toyota Logistics,Retail,USA,2251810.57
+CUST001653,Walmart Imports,Oil & Gas,Germany,8837731.25
+CUST001654,DHL Global,E-commerce,USA,4063035.66
+CUST001655,Maersk Logistics,Oil & Gas,Nigeria,5115640.52
+CUST001656,Walmart Imports,E-commerce,USA,8803211.11
+CUST001657,Amazon Supply Chain,Manufacturing,China,5995559.88
+CUST001658,Maersk Logistics,Retail,Germany,7705148.36
+CUST001659,Shell Trading,Oil & Gas,China,9495197.36
+CUST001660,Shell Trading,Oil & Gas,UAE,7302193.84
+CUST001661,Walmart Imports,E-commerce,Nigeria,140825.52
+CUST001662,DHL Global,Retail,UAE,397318.7
+CUST001663,Amazon Supply Chain,Oil & Gas,UAE,8031754.67
+CUST001664,Nestle Global,Retail,China,8861547.03
+CUST001665,Shell Trading,Oil & Gas,Germany,9551834.85
+CUST001666,Amazon Supply Chain,E-commerce,Nigeria,618076.92
+CUST001667,Walmart Imports,Oil & Gas,USA,1633974.54
+CUST001668,Shell Trading,Retail,USA,3615602.48
+CUST001669,Samsung Shipping,E-commerce,UK,2795884.39
+CUST001670,Toyota Logistics,Retail,Germany,8353778.15
+CUST001671,Maersk Logistics,Retail,UK,7409079.28
+CUST001672,Nestle Global,E-commerce,Nigeria,9131687.52
+CUST001673,Toyota Logistics,E-commerce,Nigeria,8158665.26
+CUST001674,Toyota Logistics,E-commerce,Germany,5728601.59
+CUST001675,DHL Global,Oil & Gas,China,9819645.28
+CUST001676,Nestle Global,Oil & Gas,Germany,7939445.07
+CUST001677,Samsung Shipping,E-commerce,Nigeria,8449523.27
+CUST001678,Maersk Logistics,Oil & Gas,UK,9076977.8
+CUST001679,Nestle Global,Retail,China,2446878.34
+CUST001680,Shell Trading,Manufacturing,China,948905.62
+CUST001681,Maersk Logistics,E-commerce,Germany,3088865.35
+CUST001682,Maersk Logistics,Manufacturing,Germany,1089126.29
+CUST001683,DHL Global,Oil & Gas,UK,5378682.64
+CUST001684,DHL Global,E-commerce,UK,8387825.98
+CUST001685,Shell Trading,Oil & Gas,Germany,7199952.71
+CUST001686,Maersk Logistics,Oil & Gas,China,6401239.87
+CUST001687,Amazon Supply Chain,Oil & Gas,UAE,3269084.59
+CUST001688,Shell Trading,Retail,China,2954578.74
+CUST001689,Amazon Supply Chain,Manufacturing,Germany,6353479.04
+CUST001690,DHL Global,Oil & Gas,Nigeria,365727.11
+CUST001691,Walmart Imports,E-commerce,USA,2420882.36
+CUST001692,Samsung Shipping,E-commerce,China,8371358.02
+CUST001693,Toyota Logistics,Manufacturing,UK,3423542.83
+CUST001694,Shell Trading,Retail,Nigeria,8109853.27
+CUST001695,Toyota Logistics,Manufacturing,UK,9887021.04
+CUST001696,Amazon Supply Chain,E-commerce,UK,8497486.17
+CUST001697,Walmart Imports,E-commerce,UK,9248835.02
+CUST001698,Samsung Shipping,Manufacturing,Nigeria,7222673.36
+CUST001699,Samsung Shipping,Manufacturing,China,6536039.56
+CUST001700,Amazon Supply Chain,Manufacturing,UK,7237329.98
+CUST001701,Amazon Supply Chain,Manufacturing,USA,5878220.79
+CUST001702,Walmart Imports,Manufacturing,Germany,8910733.55
+CUST001703,Toyota Logistics,E-commerce,Nigeria,2061658.85
+CUST001704,Nestle Global,Retail,Nigeria,8936210.95
+CUST001705,Amazon Supply Chain,Manufacturing,Germany,9152575.62
+CUST001706,Samsung Shipping,Oil & Gas,China,6027224.98
+CUST001707,Walmart Imports,E-commerce,Nigeria,6095559.04
+CUST001708,DHL Global,Oil & Gas,Nigeria,365927.47
+CUST001709,Toyota Logistics,Manufacturing,UAE,5822038.52
+CUST001710,DHL Global,E-commerce,UAE,4541690.62
+CUST001711,Maersk Logistics,Manufacturing,China,3049563.69
+CUST001712,Toyota Logistics,Oil & Gas,UK,1084565.13
+CUST001713,Samsung Shipping,E-commerce,USA,5532189.13
+CUST001714,Shell Trading,E-commerce,UAE,8342306.12
+CUST001715,Samsung Shipping,Manufacturing,Germany,200667.85
+CUST001716,Shell Trading,Retail,UAE,4469058.01
+CUST001717,Samsung Shipping,Retail,USA,9201732.49
+CUST001718,Amazon Supply Chain,Oil & Gas,UK,8782785.76
+CUST001719,Walmart Imports,Oil & Gas,Nigeria,1015021.15
+CUST001720,Walmart Imports,E-commerce,Germany,4449133.58
+CUST001721,Shell Trading,Manufacturing,Nigeria,8293813.54
+CUST001722,Nestle Global,Retail,UK,6107034.98
+CUST001723,Toyota Logistics,Manufacturing,China,2098088.54
+CUST001724,DHL Global,Manufacturing,Nigeria,2547380.0
+CUST001725,Samsung Shipping,Oil & Gas,Germany,8295881.7
+CUST001726,DHL Global,Oil & Gas,UAE,5316388.99
+CUST001727,Samsung Shipping,E-commerce,China,4512581.8
+CUST001728,DHL Global,E-commerce,China,7659202.18
+CUST001729,Nestle Global,Retail,Nigeria,3440677.91
+CUST001730,DHL Global,Oil & Gas,UK,9758307.87
+CUST001731,Samsung Shipping,Retail,UAE,6265840.74
+CUST001732,Nestle Global,E-commerce,China,6677357.95
+CUST001733,Nestle Global,E-commerce,Germany,7204295.64
+CUST001734,Toyota Logistics,Retail,UAE,6506146.03
+CUST001735,DHL Global,Manufacturing,UAE,8501495.95
+CUST001736,Toyota Logistics,Retail,UAE,1753757.16
+CUST001737,DHL Global,E-commerce,USA,5813710.54
+CUST001738,DHL Global,E-commerce,UAE,136728.95
+CUST001739,Samsung Shipping,Manufacturing,UAE,3784836.41
+CUST001740,DHL Global,E-commerce,Germany,1525185.24
+CUST001741,DHL Global,Oil & Gas,Nigeria,3541034.03
+CUST001742,Toyota Logistics,Manufacturing,UK,1548023.0
+CUST001743,Maersk Logistics,E-commerce,UAE,1162822.4
+CUST001744,Samsung Shipping,E-commerce,Germany,4223412.95
+CUST001745,Amazon Supply Chain,Manufacturing,UK,9356030.55
+CUST001746,Amazon Supply Chain,E-commerce,USA,2067218.0
+CUST001747,Shell Trading,Retail,Germany,8302824.37
+CUST001748,Amazon Supply Chain,Manufacturing,Nigeria,510857.21
+CUST001749,Toyota Logistics,Retail,Germany,7457880.09
+CUST001750,Maersk Logistics,Retail,UK,7295174.14
+CUST001751,Nestle Global,Oil & Gas,Germany,9064201.33
+CUST001752,Samsung Shipping,E-commerce,Nigeria,5727382.55
+CUST001753,Walmart Imports,E-commerce,Nigeria,6744485.13
+CUST001754,DHL Global,Oil & Gas,USA,8110129.03
+CUST001755,Shell Trading,Retail,Nigeria,388774.06
+CUST001756,Samsung Shipping,Retail,China,2425050.02
+CUST001757,DHL Global,Retail,UK,2563779.12
+CUST001758,DHL Global,Retail,UAE,2755199.02
+CUST001759,DHL Global,Retail,Nigeria,884549.97
+CUST001760,Nestle Global,E-commerce,UK,4478932.66
+CUST001761,Amazon Supply Chain,E-commerce,Nigeria,2745181.99
+CUST001762,Nestle Global,Retail,China,9067894.37
+CUST001763,Shell Trading,Oil & Gas,Germany,8874227.86
+CUST001764,DHL Global,Manufacturing,USA,6876953.98
+CUST001765,Maersk Logistics,Retail,UAE,6370297.71
+CUST001766,Toyota Logistics,E-commerce,Nigeria,6731697.12
+CUST001767,Amazon Supply Chain,Retail,China,2092289.2
+CUST001768,Nestle Global,Oil & Gas,UAE,1713265.48
+CUST001769,Toyota Logistics,Manufacturing,Germany,8879282.4
+CUST001770,Shell Trading,E-commerce,UK,8919526.37
+CUST001771,Maersk Logistics,Oil & Gas,UK,6228836.59
+CUST001772,DHL Global,Oil & Gas,Germany,181477.22
+CUST001773,Toyota Logistics,E-commerce,China,4997964.1
+CUST001774,Nestle Global,Manufacturing,UAE,8312782.6
+CUST001775,Shell Trading,Manufacturing,USA,2086621.21
+CUST001776,DHL Global,Oil & Gas,Germany,7374003.17
+CUST001777,Shell Trading,Oil & Gas,China,8229384.59
+CUST001778,Samsung Shipping,Oil & Gas,Nigeria,1631439.66
+CUST001779,Nestle Global,E-commerce,UAE,436364.56
+CUST001780,Shell Trading,E-commerce,UK,4206072.29
+CUST001781,Maersk Logistics,Retail,UK,4477825.35
+CUST001782,Toyota Logistics,Oil & Gas,UK,6098072.7
+CUST001783,Amazon Supply Chain,Oil & Gas,UAE,953508.45
+CUST001784,Maersk Logistics,Oil & Gas,USA,5936165.38
+CUST001785,Samsung Shipping,Oil & Gas,Germany,6373721.8
+CUST001786,Shell Trading,Oil & Gas,UK,8797200.59
+CUST001787,Shell Trading,Manufacturing,USA,2837774.19
+CUST001788,Nestle Global,E-commerce,UK,7835495.87
+CUST001789,Maersk Logistics,Oil & Gas,UK,590234.94
+CUST001790,Toyota Logistics,Oil & Gas,China,209306.24
+CUST001791,Walmart Imports,Retail,UK,3977712.66
+CUST001792,Amazon Supply Chain,E-commerce,China,4214321.82
+CUST001793,Shell Trading,Oil & Gas,China,1130449.09
+CUST001794,Toyota Logistics,Retail,China,1152006.69
+CUST001795,Samsung Shipping,Oil & Gas,USA,2546007.9
+CUST001796,Shell Trading,E-commerce,Germany,6101352.85
+CUST001797,Toyota Logistics,E-commerce,China,4456542.44
+CUST001798,Walmart Imports,Retail,USA,5907251.44
+CUST001799,Samsung Shipping,Manufacturing,UAE,966718.59
+CUST001800,Walmart Imports,Manufacturing,Nigeria,9060348.14
+CUST001801,DHL Global,Oil & Gas,USA,3096070.6
+CUST001802,Shell Trading,E-commerce,China,8405094.16
+CUST001803,Toyota Logistics,Retail,Nigeria,647828.63
+CUST001804,DHL Global,E-commerce,UK,7052553.3
+CUST001805,Maersk Logistics,Oil & Gas,Germany,2166643.07
+CUST001806,Toyota Logistics,Oil & Gas,China,8167246.08
+CUST001807,Walmart Imports,Oil & Gas,USA,8738041.38
+CUST001808,Nestle Global,Retail,UK,4695845.33
+CUST001809,Samsung Shipping,Oil & Gas,Germany,9885755.31
+CUST001810,Walmart Imports,Retail,UAE,2297593.17
+CUST001811,Amazon Supply Chain,Oil & Gas,Nigeria,3876184.34
+CUST001812,Amazon Supply Chain,Manufacturing,China,6207023.76
+CUST001813,Maersk Logistics,E-commerce,USA,3332817.8
+CUST001814,Samsung Shipping,E-commerce,USA,2085247.55
+CUST001815,Samsung Shipping,E-commerce,UAE,9942646.22
+CUST001816,Toyota Logistics,Oil & Gas,Nigeria,3654240.49
+CUST001817,Maersk Logistics,Oil & Gas,UK,8648396.58
+CUST001818,DHL Global,Retail,UAE,239513.69
+CUST001819,Nestle Global,E-commerce,China,7513277.16
+CUST001820,Maersk Logistics,Retail,Germany,6249393.8
+CUST001821,Amazon Supply Chain,Manufacturing,UAE,440258.97
+CUST001822,Maersk Logistics,Oil & Gas,Nigeria,7133579.43
+CUST001823,Walmart Imports,E-commerce,China,4447192.72
+CUST001824,Walmart Imports,Manufacturing,UK,7028217.37
+CUST001825,Shell Trading,E-commerce,Germany,93496.8
+CUST001826,Nestle Global,Retail,UK,7096120.73
+CUST001827,Amazon Supply Chain,Oil & Gas,USA,99882.66
+CUST001828,Shell Trading,Retail,UAE,270983.55
+CUST001829,Shell Trading,Manufacturing,China,2360373.58
+CUST001830,Samsung Shipping,E-commerce,Germany,1936468.87
+CUST001831,Samsung Shipping,Oil & Gas,UAE,2548329.97
+CUST001832,Nestle Global,Manufacturing,Germany,5935226.09
+CUST001833,Shell Trading,Oil & Gas,Nigeria,962060.93
+CUST001834,Walmart Imports,Oil & Gas,USA,5988393.4
+CUST001835,Walmart Imports,E-commerce,UAE,1714881.52
+CUST001836,Walmart Imports,Manufacturing,Germany,9143520.01
+CUST001837,Shell Trading,E-commerce,China,6708839.1
+CUST001838,Shell Trading,E-commerce,UAE,4144241.0
+CUST001839,Samsung Shipping,Oil & Gas,Nigeria,7660406.34
+CUST001840,Toyota Logistics,Manufacturing,Nigeria,906171.27
+CUST001841,Shell Trading,Oil & Gas,USA,2840464.07
+CUST001842,Walmart Imports,Retail,Germany,6759200.59
+CUST001843,Toyota Logistics,Manufacturing,Nigeria,6364584.3
+CUST001844,Amazon Supply Chain,Retail,USA,5006149.85
+CUST001845,DHL Global,Retail,Nigeria,3196658.51
+CUST001846,Nestle Global,Retail,Nigeria,189865.68
+CUST001847,Walmart Imports,Manufacturing,Germany,7074346.55
+CUST001848,DHL Global,E-commerce,China,309491.04
+CUST001849,DHL Global,Retail,Nigeria,4991407.4
+CUST001850,Shell Trading,E-commerce,UK,5879878.53
+CUST001851,Nestle Global,Retail,China,1747851.54
+CUST001852,Shell Trading,Retail,Nigeria,6242193.47
+CUST001853,Shell Trading,Retail,UAE,1108767.27
+CUST001854,Maersk Logistics,E-commerce,Germany,3818616.74
+CUST001855,Walmart Imports,Retail,USA,5347155.41
+CUST001856,Walmart Imports,E-commerce,China,5243137.67
+CUST001857,Samsung Shipping,Oil & Gas,China,7556475.64
+CUST001858,DHL Global,Retail,UK,6617442.86
+CUST001859,Amazon Supply Chain,E-commerce,Nigeria,9079716.59
+CUST001860,Samsung Shipping,Oil & Gas,Nigeria,3566044.0
+CUST001861,Walmart Imports,E-commerce,USA,8578080.21
+CUST001862,Maersk Logistics,Manufacturing,UAE,8995966.19
+CUST001863,Amazon Supply Chain,Manufacturing,UAE,3586221.93
+CUST001864,Toyota Logistics,Manufacturing,China,671657.14
+CUST001865,Samsung Shipping,Retail,Nigeria,6360652.64
+CUST001866,Walmart Imports,Oil & Gas,UAE,4365145.83
+CUST001867,DHL Global,Retail,Germany,9146102.62
+CUST001868,DHL Global,E-commerce,China,3910492.32
+CUST001869,Maersk Logistics,Oil & Gas,Nigeria,9977340.03
+CUST001870,Samsung Shipping,E-commerce,Germany,930959.53
+CUST001871,Samsung Shipping,Manufacturing,UK,1984572.57
+CUST001872,Nestle Global,Retail,Nigeria,9220971.73
+CUST001873,Shell Trading,E-commerce,USA,2873753.08
+CUST001874,Maersk Logistics,Manufacturing,China,6862473.52
+CUST001875,DHL Global,Retail,USA,4296711.93
+CUST001876,DHL Global,E-commerce,UAE,2817324.66
+CUST001877,Samsung Shipping,Manufacturing,Nigeria,2287351.74
+CUST001878,Samsung Shipping,Retail,USA,1622710.58
+CUST001879,DHL Global,Manufacturing,UK,891363.11
+CUST001880,Toyota Logistics,Manufacturing,Nigeria,4582491.83
+CUST001881,Nestle Global,E-commerce,Germany,3556373.39
+CUST001882,Maersk Logistics,E-commerce,UAE,8177667.06
+CUST001883,Shell Trading,E-commerce,China,7175858.54
+CUST001884,Nestle Global,E-commerce,UAE,2112609.95
+CUST001885,Maersk Logistics,E-commerce,China,3089569.41
+CUST001886,DHL Global,Manufacturing,Germany,7228616.11
+CUST001887,Walmart Imports,Retail,Nigeria,4945346.23
+CUST001888,Walmart Imports,Manufacturing,Germany,3222232.95
+CUST001889,Toyota Logistics,Retail,UK,5367105.14
+CUST001890,Nestle Global,Oil & Gas,UAE,6222568.02
+CUST001891,DHL Global,Manufacturing,Germany,6121929.23
+CUST001892,Samsung Shipping,Manufacturing,Nigeria,5233231.33
+CUST001893,Toyota Logistics,E-commerce,UK,5250621.41
+CUST001894,Walmart Imports,Manufacturing,Germany,5584993.5
+CUST001895,Toyota Logistics,Retail,Nigeria,4227419.14
+CUST001896,DHL Global,Manufacturing,UAE,2497713.7
+CUST001897,DHL Global,Retail,USA,3248114.68
+CUST001898,Amazon Supply Chain,E-commerce,Germany,1617842.0
+CUST001899,Samsung Shipping,Oil & Gas,UAE,9871708.04
+CUST001900,DHL Global,Oil & Gas,USA,6775475.64
+CUST001901,Shell Trading,Retail,UK,4844418.33
+CUST001902,Amazon Supply Chain,Oil & Gas,UAE,3506249.81
+CUST001903,Maersk Logistics,Retail,China,6903731.12
+CUST001904,Walmart Imports,Manufacturing,UAE,4288948.23
+CUST001905,DHL Global,Retail,Germany,6243267.61
+CUST001906,Toyota Logistics,Retail,UK,3768055.72
+CUST001907,Amazon Supply Chain,E-commerce,USA,7373807.9
+CUST001908,Samsung Shipping,Oil & Gas,USA,766479.23
+CUST001909,Nestle Global,Manufacturing,UAE,684252.05
+CUST001910,DHL Global,E-commerce,UAE,6803847.65
+CUST001911,Maersk Logistics,Retail,UK,329264.02
+CUST001912,Toyota Logistics,Oil & Gas,Germany,1666100.54
+CUST001913,Maersk Logistics,Oil & Gas,UK,5476575.7
+CUST001914,Nestle Global,Manufacturing,Germany,7741947.98
+CUST001915,DHL Global,E-commerce,Nigeria,6458185.82
+CUST001916,DHL Global,Retail,Nigeria,8738615.71
+CUST001917,Maersk Logistics,Manufacturing,China,8557303.66
+CUST001918,Maersk Logistics,Oil & Gas,UAE,9694991.82
+CUST001919,Maersk Logistics,Retail,China,9667771.45
+CUST001920,Maersk Logistics,Retail,UK,1496906.62
+CUST001921,Nestle Global,Oil & Gas,China,642635.02
+CUST001922,Toyota Logistics,Manufacturing,Nigeria,8713291.38
+CUST001923,Shell Trading,E-commerce,China,1865483.26
+CUST001924,Amazon Supply Chain,Oil & Gas,Germany,3091212.59
+CUST001925,Shell Trading,Manufacturing,China,3805842.13
+CUST001926,Toyota Logistics,Oil & Gas,China,4975672.31
+CUST001927,Shell Trading,Retail,China,6143702.98
+CUST001928,Shell Trading,Oil & Gas,Germany,2997786.23
+CUST001929,Maersk Logistics,Manufacturing,USA,408534.49
+CUST001930,DHL Global,Oil & Gas,UAE,5489105.9
+CUST001931,Shell Trading,Manufacturing,USA,7289130.3
+CUST001932,Toyota Logistics,E-commerce,UK,2912665.1
+CUST001933,Walmart Imports,Oil & Gas,UK,3242478.18
+CUST001934,Maersk Logistics,Manufacturing,China,9629920.68
+CUST001935,Toyota Logistics,Manufacturing,UK,8712140.11
+CUST001936,Maersk Logistics,Retail,Nigeria,8147682.0
+CUST001937,DHL Global,E-commerce,UK,4692403.55
+CUST001938,Maersk Logistics,Retail,China,3280663.97
+CUST001939,Maersk Logistics,E-commerce,UAE,617855.81
+CUST001940,Maersk Logistics,Retail,UK,9821443.53
+CUST001941,Nestle Global,Oil & Gas,UAE,4068601.73
+CUST001942,Amazon Supply Chain,E-commerce,Nigeria,872486.28
+CUST001943,Walmart Imports,Manufacturing,USA,3893347.86
+CUST001944,Shell Trading,Oil & Gas,USA,8900288.89
+CUST001945,Walmart Imports,E-commerce,USA,4807460.44
+CUST001946,DHL Global,E-commerce,UAE,5830961.91
+CUST001947,Walmart Imports,Retail,Germany,1602781.11
+CUST001948,Amazon Supply Chain,Retail,China,8627035.76
+CUST001949,Shell Trading,E-commerce,UAE,3463084.96
+CUST001950,Amazon Supply Chain,Retail,USA,9263777.0
+CUST001951,Toyota Logistics,Manufacturing,UAE,1038372.65
+CUST001952,Shell Trading,Manufacturing,China,6216915.81
+CUST001953,Maersk Logistics,Oil & Gas,Germany,3327970.26
+CUST001954,Maersk Logistics,E-commerce,Germany,687235.37
+CUST001955,Maersk Logistics,Manufacturing,USA,7942423.96
+CUST001956,DHL Global,Oil & Gas,China,7216415.63
+CUST001957,Maersk Logistics,E-commerce,USA,977317.05
+CUST001958,Shell Trading,E-commerce,Nigeria,5470724.3
+CUST001959,Samsung Shipping,Manufacturing,UAE,6400112.58
+CUST001960,DHL Global,Manufacturing,Germany,1061321.61
+CUST001961,DHL Global,E-commerce,China,3590210.97
+CUST001962,Amazon Supply Chain,Retail,UAE,5579419.08
+CUST001963,Amazon Supply Chain,E-commerce,Germany,613107.98
+CUST001964,Toyota Logistics,Manufacturing,UAE,9538659.1
+CUST001965,Amazon Supply Chain,Manufacturing,China,4584854.82
+CUST001966,DHL Global,Oil & Gas,Nigeria,5725648.31
+CUST001967,Amazon Supply Chain,Retail,UK,2871543.85
+CUST001968,Maersk Logistics,Oil & Gas,UK,9150872.02
+CUST001969,Nestle Global,Retail,China,6125711.65
+CUST001970,Shell Trading,Manufacturing,Nigeria,9203529.29
+CUST001971,DHL Global,Oil & Gas,UK,5283200.98
+CUST001972,Shell Trading,Retail,UK,3850344.84
+CUST001973,Shell Trading,E-commerce,China,3571307.91
+CUST001974,Maersk Logistics,E-commerce,UAE,5432909.22
+CUST001975,Shell Trading,E-commerce,Germany,7718804.5
+CUST001976,Toyota Logistics,Retail,China,8967449.31
+CUST001977,Nestle Global,Oil & Gas,China,9318368.07
+CUST001978,Amazon Supply Chain,E-commerce,USA,256166.81
+CUST001979,Walmart Imports,Manufacturing,UAE,2203008.16
+CUST001980,Maersk Logistics,Oil & Gas,China,1966555.6
+CUST001981,Samsung Shipping,Manufacturing,USA,8401033.92
+CUST001982,Maersk Logistics,Retail,China,3033381.26
+CUST001983,Samsung Shipping,E-commerce,Germany,7530332.59
+CUST001984,DHL Global,Oil & Gas,USA,6552809.75
+CUST001985,Walmart Imports,Manufacturing,China,5911693.88
+CUST001986,Nestle Global,Manufacturing,Germany,60090.17
+CUST001987,DHL Global,Retail,Germany,6183299.17
+CUST001988,Toyota Logistics,E-commerce,UK,9174741.24
+CUST001989,Samsung Shipping,Manufacturing,Nigeria,5167639.45
+CUST001990,DHL Global,Oil & Gas,UK,2103695.62
+CUST001991,Amazon Supply Chain,Oil & Gas,USA,4006456.55
+CUST001992,Amazon Supply Chain,Retail,USA,9063649.53
+CUST001993,Samsung Shipping,Manufacturing,UAE,8842772.33
+CUST001994,Toyota Logistics,E-commerce,USA,6377525.03
+CUST001995,Walmart Imports,Manufacturing,UAE,6375884.56
+CUST001996,Toyota Logistics,E-commerce,Nigeria,4538241.63
+CUST001997,Samsung Shipping,Manufacturing,Germany,6703260.94
+CUST001998,Toyota Logistics,Retail,Germany,7002373.41
+CUST001999,Samsung Shipping,Manufacturing,Nigeria,4999795.37
+CUST002000,Nestle Global,E-commerce,USA,4146869.74
+CUST002001,Shell Trading,Retail,Nigeria,4655073.21
+CUST002002,DHL Global,Manufacturing,China,1952544.35
+CUST002003,Nestle Global,E-commerce,UAE,4038789.06
+CUST002004,Samsung Shipping,E-commerce,Nigeria,5207963.65
+CUST002005,Toyota Logistics,E-commerce,USA,4087306.07
+CUST002006,Shell Trading,Oil & Gas,Germany,8122825.3
+CUST002007,Samsung Shipping,Manufacturing,USA,4113724.64
+CUST002008,DHL Global,Retail,USA,7754325.07
+CUST002009,Walmart Imports,Oil & Gas,China,6067719.91
+CUST002010,Samsung Shipping,E-commerce,UAE,9247670.65
+CUST002011,Amazon Supply Chain,Retail,Nigeria,7848011.78
+CUST002012,Toyota Logistics,Manufacturing,UAE,5999448.1
+CUST002013,Nestle Global,Oil & Gas,Nigeria,8517811.94
+CUST002014,Toyota Logistics,Manufacturing,China,9653602.9
+CUST002015,Samsung Shipping,Oil & Gas,China,244344.1
+CUST002016,Toyota Logistics,Manufacturing,Nigeria,3381304.16
+CUST002017,Toyota Logistics,Manufacturing,USA,9444273.46
+CUST002018,Amazon Supply Chain,E-commerce,USA,4329584.94
+CUST002019,Shell Trading,Manufacturing,USA,1204314.17
+CUST002020,Samsung Shipping,E-commerce,Germany,2974548.81
+CUST002021,DHL Global,E-commerce,Nigeria,7120474.0
+CUST002022,DHL Global,E-commerce,Germany,5149581.29
+CUST002023,Toyota Logistics,E-commerce,UK,1642338.47
+CUST002024,Toyota Logistics,Retail,UK,6185859.52
+CUST002025,Walmart Imports,E-commerce,China,5130039.42
+CUST002026,Amazon Supply Chain,Manufacturing,UK,7081136.85
+CUST002027,Samsung Shipping,Oil & Gas,Nigeria,4906176.98
+CUST002028,Nestle Global,Manufacturing,UAE,3861492.42
+CUST002029,Samsung Shipping,E-commerce,China,8712209.69
+CUST002030,Walmart Imports,Oil & Gas,China,1885948.84
+CUST002031,Samsung Shipping,Retail,China,6978327.97
+CUST002032,Walmart Imports,Manufacturing,Nigeria,6456622.38
+CUST002033,Shell Trading,Retail,UAE,5866513.81
+CUST002034,DHL Global,Oil & Gas,Nigeria,6557272.43
+CUST002035,Shell Trading,Manufacturing,Nigeria,6662551.79
+CUST002036,Amazon Supply Chain,E-commerce,Nigeria,4531354.78
+CUST002037,Maersk Logistics,Manufacturing,Nigeria,3960250.81
+CUST002038,Toyota Logistics,Retail,China,1537834.36
+CUST002039,Amazon Supply Chain,E-commerce,China,3548050.23
+CUST002040,Shell Trading,Oil & Gas,UAE,577271.37
+CUST002041,Shell Trading,Oil & Gas,Nigeria,4026620.96
+CUST002042,Nestle Global,Oil & Gas,UK,1203323.83
+CUST002043,DHL Global,Retail,UK,6115675.96
+CUST002044,DHL Global,Oil & Gas,UK,703545.22
+CUST002045,Toyota Logistics,E-commerce,Germany,8519197.47
+CUST002046,Amazon Supply Chain,Retail,UK,2530282.8
+CUST002047,Nestle Global,Oil & Gas,Germany,2472227.54
+CUST002048,Nestle Global,E-commerce,Germany,1178171.44
+CUST002049,DHL Global,Oil & Gas,Nigeria,4188011.02
+CUST002050,Toyota Logistics,Manufacturing,UAE,3052814.72
+CUST002051,Samsung Shipping,Oil & Gas,Germany,9270158.56
+CUST002052,DHL Global,E-commerce,USA,1388172.15
+CUST002053,Nestle Global,Manufacturing,USA,8274387.47
+CUST002054,DHL Global,Oil & Gas,UAE,2197965.64
+CUST002055,Walmart Imports,Manufacturing,UAE,8864465.2
+CUST002056,Shell Trading,E-commerce,Nigeria,3672110.23
+CUST002057,Samsung Shipping,Retail,UK,3897160.79
+CUST002058,Maersk Logistics,Manufacturing,Germany,532007.33
+CUST002059,Toyota Logistics,Oil & Gas,China,9189663.0
+CUST002060,Walmart Imports,Retail,USA,7320490.84
+CUST002061,DHL Global,E-commerce,Nigeria,201833.3
+CUST002062,DHL Global,Manufacturing,Nigeria,1629491.19
+CUST002063,Maersk Logistics,Retail,Germany,2196914.98
+CUST002064,Samsung Shipping,Manufacturing,China,4212927.31
+CUST002065,Amazon Supply Chain,E-commerce,USA,852944.99
+CUST002066,Amazon Supply Chain,Retail,China,1605023.2
+CUST002067,Maersk Logistics,Oil & Gas,Nigeria,5236006.74
+CUST002068,Toyota Logistics,Manufacturing,Germany,3517323.12
+CUST002069,Samsung Shipping,Manufacturing,UAE,2975828.61
+CUST002070,Shell Trading,E-commerce,China,9395971.25
+CUST002071,Toyota Logistics,Manufacturing,UAE,7001746.99
+CUST002072,Maersk Logistics,Oil & Gas,UK,6868418.21
+CUST002073,Amazon Supply Chain,E-commerce,USA,2803212.56
+CUST002074,Toyota Logistics,Oil & Gas,UAE,165802.28
+CUST002075,Walmart Imports,Retail,UAE,2093448.83
+CUST002076,Toyota Logistics,Manufacturing,Germany,7869989.27
+CUST002077,Nestle Global,E-commerce,UAE,5026588.79
+CUST002078,Amazon Supply Chain,Retail,UAE,9509007.02
+CUST002079,Samsung Shipping,Retail,China,8057919.1
+CUST002080,Walmart Imports,Oil & Gas,Germany,5598951.56
+CUST002081,Samsung Shipping,Manufacturing,China,3400485.79
+CUST002082,Nestle Global,Oil & Gas,UK,642667.45
+CUST002083,DHL Global,Manufacturing,China,2481523.4
+CUST002084,Amazon Supply Chain,Manufacturing,Germany,9395138.99
+CUST002085,Toyota Logistics,Oil & Gas,Nigeria,6441882.81
+CUST002086,Shell Trading,Oil & Gas,Nigeria,790297.06
+CUST002087,Maersk Logistics,Oil & Gas,Germany,5396140.94
+CUST002088,Walmart Imports,Retail,UAE,9188951.4
+CUST002089,Toyota Logistics,Manufacturing,USA,8739354.45
+CUST002090,Walmart Imports,Manufacturing,Germany,5916168.68
+CUST002091,Toyota Logistics,Manufacturing,Nigeria,2129469.47
+CUST002092,Amazon Supply Chain,Oil & Gas,China,6940524.27
+CUST002093,Shell Trading,Manufacturing,USA,4556790.77
+CUST002094,DHL Global,E-commerce,Nigeria,4852249.16
+CUST002095,DHL Global,Retail,Nigeria,6126147.04
+CUST002096,Amazon Supply Chain,Oil & Gas,UAE,1381602.31
+CUST002097,Samsung Shipping,E-commerce,USA,8403406.75
+CUST002098,Maersk Logistics,Retail,Germany,9091769.27
+CUST002099,Walmart Imports,Oil & Gas,UK,8009442.49
+CUST002100,Nestle Global,Retail,UK,3033398.84
+CUST002101,Samsung Shipping,E-commerce,Germany,4940590.67
+CUST002102,Walmart Imports,Retail,China,3696656.23
+CUST002103,Maersk Logistics,Manufacturing,Nigeria,6118500.63
+CUST002104,DHL Global,E-commerce,USA,5423844.79
+CUST002105,Samsung Shipping,Retail,Nigeria,9605232.58
+CUST002106,Samsung Shipping,Manufacturing,UK,6662754.06
+CUST002107,Maersk Logistics,Manufacturing,Nigeria,82767.39
+CUST002108,Samsung Shipping,Oil & Gas,USA,3907950.76
+CUST002109,Amazon Supply Chain,Oil & Gas,Germany,1841970.26
+CUST002110,Amazon Supply Chain,Retail,China,4270879.88
+CUST002111,Maersk Logistics,Retail,Germany,7467950.13
+CUST002112,Maersk Logistics,Manufacturing,Nigeria,881576.11
+CUST002113,Shell Trading,Manufacturing,China,2591049.4
+CUST002114,DHL Global,E-commerce,Nigeria,3138921.79
+CUST002115,Maersk Logistics,Manufacturing,Germany,8558780.47
+CUST002116,DHL Global,Retail,UK,1288122.63
+CUST002117,Samsung Shipping,Manufacturing,Nigeria,8179759.93
+CUST002118,Walmart Imports,Manufacturing,Nigeria,1571544.32
+CUST002119,Samsung Shipping,Manufacturing,UK,3866065.57
+CUST002120,Toyota Logistics,Oil & Gas,Nigeria,1679757.86
+CUST002121,Amazon Supply Chain,Retail,Nigeria,6004448.61
+CUST002122,Maersk Logistics,Oil & Gas,UK,8507683.07
+CUST002123,DHL Global,E-commerce,UAE,980450.03
+CUST002124,Maersk Logistics,Manufacturing,China,4761196.41
+CUST002125,Shell Trading,Retail,USA,5343890.77
+CUST002126,Nestle Global,Manufacturing,UAE,7370606.59
+CUST002127,Nestle Global,Retail,China,4007476.61
+CUST002128,DHL Global,Oil & Gas,UAE,7866498.66
+CUST002129,Nestle Global,E-commerce,UK,566609.62
+CUST002130,DHL Global,E-commerce,UK,8674768.51
+CUST002131,Shell Trading,E-commerce,USA,8900770.13
+CUST002132,Amazon Supply Chain,Oil & Gas,Nigeria,4926258.66
+CUST002133,Samsung Shipping,Retail,UAE,888674.44
+CUST002134,Nestle Global,Manufacturing,Nigeria,6723020.52
+CUST002135,Nestle Global,Retail,USA,6281908.18
+CUST002136,Nestle Global,Manufacturing,USA,4654992.47
+CUST002137,Maersk Logistics,Oil & Gas,USA,7763946.49
+CUST002138,Walmart Imports,Retail,USA,8223194.46
+CUST002139,DHL Global,E-commerce,Nigeria,8715190.3
+CUST002140,Toyota Logistics,Retail,UAE,8221582.33
+CUST002141,Nestle Global,Manufacturing,UAE,4588149.21
+CUST002142,Shell Trading,Manufacturing,Nigeria,6785625.3
+CUST002143,Shell Trading,Oil & Gas,UAE,5339159.43
+CUST002144,Shell Trading,Oil & Gas,Germany,6021271.18
+CUST002145,Toyota Logistics,E-commerce,Germany,8592354.05
+CUST002146,Nestle Global,E-commerce,UAE,630967.21
+CUST002147,Toyota Logistics,Manufacturing,UAE,7270797.12
+CUST002148,Maersk Logistics,Retail,Germany,5649540.93
+CUST002149,Samsung Shipping,Manufacturing,Germany,5902555.3
+CUST002150,Walmart Imports,Manufacturing,UK,9469720.16
+CUST002151,Toyota Logistics,Manufacturing,UAE,1242478.21
+CUST002152,Nestle Global,Retail,USA,8102595.45
+CUST002153,Amazon Supply Chain,E-commerce,China,9214580.52
+CUST002154,Samsung Shipping,Oil & Gas,Germany,9694217.83
+CUST002155,DHL Global,Manufacturing,Nigeria,4099449.61
+CUST002156,Amazon Supply Chain,E-commerce,China,1940746.91
+CUST002157,Nestle Global,Oil & Gas,Germany,170332.07
+CUST002158,Samsung Shipping,Manufacturing,Germany,4345042.63
+CUST002159,Toyota Logistics,Oil & Gas,Nigeria,9762078.35
+CUST002160,Maersk Logistics,E-commerce,UK,5732761.76
+CUST002161,Amazon Supply Chain,Manufacturing,Germany,1525213.94
+CUST002162,Maersk Logistics,Oil & Gas,China,5920694.03
+CUST002163,Nestle Global,Oil & Gas,USA,2290963.07
+CUST002164,Maersk Logistics,Manufacturing,UAE,9669183.37
+CUST002165,Nestle Global,Manufacturing,USA,6854576.32
+CUST002166,Toyota Logistics,Manufacturing,China,3197436.07
+CUST002167,Shell Trading,E-commerce,Germany,5425085.96
+CUST002168,Samsung Shipping,Oil & Gas,UK,481760.34
+CUST002169,Toyota Logistics,Oil & Gas,Nigeria,1651718.56
+CUST002170,Samsung Shipping,Retail,UK,6709773.03
+CUST002171,Amazon Supply Chain,E-commerce,China,6998837.82
+CUST002172,DHL Global,E-commerce,Nigeria,7378106.56
+CUST002173,Maersk Logistics,Manufacturing,China,532629.42
+CUST002174,Toyota Logistics,Retail,Germany,4626468.84
+CUST002175,DHL Global,E-commerce,UK,9047298.18
+CUST002176,DHL Global,Retail,UK,181903.82
+CUST002177,Toyota Logistics,Retail,Germany,2030438.27
+CUST002178,Nestle Global,Oil & Gas,UAE,4681904.33
+CUST002179,Walmart Imports,Retail,Nigeria,5258916.25
+CUST002180,Shell Trading,E-commerce,Germany,8557980.11
+CUST002181,Nestle Global,Retail,Germany,1153583.17
+CUST002182,Maersk Logistics,Manufacturing,Nigeria,7139115.35
+CUST002183,Samsung Shipping,Retail,China,6489088.95
+CUST002184,Samsung Shipping,Retail,UK,1282381.19
+CUST002185,Samsung Shipping,Oil & Gas,USA,1311466.77
+CUST002186,Walmart Imports,Oil & Gas,USA,8843757.25
+CUST002187,Amazon Supply Chain,Manufacturing,UAE,8234959.85
+CUST002188,Walmart Imports,Manufacturing,Nigeria,7606810.91
+CUST002189,Shell Trading,Retail,Nigeria,7359509.91
+CUST002190,Samsung Shipping,Manufacturing,UAE,7129340.95
+CUST002191,Amazon Supply Chain,Oil & Gas,Nigeria,450019.51
+CUST002192,Samsung Shipping,E-commerce,UAE,8061486.15
+CUST002193,Shell Trading,Retail,Germany,1595039.63
+CUST002194,Amazon Supply Chain,Manufacturing,UAE,4533842.43
+CUST002195,Samsung Shipping,Oil & Gas,UK,2243034.18
+CUST002196,Shell Trading,Manufacturing,Nigeria,3972302.91
+CUST002197,Shell Trading,Manufacturing,UAE,4971215.14
+CUST002198,Shell Trading,Manufacturing,Nigeria,886309.6
+CUST002199,Maersk Logistics,Retail,UK,8939078.34
+CUST002200,DHL Global,Retail,UAE,3656939.71
+CUST002201,DHL Global,E-commerce,UK,5005580.98
+CUST002202,Samsung Shipping,Oil & Gas,UK,2741145.83
+CUST002203,Amazon Supply Chain,E-commerce,China,1584987.8
+CUST002204,DHL Global,Oil & Gas,USA,7508510.69
+CUST002205,Toyota Logistics,E-commerce,Germany,9301958.47
+CUST002206,Walmart Imports,E-commerce,UAE,50541.01
+CUST002207,Walmart Imports,Manufacturing,China,5908605.86
+CUST002208,DHL Global,E-commerce,Nigeria,7580489.15
+CUST002209,Samsung Shipping,Retail,UK,5959430.95
+CUST002210,Shell Trading,E-commerce,Germany,8217572.07
+CUST002211,DHL Global,Retail,Germany,9288915.5
+CUST002212,Shell Trading,E-commerce,Nigeria,8504987.15
+CUST002213,Toyota Logistics,Oil & Gas,Germany,390451.96
+CUST002214,DHL Global,Manufacturing,Germany,5592586.85
+CUST002215,Nestle Global,E-commerce,Germany,8485912.51
+CUST002216,Samsung Shipping,Manufacturing,Nigeria,7123659.26
+CUST002217,Toyota Logistics,E-commerce,USA,9324345.51
+CUST002218,Shell Trading,Oil & Gas,UK,3676823.01
+CUST002219,Nestle Global,Oil & Gas,Nigeria,3636264.14
+CUST002220,Maersk Logistics,Manufacturing,UK,1488515.21
+CUST002221,Maersk Logistics,Manufacturing,Nigeria,5549493.82
+CUST002222,Amazon Supply Chain,Retail,Germany,2365608.41
+CUST002223,Shell Trading,E-commerce,USA,9772273.0
+CUST002224,Toyota Logistics,E-commerce,Nigeria,4044467.09
+CUST002225,Walmart Imports,E-commerce,UK,9481838.59
+CUST002226,Toyota Logistics,Retail,UAE,8835426.78
+CUST002227,Toyota Logistics,Oil & Gas,Germany,9896781.81
+CUST002228,Maersk Logistics,E-commerce,USA,4372374.22
+CUST002229,DHL Global,Oil & Gas,Nigeria,2291444.81
+CUST002230,Shell Trading,Retail,Nigeria,6967919.62
+CUST002231,Shell Trading,E-commerce,Nigeria,1757895.91
+CUST002232,Amazon Supply Chain,Retail,Nigeria,3817317.28
+CUST002233,Walmart Imports,Retail,UK,5968328.12
+CUST002234,Samsung Shipping,Oil & Gas,Germany,9060038.65
+CUST002235,Toyota Logistics,E-commerce,USA,8126029.49
+CUST002236,Shell Trading,Manufacturing,UK,6439585.1
+CUST002237,Shell Trading,Oil & Gas,UK,3193224.78
+CUST002238,DHL Global,Manufacturing,USA,1394922.49
+CUST002239,Shell Trading,E-commerce,UAE,6371599.29
+CUST002240,Nestle Global,Oil & Gas,USA,1533840.85
+CUST002241,Maersk Logistics,Oil & Gas,Nigeria,5618534.06
+CUST002242,Amazon Supply Chain,E-commerce,UK,3295490.45
+CUST002243,Walmart Imports,Manufacturing,USA,9717968.05
+CUST002244,Walmart Imports,Oil & Gas,Germany,8266298.16
+CUST002245,Toyota Logistics,Retail,China,2935844.72
+CUST002246,Walmart Imports,Oil & Gas,China,7262886.37
+CUST002247,DHL Global,Oil & Gas,China,6176553.19
+CUST002248,Amazon Supply Chain,Manufacturing,Germany,382294.61
+CUST002249,Nestle Global,Retail,China,2644554.34
+CUST002250,DHL Global,Retail,UK,1615872.72
+CUST002251,Nestle Global,Manufacturing,UK,4941390.7
+CUST002252,Samsung Shipping,Oil & Gas,UK,9212315.12
+CUST002253,Walmart Imports,Oil & Gas,UK,6008260.14
+CUST002254,DHL Global,Oil & Gas,USA,5689966.09
+CUST002255,Nestle Global,Retail,UAE,2512768.08
+CUST002256,Walmart Imports,Manufacturing,UK,8541370.63
+CUST002257,Samsung Shipping,Oil & Gas,UAE,2723962.15
+CUST002258,Toyota Logistics,E-commerce,Germany,276495.81
+CUST002259,Walmart Imports,E-commerce,UK,2052735.57
+CUST002260,Nestle Global,Manufacturing,Nigeria,9776715.26
+CUST002261,Walmart Imports,E-commerce,USA,463380.84
+CUST002262,Amazon Supply Chain,Retail,USA,1598579.83
+CUST002263,Toyota Logistics,Retail,UK,2818080.63
+CUST002264,Walmart Imports,Manufacturing,UK,9170408.79
+CUST002265,Toyota Logistics,Oil & Gas,UK,6591368.84
+CUST002266,Toyota Logistics,E-commerce,USA,5238414.36
+CUST002267,Amazon Supply Chain,Retail,USA,5211522.58
+CUST002268,DHL Global,Manufacturing,UAE,7357145.7
+CUST002269,Toyota Logistics,Retail,UAE,2654433.68
+CUST002270,Walmart Imports,Manufacturing,Germany,3314615.59
+CUST002271,Amazon Supply Chain,Retail,UK,4696759.53
+CUST002272,Walmart Imports,E-commerce,China,1546571.04
+CUST002273,Samsung Shipping,Manufacturing,Germany,7759197.43
+CUST002274,Nestle Global,Manufacturing,Germany,8938329.82
+CUST002275,Toyota Logistics,Retail,UK,8629369.02
+CUST002276,Nestle Global,Manufacturing,UAE,5693127.27
+CUST002277,Maersk Logistics,Manufacturing,UAE,9019462.93
+CUST002278,Walmart Imports,E-commerce,Germany,7042981.27
+CUST002279,Amazon Supply Chain,Retail,Nigeria,3548106.43
+CUST002280,Nestle Global,Manufacturing,UK,1201992.03
+CUST002281,Walmart Imports,Oil & Gas,UAE,8994715.05
+CUST002282,Nestle Global,Oil & Gas,Nigeria,6946582.85
+CUST002283,Nestle Global,Retail,Nigeria,5029431.68
+CUST002284,Amazon Supply Chain,E-commerce,Nigeria,1448404.92
+CUST002285,Walmart Imports,Retail,Nigeria,3637804.45
+CUST002286,Toyota Logistics,Oil & Gas,Germany,3887225.95
+CUST002287,Samsung Shipping,Retail,USA,7292567.8
+CUST002288,Nestle Global,Oil & Gas,Nigeria,5433622.54
+CUST002289,Toyota Logistics,E-commerce,China,850188.76
+CUST002290,Walmart Imports,Retail,USA,5475384.41
+CUST002291,DHL Global,Manufacturing,China,6025265.7
+CUST002292,Shell Trading,Retail,China,2857352.52
+CUST002293,Amazon Supply Chain,E-commerce,UAE,800759.64
+CUST002294,Amazon Supply Chain,Oil & Gas,UK,5739167.84
+CUST002295,Maersk Logistics,Manufacturing,UK,8361381.04
+CUST002296,Shell Trading,E-commerce,USA,9276560.72
+CUST002297,Walmart Imports,Oil & Gas,Germany,8168125.74
+CUST002298,Amazon Supply Chain,Oil & Gas,USA,9447189.39
+CUST002299,Maersk Logistics,Manufacturing,USA,7106918.75
+CUST002300,Nestle Global,Retail,Germany,5193350.95
+CUST002301,Shell Trading,E-commerce,China,8270494.48
+CUST002302,Toyota Logistics,Retail,USA,265512.85
+CUST002303,Walmart Imports,Retail,Germany,3547107.99
+CUST002304,Toyota Logistics,E-commerce,China,9015726.46
+CUST002305,DHL Global,Oil & Gas,Nigeria,2556613.12
+CUST002306,Shell Trading,Retail,China,2200659.77
+CUST002307,DHL Global,Manufacturing,USA,4004003.37
+CUST002308,Shell Trading,E-commerce,UK,7668572.36
+CUST002309,Amazon Supply Chain,Retail,UAE,9493930.31
+CUST002310,Maersk Logistics,Oil & Gas,Germany,7410904.24
+CUST002311,DHL Global,E-commerce,Germany,1579888.65
+CUST002312,Maersk Logistics,Manufacturing,Nigeria,7335400.01
+CUST002313,Maersk Logistics,E-commerce,Nigeria,1378705.76
+CUST002314,Shell Trading,Oil & Gas,UAE,2145810.54
+CUST002315,DHL Global,Retail,UAE,4807438.09
+CUST002316,Samsung Shipping,Retail,UK,462353.29
+CUST002317,Maersk Logistics,Oil & Gas,UK,6048208.14
+CUST002318,Toyota Logistics,Manufacturing,UAE,8263260.42
+CUST002319,Amazon Supply Chain,Oil & Gas,UAE,9317972.04
+CUST002320,Maersk Logistics,Oil & Gas,USA,186832.38
+CUST002321,DHL Global,Retail,China,8545610.27
+CUST002322,Amazon Supply Chain,Retail,USA,5386468.61
+CUST002323,Maersk Logistics,Retail,USA,5633964.27
+CUST002324,Maersk Logistics,Oil & Gas,Germany,428904.66
+CUST002325,Shell Trading,Retail,UK,8782639.82
+CUST002326,Samsung Shipping,Manufacturing,Nigeria,509181.8
+CUST002327,Shell Trading,Manufacturing,Nigeria,9124336.87
+CUST002328,Nestle Global,Oil & Gas,UAE,7816719.16
+CUST002329,Toyota Logistics,Retail,USA,3643635.72
+CUST002330,Samsung Shipping,Oil & Gas,China,6443611.36
+CUST002331,DHL Global,E-commerce,Nigeria,7499963.03
+CUST002332,Toyota Logistics,Retail,Germany,6461972.65
+CUST002333,Maersk Logistics,Retail,UAE,3152331.91
+CUST002334,DHL Global,Retail,Germany,311424.85
+CUST002335,Walmart Imports,Oil & Gas,Germany,2698258.47
+CUST002336,Amazon Supply Chain,Manufacturing,UK,2916024.2
+CUST002337,Samsung Shipping,Oil & Gas,UAE,8090598.57
+CUST002338,Amazon Supply Chain,Retail,Germany,4079092.29
+CUST002339,DHL Global,Retail,Nigeria,609725.65
+CUST002340,Walmart Imports,Manufacturing,UAE,4118548.54
+CUST002341,Samsung Shipping,Oil & Gas,Nigeria,4870625.11
+CUST002342,DHL Global,E-commerce,Nigeria,6862240.03
+CUST002343,Walmart Imports,E-commerce,USA,2879700.18
+CUST002344,Samsung Shipping,Manufacturing,UAE,6892786.22
+CUST002345,Amazon Supply Chain,Retail,USA,3566693.2
+CUST002346,Maersk Logistics,Retail,USA,8430045.83
+CUST002347,Toyota Logistics,E-commerce,Germany,6306756.43
+CUST002348,Nestle Global,E-commerce,Germany,5229135.18
+CUST002349,Maersk Logistics,Manufacturing,UAE,4221337.85
+CUST002350,Walmart Imports,Retail,UK,7487253.14
+CUST002351,Walmart Imports,Oil & Gas,Germany,7403911.72
+CUST002352,Walmart Imports,Retail,Nigeria,6723140.81
+CUST002353,DHL Global,Retail,China,2749186.71
+CUST002354,Samsung Shipping,Manufacturing,USA,117509.56
+CUST002355,Shell Trading,E-commerce,China,5452661.66
+CUST002356,Maersk Logistics,E-commerce,UK,8956812.53
+CUST002357,DHL Global,Oil & Gas,China,4035795.81
+CUST002358,Walmart Imports,Manufacturing,China,4075190.9
+CUST002359,Amazon Supply Chain,Oil & Gas,China,463284.42
+CUST002360,Nestle Global,E-commerce,Germany,4943328.96
+CUST002361,Nestle Global,Oil & Gas,UK,2323002.78
+CUST002362,Maersk Logistics,Oil & Gas,Germany,5225037.47
+CUST002363,Nestle Global,Retail,UAE,8971025.2
+CUST002364,Amazon Supply Chain,E-commerce,Nigeria,7903200.31
+CUST002365,Maersk Logistics,Retail,UAE,6791024.33
+CUST002366,DHL Global,E-commerce,UAE,5943536.24
+CUST002367,Amazon Supply Chain,Oil & Gas,UAE,8007402.76
+CUST002368,Toyota Logistics,Oil & Gas,USA,1721846.77
+CUST002369,Maersk Logistics,Retail,Germany,8633224.36
+CUST002370,Walmart Imports,Manufacturing,China,545080.03
+CUST002371,DHL Global,Oil & Gas,USA,193711.46
+CUST002372,Nestle Global,Oil & Gas,Nigeria,5925769.63
+CUST002373,Walmart Imports,Retail,Nigeria,1284708.95
+CUST002374,Walmart Imports,Retail,China,5887152.95
+CUST002375,Walmart Imports,E-commerce,China,5311044.11
+CUST002376,Amazon Supply Chain,Retail,UAE,9667164.24
+CUST002377,Amazon Supply Chain,Manufacturing,Nigeria,5395458.83
+CUST002378,Maersk Logistics,Retail,China,2407956.29
+CUST002379,Toyota Logistics,Retail,Nigeria,383942.8
+CUST002380,Shell Trading,Manufacturing,Nigeria,9888944.59
+CUST002381,Amazon Supply Chain,Oil & Gas,USA,6418870.81
+CUST002382,Amazon Supply Chain,Oil & Gas,Nigeria,9001679.38
+CUST002383,Toyota Logistics,Retail,Nigeria,5310742.48
+CUST002384,Walmart Imports,Retail,USA,6996726.11
+CUST002385,Amazon Supply Chain,E-commerce,China,3667989.19
+CUST002386,Maersk Logistics,Retail,Nigeria,4867527.81
+CUST002387,Amazon Supply Chain,Retail,UAE,9260271.91
+CUST002388,Maersk Logistics,Retail,Germany,2090624.86
+CUST002389,Nestle Global,E-commerce,Nigeria,5296170.02
+CUST002390,Shell Trading,Oil & Gas,China,6635856.83
+CUST002391,Toyota Logistics,Oil & Gas,China,3523328.5
+CUST002392,Walmart Imports,Manufacturing,USA,5825844.5
+CUST002393,Shell Trading,Manufacturing,UAE,6791530.6
+CUST002394,Shell Trading,Manufacturing,USA,4713154.13
+CUST002395,Shell Trading,Manufacturing,China,7172946.43
+CUST002396,Nestle Global,Manufacturing,UK,6007764.33
+CUST002397,Shell Trading,Manufacturing,UAE,5113532.36
+CUST002398,Maersk Logistics,Manufacturing,UAE,277749.74
+CUST002399,Toyota Logistics,Manufacturing,UAE,7964320.12
+CUST002400,Shell Trading,Oil & Gas,UAE,315337.28
+CUST002401,Shell Trading,Oil & Gas,China,9128585.87
+CUST002402,Shell Trading,Manufacturing,Germany,6604326.4
+CUST002403,Walmart Imports,E-commerce,UK,8669695.47
+CUST002404,Nestle Global,Oil & Gas,Germany,5557696.2
+CUST002405,Samsung Shipping,Manufacturing,USA,8549866.26
+CUST002406,Toyota Logistics,E-commerce,UK,4825575.99
+CUST002407,Nestle Global,Oil & Gas,UK,4586902.02
+CUST002408,Maersk Logistics,E-commerce,UK,5421034.47
+CUST002409,Samsung Shipping,E-commerce,USA,9258265.53
+CUST002410,Maersk Logistics,Oil & Gas,USA,2107318.58
+CUST002411,Samsung Shipping,Manufacturing,UK,1078162.14
+CUST002412,Nestle Global,Manufacturing,Germany,6913139.56
+CUST002413,Walmart Imports,E-commerce,UK,5268299.54
+CUST002414,Maersk Logistics,Oil & Gas,USA,152392.03
+CUST002415,Nestle Global,Manufacturing,UK,3819171.3
+CUST002416,Nestle Global,Oil & Gas,UAE,4276570.06
+CUST002417,Toyota Logistics,Oil & Gas,China,8546631.12
+CUST002418,Amazon Supply Chain,E-commerce,Nigeria,2541020.97
+CUST002419,Nestle Global,Manufacturing,Nigeria,9989704.23
+CUST002420,Toyota Logistics,E-commerce,UAE,3486066.29
+CUST002421,Walmart Imports,E-commerce,China,5366596.9
+CUST002422,Maersk Logistics,Manufacturing,UK,566965.54
+CUST002423,Samsung Shipping,Oil & Gas,USA,5525437.74
+CUST002424,Toyota Logistics,E-commerce,China,7061217.17
+CUST002425,Shell Trading,Retail,China,7677729.6
+CUST002426,Samsung Shipping,Retail,China,9879224.69
+CUST002427,Nestle Global,E-commerce,Germany,5537976.67
+CUST002428,Shell Trading,Retail,China,2041950.0
+CUST002429,Samsung Shipping,Manufacturing,UK,6022584.2
+CUST002430,Samsung Shipping,Retail,China,2214566.83
+CUST002431,Nestle Global,E-commerce,Nigeria,3961810.55
+CUST002432,DHL Global,Oil & Gas,Germany,1715763.85
+CUST002433,Toyota Logistics,E-commerce,USA,1606993.1
+CUST002434,DHL Global,Oil & Gas,UK,867393.07
+CUST002435,DHL Global,Retail,UK,2917162.85
+CUST002436,Shell Trading,Oil & Gas,USA,1246389.2
+CUST002437,Maersk Logistics,Retail,Germany,4449397.69
+CUST002438,Nestle Global,Retail,China,8047861.74
+CUST002439,Samsung Shipping,Retail,China,7558968.51
+CUST002440,Shell Trading,E-commerce,Nigeria,8083315.39
+CUST002441,Walmart Imports,Manufacturing,Nigeria,842532.54
+CUST002442,Walmart Imports,Retail,UAE,5773139.23
+CUST002443,Walmart Imports,Retail,Germany,5969131.13
+CUST002444,Toyota Logistics,Retail,China,4858060.06
+CUST002445,Toyota Logistics,Oil & Gas,China,2470679.0
+CUST002446,DHL Global,E-commerce,UAE,6998640.38
+CUST002447,Maersk Logistics,Retail,USA,7859861.3
+CUST002448,Walmart Imports,Oil & Gas,UAE,2107189.49
+CUST002449,Nestle Global,E-commerce,Germany,2984809.67
+CUST002450,Shell Trading,E-commerce,Germany,7508928.2
+CUST002451,Walmart Imports,E-commerce,UK,4329917.91
+CUST002452,Samsung Shipping,Retail,Nigeria,9708841.88
+CUST002453,Shell Trading,Manufacturing,China,6187197.45
+CUST002454,Amazon Supply Chain,Oil & Gas,Germany,819525.02
+CUST002455,Nestle Global,Retail,China,7626103.2
+CUST002456,Shell Trading,Oil & Gas,USA,7035458.89
+CUST002457,Maersk Logistics,Manufacturing,UK,2128177.8
+CUST002458,Shell Trading,Oil & Gas,Germany,4812404.51
+CUST002459,DHL Global,Oil & Gas,China,2146588.65
+CUST002460,Maersk Logistics,E-commerce,Germany,6915130.57
+CUST002461,Shell Trading,Oil & Gas,Germany,2434369.48
+CUST002462,DHL Global,E-commerce,Germany,6579319.22
+CUST002463,Maersk Logistics,Oil & Gas,UAE,9676026.29
+CUST002464,Samsung Shipping,Retail,USA,2793550.19
+CUST002465,DHL Global,Oil & Gas,China,7943382.83
+CUST002466,Samsung Shipping,Retail,China,2272570.61
+CUST002467,Amazon Supply Chain,Manufacturing,Nigeria,350682.12
+CUST002468,Shell Trading,Manufacturing,UK,4483937.04
+CUST002469,Amazon Supply Chain,Retail,USA,6086778.12
+CUST002470,DHL Global,Oil & Gas,Germany,68867.02
+CUST002471,Samsung Shipping,Oil & Gas,China,617681.29
+CUST002472,Maersk Logistics,Retail,UK,7344537.29
+CUST002473,Toyota Logistics,Oil & Gas,USA,3031824.83
+CUST002474,Amazon Supply Chain,Oil & Gas,UK,251458.75
+CUST002475,Nestle Global,Retail,China,7521357.94
+CUST002476,Nestle Global,Retail,USA,6805915.87
+CUST002477,Toyota Logistics,Oil & Gas,Germany,9167848.75
+CUST002478,Walmart Imports,E-commerce,Germany,2155616.15
+CUST002479,Walmart Imports,Manufacturing,Nigeria,2154541.57
+CUST002480,Nestle Global,Retail,China,2569662.15
+CUST002481,Shell Trading,Manufacturing,UK,9824170.57
+CUST002482,Nestle Global,Retail,UK,6567818.35
+CUST002483,Samsung Shipping,Manufacturing,USA,5971070.34
+CUST002484,Nestle Global,Oil & Gas,UK,6324473.54
+CUST002485,Amazon Supply Chain,Oil & Gas,USA,7953756.51
+CUST002486,Nestle Global,Oil & Gas,Nigeria,7447470.0
+CUST002487,Nestle Global,Manufacturing,Nigeria,6568183.01
+CUST002488,Shell Trading,E-commerce,Nigeria,4084247.86
+CUST002489,Walmart Imports,Retail,China,3951620.1
+CUST002490,Nestle Global,Retail,UK,2891128.82
+CUST002491,Nestle Global,Retail,Nigeria,5461477.59
+CUST002492,Samsung Shipping,Retail,USA,7071918.27
+CUST002493,Maersk Logistics,Retail,UAE,5859265.94
+CUST002494,Nestle Global,Manufacturing,Nigeria,7113017.8
+CUST002495,Samsung Shipping,Oil & Gas,USA,3634790.81
+CUST002496,Maersk Logistics,E-commerce,China,3267935.1
+CUST002497,Nestle Global,Manufacturing,China,1561418.2
+CUST002498,Nestle Global,Manufacturing,UAE,7315269.71
+CUST002499,Samsung Shipping,Retail,China,6387644.75
+CUST002500,Maersk Logistics,Retail,USA,7644796.77
+CUST002501,Walmart Imports,Retail,UAE,537559.51
+CUST002502,Samsung Shipping,Retail,USA,2189412.31
+CUST002503,Amazon Supply Chain,Oil & Gas,UK,789198.72
+CUST002504,DHL Global,Retail,Germany,1817886.43
+CUST002505,Toyota Logistics,Retail,China,3222839.75
+CUST002506,DHL Global,Retail,UAE,1244576.08
+CUST002507,Amazon Supply Chain,Retail,UK,4560706.87
+CUST002508,Samsung Shipping,E-commerce,USA,6431072.88
+CUST002509,Amazon Supply Chain,Manufacturing,UAE,8809974.11
+CUST002510,Maersk Logistics,Oil & Gas,Nigeria,2921020.64
+CUST002511,DHL Global,Oil & Gas,UAE,3803713.59
+CUST002512,Amazon Supply Chain,Retail,Germany,4678190.99
+CUST002513,Shell Trading,Retail,China,9440996.66
+CUST002514,Walmart Imports,Manufacturing,Nigeria,5127107.43
+CUST002515,Amazon Supply Chain,Retail,UAE,6535019.18
+CUST002516,Toyota Logistics,E-commerce,Nigeria,1031428.66
+CUST002517,Amazon Supply Chain,E-commerce,UK,1435340.85
+CUST002518,Toyota Logistics,Retail,UAE,6317023.44
+CUST002519,Toyota Logistics,Oil & Gas,Germany,9611243.89
+CUST002520,Maersk Logistics,Oil & Gas,UAE,1731453.13
+CUST002521,Nestle Global,E-commerce,China,5270015.45
+CUST002522,Nestle Global,E-commerce,USA,373851.28
+CUST002523,Nestle Global,E-commerce,China,8180072.25
+CUST002524,Walmart Imports,Retail,USA,8972216.98
+CUST002525,Amazon Supply Chain,Manufacturing,China,2222864.24
+CUST002526,Maersk Logistics,Retail,USA,1098512.43
+CUST002527,Shell Trading,Oil & Gas,Nigeria,6608555.69
+CUST002528,Toyota Logistics,Manufacturing,UAE,616972.76
+CUST002529,Walmart Imports,Retail,UK,9955229.73
+CUST002530,Amazon Supply Chain,Manufacturing,Nigeria,913479.6
+CUST002531,DHL Global,E-commerce,China,8379059.55
+CUST002532,Walmart Imports,Manufacturing,UK,8504967.34
+CUST002533,Amazon Supply Chain,Manufacturing,China,3119350.27
+CUST002534,DHL Global,Oil & Gas,USA,5252898.27
+CUST002535,Amazon Supply Chain,Oil & Gas,Germany,1246233.19
+CUST002536,Toyota Logistics,Oil & Gas,Nigeria,2471830.53
+CUST002537,Amazon Supply Chain,Retail,Nigeria,2530058.53
+CUST002538,Maersk Logistics,Oil & Gas,USA,4256314.07
+CUST002539,Maersk Logistics,Oil & Gas,USA,3013585.7
+CUST002540,Walmart Imports,Manufacturing,China,642141.91
+CUST002541,Nestle Global,Retail,China,1605310.68
+CUST002542,Nestle Global,Retail,UK,6468104.44
+CUST002543,Amazon Supply Chain,Retail,Nigeria,6452314.8
+CUST002544,Shell Trading,Oil & Gas,Germany,5683229.44
+CUST002545,Shell Trading,Manufacturing,China,4475514.88
+CUST002546,Shell Trading,Oil & Gas,UK,7064483.99
+CUST002547,Toyota Logistics,Manufacturing,Nigeria,5563700.49
+CUST002548,DHL Global,Retail,Nigeria,5964678.96
+CUST002549,Toyota Logistics,Retail,Nigeria,3503220.45
+CUST002550,Amazon Supply Chain,Retail,China,9690118.44
+CUST002551,Samsung Shipping,Oil & Gas,Germany,8064975.56
+CUST002552,Samsung Shipping,E-commerce,Nigeria,2389541.9
+CUST002553,DHL Global,Retail,USA,1078696.51
+CUST002554,Shell Trading,Oil & Gas,Germany,2716570.96
+CUST002555,Shell Trading,Retail,USA,3500263.03
+CUST002556,Samsung Shipping,E-commerce,USA,6772039.34
+CUST002557,Nestle Global,E-commerce,Nigeria,969757.94
+CUST002558,Samsung Shipping,Manufacturing,Germany,8057458.73
+CUST002559,Nestle Global,Retail,China,7863042.02
+CUST002560,Maersk Logistics,E-commerce,Germany,9022536.79
+CUST002561,DHL Global,Retail,Germany,9421726.73
+CUST002562,DHL Global,Retail,UAE,2258905.04
+CUST002563,Amazon Supply Chain,Oil & Gas,UK,2114225.22
+CUST002564,Samsung Shipping,Manufacturing,USA,9991545.85
+CUST002565,Toyota Logistics,Retail,USA,7244497.83
+CUST002566,Nestle Global,Oil & Gas,Germany,6189363.52
+CUST002567,Toyota Logistics,Oil & Gas,UK,5293878.35
+CUST002568,Amazon Supply Chain,Manufacturing,China,2906659.3
+CUST002569,Amazon Supply Chain,Retail,UAE,7347702.39
+CUST002570,Walmart Imports,E-commerce,Nigeria,2492432.39
+CUST002571,Samsung Shipping,Manufacturing,UK,1034156.18
+CUST002572,Shell Trading,Manufacturing,Nigeria,9712883.61
+CUST002573,Nestle Global,Manufacturing,Germany,6699326.37
+CUST002574,Amazon Supply Chain,Retail,China,8410729.29
+CUST002575,Amazon Supply Chain,E-commerce,Germany,8990880.69
+CUST002576,Samsung Shipping,E-commerce,Nigeria,8122623.23
+CUST002577,Amazon Supply Chain,E-commerce,UK,4241968.75
+CUST002578,Shell Trading,Oil & Gas,Germany,1024832.31
+CUST002579,Samsung Shipping,Retail,UAE,3317708.47
+CUST002580,Shell Trading,Manufacturing,China,5829308.19
+CUST002581,Toyota Logistics,Manufacturing,China,6480958.09
+CUST002582,DHL Global,E-commerce,USA,9114233.54
+CUST002583,Nestle Global,Retail,Germany,3198961.91
+CUST002584,Nestle Global,Oil & Gas,UK,86199.74
+CUST002585,Amazon Supply Chain,E-commerce,Germany,2122205.68
+CUST002586,Nestle Global,E-commerce,China,9272162.71
+CUST002587,Maersk Logistics,Manufacturing,USA,7253051.1
+CUST002588,Amazon Supply Chain,E-commerce,China,8386132.39
+CUST002589,Samsung Shipping,E-commerce,USA,1073225.38
+CUST002590,Toyota Logistics,Oil & Gas,UAE,9260322.77
+CUST002591,Toyota Logistics,Oil & Gas,China,8069747.03
+CUST002592,Nestle Global,E-commerce,Nigeria,2412643.81
+CUST002593,Shell Trading,Oil & Gas,Nigeria,8732898.38
+CUST002594,Shell Trading,E-commerce,USA,1909801.65
+CUST002595,Amazon Supply Chain,Retail,USA,5663583.57
+CUST002596,Nestle Global,Retail,Nigeria,3443452.31
+CUST002597,Samsung Shipping,Manufacturing,UK,2170407.71
+CUST002598,Toyota Logistics,Oil & Gas,UK,8245170.66
+CUST002599,Nestle Global,Manufacturing,Germany,5780895.58
+CUST002600,Toyota Logistics,Manufacturing,UK,7345272.87
+CUST002601,Samsung Shipping,Manufacturing,USA,9070633.48
+CUST002602,Shell Trading,E-commerce,China,553007.46
+CUST002603,Samsung Shipping,Oil & Gas,Nigeria,218820.26
+CUST002604,Amazon Supply Chain,E-commerce,Germany,1400251.84
+CUST002605,Walmart Imports,Manufacturing,China,6766545.99
+CUST002606,Maersk Logistics,Manufacturing,UAE,8262436.67
+CUST002607,Nestle Global,Manufacturing,Nigeria,3325296.25
+CUST002608,Maersk Logistics,Retail,Nigeria,8269700.53
+CUST002609,Amazon Supply Chain,Manufacturing,Germany,2000978.62
+CUST002610,Amazon Supply Chain,Oil & Gas,China,4841063.54
+CUST002611,Walmart Imports,E-commerce,China,5031194.76
+CUST002612,Maersk Logistics,Oil & Gas,UK,5990490.65
+CUST002613,Toyota Logistics,E-commerce,USA,4420847.23
+CUST002614,Walmart Imports,Oil & Gas,China,1707082.14
+CUST002615,Amazon Supply Chain,E-commerce,Germany,3916278.6
+CUST002616,Walmart Imports,Manufacturing,UK,2649321.34
+CUST002617,Samsung Shipping,Oil & Gas,Nigeria,6339801.24
+CUST002618,Toyota Logistics,E-commerce,UK,8770696.37
+CUST002619,Maersk Logistics,Oil & Gas,Germany,3002785.96
+CUST002620,Toyota Logistics,E-commerce,USA,9893935.69
+CUST002621,Walmart Imports,Oil & Gas,UK,9897819.16
+CUST002622,Amazon Supply Chain,Oil & Gas,China,7520464.19
+CUST002623,Walmart Imports,Oil & Gas,UK,2302842.06
+CUST002624,Amazon Supply Chain,Retail,China,6378786.44
+CUST002625,Amazon Supply Chain,E-commerce,UK,9432737.66
+CUST002626,Nestle Global,Retail,China,9953610.98
+CUST002627,Amazon Supply Chain,Retail,USA,4508777.52
+CUST002628,DHL Global,Retail,UK,7893661.56
+CUST002629,Maersk Logistics,E-commerce,Germany,5463429.07
+CUST002630,Amazon Supply Chain,Manufacturing,USA,3365458.69
+CUST002631,Maersk Logistics,E-commerce,UK,1935060.4
+CUST002632,Shell Trading,Manufacturing,Germany,5344301.51
+CUST002633,Amazon Supply Chain,Retail,Nigeria,8341981.52
+CUST002634,Toyota Logistics,Retail,UAE,4012520.73
+CUST002635,DHL Global,Manufacturing,Germany,593622.57
+CUST002636,Shell Trading,E-commerce,USA,52521.95
+CUST002637,Toyota Logistics,Oil & Gas,Nigeria,9429550.55
+CUST002638,Shell Trading,E-commerce,Germany,7986482.61
+CUST002639,DHL Global,Retail,Germany,5907812.01
+CUST002640,Amazon Supply Chain,E-commerce,Nigeria,3539596.78
+CUST002641,Nestle Global,E-commerce,UK,3424846.69
+CUST002642,Nestle Global,Retail,UAE,1639373.82
+CUST002643,Maersk Logistics,E-commerce,Nigeria,5397691.45
+CUST002644,Shell Trading,Oil & Gas,UAE,5722769.27
+CUST002645,Nestle Global,Oil & Gas,USA,4375195.16
+CUST002646,Amazon Supply Chain,E-commerce,USA,6819891.51
+CUST002647,Shell Trading,Manufacturing,UAE,3135933.17
+CUST002648,Walmart Imports,E-commerce,UK,4017825.29
+CUST002649,Nestle Global,E-commerce,Nigeria,5166510.83
+CUST002650,Samsung Shipping,Oil & Gas,UAE,8632417.89
+CUST002651,Maersk Logistics,Retail,Nigeria,2555312.8
+CUST002652,DHL Global,Oil & Gas,UK,3375360.67
+CUST002653,Shell Trading,Retail,Nigeria,934925.32
+CUST002654,Shell Trading,Retail,UK,6533951.03
+CUST002655,Amazon Supply Chain,E-commerce,USA,6300405.5
+CUST002656,Nestle Global,E-commerce,Germany,77952.28
+CUST002657,Toyota Logistics,E-commerce,China,9024152.56
+CUST002658,Nestle Global,Manufacturing,Nigeria,6688521.69
+CUST002659,DHL Global,Manufacturing,Germany,1897555.12
+CUST002660,DHL Global,Oil & Gas,China,5631729.65
+CUST002661,Shell Trading,Manufacturing,China,5747998.49
+CUST002662,DHL Global,Manufacturing,Germany,1972431.14
+CUST002663,Toyota Logistics,Manufacturing,China,5897362.07
+CUST002664,DHL Global,E-commerce,Germany,978758.28
+CUST002665,Samsung Shipping,Retail,Nigeria,2015423.45
+CUST002666,Shell Trading,Oil & Gas,UAE,3715291.34
+CUST002667,DHL Global,Oil & Gas,UK,3245192.33
+CUST002668,Nestle Global,Retail,UAE,6269290.26
+CUST002669,Toyota Logistics,Retail,UAE,378440.9
+CUST002670,Toyota Logistics,Oil & Gas,Germany,5378158.31
+CUST002671,Samsung Shipping,Manufacturing,Nigeria,8330489.86
+CUST002672,Amazon Supply Chain,E-commerce,UAE,6979373.98
+CUST002673,Samsung Shipping,E-commerce,China,4544855.68
+CUST002674,Shell Trading,Retail,UK,8159693.68
+CUST002675,Nestle Global,E-commerce,UK,429492.4
+CUST002676,Walmart Imports,E-commerce,Germany,8987490.85
+CUST002677,Samsung Shipping,Manufacturing,Germany,4882811.1
+CUST002678,Walmart Imports,Manufacturing,Germany,3863186.48
+CUST002679,Shell Trading,E-commerce,China,7489659.36
+CUST002680,Walmart Imports,Manufacturing,China,4082886.23
+CUST002681,Walmart Imports,Retail,China,2487695.52
+CUST002682,Amazon Supply Chain,Retail,Germany,7455405.2
+CUST002683,Toyota Logistics,E-commerce,USA,6106969.82
+CUST002684,Samsung Shipping,Oil & Gas,China,7296274.41
+CUST002685,Nestle Global,Manufacturing,Germany,2214294.52
+CUST002686,Maersk Logistics,Oil & Gas,UAE,6689863.72
+CUST002687,Amazon Supply Chain,Manufacturing,USA,7231227.74
+CUST002688,Samsung Shipping,E-commerce,UK,1841167.82
+CUST002689,Amazon Supply Chain,E-commerce,China,9240541.86
+CUST002690,Toyota Logistics,Oil & Gas,UK,5107875.25
+CUST002691,Walmart Imports,E-commerce,Nigeria,5491739.03
+CUST002692,Shell Trading,Manufacturing,Germany,5620891.12
+CUST002693,Samsung Shipping,E-commerce,Nigeria,1709922.75
+CUST002694,Toyota Logistics,Manufacturing,China,3797434.25
+CUST002695,Toyota Logistics,Oil & Gas,Germany,3797062.78
+CUST002696,Toyota Logistics,E-commerce,UK,1950131.23
+CUST002697,Samsung Shipping,Oil & Gas,Nigeria,3519946.63
+CUST002698,Walmart Imports,Manufacturing,Germany,7705878.4
+CUST002699,Amazon Supply Chain,Oil & Gas,USA,503375.06
+CUST002700,Shell Trading,Manufacturing,USA,7302264.84
+CUST002701,Shell Trading,E-commerce,Germany,3082887.85
+CUST002702,Shell Trading,Retail,Germany,8235660.37
+CUST002703,Nestle Global,Manufacturing,UK,3040607.63
+CUST002704,Shell Trading,Retail,UAE,4073050.57
+CUST002705,Shell Trading,Manufacturing,USA,7790219.87
+CUST002706,Toyota Logistics,Manufacturing,UAE,6538824.24
+CUST002707,Amazon Supply Chain,Oil & Gas,USA,8002426.09
+CUST002708,Maersk Logistics,Retail,Nigeria,516713.11
+CUST002709,Toyota Logistics,E-commerce,Germany,7773216.63
+CUST002710,Nestle Global,Retail,UK,1242751.45
+CUST002711,Amazon Supply Chain,Oil & Gas,Nigeria,1614919.11
+CUST002712,Maersk Logistics,E-commerce,UAE,7473123.28
+CUST002713,DHL Global,Retail,China,4609184.18
+CUST002714,Amazon Supply Chain,Retail,China,8292152.62
+CUST002715,Maersk Logistics,Retail,UAE,1838325.52
+CUST002716,Maersk Logistics,Oil & Gas,China,8049201.75
+CUST002717,Walmart Imports,Oil & Gas,Nigeria,3024921.24
+CUST002718,Toyota Logistics,Oil & Gas,USA,2341240.35
+CUST002719,Samsung Shipping,Retail,UK,7157570.67
+CUST002720,Walmart Imports,Retail,Nigeria,2441120.23
+CUST002721,Amazon Supply Chain,Retail,UAE,1387747.65
+CUST002722,Shell Trading,E-commerce,UAE,8123471.89
+CUST002723,Shell Trading,Retail,UK,3628289.34
+CUST002724,Nestle Global,Retail,UK,2646908.81
+CUST002725,Amazon Supply Chain,Manufacturing,UK,4301970.66
+CUST002726,Maersk Logistics,E-commerce,China,7757754.05
+CUST002727,Nestle Global,Oil & Gas,USA,9377816.01
+CUST002728,DHL Global,E-commerce,Nigeria,2925710.72
+CUST002729,Walmart Imports,Oil & Gas,UK,3930813.43
+CUST002730,Samsung Shipping,Oil & Gas,UK,3147560.33
+CUST002731,Amazon Supply Chain,E-commerce,UAE,7190275.31
+CUST002732,Shell Trading,E-commerce,China,7377876.43
+CUST002733,Amazon Supply Chain,Oil & Gas,USA,3747274.05
+CUST002734,Shell Trading,Manufacturing,China,3309469.37
+CUST002735,Amazon Supply Chain,Oil & Gas,Germany,2815684.76
+CUST002736,Walmart Imports,Manufacturing,Nigeria,7855075.56
+CUST002737,Shell Trading,Manufacturing,China,3839559.02
+CUST002738,Toyota Logistics,Manufacturing,USA,1390030.09
+CUST002739,Samsung Shipping,E-commerce,Nigeria,8419760.82
+CUST002740,Shell Trading,Manufacturing,UK,7825103.95
+CUST002741,Maersk Logistics,Manufacturing,UAE,217966.98
+CUST002742,Toyota Logistics,Retail,China,7482913.7
+CUST002743,Amazon Supply Chain,Oil & Gas,USA,6960663.21
+CUST002744,Amazon Supply Chain,Retail,USA,9780001.13
+CUST002745,Samsung Shipping,E-commerce,Germany,4214400.23
+CUST002746,Amazon Supply Chain,Manufacturing,Germany,7544106.48
+CUST002747,Toyota Logistics,Manufacturing,China,3744918.8
+CUST002748,Shell Trading,Retail,USA,6165820.91
+CUST002749,Maersk Logistics,Oil & Gas,Germany,5979177.63
+CUST002750,DHL Global,E-commerce,USA,5713335.55
+CUST002751,Amazon Supply Chain,Oil & Gas,UAE,7658488.95
+CUST002752,DHL Global,Manufacturing,China,467564.08
+CUST002753,DHL Global,Oil & Gas,China,2670852.84
+CUST002754,Toyota Logistics,Retail,China,391903.92
+CUST002755,Samsung Shipping,Retail,UAE,719718.76
+CUST002756,Samsung Shipping,E-commerce,Germany,2738828.09
+CUST002757,DHL Global,Manufacturing,UK,9496811.38
+CUST002758,Shell Trading,E-commerce,UK,8418654.08
+CUST002759,Maersk Logistics,Manufacturing,USA,656346.51
+CUST002760,Toyota Logistics,Retail,Nigeria,2673863.7
+CUST002761,Amazon Supply Chain,Manufacturing,China,9798192.83
+CUST002762,Maersk Logistics,Manufacturing,USA,8148729.92
+CUST002763,Nestle Global,Oil & Gas,USA,4259075.66
+CUST002764,DHL Global,E-commerce,UAE,6718218.23
+CUST002765,Amazon Supply Chain,Manufacturing,Nigeria,6735488.52
+CUST002766,Amazon Supply Chain,E-commerce,Nigeria,1314225.92
+CUST002767,Samsung Shipping,Retail,Nigeria,8677369.19
+CUST002768,Samsung Shipping,E-commerce,UAE,9359547.19
+CUST002769,Walmart Imports,Retail,Germany,84747.91
+CUST002770,Shell Trading,E-commerce,Germany,4642691.04
+CUST002771,Toyota Logistics,Oil & Gas,China,7168096.43
+CUST002772,Nestle Global,Oil & Gas,UAE,6017016.76
+CUST002773,Nestle Global,E-commerce,UAE,3623544.6
+CUST002774,Walmart Imports,Retail,Germany,6111079.01
+CUST002775,Amazon Supply Chain,Oil & Gas,Germany,8360837.11
+CUST002776,Samsung Shipping,Oil & Gas,UAE,1794404.15
+CUST002777,Samsung Shipping,Manufacturing,Nigeria,5089383.24
+CUST002778,Nestle Global,E-commerce,Nigeria,9390878.45
+CUST002779,Nestle Global,E-commerce,China,3387529.68
+CUST002780,Nestle Global,Retail,USA,7346869.5
+CUST002781,Toyota Logistics,Manufacturing,Nigeria,4526466.14
+CUST002782,DHL Global,E-commerce,China,2920309.0
+CUST002783,DHL Global,E-commerce,USA,8050873.7
+CUST002784,Samsung Shipping,Retail,China,2999652.87
+CUST002785,Amazon Supply Chain,Oil & Gas,USA,3367788.37
+CUST002786,Shell Trading,E-commerce,UAE,1580842.59
+CUST002787,Nestle Global,E-commerce,Germany,91236.34
+CUST002788,Maersk Logistics,Manufacturing,Germany,1720816.66
+CUST002789,Walmart Imports,E-commerce,China,7909761.23
+CUST002790,Samsung Shipping,Manufacturing,UK,3118050.6
+CUST002791,Shell Trading,Retail,Nigeria,1080906.04
+CUST002792,Walmart Imports,Manufacturing,Nigeria,9026404.14
+CUST002793,Nestle Global,E-commerce,USA,6438028.59
+CUST002794,Toyota Logistics,Retail,UAE,7315366.67
+CUST002795,DHL Global,Oil & Gas,Germany,551857.97
+CUST002796,Shell Trading,Oil & Gas,Germany,1033604.0
+CUST002797,Shell Trading,E-commerce,UAE,2794789.91
+CUST002798,Shell Trading,E-commerce,China,5048029.25
+CUST002799,Amazon Supply Chain,Manufacturing,China,9202923.15
+CUST002800,Shell Trading,E-commerce,UK,5291495.81
+CUST002801,Shell Trading,Manufacturing,Nigeria,8012112.88
+CUST002802,Nestle Global,E-commerce,USA,877059.07
+CUST002803,Samsung Shipping,E-commerce,China,69870.24
+CUST002804,DHL Global,Retail,Nigeria,1753210.13
+CUST002805,DHL Global,E-commerce,Germany,8862535.87
+CUST002806,DHL Global,E-commerce,UK,6791579.97
+CUST002807,Maersk Logistics,E-commerce,China,292269.58
+CUST002808,DHL Global,Retail,Germany,2781579.74
+CUST002809,Nestle Global,Oil & Gas,UK,2774367.2
+CUST002810,Shell Trading,E-commerce,UAE,2527111.09
+CUST002811,Walmart Imports,Retail,Germany,9858854.34
+CUST002812,Toyota Logistics,Oil & Gas,UAE,1214635.95
+CUST002813,Walmart Imports,Manufacturing,Nigeria,3461461.03
+CUST002814,Toyota Logistics,Manufacturing,Germany,9104050.42
+CUST002815,Maersk Logistics,E-commerce,China,1968112.78
+CUST002816,Walmart Imports,Oil & Gas,Germany,2872732.77
+CUST002817,Toyota Logistics,Oil & Gas,Germany,8435364.42
+CUST002818,Nestle Global,Oil & Gas,UK,638346.34
+CUST002819,Amazon Supply Chain,Manufacturing,Nigeria,397476.31
+CUST002820,Walmart Imports,Retail,USA,4139288.08
+CUST002821,Toyota Logistics,E-commerce,Nigeria,1283836.27
+CUST002822,Shell Trading,Retail,UAE,7941026.69
+CUST002823,DHL Global,Manufacturing,Germany,7948763.44
+CUST002824,Amazon Supply Chain,Manufacturing,China,9127550.61
+CUST002825,Shell Trading,Manufacturing,UAE,768694.95
+CUST002826,DHL Global,Oil & Gas,UAE,4888706.51
+CUST002827,DHL Global,Oil & Gas,UAE,484457.94
+CUST002828,DHL Global,Oil & Gas,UAE,5541340.26
+CUST002829,Amazon Supply Chain,E-commerce,UAE,1174934.52
+CUST002830,Shell Trading,Manufacturing,UAE,101628.63
+CUST002831,Toyota Logistics,Oil & Gas,China,6677793.57
+CUST002832,Amazon Supply Chain,Retail,USA,6760939.07
+CUST002833,Nestle Global,Oil & Gas,UAE,3081485.93
+CUST002834,Maersk Logistics,E-commerce,Germany,1400334.93
+CUST002835,Toyota Logistics,E-commerce,China,7416109.33
+CUST002836,Samsung Shipping,E-commerce,USA,1903160.46
+CUST002837,Amazon Supply Chain,E-commerce,UK,9302032.97
+CUST002838,DHL Global,E-commerce,Germany,4387674.16
+CUST002839,Walmart Imports,Retail,China,8949223.43
+CUST002840,Walmart Imports,Oil & Gas,Nigeria,945397.2
+CUST002841,Amazon Supply Chain,Oil & Gas,Germany,160251.65
+CUST002842,Toyota Logistics,E-commerce,UK,6927740.21
+CUST002843,Shell Trading,Manufacturing,UK,4113927.22
+CUST002844,Shell Trading,Manufacturing,Germany,822138.35
+CUST002845,Nestle Global,Retail,China,4676354.69
+CUST002846,Maersk Logistics,Oil & Gas,Nigeria,3852588.41
+CUST002847,Nestle Global,Retail,China,466781.16
+CUST002848,Walmart Imports,E-commerce,UK,8303201.31
+CUST002849,Nestle Global,Oil & Gas,UAE,3713034.31
+CUST002850,Amazon Supply Chain,Oil & Gas,UK,7764244.66
+CUST002851,Amazon Supply Chain,Manufacturing,China,4691922.69
+CUST002852,Toyota Logistics,Manufacturing,UAE,7490548.74
+CUST002853,Samsung Shipping,Retail,China,1459020.39
+CUST002854,Samsung Shipping,Retail,USA,351619.3
+CUST002855,Amazon Supply Chain,Manufacturing,USA,5625648.5
+CUST002856,Maersk Logistics,E-commerce,UAE,2031786.62
+CUST002857,Amazon Supply Chain,Retail,Nigeria,3684666.24
+CUST002858,Nestle Global,E-commerce,UAE,3546036.86
+CUST002859,Nestle Global,E-commerce,China,1023110.6
+CUST002860,Shell Trading,Manufacturing,UK,5887799.15
+CUST002861,Walmart Imports,Oil & Gas,China,4314355.48
+CUST002862,DHL Global,Retail,UAE,8553167.6
+CUST002863,Samsung Shipping,Manufacturing,Nigeria,2018422.11
+CUST002864,Toyota Logistics,Oil & Gas,USA,6898855.82
+CUST002865,Maersk Logistics,E-commerce,USA,6247837.13
+CUST002866,DHL Global,E-commerce,Germany,9164224.27
+CUST002867,Maersk Logistics,Oil & Gas,UAE,7935680.08
+CUST002868,Nestle Global,Oil & Gas,China,4041243.53
+CUST002869,Nestle Global,E-commerce,Germany,475453.05
+CUST002870,Walmart Imports,Oil & Gas,UK,9945535.85
+CUST002871,Samsung Shipping,E-commerce,UAE,9036532.85
+CUST002872,Maersk Logistics,Manufacturing,UAE,7024306.47
+CUST002873,Toyota Logistics,E-commerce,UK,2756325.46
+CUST002874,Amazon Supply Chain,Manufacturing,UAE,9039743.34
+CUST002875,Amazon Supply Chain,E-commerce,Germany,7610533.49
+CUST002876,Toyota Logistics,E-commerce,China,6596996.16
+CUST002877,Samsung Shipping,Retail,UK,3335597.61
+CUST002878,Amazon Supply Chain,Retail,USA,3874628.06
+CUST002879,Samsung Shipping,Oil & Gas,China,7775429.11
+CUST002880,Nestle Global,Retail,UAE,3443374.84
+CUST002881,Walmart Imports,Retail,Nigeria,6171716.49
+CUST002882,Nestle Global,Retail,Germany,8711790.54
+CUST002883,Shell Trading,Retail,USA,6348184.09
+CUST002884,Maersk Logistics,Retail,UAE,6126283.98
+CUST002885,Amazon Supply Chain,Retail,UAE,4289990.48
+CUST002886,DHL Global,Manufacturing,UK,9052437.37
+CUST002887,DHL Global,Oil & Gas,UK,8062652.12
+CUST002888,DHL Global,E-commerce,China,813805.68
+CUST002889,Amazon Supply Chain,E-commerce,Germany,9557526.27
+CUST002890,Nestle Global,Oil & Gas,UK,251863.19
+CUST002891,Amazon Supply Chain,E-commerce,UAE,897820.5
+CUST002892,Maersk Logistics,Manufacturing,Germany,5669064.42
+CUST002893,Maersk Logistics,E-commerce,China,1775348.94
+CUST002894,Walmart Imports,Manufacturing,Germany,4179290.7
+CUST002895,Shell Trading,Manufacturing,USA,5928259.72
+CUST002896,Toyota Logistics,Oil & Gas,UAE,8180282.09
+CUST002897,Nestle Global,Oil & Gas,China,6693151.12
+CUST002898,Nestle Global,Oil & Gas,UAE,5435869.04
+CUST002899,Amazon Supply Chain,E-commerce,China,1097560.71
+CUST002900,Maersk Logistics,Oil & Gas,Nigeria,724207.49
+CUST002901,Samsung Shipping,Manufacturing,UAE,4355364.85
+CUST002902,Walmart Imports,Oil & Gas,China,8238903.29
+CUST002903,DHL Global,E-commerce,Germany,9492547.67
+CUST002904,Toyota Logistics,E-commerce,UAE,9682038.75
+CUST002905,Maersk Logistics,Oil & Gas,UAE,6494348.26
+CUST002906,Maersk Logistics,E-commerce,UK,6168333.46
+CUST002907,Shell Trading,Oil & Gas,UAE,4376024.25
+CUST002908,DHL Global,Retail,UK,9697800.36
+CUST002909,Walmart Imports,E-commerce,Nigeria,99510.6
+CUST002910,Toyota Logistics,E-commerce,USA,8597467.98
+CUST002911,Amazon Supply Chain,Oil & Gas,UK,7217444.63
+CUST002912,Nestle Global,Manufacturing,China,4608833.14
+CUST002913,Nestle Global,Retail,USA,1354190.01
+CUST002914,Shell Trading,Retail,USA,1631273.3
+CUST002915,Amazon Supply Chain,Oil & Gas,USA,3336320.21
+CUST002916,Maersk Logistics,Oil & Gas,Germany,4203828.96
+CUST002917,Samsung Shipping,Oil & Gas,UK,3448383.13
+CUST002918,Samsung Shipping,Retail,Nigeria,2769119.02
+CUST002919,Toyota Logistics,Manufacturing,UK,3525292.43
+CUST002920,Walmart Imports,Oil & Gas,Nigeria,2860681.42
+CUST002921,Amazon Supply Chain,Oil & Gas,Germany,7444570.99
+CUST002922,Shell Trading,E-commerce,UAE,4003342.35
+CUST002923,Amazon Supply Chain,Manufacturing,Nigeria,3320987.13
+CUST002924,Nestle Global,Manufacturing,UK,2706648.18
+CUST002925,Maersk Logistics,Manufacturing,UAE,4072423.23
+CUST002926,Samsung Shipping,Retail,Nigeria,2475415.89
+CUST002927,Maersk Logistics,Manufacturing,USA,7376695.66
+CUST002928,Samsung Shipping,Oil & Gas,UK,8632198.55
+CUST002929,Walmart Imports,Manufacturing,Nigeria,8261538.41
+CUST002930,Amazon Supply Chain,E-commerce,USA,6609690.75
+CUST002931,Shell Trading,Manufacturing,China,4603698.78
+CUST002932,Amazon Supply Chain,Oil & Gas,USA,1605166.87
+CUST002933,Maersk Logistics,Oil & Gas,China,7351522.26
+CUST002934,DHL Global,Manufacturing,Germany,2040939.96
+CUST002935,DHL Global,Retail,China,5606733.65
+CUST002936,Toyota Logistics,Retail,UAE,8427410.52
+CUST002937,Toyota Logistics,Manufacturing,Nigeria,205014.83
+CUST002938,Toyota Logistics,E-commerce,Nigeria,8518155.81
+CUST002939,Shell Trading,Retail,Germany,964315.01
+CUST002940,Walmart Imports,Manufacturing,Germany,6390555.92
+CUST002941,Shell Trading,Manufacturing,USA,9669748.09
+CUST002942,DHL Global,E-commerce,UAE,55336.25
+CUST002943,Walmart Imports,Oil & Gas,Germany,5478319.6
+CUST002944,Maersk Logistics,Manufacturing,UAE,9836822.64
+CUST002945,DHL Global,Oil & Gas,USA,6940960.75
+CUST002946,DHL Global,Manufacturing,China,232681.02
+CUST002947,Amazon Supply Chain,E-commerce,USA,9184431.85
+CUST002948,DHL Global,E-commerce,USA,4384405.64
+CUST002949,Nestle Global,E-commerce,USA,1128047.55
+CUST002950,Amazon Supply Chain,Retail,UAE,106914.03
+CUST002951,Walmart Imports,Retail,UAE,2422703.44
+CUST002952,Amazon Supply Chain,Manufacturing,UAE,7337710.98
+CUST002953,Walmart Imports,Oil & Gas,USA,9482804.15
+CUST002954,Shell Trading,Retail,USA,4851476.84
+CUST002955,Walmart Imports,Oil & Gas,Germany,9281706.72
+CUST002956,Amazon Supply Chain,Oil & Gas,Nigeria,8670521.32
+CUST002957,Amazon Supply Chain,Oil & Gas,UK,2933854.76
+CUST002958,Maersk Logistics,E-commerce,UAE,1780075.46
+CUST002959,Toyota Logistics,E-commerce,UAE,8259525.31
+CUST002960,Walmart Imports,Retail,Nigeria,3742545.33
+CUST002961,Samsung Shipping,E-commerce,Germany,2395505.59
+CUST002962,Amazon Supply Chain,E-commerce,UAE,4685248.87
+CUST002963,Walmart Imports,E-commerce,USA,8760398.69
+CUST002964,Maersk Logistics,Manufacturing,USA,1973791.54
+CUST002965,Amazon Supply Chain,Oil & Gas,Nigeria,1984849.87
+CUST002966,DHL Global,Manufacturing,UAE,718559.21
+CUST002967,Maersk Logistics,E-commerce,USA,7670055.73
+CUST002968,DHL Global,Manufacturing,UK,521565.04
+CUST002969,Shell Trading,Manufacturing,UAE,8526461.24
+CUST002970,Walmart Imports,E-commerce,China,1923694.96
+CUST002971,Maersk Logistics,Retail,China,2395954.8
+CUST002972,Walmart Imports,Oil & Gas,Nigeria,7162759.38
+CUST002973,Maersk Logistics,Oil & Gas,China,7056653.4
+CUST002974,Walmart Imports,Retail,Germany,8092159.72
+CUST002975,DHL Global,Oil & Gas,Germany,9890293.04
+CUST002976,Maersk Logistics,E-commerce,UK,9252942.99
+CUST002977,Shell Trading,Oil & Gas,Nigeria,7812811.39
+CUST002978,Toyota Logistics,Manufacturing,China,4373378.01
+CUST002979,Samsung Shipping,Retail,China,1703649.8
+CUST002980,Samsung Shipping,Retail,China,5931244.05
+CUST002981,Toyota Logistics,Manufacturing,Germany,5871970.21
+CUST002982,Amazon Supply Chain,E-commerce,USA,5271866.61
+CUST002983,Maersk Logistics,Retail,UK,5952518.14
+CUST002984,Samsung Shipping,Manufacturing,UK,869717.93
+CUST002985,Samsung Shipping,E-commerce,UAE,3205978.86
+CUST002986,Amazon Supply Chain,Manufacturing,Nigeria,7681812.93
+CUST002987,Walmart Imports,E-commerce,UAE,5127304.67
+CUST002988,Nestle Global,Oil & Gas,Germany,7655441.98
+CUST002989,Shell Trading,Retail,UAE,7983916.44
+CUST002990,Nestle Global,Retail,Germany,8900517.59
+CUST002991,Nestle Global,Manufacturing,Nigeria,7411083.16
+CUST002992,Toyota Logistics,Oil & Gas,UK,5052040.03
+CUST002993,Amazon Supply Chain,Manufacturing,Germany,7076201.03
+CUST002994,Maersk Logistics,Oil & Gas,UAE,4039122.78
+CUST002995,Shell Trading,Oil & Gas,UAE,4587727.93
+CUST002996,Toyota Logistics,Oil & Gas,Nigeria,553839.96
+CUST002997,Walmart Imports,Retail,Nigeria,4367119.58
+CUST002998,Toyota Logistics,Manufacturing,USA,143581.72
+CUST002999,Samsung Shipping,E-commerce,UK,7497746.87
+CUST003000,Shell Trading,Oil & Gas,USA,5344914.59

@@ -1,0 +1,3001 @@
+route_id,origin_port,destination_port,distance_km,average_time_days,fuel_cost
+RTE000001,Los Angeles Port,Shanghai Port,1651,19,48566.24
+RTE000002,Lagos Port,Singapore Port,9378,8,27656.56
+RTE000003,Rotterdam Port,Hamburg Port,18381,7,31252.27
+RTE000004,Hamburg Port,Durban Port,9808,36,40799.42
+RTE000005,Shanghai Port,Rotterdam Port,10483,23,36331.05
+RTE000006,Dubai Port,Singapore Port,6957,24,17885.28
+RTE000007,Lagos Port,Los Angeles Port,1686,33,13898.53
+RTE000008,Los Angeles Port,Singapore Port,2249,11,45696.92
+RTE000009,Rotterdam Port,Lagos Port,6340,13,14722.3
+RTE000010,Rotterdam Port,Dubai Port,10251,13,1222.38
+RTE000011,Dubai Port,Durban Port,6527,11,47212.16
+RTE000012,Los Angeles Port,Los Angeles Port,4118,4,34173.54
+RTE000013,Dubai Port,Durban Port,9198,22,17551.47
+RTE000014,Hamburg Port,Shanghai Port,10548,14,23089.86
+RTE000015,Dubai Port,Hamburg Port,18897,12,22440.33
+RTE000016,Hamburg Port,Rotterdam Port,6142,7,11717.05
+RTE000017,Rotterdam Port,Hamburg Port,1840,27,21238.68
+RTE000018,Singapore Port,Rotterdam Port,4288,25,42067.75
+RTE000019,Durban Port,Durban Port,13770,27,14114.27
+RTE000020,Lagos Port,Shanghai Port,6326,29,44759.98
+RTE000021,Rotterdam Port,Lagos Port,4025,22,24624.61
+RTE000022,Lagos Port,Hamburg Port,14770,27,18611.55
+RTE000023,Hamburg Port,Rotterdam Port,13828,39,9750.59
+RTE000024,Rotterdam Port,Shanghai Port,17714,22,44777.04
+RTE000025,Lagos Port,Durban Port,15782,20,4192.01
+RTE000026,Dubai Port,Durban Port,19258,15,2527.77
+RTE000027,Lagos Port,Lagos Port,6112,3,21659.51
+RTE000028,Los Angeles Port,Shanghai Port,2094,10,5360.21
+RTE000029,Shanghai Port,Durban Port,10906,16,5106.67
+RTE000030,Los Angeles Port,Durban Port,5147,25,48812.36
+RTE000031,Lagos Port,Hamburg Port,2638,23,26351.21
+RTE000032,Durban Port,Dubai Port,19224,11,16780.29
+RTE000033,Dubai Port,Singapore Port,19229,28,30455.5
+RTE000034,Singapore Port,Durban Port,3639,15,12836.65
+RTE000035,Hamburg Port,Rotterdam Port,16419,19,27397.65
+RTE000036,Singapore Port,Rotterdam Port,12043,20,16494.37
+RTE000037,Durban Port,Los Angeles Port,2013,39,3663.87
+RTE000038,Hamburg Port,Dubai Port,6365,14,24867.33
+RTE000039,Shanghai Port,Dubai Port,13773,27,43664.95
+RTE000040,Dubai Port,Singapore Port,7012,9,48404.27
+RTE000041,Los Angeles Port,Singapore Port,18844,23,43807.18
+RTE000042,Rotterdam Port,Lagos Port,5500,23,28942.51
+RTE000043,Durban Port,Shanghai Port,1463,34,1918.07
+RTE000044,Rotterdam Port,Durban Port,11491,35,12990.05
+RTE000045,Los Angeles Port,Durban Port,1684,21,3440.39
+RTE000046,Rotterdam Port,Dubai Port,17089,39,14058.23
+RTE000047,Los Angeles Port,Los Angeles Port,6721,4,49705.74
+RTE000048,Lagos Port,Durban Port,14329,19,45746.52
+RTE000049,Los Angeles Port,Durban Port,7571,39,24027.22
+RTE000050,Dubai Port,Dubai Port,18632,19,40902.11
+RTE000051,Hamburg Port,Singapore Port,3019,19,35243.91
+RTE000052,Shanghai Port,Rotterdam Port,3506,15,3131.98
+RTE000053,Shanghai Port,Hamburg Port,1156,26,35013.95
+RTE000054,Rotterdam Port,Hamburg Port,7897,8,14470.62
+RTE000055,Rotterdam Port,Lagos Port,6300,36,49091.47
+RTE000056,Los Angeles Port,Los Angeles Port,8254,2,49284.86
+RTE000057,Singapore Port,Durban Port,1768,26,12175.66
+RTE000058,Singapore Port,Lagos Port,6783,28,24553.25
+RTE000059,Dubai Port,Dubai Port,14354,24,37753.36
+RTE000060,Los Angeles Port,Dubai Port,1121,34,32803.92
+RTE000061,Singapore Port,Singapore Port,12099,20,11879.79
+RTE000062,Dubai Port,Rotterdam Port,15803,39,18157.25
+RTE000063,Singapore Port,Dubai Port,9879,2,29946.7
+RTE000064,Lagos Port,Singapore Port,8079,20,7265.03
+RTE000065,Rotterdam Port,Los Angeles Port,18262,36,18903.54
+RTE000066,Los Angeles Port,Lagos Port,10379,21,13330.08
+RTE000067,Singapore Port,Lagos Port,6520,21,27877.1
+RTE000068,Dubai Port,Hamburg Port,12513,2,6602.33
+RTE000069,Dubai Port,Singapore Port,16531,16,7980.19
+RTE000070,Lagos Port,Lagos Port,4735,5,19925.95
+RTE000071,Singapore Port,Dubai Port,5686,33,10310.66
+RTE000072,Hamburg Port,Los Angeles Port,4031,16,33100.44
+RTE000073,Dubai Port,Shanghai Port,16181,15,40745.13
+RTE000074,Los Angeles Port,Rotterdam Port,11038,21,3338.03
+RTE000075,Hamburg Port,Singapore Port,16197,26,38407.41
+RTE000076,Durban Port,Los Angeles Port,11400,4,7526.21
+RTE000077,Lagos Port,Los Angeles Port,4063,11,38298.12
+RTE000078,Hamburg Port,Dubai Port,4970,3,35627.72
+RTE000079,Durban Port,Dubai Port,6084,34,10543.97
+RTE000080,Dubai Port,Hamburg Port,2968,39,17951.03
+RTE000081,Los Angeles Port,Dubai Port,4603,6,38825.37
+RTE000082,Shanghai Port,Durban Port,1683,19,47651.4
+RTE000083,Shanghai Port,Lagos Port,17627,33,28985.17
+RTE000084,Los Angeles Port,Lagos Port,3640,24,46048.53
+RTE000085,Los Angeles Port,Shanghai Port,14463,37,23071.14
+RTE000086,Lagos Port,Dubai Port,14384,3,1791.67
+RTE000087,Los Angeles Port,Hamburg Port,16708,19,13674.36
+RTE000088,Dubai Port,Shanghai Port,7104,16,5976.28
+RTE000089,Durban Port,Hamburg Port,11199,11,39106.5
+RTE000090,Durban Port,Lagos Port,862,31,40405.29
+RTE000091,Shanghai Port,Singapore Port,1261,30,21805.49
+RTE000092,Lagos Port,Lagos Port,15423,5,16355.21
+RTE000093,Lagos Port,Los Angeles Port,2220,36,2585.02
+RTE000094,Rotterdam Port,Lagos Port,19282,37,16108.2
+RTE000095,Shanghai Port,Shanghai Port,2073,9,42130.0
+RTE000096,Hamburg Port,Lagos Port,12231,24,28877.04
+RTE000097,Hamburg Port,Shanghai Port,638,25,47544.7
+RTE000098,Dubai Port,Shanghai Port,17060,28,21608.01
+RTE000099,Los Angeles Port,Hamburg Port,11051,12,31596.97
+RTE000100,Shanghai Port,Lagos Port,9808,27,13607.67
+RTE000101,Singapore Port,Los Angeles Port,3216,16,33706.77
+RTE000102,Rotterdam Port,Rotterdam Port,17730,30,41004.28
+RTE000103,Durban Port,Dubai Port,3792,20,3491.43
+RTE000104,Rotterdam Port,Rotterdam Port,3335,4,15223.43
+RTE000105,Singapore Port,Singapore Port,8458,21,2592.73
+RTE000106,Los Angeles Port,Lagos Port,16988,20,25476.94
+RTE000107,Hamburg Port,Dubai Port,17183,39,34502.19
+RTE000108,Hamburg Port,Los Angeles Port,18610,35,49406.81
+RTE000109,Shanghai Port,Singapore Port,13646,32,42712.57
+RTE000110,Hamburg Port,Shanghai Port,5060,18,7725.52
+RTE000111,Rotterdam Port,Lagos Port,18140,2,47617.25
+RTE000112,Lagos Port,Singapore Port,3726,20,31891.85
+RTE000113,Los Angeles Port,Rotterdam Port,17265,28,44945.4
+RTE000114,Hamburg Port,Shanghai Port,17827,17,38135.71
+RTE000115,Hamburg Port,Shanghai Port,14613,8,18641.54
+RTE000116,Singapore Port,Dubai Port,18249,37,47357.73
+RTE000117,Durban Port,Durban Port,4897,39,44976.38
+RTE000118,Hamburg Port,Los Angeles Port,3133,12,2356.93
+RTE000119,Hamburg Port,Lagos Port,5217,14,18258.74
+RTE000120,Dubai Port,Shanghai Port,8887,37,30271.45
+RTE000121,Lagos Port,Singapore Port,13633,4,35225.67
+RTE000122,Dubai Port,Hamburg Port,18477,38,39428.32
+RTE000123,Hamburg Port,Singapore Port,5578,12,5920.46
+RTE000124,Lagos Port,Durban Port,2711,11,31735.81
+RTE000125,Shanghai Port,Shanghai Port,1538,19,1819.34
+RTE000126,Hamburg Port,Rotterdam Port,8043,21,3359.11
+RTE000127,Dubai Port,Hamburg Port,9701,14,44721.0
+RTE000128,Lagos Port,Singapore Port,19969,27,49620.31
+RTE000129,Rotterdam Port,Durban Port,909,29,27104.99
+RTE000130,Singapore Port,Los Angeles Port,3772,8,21019.26
+RTE000131,Lagos Port,Hamburg Port,15866,23,11247.35
+RTE000132,Hamburg Port,Durban Port,19601,7,34808.28
+RTE000133,Hamburg Port,Durban Port,14464,8,11074.44
+RTE000134,Durban Port,Los Angeles Port,7980,2,39789.27
+RTE000135,Singapore Port,Dubai Port,4715,6,16601.06
+RTE000136,Lagos Port,Shanghai Port,16486,16,18998.0
+RTE000137,Dubai Port,Durban Port,15430,16,41681.35
+RTE000138,Durban Port,Shanghai Port,9404,5,27493.15
+RTE000139,Lagos Port,Shanghai Port,14132,30,23364.27
+RTE000140,Los Angeles Port,Hamburg Port,8870,20,46080.01
+RTE000141,Durban Port,Durban Port,17951,10,33950.38
+RTE000142,Durban Port,Lagos Port,14657,9,45816.02
+RTE000143,Rotterdam Port,Hamburg Port,18392,25,3900.58
+RTE000144,Hamburg Port,Los Angeles Port,6605,38,45920.35
+RTE000145,Dubai Port,Hamburg Port,6042,31,49323.38
+RTE000146,Hamburg Port,Dubai Port,5814,14,39763.5
+RTE000147,Durban Port,Rotterdam Port,3861,3,11073.26
+RTE000148,Rotterdam Port,Los Angeles Port,5025,30,43763.79
+RTE000149,Rotterdam Port,Lagos Port,12496,7,7883.31
+RTE000150,Hamburg Port,Durban Port,15305,3,43945.7
+RTE000151,Durban Port,Los Angeles Port,3071,21,44154.52
+RTE000152,Shanghai Port,Singapore Port,15703,15,22078.78
+RTE000153,Shanghai Port,Los Angeles Port,5146,18,40511.14
+RTE000154,Dubai Port,Shanghai Port,9889,27,41997.82
+RTE000155,Los Angeles Port,Lagos Port,15867,15,40356.22
+RTE000156,Dubai Port,Singapore Port,17533,17,31567.34
+RTE000157,Los Angeles Port,Singapore Port,5041,2,43266.36
+RTE000158,Los Angeles Port,Rotterdam Port,14801,4,7785.71
+RTE000159,Los Angeles Port,Dubai Port,593,24,8830.27
+RTE000160,Los Angeles Port,Dubai Port,13437,3,22853.32
+RTE000161,Los Angeles Port,Durban Port,16011,21,47070.33
+RTE000162,Shanghai Port,Rotterdam Port,2619,16,32440.54
+RTE000163,Los Angeles Port,Singapore Port,10954,15,22614.35
+RTE000164,Shanghai Port,Shanghai Port,741,7,20871.06
+RTE000165,Hamburg Port,Lagos Port,1459,29,9447.33
+RTE000166,Singapore Port,Durban Port,7352,13,36257.77
+RTE000167,Lagos Port,Rotterdam Port,15842,23,35180.68
+RTE000168,Lagos Port,Lagos Port,8390,32,40712.69
+RTE000169,Hamburg Port,Shanghai Port,19968,15,2144.87
+RTE000170,Shanghai Port,Durban Port,16105,8,39260.73
+RTE000171,Hamburg Port,Rotterdam Port,2495,35,6480.18
+RTE000172,Hamburg Port,Singapore Port,11972,23,3855.11
+RTE000173,Shanghai Port,Hamburg Port,4474,26,44436.64
+RTE000174,Rotterdam Port,Lagos Port,11241,15,38124.05
+RTE000175,Rotterdam Port,Shanghai Port,15206,37,19815.75
+RTE000176,Dubai Port,Dubai Port,16339,35,37255.8
+RTE000177,Dubai Port,Rotterdam Port,7404,39,38492.04
+RTE000178,Rotterdam Port,Shanghai Port,12692,25,27819.3
+RTE000179,Los Angeles Port,Singapore Port,2182,29,20383.93
+RTE000180,Hamburg Port,Lagos Port,15814,34,21198.55
+RTE000181,Lagos Port,Shanghai Port,4983,13,32607.79
+RTE000182,Dubai Port,Shanghai Port,2221,26,23103.54
+RTE000183,Hamburg Port,Singapore Port,15690,38,30229.48
+RTE000184,Durban Port,Lagos Port,12642,24,17327.99
+RTE000185,Durban Port,Singapore Port,18033,39,37573.28
+RTE000186,Los Angeles Port,Durban Port,11794,24,17734.25
+RTE000187,Durban Port,Rotterdam Port,789,32,45883.88
+RTE000188,Los Angeles Port,Dubai Port,7271,18,19501.78
+RTE000189,Durban Port,Hamburg Port,10282,13,7816.1
+RTE000190,Durban Port,Rotterdam Port,16320,39,12464.35
+RTE000191,Shanghai Port,Singapore Port,13696,19,4296.41
+RTE000192,Lagos Port,Lagos Port,6915,11,31422.17
+RTE000193,Shanghai Port,Shanghai Port,19632,36,38636.75
+RTE000194,Rotterdam Port,Singapore Port,1276,33,9469.88
+RTE000195,Lagos Port,Rotterdam Port,4785,38,39389.67
+RTE000196,Rotterdam Port,Rotterdam Port,10002,12,12757.36
+RTE000197,Shanghai Port,Los Angeles Port,1165,21,33822.69
+RTE000198,Singapore Port,Lagos Port,5241,8,22022.39
+RTE000199,Singapore Port,Shanghai Port,15445,9,15268.17
+RTE000200,Dubai Port,Singapore Port,14026,13,41628.07
+RTE000201,Rotterdam Port,Singapore Port,19448,16,25916.53
+RTE000202,Singapore Port,Singapore Port,7834,31,36212.2
+RTE000203,Hamburg Port,Dubai Port,19793,9,10172.38
+RTE000204,Los Angeles Port,Rotterdam Port,13960,35,49920.89
+RTE000205,Dubai Port,Durban Port,12513,14,20994.53
+RTE000206,Singapore Port,Los Angeles Port,7998,25,49018.95
+RTE000207,Rotterdam Port,Hamburg Port,12091,34,20989.13
+RTE000208,Durban Port,Lagos Port,10821,23,32161.86
+RTE000209,Dubai Port,Hamburg Port,7649,27,32753.78
+RTE000210,Shanghai Port,Durban Port,4708,37,46847.35
+RTE000211,Dubai Port,Rotterdam Port,10792,20,10020.79
+RTE000212,Hamburg Port,Hamburg Port,4377,33,41850.22
+RTE000213,Rotterdam Port,Rotterdam Port,17739,17,35428.05
+RTE000214,Dubai Port,Los Angeles Port,17179,31,16895.64
+RTE000215,Durban Port,Los Angeles Port,7126,14,25069.38
+RTE000216,Shanghai Port,Los Angeles Port,8121,26,44640.76
+RTE000217,Los Angeles Port,Dubai Port,2677,14,37577.28
+RTE000218,Durban Port,Dubai Port,6113,34,27660.79
+RTE000219,Dubai Port,Dubai Port,3118,13,41284.29
+RTE000220,Hamburg Port,Shanghai Port,2857,10,20092.55
+RTE000221,Rotterdam Port,Rotterdam Port,15117,17,42279.21
+RTE000222,Hamburg Port,Shanghai Port,19559,33,13641.46
+RTE000223,Shanghai Port,Lagos Port,7058,27,25020.37
+RTE000224,Lagos Port,Dubai Port,2549,25,39487.6
+RTE000225,Shanghai Port,Los Angeles Port,12429,10,3290.99
+RTE000226,Dubai Port,Hamburg Port,1211,35,36350.09
+RTE000227,Hamburg Port,Los Angeles Port,12848,39,6755.98
+RTE000228,Lagos Port,Singapore Port,6113,30,34350.66
+RTE000229,Hamburg Port,Rotterdam Port,18179,3,30640.94
+RTE000230,Shanghai Port,Los Angeles Port,17923,12,20793.76
+RTE000231,Shanghai Port,Hamburg Port,13025,2,39832.25
+RTE000232,Durban Port,Singapore Port,12724,4,2478.78
+RTE000233,Durban Port,Los Angeles Port,11947,13,42994.82
+RTE000234,Los Angeles Port,Shanghai Port,6755,12,24839.76
+RTE000235,Singapore Port,Los Angeles Port,14892,7,30927.45
+RTE000236,Rotterdam Port,Shanghai Port,12125,5,10409.02
+RTE000237,Shanghai Port,Dubai Port,2274,36,9284.65
+RTE000238,Singapore Port,Lagos Port,9071,11,5910.65
+RTE000239,Shanghai Port,Shanghai Port,7048,5,36035.0
+RTE000240,Singapore Port,Durban Port,9405,9,37568.52
+RTE000241,Singapore Port,Hamburg Port,4871,32,15692.07
+RTE000242,Dubai Port,Durban Port,2093,32,24377.27
+RTE000243,Singapore Port,Hamburg Port,4598,16,26523.56
+RTE000244,Durban Port,Hamburg Port,11012,10,28692.03
+RTE000245,Singapore Port,Singapore Port,14871,26,36403.91
+RTE000246,Singapore Port,Shanghai Port,16267,22,28481.23
+RTE000247,Singapore Port,Rotterdam Port,9801,5,43293.89
+RTE000248,Singapore Port,Durban Port,19993,26,9814.07
+RTE000249,Rotterdam Port,Durban Port,2190,10,49154.08
+RTE000250,Lagos Port,Singapore Port,8662,35,9985.84
+RTE000251,Rotterdam Port,Durban Port,5069,39,37282.18
+RTE000252,Singapore Port,Dubai Port,14726,10,28855.44
+RTE000253,Lagos Port,Los Angeles Port,9857,27,22493.2
+RTE000254,Rotterdam Port,Singapore Port,9054,19,32589.76
+RTE000255,Lagos Port,Hamburg Port,1055,37,2272.97
+RTE000256,Lagos Port,Lagos Port,4053,19,48003.01
+RTE000257,Hamburg Port,Rotterdam Port,8206,36,28496.84
+RTE000258,Shanghai Port,Dubai Port,13840,23,32200.21
+RTE000259,Hamburg Port,Dubai Port,10664,30,48876.85
+RTE000260,Dubai Port,Lagos Port,12852,30,16478.53
+RTE000261,Shanghai Port,Hamburg Port,4129,12,36010.06
+RTE000262,Singapore Port,Rotterdam Port,16851,4,25899.18
+RTE000263,Rotterdam Port,Singapore Port,7687,26,9964.89
+RTE000264,Rotterdam Port,Durban Port,4498,34,17974.46
+RTE000265,Durban Port,Durban Port,19157,20,34681.55
+RTE000266,Singapore Port,Dubai Port,18778,17,15348.11
+RTE000267,Shanghai Port,Lagos Port,6768,16,13412.72
+RTE000268,Dubai Port,Lagos Port,17521,4,47531.46
+RTE000269,Singapore Port,Los Angeles Port,7488,17,15575.68
+RTE000270,Los Angeles Port,Rotterdam Port,5165,25,3344.62
+RTE000271,Lagos Port,Lagos Port,12322,27,20310.34
+RTE000272,Dubai Port,Dubai Port,2315,16,10975.73
+RTE000273,Rotterdam Port,Rotterdam Port,15311,32,23220.91
+RTE000274,Los Angeles Port,Dubai Port,14200,19,33741.85
+RTE000275,Singapore Port,Rotterdam Port,10999,7,1441.3
+RTE000276,Shanghai Port,Hamburg Port,4365,28,5997.66
+RTE000277,Singapore Port,Durban Port,6687,7,15685.98
+RTE000278,Singapore Port,Los Angeles Port,14150,32,45702.86
+RTE000279,Durban Port,Rotterdam Port,2749,26,17066.77
+RTE000280,Los Angeles Port,Durban Port,988,33,44158.93
+RTE000281,Los Angeles Port,Los Angeles Port,5126,14,20478.0
+RTE000282,Singapore Port,Hamburg Port,9488,37,3994.9
+RTE000283,Rotterdam Port,Rotterdam Port,12596,2,21900.65
+RTE000284,Rotterdam Port,Los Angeles Port,6243,26,15283.71
+RTE000285,Singapore Port,Dubai Port,12843,26,42826.29
+RTE000286,Lagos Port,Hamburg Port,16229,9,43131.98
+RTE000287,Lagos Port,Dubai Port,19069,26,42992.35
+RTE000288,Dubai Port,Rotterdam Port,17184,20,17461.77
+RTE000289,Rotterdam Port,Dubai Port,5863,6,25661.23
+RTE000290,Singapore Port,Lagos Port,16396,22,15932.69
+RTE000291,Los Angeles Port,Rotterdam Port,5628,7,29567.23
+RTE000292,Los Angeles Port,Lagos Port,16511,36,44719.65
+RTE000293,Lagos Port,Durban Port,18458,23,18087.19
+RTE000294,Rotterdam Port,Dubai Port,16138,10,7983.7
+RTE000295,Lagos Port,Rotterdam Port,9465,25,15262.68
+RTE000296,Rotterdam Port,Rotterdam Port,4324,28,9138.32
+RTE000297,Los Angeles Port,Hamburg Port,16149,26,13810.93
+RTE000298,Lagos Port,Hamburg Port,19171,24,30515.64
+RTE000299,Hamburg Port,Singapore Port,12651,33,29028.73
+RTE000300,Rotterdam Port,Shanghai Port,17087,34,33443.62
+RTE000301,Los Angeles Port,Hamburg Port,16766,14,42195.38
+RTE000302,Lagos Port,Dubai Port,9195,3,35967.08
+RTE000303,Rotterdam Port,Singapore Port,10508,35,5382.37
+RTE000304,Shanghai Port,Los Angeles Port,16433,29,1695.55
+RTE000305,Lagos Port,Hamburg Port,14262,34,32449.42
+RTE000306,Los Angeles Port,Dubai Port,2926,21,7993.1
+RTE000307,Lagos Port,Dubai Port,16458,8,3031.52
+RTE000308,Shanghai Port,Rotterdam Port,17114,4,39523.13
+RTE000309,Dubai Port,Hamburg Port,5593,29,46164.17
+RTE000310,Shanghai Port,Los Angeles Port,8198,7,30758.31
+RTE000311,Shanghai Port,Hamburg Port,11654,3,37553.32
+RTE000312,Shanghai Port,Singapore Port,14836,38,31956.24
+RTE000313,Hamburg Port,Lagos Port,13611,21,7766.95
+RTE000314,Rotterdam Port,Dubai Port,12398,38,7025.9
+RTE000315,Hamburg Port,Lagos Port,10381,31,1586.63
+RTE000316,Shanghai Port,Hamburg Port,1740,26,6427.27
+RTE000317,Lagos Port,Dubai Port,18920,2,9307.74
+RTE000318,Los Angeles Port,Singapore Port,14146,2,20002.65
+RTE000319,Hamburg Port,Durban Port,12083,12,41521.42
+RTE000320,Los Angeles Port,Dubai Port,3236,26,4345.36
+RTE000321,Lagos Port,Singapore Port,8174,30,25958.13
+RTE000322,Los Angeles Port,Shanghai Port,16786,19,38859.5
+RTE000323,Hamburg Port,Singapore Port,12813,13,39243.47
+RTE000324,Hamburg Port,Los Angeles Port,6098,5,9719.3
+RTE000325,Singapore Port,Los Angeles Port,17236,27,18959.86
+RTE000326,Hamburg Port,Shanghai Port,15996,15,3582.36
+RTE000327,Hamburg Port,Shanghai Port,13487,27,26242.67
+RTE000328,Hamburg Port,Dubai Port,17348,32,25587.24
+RTE000329,Los Angeles Port,Singapore Port,9019,4,39258.32
+RTE000330,Durban Port,Rotterdam Port,544,31,4248.3
+RTE000331,Hamburg Port,Singapore Port,1705,34,40083.98
+RTE000332,Rotterdam Port,Shanghai Port,11537,2,25541.56
+RTE000333,Shanghai Port,Los Angeles Port,5337,20,30001.27
+RTE000334,Singapore Port,Hamburg Port,13812,29,48565.76
+RTE000335,Singapore Port,Lagos Port,15266,8,22018.5
+RTE000336,Lagos Port,Hamburg Port,11423,19,29388.09
+RTE000337,Hamburg Port,Los Angeles Port,4162,25,14342.53
+RTE000338,Dubai Port,Lagos Port,3245,23,10809.81
+RTE000339,Hamburg Port,Dubai Port,8092,3,15160.84
+RTE000340,Lagos Port,Shanghai Port,17311,3,48964.52
+RTE000341,Durban Port,Dubai Port,6324,33,32562.01
+RTE000342,Rotterdam Port,Los Angeles Port,16553,37,37237.21
+RTE000343,Los Angeles Port,Rotterdam Port,7191,34,49661.24
+RTE000344,Los Angeles Port,Lagos Port,1861,26,10381.52
+RTE000345,Singapore Port,Rotterdam Port,18294,37,13036.37
+RTE000346,Los Angeles Port,Los Angeles Port,2830,30,30229.76
+RTE000347,Lagos Port,Singapore Port,8851,2,37764.35
+RTE000348,Singapore Port,Dubai Port,17903,18,2338.37
+RTE000349,Shanghai Port,Durban Port,16846,34,35529.17
+RTE000350,Hamburg Port,Hamburg Port,17733,22,49886.68
+RTE000351,Los Angeles Port,Durban Port,19249,26,8272.59
+RTE000352,Shanghai Port,Lagos Port,14204,30,39743.93
+RTE000353,Dubai Port,Hamburg Port,10517,20,14881.06
+RTE000354,Singapore Port,Shanghai Port,4353,14,32879.75
+RTE000355,Los Angeles Port,Rotterdam Port,18135,11,32433.67
+RTE000356,Durban Port,Rotterdam Port,18084,6,12549.24
+RTE000357,Dubai Port,Durban Port,8127,25,40831.04
+RTE000358,Lagos Port,Hamburg Port,15164,22,4739.7
+RTE000359,Lagos Port,Los Angeles Port,1699,4,35842.72
+RTE000360,Los Angeles Port,Hamburg Port,18681,33,8920.28
+RTE000361,Singapore Port,Shanghai Port,582,2,34545.81
+RTE000362,Rotterdam Port,Dubai Port,1154,14,21248.6
+RTE000363,Rotterdam Port,Los Angeles Port,13248,9,5906.03
+RTE000364,Durban Port,Lagos Port,1063,26,13039.44
+RTE000365,Singapore Port,Shanghai Port,3071,23,4937.3
+RTE000366,Shanghai Port,Lagos Port,19335,19,45671.92
+RTE000367,Dubai Port,Shanghai Port,10065,21,22091.23
+RTE000368,Hamburg Port,Shanghai Port,7361,7,27435.95
+RTE000369,Hamburg Port,Singapore Port,19317,37,14075.39
+RTE000370,Shanghai Port,Rotterdam Port,15680,19,9756.0
+RTE000371,Singapore Port,Lagos Port,15413,5,45552.6
+RTE000372,Dubai Port,Lagos Port,16459,31,46061.77
+RTE000373,Dubai Port,Rotterdam Port,13402,4,29738.47
+RTE000374,Dubai Port,Rotterdam Port,5137,23,45730.89
+RTE000375,Singapore Port,Durban Port,1391,10,46192.19
+RTE000376,Shanghai Port,Dubai Port,11021,12,24262.46
+RTE000377,Singapore Port,Hamburg Port,11556,38,14888.5
+RTE000378,Los Angeles Port,Durban Port,15826,30,47493.59
+RTE000379,Lagos Port,Dubai Port,3587,26,6707.38
+RTE000380,Los Angeles Port,Durban Port,1880,4,23691.91
+RTE000381,Dubai Port,Durban Port,12759,34,15610.42
+RTE000382,Singapore Port,Dubai Port,3550,16,44170.1
+RTE000383,Los Angeles Port,Singapore Port,14624,4,21026.67
+RTE000384,Rotterdam Port,Dubai Port,8296,27,44840.82
+RTE000385,Shanghai Port,Hamburg Port,13862,34,15181.26
+RTE000386,Dubai Port,Lagos Port,11431,30,26413.3
+RTE000387,Durban Port,Dubai Port,8604,22,44635.54
+RTE000388,Lagos Port,Shanghai Port,17013,21,47484.18
+RTE000389,Los Angeles Port,Durban Port,18052,26,21705.56
+RTE000390,Los Angeles Port,Singapore Port,13326,33,27778.28
+RTE000391,Durban Port,Lagos Port,9701,22,21236.0
+RTE000392,Singapore Port,Hamburg Port,988,31,38796.04
+RTE000393,Lagos Port,Rotterdam Port,11811,21,40287.86
+RTE000394,Singapore Port,Rotterdam Port,2014,8,35841.22
+RTE000395,Shanghai Port,Shanghai Port,18122,6,14257.78
+RTE000396,Dubai Port,Rotterdam Port,6153,8,49627.19
+RTE000397,Dubai Port,Shanghai Port,6167,6,7536.34
+RTE000398,Durban Port,Lagos Port,3162,35,8858.52
+RTE000399,Los Angeles Port,Rotterdam Port,12025,39,26849.61
+RTE000400,Durban Port,Lagos Port,9436,28,35413.77
+RTE000401,Shanghai Port,Dubai Port,8430,15,46622.07
+RTE000402,Lagos Port,Shanghai Port,6088,4,26864.14
+RTE000403,Hamburg Port,Rotterdam Port,17269,15,16314.34
+RTE000404,Singapore Port,Durban Port,11096,7,11282.81
+RTE000405,Hamburg Port,Singapore Port,16759,16,49792.48
+RTE000406,Hamburg Port,Shanghai Port,2805,11,43721.99
+RTE000407,Hamburg Port,Rotterdam Port,9652,23,28148.17
+RTE000408,Dubai Port,Rotterdam Port,14351,23,21764.8
+RTE000409,Lagos Port,Hamburg Port,8604,36,14810.04
+RTE000410,Los Angeles Port,Durban Port,7630,5,39756.85
+RTE000411,Hamburg Port,Durban Port,2575,22,44141.58
+RTE000412,Singapore Port,Durban Port,18958,28,7804.51
+RTE000413,Hamburg Port,Singapore Port,11821,35,34474.14
+RTE000414,Durban Port,Dubai Port,3192,9,42733.02
+RTE000415,Durban Port,Singapore Port,4737,9,37892.17
+RTE000416,Hamburg Port,Lagos Port,14069,35,27473.12
+RTE000417,Dubai Port,Dubai Port,5539,34,30785.34
+RTE000418,Hamburg Port,Los Angeles Port,15199,37,42114.07
+RTE000419,Durban Port,Shanghai Port,16296,38,12192.67
+RTE000420,Hamburg Port,Singapore Port,15005,6,26998.39
+RTE000421,Dubai Port,Shanghai Port,11872,36,10281.87
+RTE000422,Singapore Port,Dubai Port,14937,12,28592.13
+RTE000423,Hamburg Port,Rotterdam Port,1061,25,24277.5
+RTE000424,Los Angeles Port,Shanghai Port,12088,29,31584.06
+RTE000425,Durban Port,Hamburg Port,11375,3,45328.66
+RTE000426,Shanghai Port,Durban Port,14690,16,45459.99
+RTE000427,Rotterdam Port,Lagos Port,19419,2,41967.33
+RTE000428,Dubai Port,Dubai Port,16422,5,5369.51
+RTE000429,Rotterdam Port,Hamburg Port,15925,8,23936.88
+RTE000430,Rotterdam Port,Singapore Port,19362,29,27695.28
+RTE000431,Durban Port,Los Angeles Port,11278,26,11568.19
+RTE000432,Rotterdam Port,Rotterdam Port,3492,22,35841.63
+RTE000433,Dubai Port,Lagos Port,10486,30,45920.36
+RTE000434,Shanghai Port,Singapore Port,14329,38,9680.05
+RTE000435,Dubai Port,Durban Port,2192,29,23602.17
+RTE000436,Lagos Port,Singapore Port,11986,30,21049.53
+RTE000437,Dubai Port,Rotterdam Port,7416,29,47863.26
+RTE000438,Dubai Port,Singapore Port,4325,12,48678.57
+RTE000439,Dubai Port,Durban Port,18060,25,2491.78
+RTE000440,Shanghai Port,Los Angeles Port,18986,5,48732.9
+RTE000441,Singapore Port,Singapore Port,7295,18,40541.05
+RTE000442,Dubai Port,Hamburg Port,5575,36,39080.81
+RTE000443,Lagos Port,Rotterdam Port,9473,4,5337.3
+RTE000444,Lagos Port,Rotterdam Port,12418,24,17913.62
+RTE000445,Dubai Port,Lagos Port,16963,10,5394.53
+RTE000446,Shanghai Port,Los Angeles Port,2386,19,46768.83
+RTE000447,Hamburg Port,Rotterdam Port,4890,11,2307.95
+RTE000448,Dubai Port,Lagos Port,2416,5,29313.12
+RTE000449,Singapore Port,Singapore Port,15229,10,14911.07
+RTE000450,Durban Port,Shanghai Port,7484,35,42977.31
+RTE000451,Los Angeles Port,Lagos Port,18236,24,5346.97
+RTE000452,Lagos Port,Dubai Port,18479,19,43885.08
+RTE000453,Lagos Port,Shanghai Port,4075,22,38525.15
+RTE000454,Los Angeles Port,Singapore Port,19395,30,7279.1
+RTE000455,Durban Port,Rotterdam Port,2459,18,48211.85
+RTE000456,Rotterdam Port,Shanghai Port,8899,27,21244.66
+RTE000457,Rotterdam Port,Dubai Port,19227,12,6486.82
+RTE000458,Rotterdam Port,Hamburg Port,12375,26,11169.71
+RTE000459,Dubai Port,Durban Port,12680,16,19450.04
+RTE000460,Shanghai Port,Shanghai Port,18578,8,9950.39
+RTE000461,Durban Port,Durban Port,9070,38,9851.46
+RTE000462,Los Angeles Port,Singapore Port,7238,33,25094.89
+RTE000463,Lagos Port,Hamburg Port,10447,14,16245.48
+RTE000464,Rotterdam Port,Durban Port,2429,32,19543.6
+RTE000465,Rotterdam Port,Dubai Port,16849,30,34949.5
+RTE000466,Durban Port,Durban Port,10721,27,35556.89
+RTE000467,Singapore Port,Los Angeles Port,5394,21,16230.98
+RTE000468,Dubai Port,Durban Port,4828,17,3041.69
+RTE000469,Shanghai Port,Los Angeles Port,10351,3,2068.48
+RTE000470,Shanghai Port,Durban Port,9562,34,5006.03
+RTE000471,Los Angeles Port,Durban Port,18001,5,16735.38
+RTE000472,Dubai Port,Lagos Port,11159,30,27468.18
+RTE000473,Hamburg Port,Singapore Port,9207,12,45442.8
+RTE000474,Los Angeles Port,Rotterdam Port,19790,37,16642.51
+RTE000475,Dubai Port,Dubai Port,3525,10,48921.17
+RTE000476,Lagos Port,Shanghai Port,10007,28,1795.52
+RTE000477,Shanghai Port,Dubai Port,11834,5,14085.55
+RTE000478,Singapore Port,Durban Port,6739,7,11278.47
+RTE000479,Singapore Port,Rotterdam Port,6551,37,39603.42
+RTE000480,Dubai Port,Rotterdam Port,9660,36,39838.71
+RTE000481,Singapore Port,Los Angeles Port,4133,27,26262.07
+RTE000482,Singapore Port,Dubai Port,4304,7,25783.98
+RTE000483,Los Angeles Port,Singapore Port,14630,33,7845.27
+RTE000484,Durban Port,Durban Port,19724,18,2415.39
+RTE000485,Shanghai Port,Singapore Port,5566,10,34875.67
+RTE000486,Los Angeles Port,Dubai Port,10561,15,28702.71
+RTE000487,Los Angeles Port,Los Angeles Port,10707,16,21887.54
+RTE000488,Dubai Port,Singapore Port,3332,20,34272.18
+RTE000489,Durban Port,Hamburg Port,19286,18,18945.14
+RTE000490,Hamburg Port,Durban Port,19133,12,31829.84
+RTE000491,Durban Port,Hamburg Port,3668,34,41775.58
+RTE000492,Los Angeles Port,Lagos Port,17672,13,13748.05
+RTE000493,Los Angeles Port,Durban Port,19049,13,32625.01
+RTE000494,Shanghai Port,Hamburg Port,8773,39,28011.67
+RTE000495,Singapore Port,Durban Port,13541,22,16428.94
+RTE000496,Hamburg Port,Hamburg Port,8657,35,26066.02
+RTE000497,Singapore Port,Los Angeles Port,2234,7,9428.04
+RTE000498,Shanghai Port,Lagos Port,6827,6,8819.88
+RTE000499,Shanghai Port,Dubai Port,14832,34,49558.98
+RTE000500,Lagos Port,Los Angeles Port,16206,36,15020.81
+RTE000501,Lagos Port,Hamburg Port,5937,14,22882.69
+RTE000502,Singapore Port,Singapore Port,3398,24,25086.41
+RTE000503,Shanghai Port,Rotterdam Port,12655,2,13033.68
+RTE000504,Los Angeles Port,Los Angeles Port,8715,22,39351.15
+RTE000505,Dubai Port,Los Angeles Port,8891,27,17117.41
+RTE000506,Los Angeles Port,Singapore Port,10290,38,43439.16
+RTE000507,Shanghai Port,Rotterdam Port,16920,14,26604.17
+RTE000508,Singapore Port,Shanghai Port,2331,11,7576.66
+RTE000509,Los Angeles Port,Shanghai Port,10287,21,12968.58
+RTE000510,Lagos Port,Durban Port,11798,16,11824.68
+RTE000511,Los Angeles Port,Shanghai Port,17932,31,8350.81
+RTE000512,Rotterdam Port,Hamburg Port,5291,29,30871.01
+RTE000513,Lagos Port,Singapore Port,10894,15,38581.98
+RTE000514,Shanghai Port,Lagos Port,4124,10,36617.53
+RTE000515,Los Angeles Port,Durban Port,8089,12,38965.31
+RTE000516,Shanghai Port,Durban Port,3836,31,29188.05
+RTE000517,Hamburg Port,Dubai Port,5871,6,22764.85
+RTE000518,Rotterdam Port,Los Angeles Port,11348,25,49651.83
+RTE000519,Durban Port,Dubai Port,14425,2,6967.28
+RTE000520,Singapore Port,Shanghai Port,1216,17,45782.18
+RTE000521,Dubai Port,Dubai Port,8883,14,4618.49
+RTE000522,Shanghai Port,Singapore Port,3713,21,28679.66
+RTE000523,Los Angeles Port,Shanghai Port,2518,20,29350.76
+RTE000524,Dubai Port,Singapore Port,10057,13,1051.03
+RTE000525,Shanghai Port,Singapore Port,10118,18,10858.03
+RTE000526,Lagos Port,Singapore Port,4011,20,33404.15
+RTE000527,Durban Port,Shanghai Port,4123,4,28294.61
+RTE000528,Durban Port,Dubai Port,18492,4,34148.43
+RTE000529,Dubai Port,Durban Port,13533,5,45145.02
+RTE000530,Los Angeles Port,Durban Port,19895,30,24074.51
+RTE000531,Dubai Port,Shanghai Port,5158,19,5030.65
+RTE000532,Shanghai Port,Rotterdam Port,7007,12,2076.01
+RTE000533,Durban Port,Singapore Port,7122,11,8386.59
+RTE000534,Durban Port,Los Angeles Port,7391,24,23331.65
+RTE000535,Shanghai Port,Dubai Port,1544,16,8494.15
+RTE000536,Lagos Port,Durban Port,7070,13,27659.65
+RTE000537,Dubai Port,Singapore Port,8477,11,8500.03
+RTE000538,Rotterdam Port,Dubai Port,8115,8,41400.46
+RTE000539,Shanghai Port,Lagos Port,9485,15,49378.51
+RTE000540,Shanghai Port,Durban Port,12963,11,27045.9
+RTE000541,Shanghai Port,Los Angeles Port,10847,37,39480.14
+RTE000542,Dubai Port,Los Angeles Port,14941,2,32475.02
+RTE000543,Hamburg Port,Shanghai Port,11373,8,18217.1
+RTE000544,Singapore Port,Lagos Port,2396,36,41268.79
+RTE000545,Durban Port,Los Angeles Port,8369,3,5762.25
+RTE000546,Lagos Port,Rotterdam Port,9818,11,30527.67
+RTE000547,Dubai Port,Los Angeles Port,18203,35,22454.35
+RTE000548,Singapore Port,Lagos Port,10712,26,27205.95
+RTE000549,Los Angeles Port,Hamburg Port,12278,22,16696.29
+RTE000550,Singapore Port,Hamburg Port,2022,3,10687.6
+RTE000551,Durban Port,Shanghai Port,9599,32,36846.28
+RTE000552,Durban Port,Singapore Port,5881,35,20909.22
+RTE000553,Durban Port,Rotterdam Port,13345,38,42216.78
+RTE000554,Dubai Port,Shanghai Port,9500,27,16817.73
+RTE000555,Los Angeles Port,Durban Port,14776,19,17668.33
+RTE000556,Singapore Port,Shanghai Port,4918,2,6232.16
+RTE000557,Lagos Port,Durban Port,1462,3,26547.13
+RTE000558,Los Angeles Port,Hamburg Port,10133,25,5286.85
+RTE000559,Durban Port,Los Angeles Port,8846,33,18342.46
+RTE000560,Los Angeles Port,Rotterdam Port,12996,32,49629.83
+RTE000561,Lagos Port,Shanghai Port,15144,10,13637.54
+RTE000562,Hamburg Port,Durban Port,7826,35,12342.07
+RTE000563,Durban Port,Hamburg Port,13312,18,23989.01
+RTE000564,Los Angeles Port,Lagos Port,7603,6,30842.26
+RTE000565,Durban Port,Dubai Port,15000,39,6083.47
+RTE000566,Lagos Port,Lagos Port,15810,12,36817.4
+RTE000567,Shanghai Port,Durban Port,9157,37,25390.4
+RTE000568,Singapore Port,Dubai Port,15792,4,3318.4
+RTE000569,Singapore Port,Singapore Port,17731,11,39631.38
+RTE000570,Shanghai Port,Los Angeles Port,12995,21,31127.01
+RTE000571,Shanghai Port,Dubai Port,16244,8,5488.11
+RTE000572,Rotterdam Port,Rotterdam Port,5298,6,40346.89
+RTE000573,Singapore Port,Lagos Port,6998,37,18588.68
+RTE000574,Dubai Port,Hamburg Port,16904,29,5426.7
+RTE000575,Lagos Port,Los Angeles Port,2413,32,40632.79
+RTE000576,Dubai Port,Hamburg Port,5386,12,49051.96
+RTE000577,Dubai Port,Los Angeles Port,9255,34,44387.5
+RTE000578,Dubai Port,Lagos Port,1176,5,4460.52
+RTE000579,Los Angeles Port,Los Angeles Port,13017,37,4792.2
+RTE000580,Rotterdam Port,Durban Port,12659,39,33389.56
+RTE000581,Shanghai Port,Lagos Port,1424,38,13353.86
+RTE000582,Dubai Port,Hamburg Port,16436,16,49879.65
+RTE000583,Singapore Port,Hamburg Port,17563,30,40362.91
+RTE000584,Shanghai Port,Lagos Port,16343,3,36882.34
+RTE000585,Shanghai Port,Lagos Port,585,38,5035.48
+RTE000586,Singapore Port,Dubai Port,13221,35,16532.88
+RTE000587,Shanghai Port,Singapore Port,9205,7,8783.4
+RTE000588,Rotterdam Port,Hamburg Port,6234,5,31168.64
+RTE000589,Los Angeles Port,Rotterdam Port,10392,20,16862.4
+RTE000590,Durban Port,Durban Port,6884,3,11436.52
+RTE000591,Shanghai Port,Los Angeles Port,11840,33,18712.94
+RTE000592,Singapore Port,Lagos Port,5958,18,22411.57
+RTE000593,Lagos Port,Singapore Port,9502,11,42789.34
+RTE000594,Dubai Port,Durban Port,16408,36,9608.57
+RTE000595,Durban Port,Hamburg Port,549,27,26262.78
+RTE000596,Hamburg Port,Lagos Port,1088,12,47633.23
+RTE000597,Durban Port,Los Angeles Port,18988,32,49560.16
+RTE000598,Dubai Port,Durban Port,16283,16,24058.54
+RTE000599,Dubai Port,Hamburg Port,8593,2,2722.91
+RTE000600,Los Angeles Port,Singapore Port,15306,13,41088.73
+RTE000601,Lagos Port,Singapore Port,13664,28,45643.94
+RTE000602,Durban Port,Singapore Port,17733,23,17038.92
+RTE000603,Singapore Port,Los Angeles Port,9958,31,48465.52
+RTE000604,Shanghai Port,Singapore Port,12878,25,44284.47
+RTE000605,Singapore Port,Rotterdam Port,14927,34,11203.74
+RTE000606,Singapore Port,Los Angeles Port,14764,23,49062.79
+RTE000607,Lagos Port,Shanghai Port,19673,8,12028.8
+RTE000608,Shanghai Port,Los Angeles Port,9012,8,23193.8
+RTE000609,Lagos Port,Durban Port,17415,17,28186.64
+RTE000610,Durban Port,Rotterdam Port,19628,29,46437.14
+RTE000611,Lagos Port,Dubai Port,1154,13,15298.58
+RTE000612,Dubai Port,Rotterdam Port,18769,14,31786.73
+RTE000613,Los Angeles Port,Durban Port,5997,36,34930.68
+RTE000614,Shanghai Port,Durban Port,2846,17,29934.16
+RTE000615,Singapore Port,Shanghai Port,5345,23,14303.41
+RTE000616,Durban Port,Hamburg Port,12339,4,4448.37
+RTE000617,Los Angeles Port,Dubai Port,1765,22,1721.99
+RTE000618,Hamburg Port,Durban Port,9920,38,29707.84
+RTE000619,Los Angeles Port,Rotterdam Port,10335,28,45048.32
+RTE000620,Durban Port,Los Angeles Port,13398,11,1059.26
+RTE000621,Rotterdam Port,Los Angeles Port,1523,3,30457.3
+RTE000622,Dubai Port,Shanghai Port,1676,24,32861.73
+RTE000623,Singapore Port,Durban Port,13912,33,25375.93
+RTE000624,Los Angeles Port,Durban Port,3840,35,30959.59
+RTE000625,Rotterdam Port,Dubai Port,3993,31,7807.89
+RTE000626,Los Angeles Port,Durban Port,16664,37,8331.87
+RTE000627,Lagos Port,Hamburg Port,9941,5,29189.21
+RTE000628,Los Angeles Port,Durban Port,10346,28,32836.27
+RTE000629,Hamburg Port,Hamburg Port,1581,5,44410.16
+RTE000630,Hamburg Port,Shanghai Port,4403,6,3343.23
+RTE000631,Singapore Port,Lagos Port,18689,28,37098.57
+RTE000632,Singapore Port,Durban Port,5800,17,10637.87
+RTE000633,Shanghai Port,Rotterdam Port,11795,13,44648.18
+RTE000634,Singapore Port,Los Angeles Port,12567,27,15002.31
+RTE000635,Singapore Port,Singapore Port,16244,25,46104.44
+RTE000636,Lagos Port,Los Angeles Port,18629,28,30124.5
+RTE000637,Los Angeles Port,Rotterdam Port,3449,3,6297.37
+RTE000638,Lagos Port,Hamburg Port,2340,34,25781.87
+RTE000639,Durban Port,Lagos Port,2627,36,12254.41
+RTE000640,Durban Port,Dubai Port,12247,29,10016.08
+RTE000641,Lagos Port,Lagos Port,11852,32,19332.0
+RTE000642,Rotterdam Port,Hamburg Port,2742,39,11399.65
+RTE000643,Shanghai Port,Singapore Port,11620,10,48429.15
+RTE000644,Los Angeles Port,Shanghai Port,19268,29,16838.55
+RTE000645,Los Angeles Port,Hamburg Port,6412,22,18273.31
+RTE000646,Rotterdam Port,Lagos Port,11430,2,15698.57
+RTE000647,Los Angeles Port,Shanghai Port,10416,7,44412.26
+RTE000648,Lagos Port,Singapore Port,5922,33,25778.94
+RTE000649,Durban Port,Hamburg Port,9596,22,19271.73
+RTE000650,Durban Port,Durban Port,7442,13,18668.02
+RTE000651,Los Angeles Port,Durban Port,10585,9,42423.43
+RTE000652,Lagos Port,Hamburg Port,12277,36,20183.78
+RTE000653,Dubai Port,Lagos Port,3770,25,6977.47
+RTE000654,Shanghai Port,Durban Port,15909,24,37649.69
+RTE000655,Los Angeles Port,Hamburg Port,18918,34,40247.85
+RTE000656,Hamburg Port,Lagos Port,840,23,21174.56
+RTE000657,Durban Port,Shanghai Port,4694,17,38392.09
+RTE000658,Hamburg Port,Hamburg Port,9235,11,16358.25
+RTE000659,Los Angeles Port,Singapore Port,11090,3,24398.06
+RTE000660,Hamburg Port,Hamburg Port,6767,7,23079.09
+RTE000661,Los Angeles Port,Singapore Port,8309,28,37278.85
+RTE000662,Los Angeles Port,Lagos Port,18662,9,20631.24
+RTE000663,Durban Port,Lagos Port,1143,11,12206.14
+RTE000664,Shanghai Port,Lagos Port,5055,13,18829.61
+RTE000665,Rotterdam Port,Hamburg Port,5741,24,1988.87
+RTE000666,Durban Port,Los Angeles Port,18808,26,45636.82
+RTE000667,Lagos Port,Shanghai Port,9795,35,5851.66
+RTE000668,Lagos Port,Lagos Port,11288,16,39709.36
+RTE000669,Dubai Port,Dubai Port,7955,2,15960.89
+RTE000670,Lagos Port,Shanghai Port,15670,19,22086.88
+RTE000671,Singapore Port,Los Angeles Port,5073,30,27965.3
+RTE000672,Shanghai Port,Hamburg Port,2076,31,11418.45
+RTE000673,Lagos Port,Shanghai Port,4882,21,26195.18
+RTE000674,Hamburg Port,Dubai Port,14430,39,24172.96
+RTE000675,Lagos Port,Rotterdam Port,14936,28,27573.23
+RTE000676,Shanghai Port,Lagos Port,17749,32,31040.66
+RTE000677,Dubai Port,Hamburg Port,17364,24,41714.52
+RTE000678,Shanghai Port,Los Angeles Port,1738,35,25231.23
+RTE000679,Shanghai Port,Shanghai Port,8577,33,14182.67
+RTE000680,Singapore Port,Dubai Port,6609,36,41330.56
+RTE000681,Shanghai Port,Los Angeles Port,7209,8,16955.26
+RTE000682,Durban Port,Dubai Port,18028,27,23907.45
+RTE000683,Singapore Port,Durban Port,9322,31,7782.39
+RTE000684,Singapore Port,Rotterdam Port,10309,25,5029.57
+RTE000685,Lagos Port,Los Angeles Port,2584,14,11876.65
+RTE000686,Hamburg Port,Durban Port,18285,30,44070.84
+RTE000687,Shanghai Port,Dubai Port,19712,24,41564.18
+RTE000688,Hamburg Port,Durban Port,19828,24,25044.0
+RTE000689,Los Angeles Port,Singapore Port,19945,7,7281.62
+RTE000690,Hamburg Port,Lagos Port,5284,23,45094.0
+RTE000691,Dubai Port,Durban Port,14346,34,2158.42
+RTE000692,Dubai Port,Dubai Port,9326,34,36880.64
+RTE000693,Shanghai Port,Los Angeles Port,5526,23,46180.82
+RTE000694,Durban Port,Rotterdam Port,3000,31,6599.04
+RTE000695,Hamburg Port,Hamburg Port,6526,32,33269.91
+RTE000696,Lagos Port,Dubai Port,5006,12,23528.5
+RTE000697,Hamburg Port,Hamburg Port,13672,11,12937.82
+RTE000698,Lagos Port,Durban Port,12805,29,13955.87
+RTE000699,Rotterdam Port,Dubai Port,9328,29,32153.49
+RTE000700,Los Angeles Port,Singapore Port,7902,29,31650.77
+RTE000701,Los Angeles Port,Rotterdam Port,9823,17,21599.19
+RTE000702,Los Angeles Port,Shanghai Port,10123,28,47310.53
+RTE000703,Durban Port,Rotterdam Port,11908,35,14798.75
+RTE000704,Singapore Port,Shanghai Port,5283,6,46626.61
+RTE000705,Rotterdam Port,Los Angeles Port,2284,5,41366.63
+RTE000706,Los Angeles Port,Los Angeles Port,5565,27,4722.19
+RTE000707,Los Angeles Port,Lagos Port,15492,16,32440.42
+RTE000708,Durban Port,Los Angeles Port,19947,25,19197.19
+RTE000709,Dubai Port,Durban Port,5033,38,27687.3
+RTE000710,Dubai Port,Durban Port,1981,6,7868.16
+RTE000711,Durban Port,Hamburg Port,7456,35,37308.57
+RTE000712,Rotterdam Port,Los Angeles Port,4291,38,40486.85
+RTE000713,Shanghai Port,Hamburg Port,7389,3,46555.29
+RTE000714,Hamburg Port,Rotterdam Port,1895,7,1059.52
+RTE000715,Shanghai Port,Los Angeles Port,1938,21,32713.3
+RTE000716,Los Angeles Port,Rotterdam Port,17746,39,9758.25
+RTE000717,Rotterdam Port,Rotterdam Port,7613,3,31927.26
+RTE000718,Los Angeles Port,Singapore Port,1371,14,25447.46
+RTE000719,Los Angeles Port,Dubai Port,18816,9,31687.57
+RTE000720,Hamburg Port,Shanghai Port,14047,30,45498.58
+RTE000721,Dubai Port,Dubai Port,693,6,49221.26
+RTE000722,Durban Port,Lagos Port,2316,33,31221.74
+RTE000723,Lagos Port,Los Angeles Port,8784,29,35252.81
+RTE000724,Rotterdam Port,Rotterdam Port,5071,32,33021.31
+RTE000725,Hamburg Port,Hamburg Port,18140,38,9768.96
+RTE000726,Singapore Port,Dubai Port,1758,7,44596.83
+RTE000727,Singapore Port,Hamburg Port,6215,38,12252.03
+RTE000728,Rotterdam Port,Dubai Port,7221,14,6677.27
+RTE000729,Dubai Port,Los Angeles Port,7405,20,9980.44
+RTE000730,Dubai Port,Hamburg Port,8056,36,31999.62
+RTE000731,Durban Port,Dubai Port,7948,15,2282.24
+RTE000732,Rotterdam Port,Lagos Port,992,16,2479.74
+RTE000733,Lagos Port,Singapore Port,4223,29,24525.69
+RTE000734,Singapore Port,Los Angeles Port,13488,14,6607.75
+RTE000735,Shanghai Port,Singapore Port,11818,32,44736.89
+RTE000736,Dubai Port,Durban Port,2474,37,7024.98
+RTE000737,Dubai Port,Lagos Port,18511,17,37679.33
+RTE000738,Los Angeles Port,Shanghai Port,6327,2,7896.52
+RTE000739,Rotterdam Port,Los Angeles Port,14005,13,17855.88
+RTE000740,Rotterdam Port,Dubai Port,10992,3,28487.12
+RTE000741,Rotterdam Port,Shanghai Port,8492,11,37293.69
+RTE000742,Los Angeles Port,Singapore Port,15108,23,33120.83
+RTE000743,Shanghai Port,Dubai Port,6474,5,15327.92
+RTE000744,Hamburg Port,Rotterdam Port,6517,38,8299.17
+RTE000745,Rotterdam Port,Durban Port,3592,6,5558.12
+RTE000746,Shanghai Port,Durban Port,13161,37,36218.81
+RTE000747,Durban Port,Dubai Port,15631,23,39932.87
+RTE000748,Durban Port,Durban Port,8438,35,37951.55
+RTE000749,Dubai Port,Singapore Port,16677,24,2283.81
+RTE000750,Dubai Port,Singapore Port,1508,39,15968.23
+RTE000751,Dubai Port,Hamburg Port,7582,12,24211.44
+RTE000752,Rotterdam Port,Rotterdam Port,18068,32,26433.31
+RTE000753,Hamburg Port,Durban Port,13047,10,31937.61
+RTE000754,Shanghai Port,Durban Port,9242,6,5761.4
+RTE000755,Hamburg Port,Singapore Port,17540,25,21425.76
+RTE000756,Lagos Port,Shanghai Port,2699,33,2165.58
+RTE000757,Hamburg Port,Lagos Port,10624,26,17260.18
+RTE000758,Durban Port,Durban Port,5445,8,26636.37
+RTE000759,Shanghai Port,Rotterdam Port,8631,12,32029.04
+RTE000760,Durban Port,Lagos Port,13983,31,18523.43
+RTE000761,Lagos Port,Shanghai Port,18710,34,17227.48
+RTE000762,Hamburg Port,Lagos Port,19057,9,13016.0
+RTE000763,Rotterdam Port,Lagos Port,18505,15,30331.11
+RTE000764,Hamburg Port,Hamburg Port,5254,30,27516.97
+RTE000765,Shanghai Port,Dubai Port,13914,38,23613.45
+RTE000766,Dubai Port,Los Angeles Port,18562,27,43264.71
+RTE000767,Hamburg Port,Dubai Port,678,31,24267.08
+RTE000768,Durban Port,Lagos Port,11128,3,36377.85
+RTE000769,Shanghai Port,Shanghai Port,15773,30,31666.59
+RTE000770,Dubai Port,Dubai Port,10829,30,49332.77
+RTE000771,Lagos Port,Hamburg Port,1791,22,3095.36
+RTE000772,Lagos Port,Durban Port,2975,14,38683.45
+RTE000773,Durban Port,Lagos Port,4465,6,5096.58
+RTE000774,Rotterdam Port,Shanghai Port,13756,15,49712.76
+RTE000775,Singapore Port,Shanghai Port,7221,37,22799.46
+RTE000776,Shanghai Port,Rotterdam Port,16764,2,49323.77
+RTE000777,Shanghai Port,Lagos Port,8408,28,17077.96
+RTE000778,Lagos Port,Rotterdam Port,10458,10,20369.25
+RTE000779,Shanghai Port,Los Angeles Port,9213,2,45110.46
+RTE000780,Dubai Port,Hamburg Port,5419,23,3657.07
+RTE000781,Lagos Port,Los Angeles Port,11813,12,17436.1
+RTE000782,Dubai Port,Rotterdam Port,8936,31,38981.8
+RTE000783,Los Angeles Port,Durban Port,7487,12,39246.77
+RTE000784,Shanghai Port,Shanghai Port,12741,30,36598.69
+RTE000785,Durban Port,Los Angeles Port,17828,29,35443.97
+RTE000786,Los Angeles Port,Lagos Port,12189,24,8553.05
+RTE000787,Lagos Port,Shanghai Port,12239,14,3019.3
+RTE000788,Los Angeles Port,Los Angeles Port,7138,33,47622.31
+RTE000789,Singapore Port,Dubai Port,5083,31,13523.28
+RTE000790,Dubai Port,Hamburg Port,16842,5,2073.44
+RTE000791,Dubai Port,Singapore Port,4209,4,8385.85
+RTE000792,Hamburg Port,Singapore Port,5379,19,5281.52
+RTE000793,Lagos Port,Singapore Port,3128,10,26639.54
+RTE000794,Dubai Port,Hamburg Port,9925,26,16147.33
+RTE000795,Hamburg Port,Shanghai Port,10414,5,28388.17
+RTE000796,Lagos Port,Los Angeles Port,10671,2,40004.08
+RTE000797,Rotterdam Port,Hamburg Port,1284,27,39032.82
+RTE000798,Hamburg Port,Lagos Port,6807,15,10621.71
+RTE000799,Rotterdam Port,Los Angeles Port,6793,10,6940.88
+RTE000800,Rotterdam Port,Durban Port,5053,17,1347.86
+RTE000801,Hamburg Port,Los Angeles Port,16809,36,18461.86
+RTE000802,Dubai Port,Lagos Port,5169,15,18024.01
+RTE000803,Singapore Port,Singapore Port,15240,13,11461.07
+RTE000804,Lagos Port,Shanghai Port,9278,11,42195.48
+RTE000805,Durban Port,Los Angeles Port,12110,11,5286.99
+RTE000806,Hamburg Port,Los Angeles Port,17257,5,28813.14
+RTE000807,Singapore Port,Dubai Port,4620,14,31379.77
+RTE000808,Singapore Port,Durban Port,12808,26,39862.86
+RTE000809,Hamburg Port,Durban Port,13787,36,14259.41
+RTE000810,Shanghai Port,Durban Port,10601,16,33514.42
+RTE000811,Dubai Port,Hamburg Port,16820,4,31060.23
+RTE000812,Singapore Port,Singapore Port,16634,19,38999.88
+RTE000813,Singapore Port,Durban Port,18918,6,1424.76
+RTE000814,Rotterdam Port,Rotterdam Port,17507,23,45062.18
+RTE000815,Hamburg Port,Shanghai Port,3597,37,19710.87
+RTE000816,Dubai Port,Los Angeles Port,14126,3,35827.71
+RTE000817,Rotterdam Port,Singapore Port,14697,7,42169.16
+RTE000818,Hamburg Port,Los Angeles Port,3940,19,27680.01
+RTE000819,Hamburg Port,Rotterdam Port,12383,8,21026.13
+RTE000820,Shanghai Port,Hamburg Port,10155,14,49626.89
+RTE000821,Rotterdam Port,Hamburg Port,6334,12,23583.17
+RTE000822,Singapore Port,Durban Port,18490,25,37326.97
+RTE000823,Rotterdam Port,Lagos Port,15731,36,24205.27
+RTE000824,Hamburg Port,Durban Port,12186,30,41842.36
+RTE000825,Rotterdam Port,Los Angeles Port,8653,24,31014.44
+RTE000826,Lagos Port,Los Angeles Port,9271,6,3695.31
+RTE000827,Rotterdam Port,Rotterdam Port,6675,21,21260.3
+RTE000828,Dubai Port,Los Angeles Port,6677,26,43284.62
+RTE000829,Hamburg Port,Durban Port,4401,36,38394.91
+RTE000830,Hamburg Port,Hamburg Port,15819,37,35767.38
+RTE000831,Lagos Port,Hamburg Port,17097,20,37631.44
+RTE000832,Singapore Port,Hamburg Port,5529,36,33011.19
+RTE000833,Lagos Port,Dubai Port,19789,30,16499.16
+RTE000834,Rotterdam Port,Lagos Port,10616,19,25367.58
+RTE000835,Dubai Port,Hamburg Port,7486,32,26910.95
+RTE000836,Singapore Port,Singapore Port,9233,15,21302.09
+RTE000837,Singapore Port,Dubai Port,17507,15,1687.12
+RTE000838,Durban Port,Lagos Port,16091,21,17024.22
+RTE000839,Singapore Port,Lagos Port,4540,17,20583.01
+RTE000840,Durban Port,Shanghai Port,14893,25,1257.69
+RTE000841,Shanghai Port,Dubai Port,10644,15,30419.34
+RTE000842,Lagos Port,Los Angeles Port,16302,36,25163.47
+RTE000843,Rotterdam Port,Rotterdam Port,4167,39,27019.7
+RTE000844,Lagos Port,Hamburg Port,2112,31,9721.97
+RTE000845,Hamburg Port,Hamburg Port,16266,31,17076.14
+RTE000846,Singapore Port,Lagos Port,4291,23,33028.7
+RTE000847,Dubai Port,Hamburg Port,6634,13,1695.15
+RTE000848,Shanghai Port,Durban Port,8065,39,8312.73
+RTE000849,Singapore Port,Hamburg Port,6657,17,7580.79
+RTE000850,Rotterdam Port,Rotterdam Port,16026,11,14161.26
+RTE000851,Shanghai Port,Lagos Port,11119,38,10265.22
+RTE000852,Rotterdam Port,Shanghai Port,16312,39,47008.0
+RTE000853,Lagos Port,Hamburg Port,12433,7,16910.17
+RTE000854,Hamburg Port,Singapore Port,4344,15,35942.31
+RTE000855,Durban Port,Singapore Port,16376,36,46978.75
+RTE000856,Durban Port,Hamburg Port,16758,26,42014.5
+RTE000857,Rotterdam Port,Shanghai Port,12188,37,25758.66
+RTE000858,Hamburg Port,Los Angeles Port,1357,17,22752.84
+RTE000859,Dubai Port,Los Angeles Port,4057,19,48510.38
+RTE000860,Los Angeles Port,Singapore Port,5493,11,4682.12
+RTE000861,Dubai Port,Durban Port,13712,36,32499.0
+RTE000862,Rotterdam Port,Singapore Port,16841,39,48230.11
+RTE000863,Los Angeles Port,Los Angeles Port,18801,28,11155.09
+RTE000864,Los Angeles Port,Singapore Port,15630,10,8704.7
+RTE000865,Singapore Port,Dubai Port,12967,3,37947.94
+RTE000866,Dubai Port,Hamburg Port,2280,10,45772.59
+RTE000867,Shanghai Port,Durban Port,14092,29,47588.22
+RTE000868,Hamburg Port,Singapore Port,11332,16,6451.79
+RTE000869,Singapore Port,Singapore Port,18635,23,47123.17
+RTE000870,Los Angeles Port,Los Angeles Port,14018,29,18989.6
+RTE000871,Shanghai Port,Singapore Port,5482,32,21951.68
+RTE000872,Singapore Port,Singapore Port,9137,38,15773.23
+RTE000873,Los Angeles Port,Hamburg Port,15172,39,2602.19
+RTE000874,Rotterdam Port,Dubai Port,14319,31,47052.52
+RTE000875,Dubai Port,Rotterdam Port,17729,31,3141.17
+RTE000876,Hamburg Port,Lagos Port,7583,23,22977.26
+RTE000877,Singapore Port,Singapore Port,4758,25,40204.3
+RTE000878,Los Angeles Port,Rotterdam Port,12882,39,34380.49
+RTE000879,Los Angeles Port,Shanghai Port,15223,28,35768.52
+RTE000880,Durban Port,Rotterdam Port,4925,30,11704.86
+RTE000881,Lagos Port,Lagos Port,3264,7,28421.27
+RTE000882,Dubai Port,Lagos Port,17232,26,43342.95
+RTE000883,Los Angeles Port,Los Angeles Port,16503,35,4125.37
+RTE000884,Lagos Port,Singapore Port,10382,30,23948.94
+RTE000885,Shanghai Port,Singapore Port,3019,11,14976.8
+RTE000886,Dubai Port,Lagos Port,3064,37,44176.16
+RTE000887,Shanghai Port,Shanghai Port,9618,18,44894.16
+RTE000888,Shanghai Port,Dubai Port,2532,12,21039.45
+RTE000889,Rotterdam Port,Singapore Port,4257,31,4703.81
+RTE000890,Hamburg Port,Durban Port,5274,7,27297.63
+RTE000891,Durban Port,Singapore Port,12318,22,33274.34
+RTE000892,Shanghai Port,Durban Port,13821,10,42842.29
+RTE000893,Los Angeles Port,Dubai Port,16563,37,6763.8
+RTE000894,Lagos Port,Hamburg Port,15960,11,17601.36
+RTE000895,Singapore Port,Lagos Port,7947,15,2361.89
+RTE000896,Hamburg Port,Hamburg Port,971,7,18151.48
+RTE000897,Dubai Port,Durban Port,16272,22,31543.04
+RTE000898,Durban Port,Singapore Port,925,6,34522.48
+RTE000899,Hamburg Port,Los Angeles Port,11627,6,22711.76
+RTE000900,Los Angeles Port,Durban Port,3989,32,6807.61
+RTE000901,Rotterdam Port,Durban Port,5318,23,46149.71
+RTE000902,Dubai Port,Dubai Port,11694,3,15375.23
+RTE000903,Rotterdam Port,Dubai Port,9289,35,14659.93
+RTE000904,Hamburg Port,Shanghai Port,7225,31,49280.49
+RTE000905,Singapore Port,Los Angeles Port,10470,19,41222.13
+RTE000906,Dubai Port,Lagos Port,8289,4,2784.6
+RTE000907,Los Angeles Port,Singapore Port,11812,35,46007.48
+RTE000908,Los Angeles Port,Dubai Port,18017,35,1451.21
+RTE000909,Durban Port,Lagos Port,2181,30,39238.6
+RTE000910,Los Angeles Port,Lagos Port,8560,34,49974.82
+RTE000911,Los Angeles Port,Dubai Port,9606,11,13900.08
+RTE000912,Shanghai Port,Hamburg Port,2083,36,42766.7
+RTE000913,Los Angeles Port,Dubai Port,13811,30,43978.54
+RTE000914,Los Angeles Port,Rotterdam Port,3936,20,37849.55
+RTE000915,Hamburg Port,Dubai Port,2779,6,40073.83
+RTE000916,Hamburg Port,Durban Port,6577,10,39153.38
+RTE000917,Shanghai Port,Singapore Port,2521,7,20717.14
+RTE000918,Durban Port,Rotterdam Port,18192,26,35599.32
+RTE000919,Singapore Port,Los Angeles Port,15989,24,44397.94
+RTE000920,Los Angeles Port,Dubai Port,11176,4,47558.2
+RTE000921,Shanghai Port,Rotterdam Port,13161,3,32554.84
+RTE000922,Shanghai Port,Singapore Port,10348,30,13492.11
+RTE000923,Los Angeles Port,Rotterdam Port,6698,14,39192.93
+RTE000924,Lagos Port,Lagos Port,6494,20,23931.44
+RTE000925,Rotterdam Port,Durban Port,3831,13,19037.24
+RTE000926,Shanghai Port,Shanghai Port,11596,25,40894.75
+RTE000927,Lagos Port,Rotterdam Port,3030,5,29116.34
+RTE000928,Rotterdam Port,Durban Port,3968,21,21821.97
+RTE000929,Rotterdam Port,Los Angeles Port,7332,8,11852.6
+RTE000930,Lagos Port,Hamburg Port,13140,37,22534.27
+RTE000931,Durban Port,Hamburg Port,13219,24,20800.39
+RTE000932,Rotterdam Port,Durban Port,9795,21,8313.24
+RTE000933,Singapore Port,Singapore Port,5263,6,45870.98
+RTE000934,Dubai Port,Dubai Port,2303,39,26589.49
+RTE000935,Hamburg Port,Durban Port,18062,19,38034.95
+RTE000936,Dubai Port,Los Angeles Port,5593,38,37625.18
+RTE000937,Singapore Port,Shanghai Port,10431,20,8610.2
+RTE000938,Rotterdam Port,Rotterdam Port,17654,4,43796.79
+RTE000939,Lagos Port,Lagos Port,1744,3,41457.96
+RTE000940,Hamburg Port,Rotterdam Port,16378,34,30641.83
+RTE000941,Lagos Port,Shanghai Port,13126,7,19415.94
+RTE000942,Los Angeles Port,Los Angeles Port,10782,35,29306.15
+RTE000943,Lagos Port,Dubai Port,5985,26,45325.33
+RTE000944,Rotterdam Port,Durban Port,18920,35,18565.33
+RTE000945,Shanghai Port,Dubai Port,4267,29,32781.95
+RTE000946,Dubai Port,Rotterdam Port,1451,18,49030.19
+RTE000947,Hamburg Port,Rotterdam Port,12901,36,43044.59
+RTE000948,Los Angeles Port,Rotterdam Port,13654,26,28450.74
+RTE000949,Singapore Port,Durban Port,11395,38,23969.46
+RTE000950,Rotterdam Port,Shanghai Port,3522,5,18851.05
+RTE000951,Los Angeles Port,Dubai Port,13893,13,9150.15
+RTE000952,Hamburg Port,Lagos Port,10555,32,12114.27
+RTE000953,Durban Port,Dubai Port,18882,37,15162.76
+RTE000954,Hamburg Port,Shanghai Port,19079,8,20878.63
+RTE000955,Durban Port,Durban Port,19737,18,17791.47
+RTE000956,Shanghai Port,Singapore Port,17187,7,7788.63
+RTE000957,Durban Port,Hamburg Port,19377,39,24969.39
+RTE000958,Durban Port,Durban Port,9485,16,19135.41
+RTE000959,Durban Port,Los Angeles Port,751,38,44679.8
+RTE000960,Singapore Port,Durban Port,9823,29,1329.47
+RTE000961,Durban Port,Dubai Port,9080,33,30515.87
+RTE000962,Rotterdam Port,Shanghai Port,15934,14,35095.48
+RTE000963,Lagos Port,Hamburg Port,18332,21,5567.14
+RTE000964,Lagos Port,Dubai Port,5126,7,40618.76
+RTE000965,Singapore Port,Lagos Port,4974,33,49785.49
+RTE000966,Dubai Port,Los Angeles Port,17387,23,8947.87
+RTE000967,Los Angeles Port,Rotterdam Port,2339,15,23607.47
+RTE000968,Singapore Port,Los Angeles Port,13535,28,4176.92
+RTE000969,Durban Port,Shanghai Port,4181,25,18978.83
+RTE000970,Los Angeles Port,Dubai Port,13595,19,7000.06
+RTE000971,Hamburg Port,Singapore Port,1786,28,22463.03
+RTE000972,Hamburg Port,Durban Port,8685,28,43769.65
+RTE000973,Hamburg Port,Singapore Port,10299,21,36524.79
+RTE000974,Durban Port,Durban Port,11916,8,26365.73
+RTE000975,Singapore Port,Los Angeles Port,19024,5,22875.92
+RTE000976,Lagos Port,Rotterdam Port,13633,2,29159.89
+RTE000977,Rotterdam Port,Singapore Port,17834,33,46558.42
+RTE000978,Singapore Port,Hamburg Port,15574,39,28929.11
+RTE000979,Hamburg Port,Rotterdam Port,1918,10,37883.65
+RTE000980,Rotterdam Port,Rotterdam Port,10200,11,22611.92
+RTE000981,Durban Port,Lagos Port,13425,27,11491.49
+RTE000982,Hamburg Port,Durban Port,12368,4,24906.95
+RTE000983,Rotterdam Port,Rotterdam Port,8138,5,17826.1
+RTE000984,Durban Port,Singapore Port,16579,37,28178.22
+RTE000985,Rotterdam Port,Singapore Port,15723,31,17897.23
+RTE000986,Durban Port,Singapore Port,13712,19,35568.7
+RTE000987,Singapore Port,Singapore Port,2189,15,35678.33
+RTE000988,Singapore Port,Durban Port,15397,16,6637.53
+RTE000989,Los Angeles Port,Shanghai Port,4047,32,10317.81
+RTE000990,Los Angeles Port,Dubai Port,4600,11,43447.7
+RTE000991,Hamburg Port,Lagos Port,17339,23,28631.81
+RTE000992,Singapore Port,Los Angeles Port,11660,33,48140.02
+RTE000993,Dubai Port,Rotterdam Port,7464,14,13467.41
+RTE000994,Dubai Port,Durban Port,3700,20,28506.44
+RTE000995,Hamburg Port,Dubai Port,14258,21,10878.95
+RTE000996,Dubai Port,Dubai Port,4889,15,43812.52
+RTE000997,Dubai Port,Hamburg Port,12393,22,45360.14
+RTE000998,Dubai Port,Los Angeles Port,14175,17,44465.57
+RTE000999,Durban Port,Durban Port,12860,14,38265.35
+RTE001000,Durban Port,Los Angeles Port,3718,33,14826.36
+RTE001001,Hamburg Port,Lagos Port,16673,3,25642.71
+RTE001002,Hamburg Port,Lagos Port,9670,17,41921.25
+RTE001003,Rotterdam Port,Los Angeles Port,6577,29,27489.7
+RTE001004,Los Angeles Port,Los Angeles Port,9079,38,23383.66
+RTE001005,Rotterdam Port,Rotterdam Port,8703,11,45993.82
+RTE001006,Rotterdam Port,Lagos Port,14594,7,30465.64
+RTE001007,Lagos Port,Dubai Port,10868,11,35967.15
+RTE001008,Hamburg Port,Lagos Port,6176,10,18494.53
+RTE001009,Rotterdam Port,Durban Port,18861,12,40564.14
+RTE001010,Dubai Port,Rotterdam Port,15646,18,45684.53
+RTE001011,Durban Port,Rotterdam Port,15160,10,46028.67
+RTE001012,Singapore Port,Dubai Port,1587,6,19369.35
+RTE001013,Los Angeles Port,Dubai Port,3388,17,10973.98
+RTE001014,Lagos Port,Dubai Port,3187,3,23644.81
+RTE001015,Shanghai Port,Rotterdam Port,19047,2,48266.28
+RTE001016,Los Angeles Port,Singapore Port,878,8,26606.1
+RTE001017,Dubai Port,Dubai Port,15191,15,4233.07
+RTE001018,Shanghai Port,Lagos Port,5484,8,28770.58
+RTE001019,Shanghai Port,Durban Port,8599,31,6064.52
+RTE001020,Durban Port,Dubai Port,4783,38,22023.43
+RTE001021,Rotterdam Port,Lagos Port,13638,29,1981.51
+RTE001022,Rotterdam Port,Dubai Port,11863,27,13353.91
+RTE001023,Los Angeles Port,Lagos Port,6810,19,15607.18
+RTE001024,Shanghai Port,Hamburg Port,12625,36,48452.67
+RTE001025,Dubai Port,Los Angeles Port,19776,5,12743.56
+RTE001026,Rotterdam Port,Rotterdam Port,11309,31,30621.89
+RTE001027,Los Angeles Port,Hamburg Port,18616,33,46879.39
+RTE001028,Shanghai Port,Los Angeles Port,5561,22,22084.88
+RTE001029,Singapore Port,Los Angeles Port,17041,29,48586.51
+RTE001030,Los Angeles Port,Durban Port,10054,26,23278.63
+RTE001031,Dubai Port,Hamburg Port,18684,14,39559.89
+RTE001032,Shanghai Port,Shanghai Port,16499,18,20459.95
+RTE001033,Los Angeles Port,Hamburg Port,4118,8,13519.4
+RTE001034,Dubai Port,Lagos Port,8019,31,6145.02
+RTE001035,Dubai Port,Durban Port,10867,38,41563.02
+RTE001036,Dubai Port,Singapore Port,16349,10,17531.53
+RTE001037,Lagos Port,Durban Port,4043,15,34886.0
+RTE001038,Los Angeles Port,Lagos Port,7436,17,45408.84
+RTE001039,Hamburg Port,Los Angeles Port,13468,24,15228.12
+RTE001040,Rotterdam Port,Hamburg Port,2471,31,26210.74
+RTE001041,Lagos Port,Rotterdam Port,15150,5,10415.03
+RTE001042,Durban Port,Los Angeles Port,15370,5,33809.47
+RTE001043,Lagos Port,Lagos Port,9104,29,44061.89
+RTE001044,Singapore Port,Rotterdam Port,16799,3,9085.99
+RTE001045,Rotterdam Port,Los Angeles Port,4983,25,10585.45
+RTE001046,Dubai Port,Dubai Port,6253,38,47297.94
+RTE001047,Shanghai Port,Hamburg Port,9158,34,7735.57
+RTE001048,Dubai Port,Hamburg Port,7425,32,27643.01
+RTE001049,Singapore Port,Singapore Port,8550,18,33269.93
+RTE001050,Singapore Port,Singapore Port,15241,14,19083.77
+RTE001051,Lagos Port,Lagos Port,15335,8,2492.62
+RTE001052,Dubai Port,Lagos Port,18094,11,7775.36
+RTE001053,Singapore Port,Rotterdam Port,4890,15,46429.17
+RTE001054,Singapore Port,Lagos Port,14268,18,25098.49
+RTE001055,Los Angeles Port,Rotterdam Port,19437,14,24563.5
+RTE001056,Lagos Port,Los Angeles Port,1821,20,36386.21
+RTE001057,Dubai Port,Los Angeles Port,10683,15,39646.13
+RTE001058,Singapore Port,Singapore Port,10548,7,24627.37
+RTE001059,Durban Port,Lagos Port,18198,14,4058.11
+RTE001060,Los Angeles Port,Los Angeles Port,3887,36,34442.35
+RTE001061,Singapore Port,Los Angeles Port,12270,7,49421.82
+RTE001062,Los Angeles Port,Lagos Port,19189,26,32676.48
+RTE001063,Los Angeles Port,Durban Port,7926,20,14839.18
+RTE001064,Durban Port,Los Angeles Port,9047,3,24123.88
+RTE001065,Singapore Port,Shanghai Port,9522,23,42247.03
+RTE001066,Los Angeles Port,Singapore Port,11920,20,48405.43
+RTE001067,Singapore Port,Rotterdam Port,1607,5,16430.97
+RTE001068,Durban Port,Durban Port,7315,10,8727.45
+RTE001069,Hamburg Port,Lagos Port,14139,29,20392.88
+RTE001070,Rotterdam Port,Los Angeles Port,5629,16,49019.07
+RTE001071,Hamburg Port,Rotterdam Port,19392,16,14092.02
+RTE001072,Shanghai Port,Durban Port,5158,3,37796.22
+RTE001073,Lagos Port,Lagos Port,6050,33,25686.64
+RTE001074,Los Angeles Port,Rotterdam Port,13750,31,49831.36
+RTE001075,Durban Port,Singapore Port,1285,11,39260.62
+RTE001076,Dubai Port,Singapore Port,3346,13,28321.98
+RTE001077,Rotterdam Port,Hamburg Port,16559,24,10823.05
+RTE001078,Dubai Port,Los Angeles Port,752,21,28600.13
+RTE001079,Dubai Port,Lagos Port,11704,13,36955.2
+RTE001080,Singapore Port,Los Angeles Port,9772,5,21608.14
+RTE001081,Hamburg Port,Lagos Port,14711,34,1406.45
+RTE001082,Shanghai Port,Los Angeles Port,3745,4,36996.46
+RTE001083,Los Angeles Port,Dubai Port,18889,20,43781.19
+RTE001084,Dubai Port,Shanghai Port,1678,33,26276.32
+RTE001085,Durban Port,Shanghai Port,2214,28,17917.26
+RTE001086,Hamburg Port,Los Angeles Port,7548,34,8673.17
+RTE001087,Shanghai Port,Durban Port,6248,3,35317.09
+RTE001088,Hamburg Port,Dubai Port,11686,18,3336.21
+RTE001089,Singapore Port,Los Angeles Port,7589,13,49957.91
+RTE001090,Hamburg Port,Lagos Port,18984,18,27293.17
+RTE001091,Hamburg Port,Durban Port,16841,9,21057.58
+RTE001092,Durban Port,Singapore Port,4195,36,45147.7
+RTE001093,Los Angeles Port,Rotterdam Port,16072,26,1524.11
+RTE001094,Dubai Port,Los Angeles Port,10932,20,8585.25
+RTE001095,Rotterdam Port,Lagos Port,13088,12,29790.69
+RTE001096,Dubai Port,Rotterdam Port,19915,31,7247.27
+RTE001097,Singapore Port,Durban Port,11998,26,49749.34
+RTE001098,Lagos Port,Hamburg Port,1087,22,11087.7
+RTE001099,Lagos Port,Shanghai Port,4507,38,21582.99
+RTE001100,Los Angeles Port,Dubai Port,14436,21,48895.78
+RTE001101,Singapore Port,Rotterdam Port,11832,3,12640.25
+RTE001102,Hamburg Port,Hamburg Port,3424,15,8032.3
+RTE001103,Rotterdam Port,Durban Port,10284,27,34595.52
+RTE001104,Los Angeles Port,Hamburg Port,16341,5,14098.6
+RTE001105,Los Angeles Port,Shanghai Port,2589,20,45068.11
+RTE001106,Hamburg Port,Los Angeles Port,15172,5,2637.75
+RTE001107,Singapore Port,Los Angeles Port,13627,11,35153.73
+RTE001108,Hamburg Port,Shanghai Port,17175,33,16514.24
+RTE001109,Durban Port,Durban Port,19282,28,24341.97
+RTE001110,Lagos Port,Shanghai Port,4086,24,49512.12
+RTE001111,Hamburg Port,Durban Port,5535,28,26767.73
+RTE001112,Lagos Port,Los Angeles Port,5218,7,3708.85
+RTE001113,Singapore Port,Durban Port,17436,32,42789.3
+RTE001114,Dubai Port,Los Angeles Port,19281,12,36511.88
+RTE001115,Shanghai Port,Shanghai Port,11116,7,36446.66
+RTE001116,Hamburg Port,Dubai Port,19623,2,43816.93
+RTE001117,Singapore Port,Lagos Port,10086,33,3396.5
+RTE001118,Durban Port,Dubai Port,12884,21,49352.7
+RTE001119,Los Angeles Port,Hamburg Port,8756,36,33201.7
+RTE001120,Hamburg Port,Rotterdam Port,6964,24,36253.78
+RTE001121,Dubai Port,Singapore Port,14653,4,13400.97
+RTE001122,Los Angeles Port,Durban Port,19705,28,21833.34
+RTE001123,Hamburg Port,Hamburg Port,6240,18,24484.1
+RTE001124,Durban Port,Dubai Port,1450,33,4323.35
+RTE001125,Singapore Port,Singapore Port,7981,18,6467.3
+RTE001126,Dubai Port,Los Angeles Port,8623,8,6603.68
+RTE001127,Rotterdam Port,Shanghai Port,8938,10,12313.83
+RTE001128,Los Angeles Port,Dubai Port,1073,14,24358.54
+RTE001129,Durban Port,Singapore Port,17208,4,23690.38
+RTE001130,Los Angeles Port,Hamburg Port,8982,23,10733.39
+RTE001131,Singapore Port,Lagos Port,9204,2,35704.86
+RTE001132,Los Angeles Port,Rotterdam Port,15492,9,32939.92
+RTE001133,Shanghai Port,Durban Port,19443,38,7666.86
+RTE001134,Los Angeles Port,Lagos Port,11208,21,4567.19
+RTE001135,Singapore Port,Shanghai Port,19353,25,11569.47
+RTE001136,Rotterdam Port,Rotterdam Port,5518,26,13638.03
+RTE001137,Hamburg Port,Dubai Port,2146,26,3395.75
+RTE001138,Los Angeles Port,Singapore Port,14932,27,7223.62
+RTE001139,Shanghai Port,Durban Port,13510,35,9661.12
+RTE001140,Hamburg Port,Singapore Port,13310,3,9096.93
+RTE001141,Shanghai Port,Durban Port,6932,32,9289.99
+RTE001142,Singapore Port,Shanghai Port,762,27,23600.88
+RTE001143,Lagos Port,Singapore Port,3679,7,41128.06
+RTE001144,Los Angeles Port,Lagos Port,18743,25,20510.83
+RTE001145,Los Angeles Port,Hamburg Port,694,15,24182.24
+RTE001146,Durban Port,Lagos Port,987,33,36749.91
+RTE001147,Rotterdam Port,Los Angeles Port,2262,34,48663.08
+RTE001148,Durban Port,Los Angeles Port,17291,34,35171.34
+RTE001149,Los Angeles Port,Singapore Port,15539,14,40721.92
+RTE001150,Singapore Port,Los Angeles Port,9028,6,12549.85
+RTE001151,Lagos Port,Singapore Port,18901,35,3303.64
+RTE001152,Hamburg Port,Hamburg Port,13358,32,41026.24
+RTE001153,Rotterdam Port,Rotterdam Port,3121,34,18903.54
+RTE001154,Durban Port,Los Angeles Port,1391,35,35128.08
+RTE001155,Durban Port,Lagos Port,15567,25,17717.0
+RTE001156,Dubai Port,Rotterdam Port,2231,3,25640.33
+RTE001157,Rotterdam Port,Hamburg Port,19757,14,21842.76
+RTE001158,Durban Port,Rotterdam Port,17150,13,47038.13
+RTE001159,Hamburg Port,Rotterdam Port,18197,28,25123.5
+RTE001160,Durban Port,Hamburg Port,9811,4,15708.32
+RTE001161,Shanghai Port,Singapore Port,17504,24,5864.29
+RTE001162,Durban Port,Lagos Port,4334,31,34580.01
+RTE001163,Dubai Port,Los Angeles Port,2973,36,20919.91
+RTE001164,Lagos Port,Los Angeles Port,15116,19,31614.61
+RTE001165,Shanghai Port,Lagos Port,14931,11,36801.64
+RTE001166,Dubai Port,Los Angeles Port,2322,8,9361.44
+RTE001167,Rotterdam Port,Lagos Port,3821,30,18175.84
+RTE001168,Lagos Port,Rotterdam Port,3222,2,24735.33
+RTE001169,Hamburg Port,Durban Port,702,8,16991.31
+RTE001170,Durban Port,Shanghai Port,11889,9,14643.5
+RTE001171,Lagos Port,Hamburg Port,8856,14,34185.28
+RTE001172,Singapore Port,Rotterdam Port,5977,39,12435.84
+RTE001173,Rotterdam Port,Los Angeles Port,16304,11,45812.81
+RTE001174,Lagos Port,Los Angeles Port,2960,15,11512.15
+RTE001175,Hamburg Port,Durban Port,601,5,45000.82
+RTE001176,Hamburg Port,Singapore Port,2918,12,12446.05
+RTE001177,Lagos Port,Singapore Port,15470,17,25166.2
+RTE001178,Lagos Port,Rotterdam Port,2090,17,45635.9
+RTE001179,Lagos Port,Hamburg Port,11007,25,10307.59
+RTE001180,Shanghai Port,Rotterdam Port,9694,39,28682.55
+RTE001181,Singapore Port,Hamburg Port,17717,26,12632.93
+RTE001182,Durban Port,Hamburg Port,10186,3,3185.17
+RTE001183,Durban Port,Dubai Port,18660,9,30229.71
+RTE001184,Hamburg Port,Los Angeles Port,5653,4,45855.0
+RTE001185,Durban Port,Durban Port,4236,27,22741.4
+RTE001186,Singapore Port,Dubai Port,5462,24,49968.73
+RTE001187,Durban Port,Rotterdam Port,17055,25,7594.32
+RTE001188,Los Angeles Port,Los Angeles Port,11446,36,35631.26
+RTE001189,Lagos Port,Lagos Port,1160,32,41597.62
+RTE001190,Durban Port,Durban Port,8265,6,42304.9
+RTE001191,Los Angeles Port,Los Angeles Port,13122,28,26388.68
+RTE001192,Rotterdam Port,Hamburg Port,10818,10,17020.9
+RTE001193,Rotterdam Port,Dubai Port,2438,14,9980.5
+RTE001194,Singapore Port,Rotterdam Port,8587,14,1639.41
+RTE001195,Dubai Port,Singapore Port,7749,28,19949.06
+RTE001196,Shanghai Port,Shanghai Port,9890,36,3494.23
+RTE001197,Singapore Port,Dubai Port,14930,12,20817.18
+RTE001198,Dubai Port,Singapore Port,17146,26,35290.63
+RTE001199,Lagos Port,Lagos Port,4203,37,6599.13
+RTE001200,Hamburg Port,Dubai Port,6893,28,42706.19
+RTE001201,Lagos Port,Dubai Port,15915,4,20722.73
+RTE001202,Dubai Port,Lagos Port,14018,30,41850.37
+RTE001203,Lagos Port,Los Angeles Port,12538,29,17655.35
+RTE001204,Lagos Port,Lagos Port,13049,25,32795.55
+RTE001205,Lagos Port,Dubai Port,2748,5,4913.15
+RTE001206,Shanghai Port,Dubai Port,1391,24,34666.2
+RTE001207,Dubai Port,Lagos Port,9712,22,10022.77
+RTE001208,Singapore Port,Lagos Port,4314,2,5114.18
+RTE001209,Lagos Port,Rotterdam Port,5659,11,11281.89
+RTE001210,Shanghai Port,Shanghai Port,3366,34,32498.93
+RTE001211,Shanghai Port,Lagos Port,12896,28,10763.81
+RTE001212,Durban Port,Rotterdam Port,2601,15,37424.5
+RTE001213,Durban Port,Hamburg Port,4771,25,32948.12
+RTE001214,Durban Port,Durban Port,19340,13,46287.42
+RTE001215,Rotterdam Port,Shanghai Port,8236,38,8118.86
+RTE001216,Los Angeles Port,Singapore Port,19519,29,30978.53
+RTE001217,Lagos Port,Durban Port,15889,18,28366.02
+RTE001218,Singapore Port,Lagos Port,7566,14,39651.86
+RTE001219,Durban Port,Rotterdam Port,10950,6,2333.69
+RTE001220,Los Angeles Port,Rotterdam Port,18927,33,16908.37
+RTE001221,Singapore Port,Shanghai Port,16985,7,5691.66
+RTE001222,Lagos Port,Los Angeles Port,7582,16,33499.34
+RTE001223,Lagos Port,Shanghai Port,18937,28,11748.55
+RTE001224,Rotterdam Port,Rotterdam Port,4405,30,4890.99
+RTE001225,Rotterdam Port,Shanghai Port,13028,16,13384.28
+RTE001226,Durban Port,Lagos Port,2812,13,5211.69
+RTE001227,Durban Port,Los Angeles Port,2590,10,21942.45
+RTE001228,Shanghai Port,Durban Port,646,34,37486.04
+RTE001229,Lagos Port,Los Angeles Port,10390,37,16979.39
+RTE001230,Dubai Port,Dubai Port,12296,26,47184.46
+RTE001231,Hamburg Port,Shanghai Port,14912,7,33062.22
+RTE001232,Dubai Port,Singapore Port,1914,31,37355.45
+RTE001233,Dubai Port,Dubai Port,8584,6,39860.19
+RTE001234,Shanghai Port,Shanghai Port,5430,17,8618.86
+RTE001235,Shanghai Port,Durban Port,8491,9,1551.78
+RTE001236,Los Angeles Port,Hamburg Port,9050,32,8975.32
+RTE001237,Singapore Port,Los Angeles Port,11819,12,37576.99
+RTE001238,Lagos Port,Hamburg Port,5530,15,26527.59
+RTE001239,Hamburg Port,Durban Port,6928,10,12147.87
+RTE001240,Singapore Port,Dubai Port,16186,4,27488.22
+RTE001241,Singapore Port,Dubai Port,18938,17,36829.72
+RTE001242,Dubai Port,Dubai Port,922,3,36174.93
+RTE001243,Hamburg Port,Dubai Port,13499,12,41775.22
+RTE001244,Durban Port,Durban Port,11700,4,27221.22
+RTE001245,Hamburg Port,Lagos Port,3696,17,14478.96
+RTE001246,Rotterdam Port,Lagos Port,13669,31,48982.79
+RTE001247,Shanghai Port,Hamburg Port,18894,5,36303.62
+RTE001248,Hamburg Port,Hamburg Port,14455,9,18382.0
+RTE001249,Shanghai Port,Rotterdam Port,3279,8,48196.07
+RTE001250,Lagos Port,Rotterdam Port,16982,34,12624.89
+RTE001251,Rotterdam Port,Shanghai Port,11911,28,3442.14
+RTE001252,Dubai Port,Los Angeles Port,9080,10,12998.47
+RTE001253,Rotterdam Port,Durban Port,15410,29,44320.17
+RTE001254,Singapore Port,Singapore Port,13323,24,1282.11
+RTE001255,Los Angeles Port,Hamburg Port,3423,6,1455.44
+RTE001256,Lagos Port,Rotterdam Port,14405,36,44948.06
+RTE001257,Shanghai Port,Lagos Port,4866,2,43768.94
+RTE001258,Lagos Port,Shanghai Port,11371,11,2021.27
+RTE001259,Shanghai Port,Dubai Port,8902,33,19952.46
+RTE001260,Durban Port,Hamburg Port,5693,13,12144.96
+RTE001261,Dubai Port,Rotterdam Port,506,27,48227.13
+RTE001262,Hamburg Port,Hamburg Port,18563,17,40462.97
+RTE001263,Hamburg Port,Rotterdam Port,17173,30,28507.29
+RTE001264,Los Angeles Port,Durban Port,2391,22,8395.76
+RTE001265,Dubai Port,Hamburg Port,1873,5,29090.09
+RTE001266,Los Angeles Port,Singapore Port,4381,10,26135.77
+RTE001267,Singapore Port,Dubai Port,18409,9,29375.75
+RTE001268,Durban Port,Durban Port,18858,6,14202.49
+RTE001269,Dubai Port,Dubai Port,6170,9,12941.32
+RTE001270,Rotterdam Port,Hamburg Port,7632,4,17419.77
+RTE001271,Lagos Port,Los Angeles Port,10251,8,5480.89
+RTE001272,Los Angeles Port,Los Angeles Port,6312,36,25518.83
+RTE001273,Shanghai Port,Shanghai Port,13335,32,43147.75
+RTE001274,Dubai Port,Rotterdam Port,8796,30,45235.84
+RTE001275,Singapore Port,Los Angeles Port,4900,20,24184.36
+RTE001276,Hamburg Port,Hamburg Port,7383,39,38975.97
+RTE001277,Rotterdam Port,Lagos Port,4861,28,16761.56
+RTE001278,Los Angeles Port,Dubai Port,6425,16,38094.57
+RTE001279,Durban Port,Durban Port,15568,12,43623.26
+RTE001280,Shanghai Port,Singapore Port,8359,33,17535.56
+RTE001281,Dubai Port,Rotterdam Port,12489,38,49960.98
+RTE001282,Los Angeles Port,Shanghai Port,10770,2,4417.98
+RTE001283,Dubai Port,Los Angeles Port,16882,7,28653.53
+RTE001284,Durban Port,Singapore Port,6064,27,25372.57
+RTE001285,Singapore Port,Hamburg Port,18587,39,24171.7
+RTE001286,Durban Port,Dubai Port,18319,21,47052.39
+RTE001287,Durban Port,Hamburg Port,10718,16,25374.02
+RTE001288,Rotterdam Port,Los Angeles Port,5743,35,27270.36
+RTE001289,Lagos Port,Dubai Port,7993,19,25867.55
+RTE001290,Hamburg Port,Singapore Port,8752,23,48465.93
+RTE001291,Rotterdam Port,Hamburg Port,16631,38,24451.09
+RTE001292,Los Angeles Port,Shanghai Port,4534,23,35996.77
+RTE001293,Rotterdam Port,Los Angeles Port,2514,38,10145.76
+RTE001294,Hamburg Port,Shanghai Port,18408,33,48827.86
+RTE001295,Los Angeles Port,Dubai Port,5522,15,16380.66
+RTE001296,Dubai Port,Singapore Port,16654,16,43647.24
+RTE001297,Dubai Port,Rotterdam Port,19404,9,27863.49
+RTE001298,Durban Port,Los Angeles Port,16309,30,40323.63
+RTE001299,Hamburg Port,Dubai Port,12595,19,14840.5
+RTE001300,Durban Port,Durban Port,7808,18,46998.99
+RTE001301,Shanghai Port,Los Angeles Port,11853,11,38074.38
+RTE001302,Dubai Port,Lagos Port,6766,10,1820.44
+RTE001303,Hamburg Port,Hamburg Port,19119,20,31122.29
+RTE001304,Lagos Port,Durban Port,5651,12,8246.46
+RTE001305,Lagos Port,Lagos Port,732,11,19817.63
+RTE001306,Shanghai Port,Lagos Port,5934,2,21415.31
+RTE001307,Lagos Port,Durban Port,10380,38,31389.29
+RTE001308,Lagos Port,Singapore Port,5017,34,31021.62
+RTE001309,Dubai Port,Rotterdam Port,17341,2,6192.82
+RTE001310,Singapore Port,Rotterdam Port,15329,10,25785.64
+RTE001311,Dubai Port,Dubai Port,12399,12,13070.13
+RTE001312,Durban Port,Durban Port,11213,4,8909.55
+RTE001313,Rotterdam Port,Lagos Port,7012,8,14708.38
+RTE001314,Los Angeles Port,Rotterdam Port,11354,35,42109.0
+RTE001315,Shanghai Port,Los Angeles Port,1101,20,5583.33
+RTE001316,Lagos Port,Lagos Port,13895,3,43979.88
+RTE001317,Shanghai Port,Hamburg Port,15625,21,38160.57
+RTE001318,Dubai Port,Rotterdam Port,5216,30,4501.31
+RTE001319,Hamburg Port,Rotterdam Port,6914,7,46725.86
+RTE001320,Singapore Port,Los Angeles Port,13541,14,33267.93
+RTE001321,Dubai Port,Los Angeles Port,7901,39,32472.46
+RTE001322,Hamburg Port,Los Angeles Port,7744,21,8105.91
+RTE001323,Durban Port,Hamburg Port,2358,5,43691.95
+RTE001324,Lagos Port,Lagos Port,4314,18,7861.27
+RTE001325,Singapore Port,Hamburg Port,16737,28,1266.41
+RTE001326,Durban Port,Rotterdam Port,5659,33,25834.16
+RTE001327,Dubai Port,Singapore Port,11932,31,6058.29
+RTE001328,Los Angeles Port,Hamburg Port,15470,11,28620.32
+RTE001329,Rotterdam Port,Lagos Port,15530,29,48370.06
+RTE001330,Los Angeles Port,Lagos Port,1151,3,2671.4
+RTE001331,Rotterdam Port,Dubai Port,13544,32,24636.4
+RTE001332,Lagos Port,Hamburg Port,8854,21,46802.43
+RTE001333,Hamburg Port,Lagos Port,6064,8,40346.69
+RTE001334,Lagos Port,Lagos Port,8433,25,43525.01
+RTE001335,Dubai Port,Hamburg Port,15868,32,19054.51
+RTE001336,Shanghai Port,Dubai Port,1678,8,29037.41
+RTE001337,Shanghai Port,Durban Port,14097,14,37578.86
+RTE001338,Durban Port,Los Angeles Port,17617,38,14994.24
+RTE001339,Los Angeles Port,Rotterdam Port,15955,14,45009.42
+RTE001340,Hamburg Port,Shanghai Port,4910,5,47028.07
+RTE001341,Hamburg Port,Singapore Port,19241,2,7563.73
+RTE001342,Los Angeles Port,Singapore Port,6052,36,37639.67
+RTE001343,Rotterdam Port,Hamburg Port,10369,29,43230.91
+RTE001344,Singapore Port,Hamburg Port,10205,34,41512.9
+RTE001345,Shanghai Port,Shanghai Port,15332,3,30423.64
+RTE001346,Dubai Port,Lagos Port,3962,35,10074.71
+RTE001347,Lagos Port,Lagos Port,5994,25,47399.89
+RTE001348,Lagos Port,Rotterdam Port,18525,30,14927.91
+RTE001349,Lagos Port,Los Angeles Port,1464,23,5593.52
+RTE001350,Singapore Port,Durban Port,3659,35,18688.53
+RTE001351,Rotterdam Port,Dubai Port,5303,26,22087.27
+RTE001352,Los Angeles Port,Lagos Port,4686,33,48880.26
+RTE001353,Rotterdam Port,Durban Port,18810,31,7117.68
+RTE001354,Shanghai Port,Shanghai Port,19070,31,5118.07
+RTE001355,Singapore Port,Shanghai Port,17577,13,33737.5
+RTE001356,Los Angeles Port,Rotterdam Port,18801,14,7641.9
+RTE001357,Dubai Port,Dubai Port,4678,12,8437.19
+RTE001358,Hamburg Port,Singapore Port,8199,4,20946.18
+RTE001359,Durban Port,Lagos Port,17196,32,1473.34
+RTE001360,Lagos Port,Rotterdam Port,5016,21,5402.66
+RTE001361,Shanghai Port,Shanghai Port,5403,34,10348.56
+RTE001362,Singapore Port,Singapore Port,12053,16,16203.16
+RTE001363,Rotterdam Port,Rotterdam Port,5518,11,4445.64
+RTE001364,Shanghai Port,Los Angeles Port,16169,37,36591.44
+RTE001365,Hamburg Port,Los Angeles Port,18747,8,49793.57
+RTE001366,Durban Port,Hamburg Port,14235,22,28856.99
+RTE001367,Los Angeles Port,Rotterdam Port,5758,4,28551.33
+RTE001368,Durban Port,Singapore Port,14226,8,39985.86
+RTE001369,Durban Port,Hamburg Port,6340,21,34663.26
+RTE001370,Lagos Port,Shanghai Port,5760,4,49056.18
+RTE001371,Los Angeles Port,Singapore Port,15261,23,1766.61
+RTE001372,Hamburg Port,Rotterdam Port,4992,4,26943.0
+RTE001373,Hamburg Port,Hamburg Port,4837,12,31365.2
+RTE001374,Hamburg Port,Shanghai Port,9729,28,37003.51
+RTE001375,Durban Port,Los Angeles Port,10336,12,37483.29
+RTE001376,Rotterdam Port,Singapore Port,11556,25,8764.39
+RTE001377,Los Angeles Port,Singapore Port,6519,25,27014.57
+RTE001378,Shanghai Port,Rotterdam Port,9429,12,23990.04
+RTE001379,Rotterdam Port,Los Angeles Port,4760,10,7337.41
+RTE001380,Los Angeles Port,Los Angeles Port,15460,4,41910.47
+RTE001381,Lagos Port,Los Angeles Port,6994,30,34251.39
+RTE001382,Hamburg Port,Dubai Port,4910,28,10738.27
+RTE001383,Dubai Port,Rotterdam Port,17701,17,40629.69
+RTE001384,Lagos Port,Hamburg Port,11928,37,21245.49
+RTE001385,Shanghai Port,Rotterdam Port,14060,16,1592.66
+RTE001386,Durban Port,Lagos Port,2774,22,3034.36
+RTE001387,Shanghai Port,Singapore Port,14166,35,13095.47
+RTE001388,Shanghai Port,Hamburg Port,8419,33,24775.85
+RTE001389,Shanghai Port,Los Angeles Port,6594,13,36178.98
+RTE001390,Singapore Port,Lagos Port,19505,12,21944.65
+RTE001391,Singapore Port,Hamburg Port,10143,18,2122.9
+RTE001392,Los Angeles Port,Durban Port,9255,9,22125.59
+RTE001393,Rotterdam Port,Los Angeles Port,14955,37,13149.84
+RTE001394,Hamburg Port,Los Angeles Port,18624,3,27428.68
+RTE001395,Rotterdam Port,Durban Port,17417,32,24621.73
+RTE001396,Los Angeles Port,Dubai Port,15290,22,28291.15
+RTE001397,Durban Port,Lagos Port,11345,3,45439.6
+RTE001398,Shanghai Port,Singapore Port,1444,26,37238.46
+RTE001399,Singapore Port,Los Angeles Port,19396,34,15643.85
+RTE001400,Shanghai Port,Lagos Port,11111,39,18078.72
+RTE001401,Shanghai Port,Shanghai Port,17423,37,8580.76
+RTE001402,Singapore Port,Hamburg Port,3886,16,26860.37
+RTE001403,Hamburg Port,Hamburg Port,17501,18,43158.85
+RTE001404,Dubai Port,Hamburg Port,12344,36,28719.52
+RTE001405,Dubai Port,Shanghai Port,4592,8,34866.74
+RTE001406,Los Angeles Port,Rotterdam Port,16053,10,26125.71
+RTE001407,Durban Port,Lagos Port,7047,21,45348.38
+RTE001408,Durban Port,Hamburg Port,18083,7,1743.27
+RTE001409,Durban Port,Singapore Port,2108,5,43751.54
+RTE001410,Shanghai Port,Hamburg Port,5503,7,22656.65
+RTE001411,Los Angeles Port,Singapore Port,8824,4,31009.54
+RTE001412,Rotterdam Port,Hamburg Port,8640,3,34942.73
+RTE001413,Hamburg Port,Rotterdam Port,17861,23,15080.48
+RTE001414,Rotterdam Port,Los Angeles Port,10101,31,10334.72
+RTE001415,Singapore Port,Rotterdam Port,1602,8,40642.01
+RTE001416,Hamburg Port,Hamburg Port,18990,11,21457.63
+RTE001417,Shanghai Port,Singapore Port,10375,21,39006.0
+RTE001418,Rotterdam Port,Hamburg Port,8049,12,17607.51
+RTE001419,Lagos Port,Durban Port,18469,21,23291.35
+RTE001420,Hamburg Port,Lagos Port,14077,17,23894.93
+RTE001421,Dubai Port,Los Angeles Port,12270,39,14183.68
+RTE001422,Hamburg Port,Los Angeles Port,9538,24,11479.04
+RTE001423,Rotterdam Port,Los Angeles Port,12761,11,47675.17
+RTE001424,Shanghai Port,Durban Port,14434,17,41489.15
+RTE001425,Singapore Port,Dubai Port,8971,34,38684.52
+RTE001426,Hamburg Port,Singapore Port,18297,39,29816.96
+RTE001427,Dubai Port,Durban Port,12641,13,16057.93
+RTE001428,Durban Port,Dubai Port,2129,38,38995.29
+RTE001429,Rotterdam Port,Los Angeles Port,9100,3,8179.41
+RTE001430,Dubai Port,Shanghai Port,3591,28,15588.39
+RTE001431,Hamburg Port,Singapore Port,17729,9,9764.22
+RTE001432,Rotterdam Port,Dubai Port,3926,15,17357.36
+RTE001433,Lagos Port,Hamburg Port,17010,2,7703.47
+RTE001434,Durban Port,Singapore Port,9617,30,39889.03
+RTE001435,Hamburg Port,Lagos Port,14834,27,28252.29
+RTE001436,Hamburg Port,Dubai Port,10404,13,8810.07
+RTE001437,Durban Port,Dubai Port,13142,11,26179.41
+RTE001438,Durban Port,Dubai Port,8534,36,44130.99
+RTE001439,Rotterdam Port,Hamburg Port,13683,20,40442.59
+RTE001440,Singapore Port,Durban Port,18916,12,32730.22
+RTE001441,Durban Port,Los Angeles Port,12417,39,46907.35
+RTE001442,Rotterdam Port,Hamburg Port,18316,9,43885.97
+RTE001443,Dubai Port,Rotterdam Port,12982,32,4779.6
+RTE001444,Rotterdam Port,Shanghai Port,2275,14,13312.49
+RTE001445,Durban Port,Los Angeles Port,6657,14,18910.13
+RTE001446,Los Angeles Port,Hamburg Port,13984,25,19735.27
+RTE001447,Dubai Port,Singapore Port,7315,4,1667.65
+RTE001448,Shanghai Port,Shanghai Port,6944,23,19872.75
+RTE001449,Hamburg Port,Singapore Port,17719,35,10708.57
+RTE001450,Dubai Port,Singapore Port,19420,11,32989.39
+RTE001451,Durban Port,Hamburg Port,17887,22,10252.45
+RTE001452,Los Angeles Port,Hamburg Port,12184,32,21491.99
+RTE001453,Shanghai Port,Singapore Port,18939,35,44135.71
+RTE001454,Durban Port,Shanghai Port,17728,39,16607.96
+RTE001455,Shanghai Port,Singapore Port,3988,7,9566.17
+RTE001456,Lagos Port,Shanghai Port,13022,22,44324.47
+RTE001457,Shanghai Port,Lagos Port,19723,7,9098.77
+RTE001458,Durban Port,Hamburg Port,1764,34,25864.29
+RTE001459,Los Angeles Port,Rotterdam Port,17961,38,45625.23
+RTE001460,Hamburg Port,Shanghai Port,6912,14,37041.44
+RTE001461,Hamburg Port,Singapore Port,6383,18,7182.09
+RTE001462,Dubai Port,Singapore Port,9769,26,4464.98
+RTE001463,Durban Port,Rotterdam Port,6573,13,17071.23
+RTE001464,Shanghai Port,Dubai Port,5232,27,27666.59
+RTE001465,Los Angeles Port,Durban Port,1585,4,30944.24
+RTE001466,Shanghai Port,Durban Port,6175,6,1697.42
+RTE001467,Los Angeles Port,Dubai Port,14374,34,18910.4
+RTE001468,Singapore Port,Singapore Port,3019,12,32662.91
+RTE001469,Shanghai Port,Singapore Port,3928,3,43835.54
+RTE001470,Rotterdam Port,Hamburg Port,13086,29,18034.08
+RTE001471,Shanghai Port,Rotterdam Port,16249,30,24264.91
+RTE001472,Shanghai Port,Singapore Port,12400,23,29542.66
+RTE001473,Los Angeles Port,Dubai Port,8017,14,35783.91
+RTE001474,Singapore Port,Los Angeles Port,9566,31,4604.01
+RTE001475,Hamburg Port,Rotterdam Port,15353,37,43146.09
+RTE001476,Los Angeles Port,Durban Port,3118,6,21970.12
+RTE001477,Rotterdam Port,Hamburg Port,16862,30,31973.46
+RTE001478,Rotterdam Port,Rotterdam Port,4427,2,21860.1
+RTE001479,Los Angeles Port,Rotterdam Port,11521,6,39909.37
+RTE001480,Shanghai Port,Hamburg Port,10386,5,18545.78
+RTE001481,Dubai Port,Los Angeles Port,18286,24,34152.94
+RTE001482,Los Angeles Port,Los Angeles Port,18409,37,20152.83
+RTE001483,Los Angeles Port,Hamburg Port,4830,38,19416.45
+RTE001484,Hamburg Port,Los Angeles Port,8110,20,5153.35
+RTE001485,Lagos Port,Singapore Port,3541,32,37806.55
+RTE001486,Durban Port,Singapore Port,5676,31,31062.35
+RTE001487,Singapore Port,Rotterdam Port,7096,12,39528.45
+RTE001488,Shanghai Port,Singapore Port,15266,37,45817.79
+RTE001489,Shanghai Port,Shanghai Port,18077,39,10040.84
+RTE001490,Rotterdam Port,Dubai Port,1109,32,49430.63
+RTE001491,Durban Port,Dubai Port,19347,18,39091.24
+RTE001492,Los Angeles Port,Hamburg Port,19165,32,13582.21
+RTE001493,Los Angeles Port,Dubai Port,19350,6,39287.73
+RTE001494,Shanghai Port,Hamburg Port,2824,12,2463.64
+RTE001495,Hamburg Port,Los Angeles Port,17969,28,10921.24
+RTE001496,Los Angeles Port,Durban Port,747,26,37375.41
+RTE001497,Durban Port,Singapore Port,7672,36,32501.26
+RTE001498,Dubai Port,Dubai Port,16119,31,17542.53
+RTE001499,Singapore Port,Shanghai Port,4135,35,27623.45
+RTE001500,Shanghai Port,Dubai Port,15355,11,5145.94
+RTE001501,Rotterdam Port,Rotterdam Port,9471,11,41243.91
+RTE001502,Los Angeles Port,Lagos Port,17319,8,32010.91
+RTE001503,Rotterdam Port,Hamburg Port,8657,14,15549.12
+RTE001504,Lagos Port,Shanghai Port,19543,3,19848.14
+RTE001505,Lagos Port,Durban Port,10922,35,39916.66
+RTE001506,Dubai Port,Shanghai Port,16534,30,49285.11
+RTE001507,Durban Port,Los Angeles Port,10766,33,26600.08
+RTE001508,Dubai Port,Los Angeles Port,18861,32,29157.77
+RTE001509,Singapore Port,Rotterdam Port,17642,35,7914.97
+RTE001510,Los Angeles Port,Dubai Port,8471,19,46840.63
+RTE001511,Shanghai Port,Lagos Port,3231,33,43960.37
+RTE001512,Shanghai Port,Hamburg Port,7382,21,19722.54
+RTE001513,Singapore Port,Shanghai Port,1491,16,46890.34
+RTE001514,Hamburg Port,Rotterdam Port,12798,13,44082.5
+RTE001515,Lagos Port,Durban Port,846,14,26827.87
+RTE001516,Dubai Port,Los Angeles Port,5441,27,4140.66
+RTE001517,Lagos Port,Hamburg Port,13030,9,19556.26
+RTE001518,Lagos Port,Shanghai Port,14708,10,31053.68
+RTE001519,Rotterdam Port,Hamburg Port,5367,17,3206.66
+RTE001520,Singapore Port,Dubai Port,13442,30,46679.8
+RTE001521,Dubai Port,Hamburg Port,17570,38,24226.12
+RTE001522,Los Angeles Port,Lagos Port,4152,26,44761.15
+RTE001523,Durban Port,Lagos Port,16867,5,26978.12
+RTE001524,Shanghai Port,Shanghai Port,18121,37,35398.79
+RTE001525,Rotterdam Port,Hamburg Port,8525,33,41945.79
+RTE001526,Dubai Port,Shanghai Port,19156,4,13694.53
+RTE001527,Singapore Port,Lagos Port,3896,4,37871.54
+RTE001528,Lagos Port,Singapore Port,12836,36,36168.83
+RTE001529,Shanghai Port,Singapore Port,19672,14,34534.04
+RTE001530,Lagos Port,Shanghai Port,2311,19,7599.27
+RTE001531,Dubai Port,Dubai Port,15731,38,6030.95
+RTE001532,Hamburg Port,Rotterdam Port,14423,22,48258.21
+RTE001533,Los Angeles Port,Lagos Port,11728,16,35982.43
+RTE001534,Lagos Port,Rotterdam Port,2122,21,24529.53
+RTE001535,Dubai Port,Lagos Port,19695,37,9106.52
+RTE001536,Singapore Port,Lagos Port,17866,31,1034.31
+RTE001537,Durban Port,Shanghai Port,11253,15,23287.74
+RTE001538,Singapore Port,Hamburg Port,13746,27,39330.49
+RTE001539,Dubai Port,Hamburg Port,1316,15,41702.45
+RTE001540,Dubai Port,Dubai Port,18613,29,11148.65
+RTE001541,Rotterdam Port,Rotterdam Port,1114,25,30867.94
+RTE001542,Rotterdam Port,Singapore Port,11955,30,2739.56
+RTE001543,Singapore Port,Dubai Port,9413,10,4704.94
+RTE001544,Singapore Port,Hamburg Port,17510,32,44994.71
+RTE001545,Durban Port,Lagos Port,3384,28,48110.56
+RTE001546,Lagos Port,Durban Port,15354,34,20709.2
+RTE001547,Los Angeles Port,Shanghai Port,17460,25,8858.61
+RTE001548,Hamburg Port,Hamburg Port,15698,11,26228.72
+RTE001549,Los Angeles Port,Durban Port,8852,9,34047.12
+RTE001550,Shanghai Port,Lagos Port,4446,6,32095.14
+RTE001551,Lagos Port,Singapore Port,13390,27,10212.42
+RTE001552,Durban Port,Shanghai Port,18044,30,5882.77
+RTE001553,Shanghai Port,Hamburg Port,1281,37,31636.69
+RTE001554,Durban Port,Lagos Port,3412,37,47322.3
+RTE001555,Lagos Port,Dubai Port,6971,6,20982.47
+RTE001556,Lagos Port,Dubai Port,15138,25,29952.42
+RTE001557,Hamburg Port,Dubai Port,821,8,4405.6
+RTE001558,Rotterdam Port,Singapore Port,7992,39,21377.98
+RTE001559,Lagos Port,Durban Port,19744,18,39637.94
+RTE001560,Shanghai Port,Hamburg Port,3685,9,25804.47
+RTE001561,Rotterdam Port,Los Angeles Port,4106,12,3755.86
+RTE001562,Hamburg Port,Singapore Port,4083,38,26198.89
+RTE001563,Shanghai Port,Durban Port,18063,3,8123.92
+RTE001564,Shanghai Port,Hamburg Port,16817,32,40407.78
+RTE001565,Dubai Port,Durban Port,3506,37,24320.16
+RTE001566,Hamburg Port,Los Angeles Port,3851,22,15294.94
+RTE001567,Los Angeles Port,Dubai Port,13018,28,16760.97
+RTE001568,Durban Port,Shanghai Port,1030,20,41333.81
+RTE001569,Lagos Port,Singapore Port,11306,12,1656.46
+RTE001570,Shanghai Port,Durban Port,16139,36,24641.77
+RTE001571,Rotterdam Port,Rotterdam Port,13593,24,19597.83
+RTE001572,Singapore Port,Rotterdam Port,11150,33,40079.63
+RTE001573,Dubai Port,Durban Port,5401,11,15914.7
+RTE001574,Shanghai Port,Rotterdam Port,1327,14,43497.81
+RTE001575,Durban Port,Dubai Port,2759,19,36934.43
+RTE001576,Los Angeles Port,Dubai Port,12610,5,3092.11
+RTE001577,Dubai Port,Lagos Port,19439,10,48631.48
+RTE001578,Rotterdam Port,Dubai Port,17324,31,40430.4
+RTE001579,Los Angeles Port,Shanghai Port,18471,22,17275.29
+RTE001580,Los Angeles Port,Durban Port,12232,22,14951.15
+RTE001581,Shanghai Port,Shanghai Port,13081,28,35501.81
+RTE001582,Lagos Port,Rotterdam Port,2895,14,24635.02
+RTE001583,Dubai Port,Durban Port,2968,23,5487.57
+RTE001584,Lagos Port,Rotterdam Port,7372,18,25337.48
+RTE001585,Singapore Port,Rotterdam Port,12591,34,48099.9
+RTE001586,Rotterdam Port,Shanghai Port,8250,19,26714.4
+RTE001587,Durban Port,Hamburg Port,14327,15,43053.44
+RTE001588,Singapore Port,Hamburg Port,8505,14,44070.37
+RTE001589,Hamburg Port,Los Angeles Port,10802,38,17185.62
+RTE001590,Shanghai Port,Lagos Port,10346,11,30017.46
+RTE001591,Singapore Port,Rotterdam Port,2955,7,41541.06
+RTE001592,Lagos Port,Durban Port,10168,6,29078.71
+RTE001593,Rotterdam Port,Lagos Port,9061,13,35218.71
+RTE001594,Shanghai Port,Lagos Port,1983,32,3928.95
+RTE001595,Hamburg Port,Dubai Port,16785,39,3446.06
+RTE001596,Hamburg Port,Los Angeles Port,9063,34,30863.33
+RTE001597,Lagos Port,Lagos Port,11280,14,31551.36
+RTE001598,Durban Port,Shanghai Port,510,8,6442.27
+RTE001599,Durban Port,Durban Port,13801,38,26362.9
+RTE001600,Rotterdam Port,Dubai Port,17390,16,21592.64
+RTE001601,Lagos Port,Hamburg Port,1928,17,43954.15
+RTE001602,Dubai Port,Shanghai Port,6848,14,39871.68
+RTE001603,Lagos Port,Lagos Port,18103,30,10024.79
+RTE001604,Lagos Port,Lagos Port,12502,22,49378.62
+RTE001605,Lagos Port,Singapore Port,9001,10,19088.84
+RTE001606,Singapore Port,Los Angeles Port,2261,35,31363.45
+RTE001607,Singapore Port,Los Angeles Port,9173,26,27520.66
+RTE001608,Dubai Port,Dubai Port,11620,5,12432.01
+RTE001609,Hamburg Port,Los Angeles Port,7120,13,47796.49
+RTE001610,Los Angeles Port,Los Angeles Port,12670,13,43435.49
+RTE001611,Los Angeles Port,Singapore Port,13890,5,15933.61
+RTE001612,Los Angeles Port,Los Angeles Port,16021,14,32778.35
+RTE001613,Rotterdam Port,Durban Port,11855,19,28180.23
+RTE001614,Dubai Port,Singapore Port,6806,4,45338.81
+RTE001615,Durban Port,Shanghai Port,13930,4,8655.12
+RTE001616,Durban Port,Shanghai Port,17232,35,6692.92
+RTE001617,Lagos Port,Los Angeles Port,11256,22,11472.95
+RTE001618,Hamburg Port,Shanghai Port,14152,26,27624.06
+RTE001619,Hamburg Port,Hamburg Port,3906,21,8561.49
+RTE001620,Rotterdam Port,Durban Port,4960,24,15675.11
+RTE001621,Singapore Port,Los Angeles Port,7538,13,26113.08
+RTE001622,Los Angeles Port,Dubai Port,1119,17,45214.81
+RTE001623,Singapore Port,Lagos Port,17048,18,11906.03
+RTE001624,Durban Port,Los Angeles Port,14119,28,27491.38
+RTE001625,Dubai Port,Singapore Port,11683,25,2569.23
+RTE001626,Los Angeles Port,Singapore Port,6733,20,7240.31
+RTE001627,Los Angeles Port,Los Angeles Port,714,30,36769.52
+RTE001628,Los Angeles Port,Singapore Port,2598,32,29098.12
+RTE001629,Dubai Port,Los Angeles Port,14693,20,35978.71
+RTE001630,Los Angeles Port,Singapore Port,4380,36,10788.85
+RTE001631,Lagos Port,Dubai Port,9846,21,34822.53
+RTE001632,Dubai Port,Durban Port,5440,23,27523.86
+RTE001633,Singapore Port,Los Angeles Port,2474,14,40081.46
+RTE001634,Dubai Port,Singapore Port,15585,7,29449.5
+RTE001635,Hamburg Port,Singapore Port,8813,38,15854.63
+RTE001636,Los Angeles Port,Hamburg Port,18211,20,20087.18
+RTE001637,Los Angeles Port,Dubai Port,4233,36,39177.35
+RTE001638,Durban Port,Singapore Port,11229,18,25105.38
+RTE001639,Los Angeles Port,Rotterdam Port,1921,23,23872.67
+RTE001640,Los Angeles Port,Durban Port,11241,17,37216.17
+RTE001641,Los Angeles Port,Hamburg Port,4226,14,16655.44
+RTE001642,Hamburg Port,Dubai Port,5852,7,46991.17
+RTE001643,Durban Port,Los Angeles Port,9794,11,14422.48
+RTE001644,Dubai Port,Dubai Port,14199,31,36900.76
+RTE001645,Lagos Port,Dubai Port,5799,24,13709.23
+RTE001646,Rotterdam Port,Los Angeles Port,9730,12,8776.54
+RTE001647,Shanghai Port,Los Angeles Port,14097,3,28463.2
+RTE001648,Los Angeles Port,Lagos Port,15784,38,36215.64
+RTE001649,Lagos Port,Hamburg Port,2450,15,32075.16
+RTE001650,Singapore Port,Singapore Port,8402,18,4259.27
+RTE001651,Dubai Port,Shanghai Port,19695,29,44135.62
+RTE001652,Singapore Port,Durban Port,16543,18,28516.49
+RTE001653,Lagos Port,Hamburg Port,5865,18,44202.58
+RTE001654,Los Angeles Port,Dubai Port,16878,12,20778.17
+RTE001655,Rotterdam Port,Singapore Port,4665,13,14790.15
+RTE001656,Durban Port,Shanghai Port,15247,39,10863.7
+RTE001657,Hamburg Port,Singapore Port,548,3,28614.81
+RTE001658,Singapore Port,Dubai Port,6693,23,29852.32
+RTE001659,Dubai Port,Shanghai Port,2978,25,43479.94
+RTE001660,Dubai Port,Hamburg Port,6619,29,38822.8
+RTE001661,Dubai Port,Dubai Port,7199,25,46970.13
+RTE001662,Los Angeles Port,Hamburg Port,16679,4,28633.46
+RTE001663,Dubai Port,Shanghai Port,3061,2,20774.75
+RTE001664,Lagos Port,Shanghai Port,18469,26,24049.4
+RTE001665,Hamburg Port,Rotterdam Port,7485,6,9419.38
+RTE001666,Lagos Port,Hamburg Port,16114,36,3828.54
+RTE001667,Lagos Port,Singapore Port,16268,32,43432.2
+RTE001668,Rotterdam Port,Rotterdam Port,1438,23,30524.54
+RTE001669,Singapore Port,Hamburg Port,18165,27,25030.65
+RTE001670,Hamburg Port,Durban Port,15826,8,49422.85
+RTE001671,Los Angeles Port,Dubai Port,18133,20,25366.02
+RTE001672,Singapore Port,Durban Port,3298,38,16717.57
+RTE001673,Durban Port,Rotterdam Port,17652,7,13805.62
+RTE001674,Dubai Port,Los Angeles Port,4881,22,41362.11
+RTE001675,Lagos Port,Los Angeles Port,12121,9,11834.49
+RTE001676,Shanghai Port,Rotterdam Port,19421,9,1674.75
+RTE001677,Shanghai Port,Los Angeles Port,3939,12,43495.18
+RTE001678,Singapore Port,Singapore Port,13529,32,2513.14
+RTE001679,Dubai Port,Rotterdam Port,501,16,15063.91
+RTE001680,Lagos Port,Rotterdam Port,17409,2,10488.84
+RTE001681,Singapore Port,Durban Port,13366,14,25730.75
+RTE001682,Lagos Port,Shanghai Port,10220,13,19917.56
+RTE001683,Singapore Port,Hamburg Port,19185,8,28827.72
+RTE001684,Hamburg Port,Durban Port,1750,24,3221.5
+RTE001685,Singapore Port,Dubai Port,15647,26,11572.44
+RTE001686,Rotterdam Port,Dubai Port,11720,28,25928.32
+RTE001687,Lagos Port,Durban Port,3444,30,48562.62
+RTE001688,Los Angeles Port,Dubai Port,10845,14,15926.09
+RTE001689,Rotterdam Port,Hamburg Port,9802,5,7680.79
+RTE001690,Lagos Port,Singapore Port,16497,12,11712.29
+RTE001691,Durban Port,Hamburg Port,9214,12,9144.86
+RTE001692,Los Angeles Port,Rotterdam Port,6994,27,15214.04
+RTE001693,Lagos Port,Lagos Port,14994,12,11845.5
+RTE001694,Durban Port,Lagos Port,12809,32,23859.26
+RTE001695,Lagos Port,Dubai Port,19701,18,39049.49
+RTE001696,Los Angeles Port,Los Angeles Port,13148,35,45911.01
+RTE001697,Lagos Port,Los Angeles Port,8381,35,6913.85
+RTE001698,Durban Port,Singapore Port,7006,5,18713.19
+RTE001699,Durban Port,Shanghai Port,17268,16,12563.82
+RTE001700,Hamburg Port,Singapore Port,2419,6,32349.07
+RTE001701,Hamburg Port,Hamburg Port,10160,20,17723.93
+RTE001702,Shanghai Port,Rotterdam Port,2102,4,30607.53
+RTE001703,Durban Port,Lagos Port,3403,32,43057.22
+RTE001704,Lagos Port,Dubai Port,13399,35,32598.78
+RTE001705,Durban Port,Lagos Port,17575,35,17188.26
+RTE001706,Singapore Port,Hamburg Port,14728,8,40217.07
+RTE001707,Shanghai Port,Hamburg Port,2479,35,1492.53
+RTE001708,Dubai Port,Shanghai Port,4776,33,47566.74
+RTE001709,Hamburg Port,Singapore Port,1531,24,31635.0
+RTE001710,Singapore Port,Los Angeles Port,16811,15,15786.11
+RTE001711,Dubai Port,Dubai Port,6310,20,12990.01
+RTE001712,Singapore Port,Lagos Port,18768,24,27946.05
+RTE001713,Hamburg Port,Rotterdam Port,14332,33,8319.81
+RTE001714,Lagos Port,Rotterdam Port,13798,24,15205.28
+RTE001715,Los Angeles Port,Shanghai Port,17937,30,33704.29
+RTE001716,Rotterdam Port,Los Angeles Port,11271,39,2665.61
+RTE001717,Rotterdam Port,Shanghai Port,5159,17,9660.82
+RTE001718,Rotterdam Port,Hamburg Port,16129,21,41512.99
+RTE001719,Lagos Port,Hamburg Port,9071,22,23019.15
+RTE001720,Lagos Port,Shanghai Port,18168,23,38518.27
+RTE001721,Durban Port,Singapore Port,15650,12,13869.41
+RTE001722,Durban Port,Rotterdam Port,13527,22,39735.24
+RTE001723,Singapore Port,Shanghai Port,8324,33,29886.95
+RTE001724,Singapore Port,Durban Port,1181,35,43386.19
+RTE001725,Lagos Port,Hamburg Port,16624,34,9170.04
+RTE001726,Dubai Port,Lagos Port,10414,30,25689.53
+RTE001727,Durban Port,Durban Port,4926,6,3840.62
+RTE001728,Lagos Port,Durban Port,10422,2,29723.81
+RTE001729,Los Angeles Port,Dubai Port,4824,5,46019.15
+RTE001730,Rotterdam Port,Los Angeles Port,13379,20,13052.24
+RTE001731,Los Angeles Port,Durban Port,10305,26,12753.28
+RTE001732,Hamburg Port,Hamburg Port,17042,11,30962.62
+RTE001733,Los Angeles Port,Hamburg Port,3794,22,38256.95
+RTE001734,Hamburg Port,Shanghai Port,11925,30,32577.73
+RTE001735,Shanghai Port,Singapore Port,13782,19,12326.44
+RTE001736,Hamburg Port,Dubai Port,11915,11,47086.53
+RTE001737,Singapore Port,Hamburg Port,19064,5,29772.37
+RTE001738,Rotterdam Port,Los Angeles Port,14319,21,5222.69
+RTE001739,Singapore Port,Rotterdam Port,8262,15,25566.11
+RTE001740,Singapore Port,Singapore Port,8256,7,9975.43
+RTE001741,Shanghai Port,Singapore Port,1227,32,8467.27
+RTE001742,Rotterdam Port,Lagos Port,6570,21,11801.86
+RTE001743,Hamburg Port,Rotterdam Port,4978,28,41026.18
+RTE001744,Lagos Port,Shanghai Port,9733,14,16273.49
+RTE001745,Rotterdam Port,Durban Port,3578,20,38407.67
+RTE001746,Rotterdam Port,Hamburg Port,11613,18,1984.58
+RTE001747,Rotterdam Port,Los Angeles Port,13799,34,15116.99
+RTE001748,Los Angeles Port,Shanghai Port,2221,5,10454.54
+RTE001749,Rotterdam Port,Rotterdam Port,19927,18,8021.83
+RTE001750,Rotterdam Port,Hamburg Port,3489,8,22686.84
+RTE001751,Durban Port,Lagos Port,8838,8,31455.16
+RTE001752,Hamburg Port,Durban Port,18112,28,43187.73
+RTE001753,Singapore Port,Los Angeles Port,4141,25,11441.17
+RTE001754,Los Angeles Port,Lagos Port,8690,37,21300.3
+RTE001755,Dubai Port,Dubai Port,13314,27,34511.46
+RTE001756,Rotterdam Port,Hamburg Port,13009,14,28351.61
+RTE001757,Durban Port,Los Angeles Port,13697,27,8551.05
+RTE001758,Lagos Port,Los Angeles Port,18239,5,12888.44
+RTE001759,Durban Port,Shanghai Port,2349,18,45872.84
+RTE001760,Los Angeles Port,Singapore Port,7729,12,43492.1
+RTE001761,Dubai Port,Durban Port,11477,25,49877.4
+RTE001762,Singapore Port,Shanghai Port,18330,39,23863.76
+RTE001763,Dubai Port,Singapore Port,12656,27,17625.02
+RTE001764,Lagos Port,Lagos Port,6587,8,33134.47
+RTE001765,Singapore Port,Rotterdam Port,10845,27,15971.77
+RTE001766,Dubai Port,Dubai Port,16420,22,35024.01
+RTE001767,Hamburg Port,Hamburg Port,16565,38,26303.85
+RTE001768,Singapore Port,Shanghai Port,6390,8,25841.93
+RTE001769,Los Angeles Port,Shanghai Port,4224,8,41337.35
+RTE001770,Durban Port,Hamburg Port,11940,15,15991.98
+RTE001771,Lagos Port,Dubai Port,4950,17,30757.75
+RTE001772,Durban Port,Hamburg Port,12074,27,33289.41
+RTE001773,Shanghai Port,Shanghai Port,5415,37,9082.26
+RTE001774,Dubai Port,Rotterdam Port,3860,33,26528.51
+RTE001775,Dubai Port,Lagos Port,9045,29,22893.36
+RTE001776,Rotterdam Port,Singapore Port,18244,22,6886.45
+RTE001777,Durban Port,Dubai Port,11909,20,3889.97
+RTE001778,Dubai Port,Lagos Port,4763,23,37701.93
+RTE001779,Shanghai Port,Singapore Port,13763,12,9479.97
+RTE001780,Shanghai Port,Shanghai Port,18854,24,11135.32
+RTE001781,Lagos Port,Dubai Port,4640,6,35466.63
+RTE001782,Lagos Port,Singapore Port,3067,7,32225.58
+RTE001783,Durban Port,Dubai Port,14407,11,46649.27
+RTE001784,Lagos Port,Dubai Port,12304,22,14794.22
+RTE001785,Rotterdam Port,Los Angeles Port,3987,39,31710.11
+RTE001786,Rotterdam Port,Shanghai Port,2688,10,25639.47
+RTE001787,Lagos Port,Durban Port,17659,39,13364.98
+RTE001788,Durban Port,Shanghai Port,3977,35,46093.64
+RTE001789,Durban Port,Hamburg Port,7248,11,10880.26
+RTE001790,Singapore Port,Lagos Port,16128,8,12532.3
+RTE001791,Singapore Port,Rotterdam Port,17163,14,31655.61
+RTE001792,Durban Port,Lagos Port,12638,28,14733.77
+RTE001793,Los Angeles Port,Singapore Port,10713,35,3021.67
+RTE001794,Los Angeles Port,Los Angeles Port,5286,32,19936.16
+RTE001795,Rotterdam Port,Durban Port,6014,12,43176.45
+RTE001796,Rotterdam Port,Hamburg Port,8413,11,36797.8
+RTE001797,Hamburg Port,Hamburg Port,15993,4,1072.04
+RTE001798,Dubai Port,Los Angeles Port,4800,19,19852.72
+RTE001799,Dubai Port,Rotterdam Port,17622,29,44999.88
+RTE001800,Singapore Port,Lagos Port,15782,11,12240.86
+RTE001801,Lagos Port,Rotterdam Port,14204,34,7870.98
+RTE001802,Durban Port,Shanghai Port,7048,20,4706.06
+RTE001803,Singapore Port,Lagos Port,14115,25,35776.44
+RTE001804,Rotterdam Port,Singapore Port,8577,18,12563.22
+RTE001805,Los Angeles Port,Los Angeles Port,19951,26,26380.28
+RTE001806,Rotterdam Port,Singapore Port,13314,14,15966.33
+RTE001807,Hamburg Port,Shanghai Port,6999,37,12023.79
+RTE001808,Durban Port,Dubai Port,15385,38,10661.27
+RTE001809,Shanghai Port,Shanghai Port,16935,9,24833.5
+RTE001810,Durban Port,Durban Port,2385,17,37672.94
+RTE001811,Singapore Port,Durban Port,12962,20,22922.74
+RTE001812,Shanghai Port,Rotterdam Port,14117,35,31323.45
+RTE001813,Lagos Port,Durban Port,7191,39,43670.87
+RTE001814,Shanghai Port,Hamburg Port,10207,29,20093.27
+RTE001815,Los Angeles Port,Singapore Port,15745,22,23068.85
+RTE001816,Singapore Port,Durban Port,17948,18,28379.12
+RTE001817,Singapore Port,Hamburg Port,12473,35,44897.01
+RTE001818,Singapore Port,Hamburg Port,8331,6,1928.94
+RTE001819,Shanghai Port,Lagos Port,14425,13,36003.07
+RTE001820,Lagos Port,Durban Port,15478,14,17282.24
+RTE001821,Los Angeles Port,Rotterdam Port,8704,23,8616.3
+RTE001822,Hamburg Port,Hamburg Port,16049,12,10973.6
+RTE001823,Rotterdam Port,Shanghai Port,14244,19,11526.8
+RTE001824,Dubai Port,Singapore Port,1724,8,44680.79
+RTE001825,Shanghai Port,Durban Port,18236,2,1998.02
+RTE001826,Dubai Port,Rotterdam Port,2309,8,44981.85
+RTE001827,Singapore Port,Rotterdam Port,1360,15,9140.53
+RTE001828,Durban Port,Los Angeles Port,15652,5,15415.85
+RTE001829,Dubai Port,Hamburg Port,2932,26,12495.87
+RTE001830,Los Angeles Port,Lagos Port,12596,13,15726.37
+RTE001831,Rotterdam Port,Los Angeles Port,4375,19,19583.15
+RTE001832,Lagos Port,Los Angeles Port,12497,24,40817.4
+RTE001833,Shanghai Port,Singapore Port,2188,23,11384.66
+RTE001834,Dubai Port,Singapore Port,7877,27,33275.68
+RTE001835,Durban Port,Lagos Port,15457,15,4126.14
+RTE001836,Lagos Port,Los Angeles Port,15604,16,26558.06
+RTE001837,Dubai Port,Rotterdam Port,8921,2,43021.57
+RTE001838,Shanghai Port,Los Angeles Port,12288,14,48049.49
+RTE001839,Shanghai Port,Shanghai Port,18745,5,44723.29
+RTE001840,Singapore Port,Rotterdam Port,12664,34,26065.42
+RTE001841,Shanghai Port,Singapore Port,16657,35,17233.55
+RTE001842,Los Angeles Port,Dubai Port,15484,18,43306.55
+RTE001843,Durban Port,Durban Port,19745,22,31729.87
+RTE001844,Singapore Port,Durban Port,8686,11,1283.15
+RTE001845,Dubai Port,Dubai Port,2227,13,15716.49
+RTE001846,Los Angeles Port,Singapore Port,19683,5,15148.33
+RTE001847,Rotterdam Port,Shanghai Port,13460,16,45992.41
+RTE001848,Dubai Port,Dubai Port,18086,21,6823.46
+RTE001849,Rotterdam Port,Lagos Port,1792,23,10488.69
+RTE001850,Los Angeles Port,Hamburg Port,16115,28,46013.53
+RTE001851,Shanghai Port,Shanghai Port,10916,32,39629.3
+RTE001852,Shanghai Port,Rotterdam Port,10421,36,36028.28
+RTE001853,Shanghai Port,Los Angeles Port,19118,33,17830.99
+RTE001854,Hamburg Port,Durban Port,12231,33,19106.98
+RTE001855,Rotterdam Port,Los Angeles Port,17167,32,30789.17
+RTE001856,Hamburg Port,Rotterdam Port,17918,7,21604.45
+RTE001857,Hamburg Port,Singapore Port,6564,17,9500.31
+RTE001858,Lagos Port,Lagos Port,2919,17,10463.41
+RTE001859,Dubai Port,Rotterdam Port,8461,13,11310.97
+RTE001860,Dubai Port,Rotterdam Port,17716,16,37778.38
+RTE001861,Rotterdam Port,Los Angeles Port,3525,3,36666.69
+RTE001862,Los Angeles Port,Shanghai Port,14776,5,43502.91
+RTE001863,Durban Port,Lagos Port,12693,32,33231.9
+RTE001864,Los Angeles Port,Singapore Port,11657,5,25466.35
+RTE001865,Los Angeles Port,Shanghai Port,17392,24,1256.36
+RTE001866,Singapore Port,Hamburg Port,19170,6,30319.53
+RTE001867,Hamburg Port,Singapore Port,5496,28,8036.36
+RTE001868,Lagos Port,Dubai Port,18794,31,42211.01
+RTE001869,Singapore Port,Dubai Port,1172,4,41184.38
+RTE001870,Rotterdam Port,Shanghai Port,18655,22,23431.62
+RTE001871,Shanghai Port,Shanghai Port,1411,13,33196.09
+RTE001872,Los Angeles Port,Singapore Port,15449,11,9762.94
+RTE001873,Los Angeles Port,Shanghai Port,12358,5,17294.1
+RTE001874,Shanghai Port,Shanghai Port,2088,30,43418.88
+RTE001875,Lagos Port,Lagos Port,18060,20,9843.42
+RTE001876,Dubai Port,Singapore Port,557,18,36382.57
+RTE001877,Dubai Port,Durban Port,9185,5,3908.95
+RTE001878,Durban Port,Los Angeles Port,11651,12,40930.89
+RTE001879,Los Angeles Port,Shanghai Port,2346,6,26052.82
+RTE001880,Singapore Port,Durban Port,2011,25,32507.24
+RTE001881,Lagos Port,Dubai Port,17454,34,25005.07
+RTE001882,Dubai Port,Shanghai Port,7115,19,5460.98
+RTE001883,Singapore Port,Singapore Port,15740,15,47073.21
+RTE001884,Rotterdam Port,Los Angeles Port,10623,2,33596.52
+RTE001885,Lagos Port,Durban Port,13516,32,37729.96
+RTE001886,Shanghai Port,Durban Port,11907,33,16379.15
+RTE001887,Durban Port,Rotterdam Port,19225,15,1298.7
+RTE001888,Shanghai Port,Lagos Port,4492,6,33656.73
+RTE001889,Shanghai Port,Los Angeles Port,14229,36,17020.23
+RTE001890,Shanghai Port,Dubai Port,18958,27,49550.55
+RTE001891,Hamburg Port,Durban Port,11124,11,36458.1
+RTE001892,Lagos Port,Shanghai Port,5559,29,34424.76
+RTE001893,Dubai Port,Shanghai Port,3691,7,14482.67
+RTE001894,Shanghai Port,Dubai Port,10646,37,14722.69
+RTE001895,Dubai Port,Durban Port,8594,5,34847.86
+RTE001896,Shanghai Port,Dubai Port,598,10,19001.07
+RTE001897,Lagos Port,Shanghai Port,10324,30,24816.95
+RTE001898,Durban Port,Shanghai Port,4820,28,31659.39
+RTE001899,Los Angeles Port,Hamburg Port,6360,33,8512.42
+RTE001900,Los Angeles Port,Hamburg Port,10369,30,37857.5
+RTE001901,Durban Port,Lagos Port,5651,35,31609.78
+RTE001902,Los Angeles Port,Lagos Port,9114,2,7159.47
+RTE001903,Hamburg Port,Lagos Port,3248,29,11880.44
+RTE001904,Singapore Port,Lagos Port,16660,13,39867.84
+RTE001905,Dubai Port,Lagos Port,2255,9,17418.57
+RTE001906,Singapore Port,Los Angeles Port,8623,15,15376.17
+RTE001907,Durban Port,Rotterdam Port,12280,33,28859.02
+RTE001908,Dubai Port,Dubai Port,18206,8,12717.3
+RTE001909,Lagos Port,Singapore Port,5739,6,45712.39
+RTE001910,Lagos Port,Los Angeles Port,4324,4,37688.69
+RTE001911,Dubai Port,Durban Port,519,4,3125.31
+RTE001912,Shanghai Port,Los Angeles Port,9871,24,40835.17
+RTE001913,Lagos Port,Durban Port,4033,37,24961.77
+RTE001914,Singapore Port,Rotterdam Port,16863,35,10922.2
+RTE001915,Los Angeles Port,Durban Port,1667,38,31151.99
+RTE001916,Rotterdam Port,Los Angeles Port,15268,13,9114.86
+RTE001917,Lagos Port,Singapore Port,2301,39,3814.09
+RTE001918,Durban Port,Los Angeles Port,504,38,45044.04
+RTE001919,Durban Port,Hamburg Port,5611,18,13865.03
+RTE001920,Lagos Port,Singapore Port,19219,24,19234.34
+RTE001921,Dubai Port,Lagos Port,2267,9,7610.13
+RTE001922,Hamburg Port,Los Angeles Port,6561,31,24607.26
+RTE001923,Lagos Port,Lagos Port,9565,39,34107.17
+RTE001924,Durban Port,Shanghai Port,11889,37,47104.5
+RTE001925,Rotterdam Port,Shanghai Port,11351,31,44424.49
+RTE001926,Dubai Port,Shanghai Port,6370,30,5700.07
+RTE001927,Los Angeles Port,Singapore Port,13031,31,23561.25
+RTE001928,Lagos Port,Hamburg Port,18959,6,40018.93
+RTE001929,Singapore Port,Rotterdam Port,19482,11,18191.38
+RTE001930,Lagos Port,Lagos Port,17795,37,29168.77
+RTE001931,Lagos Port,Hamburg Port,16056,19,15745.16
+RTE001932,Singapore Port,Hamburg Port,6528,7,45911.47
+RTE001933,Dubai Port,Hamburg Port,8290,36,21097.72
+RTE001934,Lagos Port,Los Angeles Port,810,26,30249.65
+RTE001935,Rotterdam Port,Singapore Port,3264,31,19993.04
+RTE001936,Los Angeles Port,Dubai Port,9451,35,33221.27
+RTE001937,Hamburg Port,Los Angeles Port,2925,37,15944.24
+RTE001938,Lagos Port,Durban Port,14268,32,13293.19
+RTE001939,Singapore Port,Hamburg Port,15091,2,3717.61
+RTE001940,Durban Port,Dubai Port,7260,26,27831.95
+RTE001941,Los Angeles Port,Lagos Port,8034,9,31359.92
+RTE001942,Durban Port,Shanghai Port,7098,24,37367.64
+RTE001943,Rotterdam Port,Lagos Port,14231,21,26375.38
+RTE001944,Hamburg Port,Los Angeles Port,17200,34,5350.01
+RTE001945,Rotterdam Port,Rotterdam Port,1777,8,27593.02
+RTE001946,Durban Port,Singapore Port,13261,17,29453.99
+RTE001947,Durban Port,Rotterdam Port,16167,28,21338.84
+RTE001948,Rotterdam Port,Lagos Port,11118,35,25127.41
+RTE001949,Hamburg Port,Hamburg Port,2151,37,47975.16
+RTE001950,Rotterdam Port,Los Angeles Port,18638,18,35680.17
+RTE001951,Rotterdam Port,Los Angeles Port,17639,8,25842.56
+RTE001952,Dubai Port,Singapore Port,17526,24,4400.79
+RTE001953,Singapore Port,Shanghai Port,12327,39,15312.01
+RTE001954,Los Angeles Port,Shanghai Port,1503,14,9091.06
+RTE001955,Singapore Port,Dubai Port,13185,24,47948.72
+RTE001956,Shanghai Port,Lagos Port,15122,3,1914.7
+RTE001957,Lagos Port,Shanghai Port,19354,19,41940.31
+RTE001958,Dubai Port,Hamburg Port,7691,36,35850.71
+RTE001959,Shanghai Port,Rotterdam Port,11374,25,35634.31
+RTE001960,Durban Port,Durban Port,15120,18,35206.28
+RTE001961,Lagos Port,Los Angeles Port,2141,4,27468.89
+RTE001962,Dubai Port,Shanghai Port,9616,18,1195.05
+RTE001963,Singapore Port,Lagos Port,4143,9,10540.91
+RTE001964,Lagos Port,Los Angeles Port,19912,26,16941.44
+RTE001965,Rotterdam Port,Hamburg Port,12250,26,45182.71
+RTE001966,Durban Port,Shanghai Port,1642,29,23657.26
+RTE001967,Los Angeles Port,Singapore Port,13200,3,18229.74
+RTE001968,Durban Port,Durban Port,14596,18,36789.99
+RTE001969,Shanghai Port,Shanghai Port,9457,28,29903.11
+RTE001970,Lagos Port,Hamburg Port,13481,16,37166.08
+RTE001971,Dubai Port,Los Angeles Port,15299,27,49260.68
+RTE001972,Durban Port,Lagos Port,19880,12,22950.64
+RTE001973,Durban Port,Rotterdam Port,4966,28,31241.29
+RTE001974,Shanghai Port,Lagos Port,19131,24,33777.44
+RTE001975,Durban Port,Rotterdam Port,8356,39,26020.1
+RTE001976,Dubai Port,Singapore Port,5267,20,4473.86
+RTE001977,Durban Port,Rotterdam Port,2603,32,33388.21
+RTE001978,Lagos Port,Los Angeles Port,13039,26,24836.37
+RTE001979,Lagos Port,Hamburg Port,4877,18,4811.64
+RTE001980,Rotterdam Port,Rotterdam Port,4159,34,2703.29
+RTE001981,Dubai Port,Rotterdam Port,16038,5,10217.23
+RTE001982,Dubai Port,Shanghai Port,14502,17,36862.88
+RTE001983,Singapore Port,Hamburg Port,3876,23,31557.49
+RTE001984,Shanghai Port,Singapore Port,19039,36,33202.35
+RTE001985,Lagos Port,Durban Port,14173,4,13682.57
+RTE001986,Dubai Port,Durban Port,2678,19,1007.83
+RTE001987,Dubai Port,Dubai Port,18723,9,37561.19
+RTE001988,Hamburg Port,Lagos Port,6286,27,44131.8
+RTE001989,Los Angeles Port,Singapore Port,18962,35,49433.53
+RTE001990,Durban Port,Singapore Port,13739,31,17449.87
+RTE001991,Hamburg Port,Los Angeles Port,13052,7,39969.4
+RTE001992,Shanghai Port,Lagos Port,1175,24,25732.78
+RTE001993,Los Angeles Port,Singapore Port,17018,9,6315.48
+RTE001994,Hamburg Port,Rotterdam Port,5914,31,19241.42
+RTE001995,Singapore Port,Durban Port,11361,26,18578.18
+RTE001996,Lagos Port,Lagos Port,13678,27,15793.93
+RTE001997,Durban Port,Los Angeles Port,14345,34,30431.61
+RTE001998,Los Angeles Port,Singapore Port,11800,3,2284.45
+RTE001999,Dubai Port,Rotterdam Port,15547,13,32164.25
+RTE002000,Hamburg Port,Lagos Port,12938,19,38687.09
+RTE002001,Durban Port,Singapore Port,2031,2,37076.22
+RTE002002,Durban Port,Rotterdam Port,14745,17,5416.72
+RTE002003,Los Angeles Port,Durban Port,13241,36,18155.97
+RTE002004,Dubai Port,Dubai Port,15366,16,34914.89
+RTE002005,Dubai Port,Los Angeles Port,16395,24,1884.79
+RTE002006,Dubai Port,Shanghai Port,11991,33,39861.15
+RTE002007,Durban Port,Durban Port,3750,18,10411.3
+RTE002008,Durban Port,Singapore Port,9505,38,43257.38
+RTE002009,Los Angeles Port,Lagos Port,11600,39,35775.74
+RTE002010,Dubai Port,Los Angeles Port,5766,26,24286.7
+RTE002011,Rotterdam Port,Shanghai Port,4266,38,13388.39
+RTE002012,Rotterdam Port,Los Angeles Port,3433,30,23237.23
+RTE002013,Shanghai Port,Dubai Port,12460,32,21612.25
+RTE002014,Dubai Port,Shanghai Port,4445,13,6608.54
+RTE002015,Singapore Port,Lagos Port,1949,16,23773.44
+RTE002016,Dubai Port,Hamburg Port,5377,9,33480.67
+RTE002017,Rotterdam Port,Singapore Port,5120,22,32533.88
+RTE002018,Los Angeles Port,Lagos Port,12755,32,48911.35
+RTE002019,Durban Port,Hamburg Port,17516,22,17911.81
+RTE002020,Hamburg Port,Rotterdam Port,6336,23,4011.91
+RTE002021,Shanghai Port,Dubai Port,1127,29,48569.77
+RTE002022,Hamburg Port,Durban Port,6637,17,36816.23
+RTE002023,Rotterdam Port,Shanghai Port,17633,29,45143.03
+RTE002024,Los Angeles Port,Lagos Port,12240,3,13017.32
+RTE002025,Durban Port,Shanghai Port,19818,10,6673.95
+RTE002026,Dubai Port,Dubai Port,7925,16,17365.99
+RTE002027,Singapore Port,Dubai Port,5919,10,34684.67
+RTE002028,Singapore Port,Rotterdam Port,11842,29,21457.14
+RTE002029,Dubai Port,Singapore Port,18051,11,13555.32
+RTE002030,Shanghai Port,Los Angeles Port,6105,14,41124.52
+RTE002031,Lagos Port,Los Angeles Port,7846,10,33682.89
+RTE002032,Lagos Port,Rotterdam Port,2491,37,36534.22
+RTE002033,Lagos Port,Shanghai Port,11879,6,20730.22
+RTE002034,Rotterdam Port,Singapore Port,9300,22,6637.33
+RTE002035,Hamburg Port,Shanghai Port,3504,2,29500.87
+RTE002036,Rotterdam Port,Rotterdam Port,1041,8,15954.75
+RTE002037,Lagos Port,Lagos Port,18068,2,37568.91
+RTE002038,Lagos Port,Durban Port,8111,6,25987.82
+RTE002039,Shanghai Port,Hamburg Port,8211,2,43839.99
+RTE002040,Rotterdam Port,Dubai Port,12079,2,6174.28
+RTE002041,Lagos Port,Durban Port,4590,25,48159.64
+RTE002042,Los Angeles Port,Hamburg Port,2836,15,10470.31
+RTE002043,Los Angeles Port,Shanghai Port,6026,21,28903.96
+RTE002044,Singapore Port,Lagos Port,12641,23,16197.68
+RTE002045,Lagos Port,Dubai Port,11944,28,4030.48
+RTE002046,Hamburg Port,Rotterdam Port,9987,6,26251.14
+RTE002047,Durban Port,Singapore Port,17729,5,17719.07
+RTE002048,Durban Port,Durban Port,8214,38,19713.24
+RTE002049,Durban Port,Shanghai Port,17092,26,2971.08
+RTE002050,Hamburg Port,Shanghai Port,14202,31,35706.6
+RTE002051,Rotterdam Port,Los Angeles Port,18218,17,39957.43
+RTE002052,Dubai Port,Dubai Port,12706,35,2150.34
+RTE002053,Shanghai Port,Durban Port,4043,14,29213.5
+RTE002054,Durban Port,Dubai Port,14969,31,2689.6
+RTE002055,Los Angeles Port,Shanghai Port,10310,7,23739.04
+RTE002056,Shanghai Port,Dubai Port,12635,14,24391.42
+RTE002057,Hamburg Port,Hamburg Port,5553,18,15229.66
+RTE002058,Dubai Port,Dubai Port,19606,13,35019.33
+RTE002059,Shanghai Port,Hamburg Port,1115,2,27151.24
+RTE002060,Rotterdam Port,Rotterdam Port,17706,8,6473.64
+RTE002061,Lagos Port,Los Angeles Port,6864,27,38893.39
+RTE002062,Shanghai Port,Durban Port,17553,2,29992.79
+RTE002063,Los Angeles Port,Durban Port,13578,19,11228.62
+RTE002064,Hamburg Port,Lagos Port,6044,14,43816.84
+RTE002065,Durban Port,Durban Port,16370,31,41405.69
+RTE002066,Los Angeles Port,Hamburg Port,14399,34,17961.27
+RTE002067,Singapore Port,Dubai Port,10922,29,40947.48
+RTE002068,Shanghai Port,Lagos Port,3347,27,6157.2
+RTE002069,Shanghai Port,Singapore Port,8085,14,12818.02
+RTE002070,Rotterdam Port,Lagos Port,18267,32,9610.71
+RTE002071,Los Angeles Port,Shanghai Port,15984,3,7603.57
+RTE002072,Rotterdam Port,Singapore Port,19745,7,2349.16
+RTE002073,Singapore Port,Dubai Port,4160,6,17472.23
+RTE002074,Lagos Port,Rotterdam Port,16023,29,19911.81
+RTE002075,Rotterdam Port,Rotterdam Port,9370,12,12024.55
+RTE002076,Durban Port,Dubai Port,829,11,35937.87
+RTE002077,Hamburg Port,Lagos Port,4522,19,48314.65
+RTE002078,Los Angeles Port,Singapore Port,4847,21,7575.56
+RTE002079,Los Angeles Port,Dubai Port,17563,4,30959.8
+RTE002080,Los Angeles Port,Lagos Port,9453,28,42537.68
+RTE002081,Rotterdam Port,Lagos Port,17747,33,4210.0
+RTE002082,Shanghai Port,Rotterdam Port,16773,11,10579.36
+RTE002083,Durban Port,Durban Port,8293,39,29001.39
+RTE002084,Dubai Port,Hamburg Port,13509,29,23404.55
+RTE002085,Singapore Port,Hamburg Port,13798,33,3446.85
+RTE002086,Hamburg Port,Dubai Port,14856,31,48812.36
+RTE002087,Shanghai Port,Los Angeles Port,11652,24,47945.95
+RTE002088,Shanghai Port,Rotterdam Port,17513,8,7423.44
+RTE002089,Lagos Port,Rotterdam Port,8617,24,22664.81
+RTE002090,Durban Port,Durban Port,2013,29,26157.99
+RTE002091,Los Angeles Port,Durban Port,14704,26,3465.8
+RTE002092,Dubai Port,Singapore Port,1592,18,42121.73
+RTE002093,Singapore Port,Lagos Port,13552,19,12677.04
+RTE002094,Singapore Port,Rotterdam Port,19778,13,10050.08
+RTE002095,Durban Port,Singapore Port,4510,24,4831.25
+RTE002096,Lagos Port,Lagos Port,16727,30,29792.16
+RTE002097,Singapore Port,Los Angeles Port,1060,39,7597.0
+RTE002098,Hamburg Port,Los Angeles Port,10704,7,32104.89
+RTE002099,Hamburg Port,Hamburg Port,2575,6,19223.25
+RTE002100,Los Angeles Port,Rotterdam Port,17777,8,19311.69
+RTE002101,Los Angeles Port,Hamburg Port,1144,6,30104.06
+RTE002102,Lagos Port,Durban Port,1966,36,7176.42
+RTE002103,Dubai Port,Hamburg Port,14206,7,33119.61
+RTE002104,Rotterdam Port,Rotterdam Port,15661,11,46541.25
+RTE002105,Rotterdam Port,Lagos Port,16021,5,4005.24
+RTE002106,Lagos Port,Durban Port,14497,28,16786.98
+RTE002107,Dubai Port,Lagos Port,8087,35,18286.35
+RTE002108,Singapore Port,Durban Port,12695,7,49384.88
+RTE002109,Lagos Port,Shanghai Port,570,17,36737.35
+RTE002110,Singapore Port,Los Angeles Port,3671,37,14579.83
+RTE002111,Durban Port,Dubai Port,17353,27,28010.8
+RTE002112,Shanghai Port,Singapore Port,4786,34,30377.12
+RTE002113,Hamburg Port,Rotterdam Port,19127,31,12669.15
+RTE002114,Rotterdam Port,Singapore Port,16001,33,16038.84
+RTE002115,Rotterdam Port,Hamburg Port,8944,3,19077.17
+RTE002116,Shanghai Port,Hamburg Port,2510,25,49481.12
+RTE002117,Rotterdam Port,Lagos Port,3902,12,18130.88
+RTE002118,Durban Port,Shanghai Port,5388,22,30568.34
+RTE002119,Singapore Port,Lagos Port,783,12,1028.84
+RTE002120,Durban Port,Rotterdam Port,11030,22,44809.39
+RTE002121,Shanghai Port,Hamburg Port,2422,6,41354.59
+RTE002122,Shanghai Port,Shanghai Port,17922,7,1356.47
+RTE002123,Hamburg Port,Rotterdam Port,4880,9,43426.16
+RTE002124,Dubai Port,Rotterdam Port,12441,38,47438.51
+RTE002125,Hamburg Port,Durban Port,13027,11,16779.68
+RTE002126,Hamburg Port,Shanghai Port,7701,33,38250.97
+RTE002127,Rotterdam Port,Dubai Port,17978,4,7568.59
+RTE002128,Durban Port,Durban Port,14797,12,4777.2
+RTE002129,Los Angeles Port,Rotterdam Port,4597,8,11022.24
+RTE002130,Shanghai Port,Lagos Port,13672,21,7779.04
+RTE002131,Shanghai Port,Hamburg Port,3876,11,39490.63
+RTE002132,Durban Port,Lagos Port,16781,13,33491.99
+RTE002133,Lagos Port,Los Angeles Port,18341,20,5815.72
+RTE002134,Shanghai Port,Shanghai Port,654,29,27160.04
+RTE002135,Shanghai Port,Dubai Port,5407,14,15744.74
+RTE002136,Singapore Port,Dubai Port,3217,26,25029.11
+RTE002137,Shanghai Port,Rotterdam Port,14408,2,5241.83
+RTE002138,Rotterdam Port,Dubai Port,12751,3,4263.94
+RTE002139,Rotterdam Port,Rotterdam Port,17999,38,48528.48
+RTE002140,Lagos Port,Hamburg Port,10602,2,42925.51
+RTE002141,Lagos Port,Hamburg Port,14119,28,9545.11
+RTE002142,Los Angeles Port,Los Angeles Port,12496,16,49717.22
+RTE002143,Hamburg Port,Lagos Port,18656,32,5007.05
+RTE002144,Shanghai Port,Dubai Port,13953,8,6702.83
+RTE002145,Durban Port,Rotterdam Port,16946,37,1123.66
+RTE002146,Lagos Port,Rotterdam Port,15236,21,47715.9
+RTE002147,Dubai Port,Durban Port,7816,30,7128.64
+RTE002148,Dubai Port,Hamburg Port,4448,32,49471.27
+RTE002149,Singapore Port,Dubai Port,5405,35,33291.14
+RTE002150,Dubai Port,Singapore Port,16903,31,27294.2
+RTE002151,Shanghai Port,Dubai Port,13253,3,17753.61
+RTE002152,Lagos Port,Rotterdam Port,10189,33,45336.41
+RTE002153,Hamburg Port,Hamburg Port,17388,13,18932.85
+RTE002154,Durban Port,Rotterdam Port,12920,33,27109.93
+RTE002155,Los Angeles Port,Durban Port,7363,14,33100.98
+RTE002156,Shanghai Port,Lagos Port,728,10,38268.83
+RTE002157,Dubai Port,Shanghai Port,8667,27,38969.92
+RTE002158,Rotterdam Port,Dubai Port,19020,5,22125.33
+RTE002159,Durban Port,Singapore Port,16261,19,21458.36
+RTE002160,Shanghai Port,Singapore Port,11097,10,1465.51
+RTE002161,Dubai Port,Hamburg Port,11003,13,25156.26
+RTE002162,Rotterdam Port,Los Angeles Port,18019,17,36770.87
+RTE002163,Dubai Port,Durban Port,8288,18,10566.72
+RTE002164,Shanghai Port,Singapore Port,9446,31,19248.76
+RTE002165,Singapore Port,Dubai Port,17199,39,36421.58
+RTE002166,Singapore Port,Shanghai Port,17979,30,47992.56
+RTE002167,Shanghai Port,Rotterdam Port,14350,33,40116.65
+RTE002168,Dubai Port,Singapore Port,19343,2,31420.58
+RTE002169,Hamburg Port,Rotterdam Port,3475,39,9174.54
+RTE002170,Shanghai Port,Singapore Port,6907,5,49581.44
+RTE002171,Durban Port,Singapore Port,19353,38,42776.71
+RTE002172,Los Angeles Port,Lagos Port,7508,35,43411.17
+RTE002173,Shanghai Port,Rotterdam Port,12278,16,14864.3
+RTE002174,Dubai Port,Los Angeles Port,5423,2,39797.46
+RTE002175,Lagos Port,Lagos Port,8143,2,40265.38
+RTE002176,Shanghai Port,Hamburg Port,7507,18,11092.39
+RTE002177,Durban Port,Dubai Port,15382,28,30222.74
+RTE002178,Hamburg Port,Shanghai Port,5780,3,15677.29
+RTE002179,Los Angeles Port,Hamburg Port,6764,9,42482.96
+RTE002180,Durban Port,Dubai Port,17124,19,2358.3
+RTE002181,Singapore Port,Dubai Port,6336,14,25888.31
+RTE002182,Los Angeles Port,Los Angeles Port,19416,28,23832.94
+RTE002183,Shanghai Port,Lagos Port,18941,35,41032.15
+RTE002184,Singapore Port,Hamburg Port,17308,22,26147.73
+RTE002185,Shanghai Port,Lagos Port,10689,32,40976.55
+RTE002186,Singapore Port,Lagos Port,12692,24,37507.24
+RTE002187,Durban Port,Singapore Port,11389,15,14099.82
+RTE002188,Los Angeles Port,Hamburg Port,19708,10,27862.85
+RTE002189,Singapore Port,Lagos Port,13723,32,7222.29
+RTE002190,Lagos Port,Dubai Port,1297,27,1117.29
+RTE002191,Los Angeles Port,Shanghai Port,19572,3,39773.42
+RTE002192,Rotterdam Port,Singapore Port,1157,21,2260.78
+RTE002193,Singapore Port,Durban Port,15902,4,46216.79
+RTE002194,Hamburg Port,Durban Port,4115,32,26344.58
+RTE002195,Lagos Port,Singapore Port,14355,37,22711.39
+RTE002196,Singapore Port,Shanghai Port,16628,20,6882.8
+RTE002197,Shanghai Port,Lagos Port,12942,34,27047.84
+RTE002198,Lagos Port,Durban Port,13555,30,11489.84
+RTE002199,Durban Port,Dubai Port,17306,5,36180.15
+RTE002200,Los Angeles Port,Singapore Port,5776,15,36491.45
+RTE002201,Rotterdam Port,Singapore Port,2885,2,22291.79
+RTE002202,Shanghai Port,Los Angeles Port,3970,9,19170.52
+RTE002203,Hamburg Port,Lagos Port,8910,34,36763.32
+RTE002204,Lagos Port,Dubai Port,5912,26,1230.29
+RTE002205,Singapore Port,Shanghai Port,11187,37,7729.46
+RTE002206,Shanghai Port,Rotterdam Port,13567,27,46571.51
+RTE002207,Los Angeles Port,Hamburg Port,9336,32,5610.91
+RTE002208,Hamburg Port,Los Angeles Port,17451,20,25756.29
+RTE002209,Los Angeles Port,Lagos Port,9473,16,16324.08
+RTE002210,Hamburg Port,Shanghai Port,16593,29,40129.46
+RTE002211,Los Angeles Port,Rotterdam Port,12813,39,4074.73
+RTE002212,Shanghai Port,Los Angeles Port,18100,16,42573.89
+RTE002213,Lagos Port,Los Angeles Port,17485,17,40739.79
+RTE002214,Los Angeles Port,Dubai Port,13099,26,5518.69
+RTE002215,Dubai Port,Shanghai Port,8595,22,10101.4
+RTE002216,Durban Port,Rotterdam Port,5374,39,30852.84
+RTE002217,Los Angeles Port,Shanghai Port,3854,7,4322.85
+RTE002218,Los Angeles Port,Hamburg Port,19671,8,13567.37
+RTE002219,Durban Port,Shanghai Port,13872,8,10079.82
+RTE002220,Singapore Port,Lagos Port,4450,11,12948.64
+RTE002221,Rotterdam Port,Rotterdam Port,2970,17,49931.42
+RTE002222,Durban Port,Los Angeles Port,6598,21,24901.71
+RTE002223,Lagos Port,Singapore Port,19893,6,43791.64
+RTE002224,Rotterdam Port,Shanghai Port,5950,8,40280.28
+RTE002225,Hamburg Port,Rotterdam Port,7383,25,46157.62
+RTE002226,Lagos Port,Dubai Port,8131,10,42226.71
+RTE002227,Singapore Port,Los Angeles Port,11859,19,1520.26
+RTE002228,Durban Port,Singapore Port,14799,12,39585.42
+RTE002229,Rotterdam Port,Lagos Port,10251,8,3226.38
+RTE002230,Hamburg Port,Singapore Port,17731,26,17764.29
+RTE002231,Rotterdam Port,Dubai Port,18456,20,24107.58
+RTE002232,Dubai Port,Durban Port,9158,31,45595.77
+RTE002233,Hamburg Port,Lagos Port,16749,33,9398.43
+RTE002234,Dubai Port,Durban Port,6122,30,43294.19
+RTE002235,Durban Port,Dubai Port,3995,3,35984.24
+RTE002236,Singapore Port,Shanghai Port,15373,15,38659.98
+RTE002237,Los Angeles Port,Durban Port,5626,18,32083.12
+RTE002238,Hamburg Port,Durban Port,11996,15,2906.27
+RTE002239,Dubai Port,Singapore Port,16422,2,45663.44
+RTE002240,Durban Port,Dubai Port,917,10,12731.75
+RTE002241,Hamburg Port,Rotterdam Port,11408,5,37936.12
+RTE002242,Lagos Port,Singapore Port,14762,4,9872.79
+RTE002243,Singapore Port,Los Angeles Port,4669,13,15543.43
+RTE002244,Shanghai Port,Durban Port,8249,12,33736.6
+RTE002245,Los Angeles Port,Los Angeles Port,15442,23,39949.76
+RTE002246,Shanghai Port,Lagos Port,8795,19,43684.69
+RTE002247,Singapore Port,Hamburg Port,911,3,35311.24
+RTE002248,Durban Port,Durban Port,7163,5,20489.64
+RTE002249,Dubai Port,Durban Port,16362,17,36971.12
+RTE002250,Los Angeles Port,Durban Port,4563,11,22441.01
+RTE002251,Los Angeles Port,Los Angeles Port,15296,27,15862.21
+RTE002252,Los Angeles Port,Lagos Port,5967,33,28850.64
+RTE002253,Dubai Port,Dubai Port,18306,34,44945.42
+RTE002254,Durban Port,Durban Port,4222,37,16598.22
+RTE002255,Shanghai Port,Dubai Port,3295,10,34596.47
+RTE002256,Los Angeles Port,Durban Port,13062,23,44126.57
+RTE002257,Los Angeles Port,Shanghai Port,3702,28,25845.31
+RTE002258,Los Angeles Port,Los Angeles Port,19316,29,21792.63
+RTE002259,Shanghai Port,Hamburg Port,1674,28,42959.89
+RTE002260,Singapore Port,Dubai Port,15470,25,15405.83
+RTE002261,Hamburg Port,Dubai Port,14817,5,38586.2
+RTE002262,Lagos Port,Singapore Port,13468,15,36393.03
+RTE002263,Los Angeles Port,Rotterdam Port,2790,20,41110.56
+RTE002264,Singapore Port,Hamburg Port,5462,15,38289.57
+RTE002265,Durban Port,Singapore Port,18516,14,46036.39
+RTE002266,Lagos Port,Hamburg Port,10623,17,22972.33
+RTE002267,Rotterdam Port,Dubai Port,9447,33,27015.05
+RTE002268,Lagos Port,Lagos Port,1693,31,3764.1
+RTE002269,Hamburg Port,Los Angeles Port,18544,8,10283.42
+RTE002270,Los Angeles Port,Los Angeles Port,6536,3,12018.96
+RTE002271,Durban Port,Lagos Port,7817,35,38928.33
+RTE002272,Hamburg Port,Dubai Port,7878,39,27904.36
+RTE002273,Lagos Port,Singapore Port,13371,34,10403.61
+RTE002274,Rotterdam Port,Los Angeles Port,9768,14,31970.95
+RTE002275,Singapore Port,Shanghai Port,4873,16,1057.12
+RTE002276,Los Angeles Port,Shanghai Port,19433,34,49847.98
+RTE002277,Shanghai Port,Hamburg Port,1500,16,30077.29
+RTE002278,Singapore Port,Shanghai Port,8440,28,46771.44
+RTE002279,Los Angeles Port,Lagos Port,12719,21,49264.94
+RTE002280,Hamburg Port,Singapore Port,17425,3,9779.38
+RTE002281,Los Angeles Port,Lagos Port,5034,36,40837.65
+RTE002282,Rotterdam Port,Singapore Port,18179,20,21259.48
+RTE002283,Lagos Port,Dubai Port,3063,22,1650.29
+RTE002284,Rotterdam Port,Lagos Port,8541,35,3880.11
+RTE002285,Lagos Port,Durban Port,18076,27,36986.95
+RTE002286,Rotterdam Port,Rotterdam Port,12118,31,20408.92
+RTE002287,Dubai Port,Hamburg Port,15627,6,8786.71
+RTE002288,Dubai Port,Durban Port,18795,8,43463.61
+RTE002289,Hamburg Port,Shanghai Port,18613,18,7082.66
+RTE002290,Shanghai Port,Shanghai Port,10647,25,40955.23
+RTE002291,Lagos Port,Shanghai Port,4649,2,15108.95
+RTE002292,Lagos Port,Dubai Port,939,2,6878.29
+RTE002293,Hamburg Port,Los Angeles Port,3348,16,24791.74
+RTE002294,Singapore Port,Durban Port,10602,2,46644.34
+RTE002295,Los Angeles Port,Rotterdam Port,5167,8,1937.52
+RTE002296,Lagos Port,Durban Port,3493,34,32995.17
+RTE002297,Rotterdam Port,Hamburg Port,12297,4,24417.21
+RTE002298,Shanghai Port,Rotterdam Port,5715,30,11446.7
+RTE002299,Lagos Port,Lagos Port,16533,10,31254.77
+RTE002300,Singapore Port,Shanghai Port,4616,37,10114.78
+RTE002301,Rotterdam Port,Hamburg Port,15029,12,8202.61
+RTE002302,Singapore Port,Lagos Port,3647,26,32591.28
+RTE002303,Shanghai Port,Singapore Port,14442,34,49962.48
+RTE002304,Durban Port,Shanghai Port,5766,20,26595.43
+RTE002305,Dubai Port,Dubai Port,17319,39,11759.45
+RTE002306,Rotterdam Port,Los Angeles Port,15970,8,30550.5
+RTE002307,Dubai Port,Lagos Port,13332,16,41519.35
+RTE002308,Dubai Port,Los Angeles Port,5938,38,33329.86
+RTE002309,Dubai Port,Singapore Port,18583,24,4949.39
+RTE002310,Rotterdam Port,Los Angeles Port,17802,24,5744.89
+RTE002311,Durban Port,Singapore Port,5430,6,36718.44
+RTE002312,Hamburg Port,Hamburg Port,4092,22,3386.42
+RTE002313,Rotterdam Port,Hamburg Port,3725,25,17485.37
+RTE002314,Shanghai Port,Hamburg Port,14248,9,45862.91
+RTE002315,Durban Port,Rotterdam Port,14408,12,26819.58
+RTE002316,Los Angeles Port,Dubai Port,11040,34,24867.97
+RTE002317,Rotterdam Port,Los Angeles Port,16321,23,30632.8
+RTE002318,Shanghai Port,Durban Port,19772,24,46086.52
+RTE002319,Shanghai Port,Shanghai Port,14056,27,42625.9
+RTE002320,Shanghai Port,Lagos Port,3069,31,24841.36
+RTE002321,Lagos Port,Singapore Port,8601,39,47431.07
+RTE002322,Dubai Port,Dubai Port,12024,2,7722.71
+RTE002323,Shanghai Port,Hamburg Port,1347,11,30459.35
+RTE002324,Dubai Port,Shanghai Port,8544,20,15478.64
+RTE002325,Lagos Port,Dubai Port,14456,14,6259.13
+RTE002326,Durban Port,Rotterdam Port,4244,36,10189.83
+RTE002327,Lagos Port,Dubai Port,2812,20,36887.89
+RTE002328,Durban Port,Lagos Port,5856,32,11643.96
+RTE002329,Dubai Port,Shanghai Port,5764,29,17231.54
+RTE002330,Rotterdam Port,Rotterdam Port,4888,2,8594.0
+RTE002331,Durban Port,Shanghai Port,1128,22,12842.33
+RTE002332,Lagos Port,Singapore Port,15141,26,2938.87
+RTE002333,Hamburg Port,Lagos Port,6128,30,30383.94
+RTE002334,Lagos Port,Los Angeles Port,7495,19,13471.41
+RTE002335,Lagos Port,Singapore Port,4499,18,40968.51
+RTE002336,Shanghai Port,Singapore Port,16205,10,5178.36
+RTE002337,Lagos Port,Rotterdam Port,16453,39,43614.94
+RTE002338,Singapore Port,Durban Port,3063,37,45797.21
+RTE002339,Los Angeles Port,Hamburg Port,18455,21,4881.27
+RTE002340,Durban Port,Lagos Port,1752,12,19605.31
+RTE002341,Rotterdam Port,Hamburg Port,16751,5,2390.57
+RTE002342,Durban Port,Lagos Port,18380,24,11425.19
+RTE002343,Lagos Port,Los Angeles Port,1294,22,1331.08
+RTE002344,Durban Port,Lagos Port,8264,13,28378.31
+RTE002345,Singapore Port,Hamburg Port,15488,39,19864.91
+RTE002346,Shanghai Port,Dubai Port,14457,30,43998.84
+RTE002347,Los Angeles Port,Singapore Port,10160,25,40783.14
+RTE002348,Singapore Port,Hamburg Port,581,16,7658.84
+RTE002349,Dubai Port,Dubai Port,3087,5,19868.52
+RTE002350,Los Angeles Port,Durban Port,17303,20,34428.94
+RTE002351,Rotterdam Port,Durban Port,4098,8,34288.88
+RTE002352,Singapore Port,Durban Port,6800,21,37872.71
+RTE002353,Dubai Port,Durban Port,14443,17,16887.61
+RTE002354,Durban Port,Singapore Port,8814,27,39753.27
+RTE002355,Rotterdam Port,Singapore Port,12472,34,36630.02
+RTE002356,Dubai Port,Los Angeles Port,8667,11,11660.76
+RTE002357,Hamburg Port,Hamburg Port,5022,25,18329.44
+RTE002358,Dubai Port,Singapore Port,14710,11,33401.46
+RTE002359,Durban Port,Dubai Port,18268,28,4620.04
+RTE002360,Singapore Port,Hamburg Port,6052,4,18044.24
+RTE002361,Rotterdam Port,Singapore Port,7073,33,41784.84
+RTE002362,Singapore Port,Hamburg Port,14185,12,4177.8
+RTE002363,Singapore Port,Singapore Port,9569,8,41346.94
+RTE002364,Shanghai Port,Durban Port,18055,2,27200.2
+RTE002365,Singapore Port,Shanghai Port,3627,15,6097.99
+RTE002366,Rotterdam Port,Los Angeles Port,19755,9,40481.33
+RTE002367,Rotterdam Port,Dubai Port,3000,38,10426.48
+RTE002368,Hamburg Port,Lagos Port,18027,20,4963.81
+RTE002369,Hamburg Port,Los Angeles Port,4434,20,47148.1
+RTE002370,Hamburg Port,Shanghai Port,11283,17,12526.11
+RTE002371,Singapore Port,Singapore Port,19147,33,49784.29
+RTE002372,Shanghai Port,Hamburg Port,5533,15,41311.1
+RTE002373,Dubai Port,Hamburg Port,5683,30,48357.24
+RTE002374,Los Angeles Port,Dubai Port,7799,36,10550.12
+RTE002375,Singapore Port,Dubai Port,13114,24,19932.84
+RTE002376,Hamburg Port,Dubai Port,3171,11,18164.8
+RTE002377,Lagos Port,Dubai Port,14014,10,49145.53
+RTE002378,Lagos Port,Rotterdam Port,4503,20,4747.04
+RTE002379,Singapore Port,Durban Port,16406,14,34690.28
+RTE002380,Dubai Port,Singapore Port,19894,7,17552.65
+RTE002381,Shanghai Port,Rotterdam Port,5243,26,24086.03
+RTE002382,Lagos Port,Dubai Port,13154,16,46569.87
+RTE002383,Dubai Port,Durban Port,19220,20,20418.11
+RTE002384,Shanghai Port,Singapore Port,13387,5,15346.1
+RTE002385,Los Angeles Port,Singapore Port,19913,4,48341.98
+RTE002386,Los Angeles Port,Los Angeles Port,5129,13,33760.4
+RTE002387,Durban Port,Singapore Port,19166,13,13209.25
+RTE002388,Singapore Port,Los Angeles Port,10158,19,29667.68
+RTE002389,Shanghai Port,Los Angeles Port,5335,2,5557.72
+RTE002390,Los Angeles Port,Lagos Port,4951,6,36750.41
+RTE002391,Lagos Port,Hamburg Port,13768,16,36502.32
+RTE002392,Dubai Port,Dubai Port,4391,13,28116.83
+RTE002393,Los Angeles Port,Durban Port,15156,28,9175.86
+RTE002394,Rotterdam Port,Los Angeles Port,12486,33,38639.2
+RTE002395,Dubai Port,Durban Port,19493,9,29913.6
+RTE002396,Lagos Port,Shanghai Port,13122,21,3352.29
+RTE002397,Lagos Port,Hamburg Port,5858,29,5758.55
+RTE002398,Dubai Port,Durban Port,19884,5,31024.6
+RTE002399,Shanghai Port,Los Angeles Port,3364,30,15232.47
+RTE002400,Durban Port,Lagos Port,992,5,40527.6
+RTE002401,Singapore Port,Durban Port,1973,11,7593.39
+RTE002402,Durban Port,Lagos Port,5435,30,45001.82
+RTE002403,Hamburg Port,Durban Port,4357,7,31866.52
+RTE002404,Singapore Port,Los Angeles Port,3392,16,37362.37
+RTE002405,Los Angeles Port,Hamburg Port,7883,19,47403.93
+RTE002406,Los Angeles Port,Singapore Port,12444,22,13436.65
+RTE002407,Singapore Port,Rotterdam Port,7765,32,37013.06
+RTE002408,Shanghai Port,Shanghai Port,4730,23,23935.15
+RTE002409,Los Angeles Port,Singapore Port,6050,37,38086.54
+RTE002410,Rotterdam Port,Hamburg Port,3870,26,12101.28
+RTE002411,Rotterdam Port,Los Angeles Port,16099,12,25849.25
+RTE002412,Rotterdam Port,Dubai Port,10493,10,8986.63
+RTE002413,Lagos Port,Durban Port,17683,24,13814.12
+RTE002414,Singapore Port,Dubai Port,17185,9,40803.81
+RTE002415,Shanghai Port,Durban Port,16799,27,42769.56
+RTE002416,Los Angeles Port,Los Angeles Port,8810,36,36764.26
+RTE002417,Hamburg Port,Durban Port,19798,27,14402.48
+RTE002418,Lagos Port,Rotterdam Port,2372,6,42989.49
+RTE002419,Los Angeles Port,Durban Port,3949,5,43464.69
+RTE002420,Durban Port,Lagos Port,8564,12,23879.53
+RTE002421,Hamburg Port,Lagos Port,724,3,44368.0
+RTE002422,Shanghai Port,Hamburg Port,10173,9,11286.06
+RTE002423,Singapore Port,Rotterdam Port,12123,6,42871.36
+RTE002424,Shanghai Port,Rotterdam Port,16669,4,25804.76
+RTE002425,Shanghai Port,Dubai Port,13331,29,32278.32
+RTE002426,Durban Port,Hamburg Port,13264,3,14132.32
+RTE002427,Dubai Port,Dubai Port,9787,16,48774.35
+RTE002428,Dubai Port,Dubai Port,7875,15,45901.16
+RTE002429,Hamburg Port,Dubai Port,18956,25,29323.61
+RTE002430,Durban Port,Singapore Port,17026,12,46866.62
+RTE002431,Rotterdam Port,Durban Port,19784,6,44020.81
+RTE002432,Shanghai Port,Dubai Port,9722,28,45371.27
+RTE002433,Shanghai Port,Lagos Port,11207,4,46781.65
+RTE002434,Hamburg Port,Los Angeles Port,1065,35,36921.73
+RTE002435,Durban Port,Shanghai Port,14344,38,46488.87
+RTE002436,Singapore Port,Durban Port,8358,32,22610.26
+RTE002437,Los Angeles Port,Dubai Port,13886,35,39048.21
+RTE002438,Durban Port,Durban Port,10614,13,12288.11
+RTE002439,Dubai Port,Singapore Port,3534,31,20002.96
+RTE002440,Hamburg Port,Rotterdam Port,9553,21,31362.43
+RTE002441,Lagos Port,Singapore Port,6187,6,2215.42
+RTE002442,Dubai Port,Rotterdam Port,935,2,45928.4
+RTE002443,Hamburg Port,Lagos Port,8567,7,12840.68
+RTE002444,Rotterdam Port,Rotterdam Port,5471,35,16839.87
+RTE002445,Shanghai Port,Shanghai Port,8048,2,42852.93
+RTE002446,Lagos Port,Singapore Port,10248,39,19267.51
+RTE002447,Rotterdam Port,Los Angeles Port,15845,2,1508.1
+RTE002448,Lagos Port,Los Angeles Port,14858,28,11637.3
+RTE002449,Los Angeles Port,Singapore Port,7388,39,30342.13
+RTE002450,Dubai Port,Lagos Port,12362,21,34333.46
+RTE002451,Hamburg Port,Los Angeles Port,4899,37,24296.92
+RTE002452,Dubai Port,Lagos Port,12117,39,2515.06
+RTE002453,Shanghai Port,Hamburg Port,11117,18,43268.42
+RTE002454,Hamburg Port,Hamburg Port,3078,25,8987.74
+RTE002455,Singapore Port,Los Angeles Port,10715,32,41033.61
+RTE002456,Dubai Port,Lagos Port,11194,11,30492.64
+RTE002457,Dubai Port,Hamburg Port,10870,29,19007.04
+RTE002458,Hamburg Port,Rotterdam Port,13190,20,45760.35
+RTE002459,Durban Port,Durban Port,3138,24,18319.53
+RTE002460,Durban Port,Singapore Port,1237,37,27022.22
+RTE002461,Hamburg Port,Singapore Port,17767,35,29877.83
+RTE002462,Durban Port,Los Angeles Port,8050,22,4125.01
+RTE002463,Lagos Port,Hamburg Port,19367,32,10742.4
+RTE002464,Shanghai Port,Rotterdam Port,15199,16,6453.9
+RTE002465,Singapore Port,Lagos Port,13371,32,6874.3
+RTE002466,Los Angeles Port,Durban Port,5669,36,47883.04
+RTE002467,Hamburg Port,Singapore Port,2900,5,3563.73
+RTE002468,Shanghai Port,Lagos Port,15187,7,22721.73
+RTE002469,Durban Port,Rotterdam Port,11372,37,38997.76
+RTE002470,Singapore Port,Singapore Port,9882,13,42567.65
+RTE002471,Dubai Port,Hamburg Port,8459,23,27518.57
+RTE002472,Los Angeles Port,Los Angeles Port,3360,9,23440.34
+RTE002473,Singapore Port,Rotterdam Port,13860,33,45072.01
+RTE002474,Rotterdam Port,Durban Port,2136,24,19149.16
+RTE002475,Dubai Port,Dubai Port,14801,13,6516.62
+RTE002476,Durban Port,Hamburg Port,7342,32,19730.16
+RTE002477,Durban Port,Los Angeles Port,10333,26,4566.63
+RTE002478,Lagos Port,Dubai Port,9975,8,28086.92
+RTE002479,Durban Port,Rotterdam Port,15871,33,28181.06
+RTE002480,Lagos Port,Lagos Port,12236,22,45927.1
+RTE002481,Rotterdam Port,Hamburg Port,13420,22,4672.0
+RTE002482,Rotterdam Port,Shanghai Port,14042,36,37029.96
+RTE002483,Los Angeles Port,Hamburg Port,10340,37,41189.6
+RTE002484,Shanghai Port,Hamburg Port,6390,21,21411.4
+RTE002485,Shanghai Port,Hamburg Port,4438,36,12133.57
+RTE002486,Shanghai Port,Los Angeles Port,7852,11,5443.99
+RTE002487,Los Angeles Port,Dubai Port,12495,8,27694.29
+RTE002488,Shanghai Port,Lagos Port,4594,36,25875.53
+RTE002489,Los Angeles Port,Hamburg Port,15353,3,22866.72
+RTE002490,Hamburg Port,Singapore Port,12286,15,9882.23
+RTE002491,Lagos Port,Los Angeles Port,10331,28,44946.55
+RTE002492,Shanghai Port,Singapore Port,5665,24,38127.61
+RTE002493,Durban Port,Singapore Port,5929,10,15216.73
+RTE002494,Hamburg Port,Shanghai Port,11610,39,46411.77
+RTE002495,Lagos Port,Hamburg Port,19073,19,6704.17
+RTE002496,Dubai Port,Dubai Port,13783,21,47834.4
+RTE002497,Hamburg Port,Dubai Port,1332,4,46992.73
+RTE002498,Durban Port,Dubai Port,7753,32,28774.9
+RTE002499,Rotterdam Port,Durban Port,13821,3,26964.9
+RTE002500,Dubai Port,Dubai Port,17253,6,28975.31
+RTE002501,Rotterdam Port,Shanghai Port,14779,29,42771.56
+RTE002502,Shanghai Port,Hamburg Port,11513,7,45363.53
+RTE002503,Lagos Port,Rotterdam Port,17083,23,16974.76
+RTE002504,Durban Port,Durban Port,1124,4,37609.98
+RTE002505,Durban Port,Hamburg Port,3025,37,7888.79
+RTE002506,Singapore Port,Shanghai Port,4544,36,9489.86
+RTE002507,Rotterdam Port,Shanghai Port,16302,17,11984.58
+RTE002508,Singapore Port,Shanghai Port,12328,5,42473.82
+RTE002509,Durban Port,Los Angeles Port,19150,39,12646.53
+RTE002510,Dubai Port,Durban Port,11383,9,16585.12
+RTE002511,Rotterdam Port,Los Angeles Port,9353,6,18728.88
+RTE002512,Hamburg Port,Shanghai Port,1220,29,10830.66
+RTE002513,Dubai Port,Singapore Port,1355,15,18300.76
+RTE002514,Los Angeles Port,Rotterdam Port,12046,35,4399.68
+RTE002515,Dubai Port,Shanghai Port,11079,37,37940.81
+RTE002516,Los Angeles Port,Lagos Port,1269,25,48879.31
+RTE002517,Rotterdam Port,Durban Port,16946,26,16099.35
+RTE002518,Lagos Port,Shanghai Port,8487,6,5491.19
+RTE002519,Singapore Port,Rotterdam Port,11939,14,20551.6
+RTE002520,Singapore Port,Rotterdam Port,3370,19,32798.32
+RTE002521,Lagos Port,Hamburg Port,16403,13,39664.1
+RTE002522,Los Angeles Port,Los Angeles Port,14258,9,44227.08
+RTE002523,Lagos Port,Rotterdam Port,9205,14,48001.04
+RTE002524,Shanghai Port,Rotterdam Port,5782,10,16258.05
+RTE002525,Shanghai Port,Durban Port,4640,15,15018.04
+RTE002526,Durban Port,Singapore Port,14951,16,32307.31
+RTE002527,Hamburg Port,Singapore Port,6108,31,49497.15
+RTE002528,Dubai Port,Singapore Port,8464,4,27485.79
+RTE002529,Rotterdam Port,Los Angeles Port,11752,31,10112.74
+RTE002530,Durban Port,Shanghai Port,16241,18,13816.77
+RTE002531,Shanghai Port,Shanghai Port,6059,32,1631.65
+RTE002532,Lagos Port,Shanghai Port,5903,31,3704.66
+RTE002533,Rotterdam Port,Lagos Port,17919,16,26896.4
+RTE002534,Rotterdam Port,Dubai Port,9767,38,17379.76
+RTE002535,Durban Port,Rotterdam Port,10305,22,37208.97
+RTE002536,Hamburg Port,Los Angeles Port,13072,25,8944.64
+RTE002537,Los Angeles Port,Hamburg Port,13917,39,36173.89
+RTE002538,Hamburg Port,Hamburg Port,12889,14,7557.09
+RTE002539,Singapore Port,Dubai Port,4981,20,1019.32
+RTE002540,Shanghai Port,Rotterdam Port,13364,4,45498.88
+RTE002541,Lagos Port,Rotterdam Port,5908,32,41654.12
+RTE002542,Lagos Port,Los Angeles Port,13542,21,37779.6
+RTE002543,Hamburg Port,Los Angeles Port,10016,13,47895.98
+RTE002544,Los Angeles Port,Dubai Port,15944,6,13165.84
+RTE002545,Singapore Port,Shanghai Port,13406,7,48920.84
+RTE002546,Dubai Port,Lagos Port,8930,21,25786.49
+RTE002547,Durban Port,Hamburg Port,3611,23,10572.83
+RTE002548,Lagos Port,Rotterdam Port,11507,37,3626.17
+RTE002549,Dubai Port,Singapore Port,6425,18,14443.99
+RTE002550,Los Angeles Port,Shanghai Port,9173,22,42427.94
+RTE002551,Dubai Port,Hamburg Port,17182,10,36159.27
+RTE002552,Singapore Port,Lagos Port,18070,19,21090.64
+RTE002553,Hamburg Port,Los Angeles Port,18968,17,15491.86
+RTE002554,Singapore Port,Shanghai Port,14196,6,1337.25
+RTE002555,Los Angeles Port,Hamburg Port,16903,21,24895.21
+RTE002556,Lagos Port,Los Angeles Port,8968,30,16154.88
+RTE002557,Lagos Port,Singapore Port,13237,33,18054.13
+RTE002558,Dubai Port,Lagos Port,11096,7,33716.28
+RTE002559,Hamburg Port,Rotterdam Port,7965,21,15158.17
+RTE002560,Durban Port,Shanghai Port,5008,20,5841.16
+RTE002561,Durban Port,Los Angeles Port,2943,34,41219.57
+RTE002562,Singapore Port,Hamburg Port,7258,11,27201.37
+RTE002563,Lagos Port,Singapore Port,11336,34,28796.11
+RTE002564,Shanghai Port,Singapore Port,15377,18,41519.9
+RTE002565,Lagos Port,Singapore Port,1067,20,30659.57
+RTE002566,Durban Port,Singapore Port,13653,3,5119.15
+RTE002567,Durban Port,Shanghai Port,3482,33,47669.24
+RTE002568,Lagos Port,Rotterdam Port,15199,16,39267.4
+RTE002569,Dubai Port,Shanghai Port,9707,5,13137.1
+RTE002570,Dubai Port,Shanghai Port,9199,32,29575.99
+RTE002571,Singapore Port,Lagos Port,2123,5,36954.87
+RTE002572,Los Angeles Port,Singapore Port,5566,3,4176.4
+RTE002573,Durban Port,Dubai Port,17675,11,11772.56
+RTE002574,Los Angeles Port,Shanghai Port,19428,36,15138.32
+RTE002575,Singapore Port,Dubai Port,9967,18,17585.79
+RTE002576,Singapore Port,Singapore Port,12159,15,25004.28
+RTE002577,Dubai Port,Dubai Port,7546,8,32514.78
+RTE002578,Lagos Port,Lagos Port,3995,6,37140.13
+RTE002579,Durban Port,Shanghai Port,5668,12,32104.69
+RTE002580,Durban Port,Singapore Port,971,27,1342.99
+RTE002581,Lagos Port,Durban Port,3915,4,31034.69
+RTE002582,Dubai Port,Lagos Port,3228,5,37530.2
+RTE002583,Singapore Port,Shanghai Port,5490,9,49161.6
+RTE002584,Rotterdam Port,Lagos Port,13611,4,9572.97
+RTE002585,Durban Port,Rotterdam Port,5619,7,18497.16
+RTE002586,Durban Port,Lagos Port,19577,8,39039.85
+RTE002587,Singapore Port,Lagos Port,18098,16,48717.93
+RTE002588,Shanghai Port,Durban Port,16443,29,26123.36
+RTE002589,Los Angeles Port,Shanghai Port,15707,10,12842.65
+RTE002590,Hamburg Port,Los Angeles Port,8690,36,37828.21
+RTE002591,Los Angeles Port,Durban Port,9774,31,14668.36
+RTE002592,Shanghai Port,Hamburg Port,13454,33,19071.55
+RTE002593,Dubai Port,Singapore Port,16123,7,37116.76
+RTE002594,Hamburg Port,Singapore Port,3275,9,4233.62
+RTE002595,Rotterdam Port,Shanghai Port,2635,20,32832.02
+RTE002596,Dubai Port,Lagos Port,2762,17,47845.42
+RTE002597,Durban Port,Durban Port,11628,25,18139.24
+RTE002598,Los Angeles Port,Rotterdam Port,10765,2,47296.6
+RTE002599,Singapore Port,Hamburg Port,15368,29,5672.02
+RTE002600,Durban Port,Rotterdam Port,3451,5,47121.85
+RTE002601,Rotterdam Port,Rotterdam Port,7798,26,2990.27
+RTE002602,Rotterdam Port,Lagos Port,13338,26,12353.49
+RTE002603,Dubai Port,Lagos Port,4736,15,6030.15
+RTE002604,Dubai Port,Shanghai Port,3599,38,43344.53
+RTE002605,Shanghai Port,Singapore Port,18621,25,6372.77
+RTE002606,Singapore Port,Los Angeles Port,11785,17,26078.17
+RTE002607,Shanghai Port,Shanghai Port,17398,27,35316.99
+RTE002608,Durban Port,Dubai Port,15926,21,37852.09
+RTE002609,Shanghai Port,Hamburg Port,4876,28,4949.72
+RTE002610,Shanghai Port,Los Angeles Port,9050,9,19348.0
+RTE002611,Lagos Port,Dubai Port,15757,34,10856.06
+RTE002612,Los Angeles Port,Hamburg Port,11112,7,24536.44
+RTE002613,Shanghai Port,Hamburg Port,912,13,19699.45
+RTE002614,Hamburg Port,Lagos Port,2148,34,48369.75
+RTE002615,Durban Port,Durban Port,8372,19,24972.72
+RTE002616,Singapore Port,Rotterdam Port,11669,21,22173.05
+RTE002617,Singapore Port,Los Angeles Port,17955,29,45510.22
+RTE002618,Dubai Port,Singapore Port,11384,18,12598.18
+RTE002619,Singapore Port,Los Angeles Port,13022,23,45431.48
+RTE002620,Los Angeles Port,Los Angeles Port,9351,17,4500.86
+RTE002621,Durban Port,Singapore Port,2960,34,12697.87
+RTE002622,Dubai Port,Los Angeles Port,1832,37,37882.36
+RTE002623,Lagos Port,Hamburg Port,15929,39,23296.84
+RTE002624,Durban Port,Hamburg Port,11640,7,25776.77
+RTE002625,Lagos Port,Shanghai Port,4642,20,6228.57
+RTE002626,Dubai Port,Los Angeles Port,19247,2,35265.96
+RTE002627,Shanghai Port,Shanghai Port,8442,14,28971.24
+RTE002628,Los Angeles Port,Singapore Port,13543,26,38819.62
+RTE002629,Singapore Port,Shanghai Port,5899,33,19975.41
+RTE002630,Singapore Port,Lagos Port,4735,36,32811.46
+RTE002631,Lagos Port,Lagos Port,3934,8,16991.6
+RTE002632,Lagos Port,Los Angeles Port,16683,33,8551.74
+RTE002633,Hamburg Port,Dubai Port,18903,14,9556.07
+RTE002634,Dubai Port,Singapore Port,8395,20,16829.44
+RTE002635,Los Angeles Port,Dubai Port,9375,11,7828.47
+RTE002636,Dubai Port,Durban Port,10988,38,37201.99
+RTE002637,Singapore Port,Durban Port,3158,27,25346.43
+RTE002638,Hamburg Port,Hamburg Port,15030,33,2517.85
+RTE002639,Rotterdam Port,Dubai Port,6935,9,8501.94
+RTE002640,Dubai Port,Singapore Port,16102,38,9941.72
+RTE002641,Durban Port,Shanghai Port,5288,34,15554.77
+RTE002642,Singapore Port,Hamburg Port,3852,23,16748.58
+RTE002643,Dubai Port,Hamburg Port,12396,36,38518.63
+RTE002644,Shanghai Port,Singapore Port,17377,18,11750.29
+RTE002645,Hamburg Port,Los Angeles Port,10104,3,34867.5
+RTE002646,Los Angeles Port,Lagos Port,11543,31,39387.62
+RTE002647,Dubai Port,Lagos Port,15390,3,13365.0
+RTE002648,Rotterdam Port,Rotterdam Port,16598,29,35106.42
+RTE002649,Lagos Port,Durban Port,16716,5,24471.99
+RTE002650,Dubai Port,Shanghai Port,3332,27,6693.06
+RTE002651,Rotterdam Port,Dubai Port,8075,5,20815.65
+RTE002652,Durban Port,Durban Port,19983,6,41678.22
+RTE002653,Lagos Port,Shanghai Port,4911,28,7482.46
+RTE002654,Shanghai Port,Los Angeles Port,13414,33,22505.2
+RTE002655,Singapore Port,Singapore Port,17651,34,19994.01
+RTE002656,Hamburg Port,Durban Port,10369,15,43536.33
+RTE002657,Shanghai Port,Singapore Port,5718,22,49620.57
+RTE002658,Durban Port,Hamburg Port,11618,10,15323.84
+RTE002659,Shanghai Port,Dubai Port,4411,7,7472.28
+RTE002660,Singapore Port,Shanghai Port,17444,5,43296.96
+RTE002661,Durban Port,Dubai Port,1193,22,29157.24
+RTE002662,Los Angeles Port,Hamburg Port,1651,20,22984.32
+RTE002663,Dubai Port,Singapore Port,11827,23,38852.22
+RTE002664,Hamburg Port,Dubai Port,2830,37,20682.18
+RTE002665,Singapore Port,Rotterdam Port,8673,19,47678.94
+RTE002666,Singapore Port,Rotterdam Port,6462,8,36742.56
+RTE002667,Lagos Port,Durban Port,9356,12,12151.03
+RTE002668,Durban Port,Rotterdam Port,12756,31,24306.37
+RTE002669,Hamburg Port,Durban Port,17676,27,35264.69
+RTE002670,Los Angeles Port,Singapore Port,18446,5,19277.06
+RTE002671,Rotterdam Port,Rotterdam Port,12546,12,37234.21
+RTE002672,Rotterdam Port,Hamburg Port,4281,36,40120.73
+RTE002673,Singapore Port,Los Angeles Port,1698,30,1519.58
+RTE002674,Singapore Port,Hamburg Port,8745,21,9995.6
+RTE002675,Shanghai Port,Durban Port,11332,31,42212.58
+RTE002676,Dubai Port,Singapore Port,6989,15,44824.43
+RTE002677,Shanghai Port,Dubai Port,1868,28,9430.65
+RTE002678,Los Angeles Port,Singapore Port,7350,14,5402.19
+RTE002679,Hamburg Port,Singapore Port,6212,18,21315.66
+RTE002680,Durban Port,Shanghai Port,17899,32,28852.12
+RTE002681,Rotterdam Port,Los Angeles Port,8777,36,8737.5
+RTE002682,Dubai Port,Los Angeles Port,9180,12,47617.89
+RTE002683,Durban Port,Lagos Port,14497,11,29646.8
+RTE002684,Rotterdam Port,Hamburg Port,14688,35,18440.83
+RTE002685,Hamburg Port,Durban Port,11744,34,34688.59
+RTE002686,Hamburg Port,Dubai Port,3757,14,23366.56
+RTE002687,Durban Port,Rotterdam Port,12501,11,45943.41
+RTE002688,Rotterdam Port,Rotterdam Port,9413,6,41448.96
+RTE002689,Los Angeles Port,Rotterdam Port,10764,7,44175.9
+RTE002690,Los Angeles Port,Los Angeles Port,864,30,30632.81
+RTE002691,Hamburg Port,Lagos Port,17939,13,35936.27
+RTE002692,Lagos Port,Durban Port,19752,14,1421.97
+RTE002693,Singapore Port,Lagos Port,8785,21,12883.43
+RTE002694,Shanghai Port,Lagos Port,16517,12,37531.16
+RTE002695,Durban Port,Dubai Port,2057,9,24765.94
+RTE002696,Shanghai Port,Hamburg Port,1400,10,9102.15
+RTE002697,Shanghai Port,Dubai Port,2432,31,39442.61
+RTE002698,Rotterdam Port,Los Angeles Port,2954,21,10132.97
+RTE002699,Rotterdam Port,Durban Port,11244,8,17109.02
+RTE002700,Hamburg Port,Shanghai Port,16490,27,40582.11
+RTE002701,Shanghai Port,Los Angeles Port,12619,15,9618.73
+RTE002702,Hamburg Port,Lagos Port,13664,18,37242.84
+RTE002703,Shanghai Port,Hamburg Port,4351,8,39339.72
+RTE002704,Los Angeles Port,Rotterdam Port,5175,6,38973.69
+RTE002705,Los Angeles Port,Durban Port,1760,3,42181.1
+RTE002706,Hamburg Port,Lagos Port,9634,10,38946.25
+RTE002707,Singapore Port,Lagos Port,12960,15,37233.42
+RTE002708,Hamburg Port,Durban Port,3430,20,15041.09
+RTE002709,Singapore Port,Los Angeles Port,4987,15,24832.09
+RTE002710,Rotterdam Port,Lagos Port,4049,18,38444.55
+RTE002711,Hamburg Port,Los Angeles Port,6327,17,28215.8
+RTE002712,Rotterdam Port,Durban Port,15810,31,49560.46
+RTE002713,Singapore Port,Dubai Port,13925,24,1258.68
+RTE002714,Los Angeles Port,Shanghai Port,12331,31,32735.03
+RTE002715,Durban Port,Dubai Port,11871,31,28285.55
+RTE002716,Shanghai Port,Hamburg Port,12728,9,20356.63
+RTE002717,Shanghai Port,Durban Port,12842,23,8955.98
+RTE002718,Rotterdam Port,Singapore Port,17916,5,5209.16
+RTE002719,Los Angeles Port,Dubai Port,913,19,47884.92
+RTE002720,Rotterdam Port,Hamburg Port,1525,4,46791.9
+RTE002721,Rotterdam Port,Hamburg Port,3787,23,24946.98
+RTE002722,Rotterdam Port,Hamburg Port,17193,29,31853.24
+RTE002723,Lagos Port,Durban Port,8497,18,4666.05
+RTE002724,Hamburg Port,Dubai Port,9089,39,12316.39
+RTE002725,Lagos Port,Los Angeles Port,9198,8,21639.79
+RTE002726,Singapore Port,Singapore Port,1317,14,19280.68
+RTE002727,Singapore Port,Hamburg Port,5692,21,48391.75
+RTE002728,Durban Port,Hamburg Port,19478,17,24077.4
+RTE002729,Dubai Port,Durban Port,8349,6,45321.73
+RTE002730,Los Angeles Port,Los Angeles Port,3778,13,47485.09
+RTE002731,Los Angeles Port,Durban Port,14835,24,25232.04
+RTE002732,Rotterdam Port,Shanghai Port,2468,9,43583.98
+RTE002733,Shanghai Port,Dubai Port,6550,39,16649.91
+RTE002734,Singapore Port,Los Angeles Port,12778,25,5519.06
+RTE002735,Shanghai Port,Shanghai Port,12297,3,18474.84
+RTE002736,Singapore Port,Lagos Port,16780,37,7084.97
+RTE002737,Lagos Port,Durban Port,7785,8,11628.99
+RTE002738,Hamburg Port,Rotterdam Port,4535,16,22172.99
+RTE002739,Shanghai Port,Los Angeles Port,8516,6,22684.02
+RTE002740,Lagos Port,Lagos Port,17099,22,39740.39
+RTE002741,Rotterdam Port,Lagos Port,11293,15,44907.3
+RTE002742,Singapore Port,Singapore Port,14064,8,13410.15
+RTE002743,Rotterdam Port,Lagos Port,8433,8,33802.21
+RTE002744,Shanghai Port,Shanghai Port,6169,9,23124.34
+RTE002745,Hamburg Port,Lagos Port,13225,26,13648.8
+RTE002746,Rotterdam Port,Dubai Port,16997,34,35504.45
+RTE002747,Hamburg Port,Los Angeles Port,9150,38,33876.45
+RTE002748,Hamburg Port,Hamburg Port,12350,5,39035.01
+RTE002749,Durban Port,Los Angeles Port,18032,23,7305.25
+RTE002750,Hamburg Port,Rotterdam Port,5782,12,23798.55
+RTE002751,Dubai Port,Shanghai Port,7008,10,42205.99
+RTE002752,Shanghai Port,Los Angeles Port,5787,33,48886.6
+RTE002753,Los Angeles Port,Dubai Port,11239,23,34251.37
+RTE002754,Hamburg Port,Rotterdam Port,4255,28,8404.73
+RTE002755,Dubai Port,Lagos Port,2563,23,25973.97
+RTE002756,Rotterdam Port,Dubai Port,14958,14,44620.27
+RTE002757,Shanghai Port,Los Angeles Port,16574,37,39766.6
+RTE002758,Shanghai Port,Singapore Port,9136,13,46640.34
+RTE002759,Dubai Port,Hamburg Port,14571,30,16962.02
+RTE002760,Los Angeles Port,Lagos Port,14978,25,14068.21
+RTE002761,Shanghai Port,Lagos Port,2144,27,13839.55
+RTE002762,Durban Port,Shanghai Port,3195,31,40661.68
+RTE002763,Durban Port,Dubai Port,6397,30,33105.49
+RTE002764,Durban Port,Durban Port,11838,13,48390.85
+RTE002765,Dubai Port,Singapore Port,12535,7,45799.53
+RTE002766,Durban Port,Dubai Port,5999,10,2589.82
+RTE002767,Dubai Port,Hamburg Port,1485,2,28669.59
+RTE002768,Durban Port,Rotterdam Port,16693,28,9793.87
+RTE002769,Hamburg Port,Los Angeles Port,19609,38,10918.09
+RTE002770,Dubai Port,Shanghai Port,12441,8,38816.03
+RTE002771,Singapore Port,Hamburg Port,7831,32,21575.52
+RTE002772,Singapore Port,Los Angeles Port,1990,35,48716.39
+RTE002773,Shanghai Port,Dubai Port,5537,10,47029.86
+RTE002774,Singapore Port,Los Angeles Port,15824,9,21830.2
+RTE002775,Dubai Port,Shanghai Port,14952,21,23128.41
+RTE002776,Singapore Port,Hamburg Port,17555,16,16292.89
+RTE002777,Lagos Port,Durban Port,1022,33,43531.83
+RTE002778,Shanghai Port,Singapore Port,9817,38,14801.07
+RTE002779,Shanghai Port,Los Angeles Port,14958,37,22262.86
+RTE002780,Los Angeles Port,Singapore Port,1622,9,6089.84
+RTE002781,Dubai Port,Los Angeles Port,15737,39,38506.63
+RTE002782,Rotterdam Port,Dubai Port,9897,32,30409.62
+RTE002783,Lagos Port,Lagos Port,2925,15,42284.82
+RTE002784,Los Angeles Port,Durban Port,14318,8,1307.38
+RTE002785,Rotterdam Port,Lagos Port,3609,10,32853.16
+RTE002786,Hamburg Port,Los Angeles Port,10497,8,25486.45
+RTE002787,Los Angeles Port,Lagos Port,16620,31,18827.42
+RTE002788,Rotterdam Port,Hamburg Port,17979,5,41478.49
+RTE002789,Lagos Port,Lagos Port,18726,16,40985.22
+RTE002790,Durban Port,Rotterdam Port,17696,6,15291.75
+RTE002791,Rotterdam Port,Lagos Port,15325,27,13268.28
+RTE002792,Hamburg Port,Shanghai Port,11999,30,30505.03
+RTE002793,Hamburg Port,Durban Port,11056,33,49690.32
+RTE002794,Lagos Port,Lagos Port,14562,8,18568.26
+RTE002795,Singapore Port,Singapore Port,10366,23,29904.08
+RTE002796,Lagos Port,Rotterdam Port,3292,5,5080.89
+RTE002797,Singapore Port,Dubai Port,7887,5,41085.97
+RTE002798,Dubai Port,Lagos Port,10077,18,45027.23
+RTE002799,Los Angeles Port,Shanghai Port,15145,6,26588.38
+RTE002800,Singapore Port,Shanghai Port,18307,13,10663.49
+RTE002801,Shanghai Port,Singapore Port,3395,18,25766.5
+RTE002802,Lagos Port,Rotterdam Port,18949,6,30638.1
+RTE002803,Singapore Port,Hamburg Port,3174,17,30532.21
+RTE002804,Rotterdam Port,Durban Port,3477,32,10192.12
+RTE002805,Hamburg Port,Los Angeles Port,17712,3,20471.98
+RTE002806,Rotterdam Port,Singapore Port,15653,35,23453.67
+RTE002807,Los Angeles Port,Dubai Port,15854,17,31873.25
+RTE002808,Shanghai Port,Rotterdam Port,5455,22,34403.1
+RTE002809,Durban Port,Los Angeles Port,1100,36,43591.52
+RTE002810,Durban Port,Singapore Port,5830,2,15829.8
+RTE002811,Hamburg Port,Lagos Port,7533,21,13703.48
+RTE002812,Durban Port,Singapore Port,6434,19,31841.47
+RTE002813,Hamburg Port,Singapore Port,10251,34,23436.76
+RTE002814,Rotterdam Port,Lagos Port,17356,6,7054.29
+RTE002815,Shanghai Port,Rotterdam Port,14919,19,45010.66
+RTE002816,Shanghai Port,Rotterdam Port,14862,2,26785.35
+RTE002817,Lagos Port,Lagos Port,3129,14,5434.93
+RTE002818,Los Angeles Port,Singapore Port,1147,7,22461.08
+RTE002819,Los Angeles Port,Hamburg Port,13580,20,1927.11
+RTE002820,Los Angeles Port,Rotterdam Port,10291,11,10436.99
+RTE002821,Shanghai Port,Dubai Port,12210,33,24759.94
+RTE002822,Durban Port,Singapore Port,19548,11,39817.02
+RTE002823,Los Angeles Port,Dubai Port,17578,8,21473.98
+RTE002824,Dubai Port,Rotterdam Port,16429,38,45753.93
+RTE002825,Rotterdam Port,Durban Port,1740,5,24988.47
+RTE002826,Dubai Port,Shanghai Port,12980,16,46646.67
+RTE002827,Los Angeles Port,Hamburg Port,15686,11,7284.94
+RTE002828,Durban Port,Durban Port,19033,8,32880.17
+RTE002829,Singapore Port,Dubai Port,17284,31,32818.39
+RTE002830,Dubai Port,Singapore Port,2780,9,38080.45
+RTE002831,Hamburg Port,Dubai Port,15137,10,41685.02
+RTE002832,Rotterdam Port,Shanghai Port,8205,4,44380.63
+RTE002833,Lagos Port,Lagos Port,9812,25,46669.53
+RTE002834,Singapore Port,Hamburg Port,15865,13,3224.75
+RTE002835,Singapore Port,Los Angeles Port,6157,10,36523.17
+RTE002836,Dubai Port,Hamburg Port,4525,21,5385.38
+RTE002837,Dubai Port,Durban Port,5813,39,11241.63
+RTE002838,Rotterdam Port,Rotterdam Port,10158,14,48657.68
+RTE002839,Singapore Port,Dubai Port,15231,20,16701.55
+RTE002840,Rotterdam Port,Singapore Port,9690,26,16947.99
+RTE002841,Lagos Port,Lagos Port,9418,6,33589.95
+RTE002842,Dubai Port,Hamburg Port,15533,20,37544.78
+RTE002843,Dubai Port,Durban Port,13218,19,44749.26
+RTE002844,Los Angeles Port,Los Angeles Port,7556,17,38301.87
+RTE002845,Dubai Port,Hamburg Port,1821,3,28429.51
+RTE002846,Lagos Port,Durban Port,13389,13,28420.53
+RTE002847,Dubai Port,Rotterdam Port,16703,21,11585.56
+RTE002848,Dubai Port,Singapore Port,10797,3,17689.15
+RTE002849,Lagos Port,Los Angeles Port,5207,9,45504.03
+RTE002850,Rotterdam Port,Hamburg Port,12229,6,5065.5
+RTE002851,Rotterdam Port,Shanghai Port,7724,19,29366.48
+RTE002852,Rotterdam Port,Shanghai Port,18813,19,1753.05
+RTE002853,Durban Port,Dubai Port,14485,33,3602.8
+RTE002854,Durban Port,Hamburg Port,17733,23,14508.85
+RTE002855,Hamburg Port,Hamburg Port,13537,18,36648.16
+RTE002856,Dubai Port,Los Angeles Port,6020,4,32509.22
+RTE002857,Rotterdam Port,Shanghai Port,7418,4,31662.63
+RTE002858,Shanghai Port,Singapore Port,3658,12,32979.98
+RTE002859,Los Angeles Port,Los Angeles Port,14002,33,14174.09
+RTE002860,Los Angeles Port,Singapore Port,19739,26,7473.12
+RTE002861,Durban Port,Los Angeles Port,13081,27,3662.12
+RTE002862,Durban Port,Dubai Port,5923,14,22321.5
+RTE002863,Los Angeles Port,Lagos Port,12652,22,27220.2
+RTE002864,Shanghai Port,Shanghai Port,19954,19,41563.76
+RTE002865,Rotterdam Port,Rotterdam Port,5789,34,46777.28
+RTE002866,Rotterdam Port,Dubai Port,4443,34,28469.19
+RTE002867,Singapore Port,Hamburg Port,16897,10,13439.24
+RTE002868,Rotterdam Port,Durban Port,3748,39,4076.95
+RTE002869,Durban Port,Durban Port,5544,22,20357.55
+RTE002870,Dubai Port,Shanghai Port,10874,17,37233.37
+RTE002871,Hamburg Port,Lagos Port,1307,4,23983.71
+RTE002872,Shanghai Port,Dubai Port,16465,18,47810.33
+RTE002873,Durban Port,Los Angeles Port,5917,31,15704.47
+RTE002874,Hamburg Port,Singapore Port,5711,15,1516.06
+RTE002875,Los Angeles Port,Singapore Port,11218,13,30383.36
+RTE002876,Los Angeles Port,Dubai Port,16520,20,39440.51
+RTE002877,Hamburg Port,Hamburg Port,13462,5,21547.96
+RTE002878,Rotterdam Port,Dubai Port,13416,36,6629.17
+RTE002879,Dubai Port,Lagos Port,13733,35,28300.25
+RTE002880,Durban Port,Rotterdam Port,19724,28,4516.68
+RTE002881,Singapore Port,Dubai Port,5733,4,23303.86
+RTE002882,Los Angeles Port,Dubai Port,4944,37,37915.45
+RTE002883,Rotterdam Port,Hamburg Port,6996,36,28707.6
+RTE002884,Hamburg Port,Los Angeles Port,15004,19,28776.01
+RTE002885,Rotterdam Port,Lagos Port,17548,34,16670.62
+RTE002886,Dubai Port,Los Angeles Port,1914,29,16808.84
+RTE002887,Dubai Port,Singapore Port,19866,26,36853.43
+RTE002888,Rotterdam Port,Durban Port,6278,12,47808.98
+RTE002889,Shanghai Port,Lagos Port,845,13,34054.36
+RTE002890,Los Angeles Port,Hamburg Port,8135,30,7373.82
+RTE002891,Shanghai Port,Rotterdam Port,1094,3,36802.5
+RTE002892,Singapore Port,Los Angeles Port,6309,4,29306.98
+RTE002893,Shanghai Port,Hamburg Port,8294,32,14731.2
+RTE002894,Lagos Port,Singapore Port,19037,15,26948.22
+RTE002895,Dubai Port,Rotterdam Port,1362,7,43829.1
+RTE002896,Shanghai Port,Singapore Port,8560,21,38483.41
+RTE002897,Durban Port,Lagos Port,18444,11,29605.71
+RTE002898,Hamburg Port,Los Angeles Port,13933,18,34237.94
+RTE002899,Hamburg Port,Lagos Port,13660,13,15201.46
+RTE002900,Shanghai Port,Singapore Port,13245,31,13630.03
+RTE002901,Hamburg Port,Singapore Port,7464,18,47432.28
+RTE002902,Shanghai Port,Los Angeles Port,2177,21,6903.7
+RTE002903,Los Angeles Port,Rotterdam Port,17113,6,9817.01
+RTE002904,Rotterdam Port,Shanghai Port,1100,6,8779.52
+RTE002905,Dubai Port,Rotterdam Port,19400,15,26634.78
+RTE002906,Durban Port,Hamburg Port,5361,4,31716.23
+RTE002907,Durban Port,Durban Port,19048,5,46093.82
+RTE002908,Singapore Port,Shanghai Port,7035,9,21973.1
+RTE002909,Hamburg Port,Durban Port,11154,20,37612.88
+RTE002910,Lagos Port,Durban Port,19309,6,23819.49
+RTE002911,Shanghai Port,Hamburg Port,19966,4,27141.03
+RTE002912,Lagos Port,Shanghai Port,8908,24,43724.51
+RTE002913,Hamburg Port,Rotterdam Port,16115,14,2828.56
+RTE002914,Los Angeles Port,Rotterdam Port,10884,29,8119.31
+RTE002915,Singapore Port,Los Angeles Port,18229,26,3397.9
+RTE002916,Durban Port,Shanghai Port,1132,29,41134.64
+RTE002917,Rotterdam Port,Dubai Port,11388,35,5647.19
+RTE002918,Rotterdam Port,Singapore Port,16463,31,5455.15
+RTE002919,Singapore Port,Rotterdam Port,10253,20,49342.14
+RTE002920,Lagos Port,Lagos Port,1440,8,8532.91
+RTE002921,Hamburg Port,Hamburg Port,12886,5,42419.28
+RTE002922,Hamburg Port,Hamburg Port,4733,14,48033.78
+RTE002923,Los Angeles Port,Los Angeles Port,9859,38,48567.23
+RTE002924,Singapore Port,Hamburg Port,16794,6,7785.73
+RTE002925,Shanghai Port,Rotterdam Port,14593,5,34433.8
+RTE002926,Durban Port,Shanghai Port,13192,3,39480.21
+RTE002927,Hamburg Port,Los Angeles Port,16823,23,39886.4
+RTE002928,Shanghai Port,Lagos Port,17806,20,46529.18
+RTE002929,Rotterdam Port,Rotterdam Port,7281,5,13283.39
+RTE002930,Durban Port,Shanghai Port,9762,19,25611.2
+RTE002931,Durban Port,Rotterdam Port,3412,18,31434.89
+RTE002932,Rotterdam Port,Lagos Port,15080,28,30802.88
+RTE002933,Los Angeles Port,Singapore Port,9074,30,39842.54
+RTE002934,Dubai Port,Rotterdam Port,10207,9,40888.78
+RTE002935,Lagos Port,Durban Port,2659,34,36200.08
+RTE002936,Singapore Port,Singapore Port,2738,28,17312.76
+RTE002937,Rotterdam Port,Durban Port,2113,24,17383.68
+RTE002938,Rotterdam Port,Hamburg Port,9060,38,38976.91
+RTE002939,Hamburg Port,Dubai Port,8349,34,5623.07
+RTE002940,Dubai Port,Dubai Port,1481,36,44516.61
+RTE002941,Lagos Port,Singapore Port,6863,3,27059.94
+RTE002942,Dubai Port,Shanghai Port,15502,28,40876.1
+RTE002943,Los Angeles Port,Los Angeles Port,1471,7,39280.74
+RTE002944,Rotterdam Port,Shanghai Port,3251,33,34869.63
+RTE002945,Durban Port,Rotterdam Port,3442,17,15327.83
+RTE002946,Dubai Port,Shanghai Port,19294,18,13182.88
+RTE002947,Singapore Port,Durban Port,7606,33,4161.06
+RTE002948,Hamburg Port,Shanghai Port,6984,29,29284.64
+RTE002949,Lagos Port,Hamburg Port,12630,39,9721.24
+RTE002950,Hamburg Port,Dubai Port,14736,5,29081.18
+RTE002951,Los Angeles Port,Rotterdam Port,8328,39,12703.96
+RTE002952,Lagos Port,Lagos Port,14360,39,47465.47
+RTE002953,Lagos Port,Dubai Port,16371,29,30712.84
+RTE002954,Singapore Port,Rotterdam Port,14114,34,6620.21
+RTE002955,Shanghai Port,Shanghai Port,13161,11,14404.67
+RTE002956,Hamburg Port,Shanghai Port,14303,6,12528.51
+RTE002957,Rotterdam Port,Lagos Port,2064,36,29867.15
+RTE002958,Shanghai Port,Shanghai Port,18986,4,7749.31
+RTE002959,Lagos Port,Shanghai Port,983,35,42179.5
+RTE002960,Singapore Port,Rotterdam Port,17465,13,49610.38
+RTE002961,Durban Port,Dubai Port,17102,14,6406.83
+RTE002962,Hamburg Port,Rotterdam Port,7158,17,48786.1
+RTE002963,Durban Port,Hamburg Port,1250,39,14670.93
+RTE002964,Rotterdam Port,Lagos Port,13031,23,9777.08
+RTE002965,Rotterdam Port,Singapore Port,1432,8,5133.51
+RTE002966,Shanghai Port,Lagos Port,5821,9,6493.26
+RTE002967,Los Angeles Port,Durban Port,1913,3,12682.54
+RTE002968,Hamburg Port,Los Angeles Port,14827,6,49641.82
+RTE002969,Singapore Port,Lagos Port,12540,24,4642.18
+RTE002970,Durban Port,Dubai Port,16547,30,13217.24
+RTE002971,Dubai Port,Singapore Port,16897,16,33775.83
+RTE002972,Hamburg Port,Lagos Port,12512,13,48970.82
+RTE002973,Lagos Port,Singapore Port,8850,30,35926.22
+RTE002974,Singapore Port,Singapore Port,17930,36,35961.31
+RTE002975,Los Angeles Port,Dubai Port,19235,22,25757.01
+RTE002976,Dubai Port,Hamburg Port,11335,28,9477.02
+RTE002977,Rotterdam Port,Rotterdam Port,18159,32,45886.43
+RTE002978,Hamburg Port,Dubai Port,4275,13,22226.91
+RTE002979,Los Angeles Port,Los Angeles Port,11192,19,30072.12
+RTE002980,Los Angeles Port,Los Angeles Port,17104,34,47929.17
+RTE002981,Shanghai Port,Singapore Port,13138,14,44973.44
+RTE002982,Singapore Port,Rotterdam Port,16246,23,15813.22
+RTE002983,Durban Port,Durban Port,3982,32,19887.52
+RTE002984,Shanghai Port,Hamburg Port,7116,30,15000.01
+RTE002985,Singapore Port,Singapore Port,1546,14,9922.55
+RTE002986,Rotterdam Port,Hamburg Port,17981,25,32948.15
+RTE002987,Los Angeles Port,Singapore Port,5945,6,1057.37
+RTE002988,Los Angeles Port,Singapore Port,14872,21,2610.27
+RTE002989,Durban Port,Los Angeles Port,1335,13,42670.57
+RTE002990,Dubai Port,Durban Port,9814,21,15084.7
+RTE002991,Rotterdam Port,Shanghai Port,11848,22,11397.22
+RTE002992,Rotterdam Port,Shanghai Port,16545,16,36959.14
+RTE002993,Durban Port,Singapore Port,18886,32,14140.99
+RTE002994,Lagos Port,Durban Port,13958,14,12182.38
+RTE002995,Singapore Port,Los Angeles Port,19908,13,8140.48
+RTE002996,Durban Port,Lagos Port,8929,10,37362.84
+RTE002997,Shanghai Port,Shanghai Port,8382,21,35438.53
+RTE002998,Durban Port,Rotterdam Port,19414,38,5281.3
+RTE002999,Lagos Port,Shanghai Port,19923,18,18446.65
+RTE003000,Los Angeles Port,Rotterdam Port,17253,13,36617.1

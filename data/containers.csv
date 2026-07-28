@@ -1,0 +1,3001 @@
+container_id,shipment_id,container_type,status,current_location
+CNT000001,SHP000943,Reefer,Delayed,Singapore Port
+CNT000002,SHP001197,40ft,In Transit,Shanghai Port
+CNT000003,SHP001835,20ft,Delayed,Durban Port
+CNT000004,SHP000833,40ft,Delivered,Rotterdam Port
+CNT000005,SHP001909,Reefer,Delayed,Los Angeles Port
+CNT000006,SHP001352,40ft,Delayed,Durban Port
+CNT000007,SHP000075,40ft,In Transit,Rotterdam Port
+CNT000008,SHP000418,20ft,Delayed,Durban Port
+CNT000009,SHP002694,20ft,In Transit,Los Angeles Port
+CNT000010,SHP000443,Reefer,In Transit,Durban Port
+CNT000011,SHP000258,40ft,Delivered,Durban Port
+CNT000012,SHP002421,Reefer,Delayed,Durban Port
+CNT000013,SHP001712,40ft,Delayed,Durban Port
+CNT000014,SHP001351,20ft,Delayed,Hamburg Port
+CNT000015,SHP000120,40ft,Delayed,Dubai Port
+CNT000016,SHP000099,Reefer,In Transit,Hamburg Port
+CNT000017,SHP002267,20ft,In Transit,Shanghai Port
+CNT000018,SHP000844,Reefer,Delayed,Hamburg Port
+CNT000019,SHP002768,40ft,Delayed,Lagos Port
+CNT000020,SHP001198,20ft,Delayed,Rotterdam Port
+CNT000021,SHP000276,40ft,Delivered,Singapore Port
+CNT000022,SHP001428,40ft,Delivered,Los Angeles Port
+CNT000023,SHP000778,Reefer,In Transit,Singapore Port
+CNT000024,SHP000050,20ft,Delayed,Los Angeles Port
+CNT000025,SHP000103,40ft,Delivered,Dubai Port
+CNT000026,SHP002665,40ft,In Transit,Hamburg Port
+CNT000027,SHP001896,Reefer,In Transit,Rotterdam Port
+CNT000028,SHP000611,40ft,Delivered,Los Angeles Port
+CNT000029,SHP001694,Reefer,Delivered,Lagos Port
+CNT000030,SHP002410,20ft,In Transit,Shanghai Port
+CNT000031,SHP002832,20ft,Delayed,Shanghai Port
+CNT000032,SHP000026,20ft,In Transit,Los Angeles Port
+CNT000033,SHP002331,20ft,Delivered,Shanghai Port
+CNT000034,SHP000372,20ft,In Transit,Hamburg Port
+CNT000035,SHP000931,20ft,Delivered,Durban Port
+CNT000036,SHP000350,40ft,In Transit,Los Angeles Port
+CNT000037,SHP002537,40ft,Delivered,Rotterdam Port
+CNT000038,SHP002161,20ft,Delayed,Lagos Port
+CNT000039,SHP002062,20ft,Delivered,Rotterdam Port
+CNT000040,SHP002406,20ft,Delivered,Durban Port
+CNT000041,SHP002476,Reefer,In Transit,Rotterdam Port
+CNT000042,SHP001851,40ft,In Transit,Shanghai Port
+CNT000043,SHP000907,Reefer,In Transit,Singapore Port
+CNT000044,SHP001762,Reefer,Delivered,Los Angeles Port
+CNT000045,SHP002219,Reefer,Delivered,Shanghai Port
+CNT000046,SHP001356,20ft,Delayed,Lagos Port
+CNT000047,SHP002434,40ft,In Transit,Dubai Port
+CNT000048,SHP001318,40ft,Delivered,Rotterdam Port
+CNT000049,SHP002354,20ft,Delivered,Singapore Port
+CNT000050,SHP000431,40ft,Delayed,Shanghai Port
+CNT000051,SHP002984,20ft,Delivered,Los Angeles Port
+CNT000052,SHP000699,Reefer,Delayed,Durban Port
+CNT000053,SHP000694,40ft,Delayed,Shanghai Port
+CNT000054,SHP002944,40ft,In Transit,Los Angeles Port
+CNT000055,SHP000411,40ft,Delivered,Durban Port
+CNT000056,SHP000964,40ft,In Transit,Dubai Port
+CNT000057,SHP002595,40ft,Delivered,Rotterdam Port
+CNT000058,SHP002163,Reefer,Delivered,Dubai Port
+CNT000059,SHP000525,40ft,In Transit,Rotterdam Port
+CNT000060,SHP001898,Reefer,Delayed,Los Angeles Port
+CNT000061,SHP002060,40ft,Delivered,Shanghai Port
+CNT000062,SHP002974,20ft,Delayed,Lagos Port
+CNT000063,SHP002519,20ft,Delayed,Shanghai Port
+CNT000064,SHP002255,Reefer,Delivered,Dubai Port
+CNT000065,SHP002887,20ft,Delivered,Durban Port
+CNT000066,SHP000484,20ft,In Transit,Los Angeles Port
+CNT000067,SHP002621,20ft,Delayed,Rotterdam Port
+CNT000068,SHP001395,Reefer,Delivered,Los Angeles Port
+CNT000069,SHP001506,40ft,In Transit,Singapore Port
+CNT000070,SHP002847,Reefer,Delivered,Shanghai Port
+CNT000071,SHP000669,20ft,Delivered,Lagos Port
+CNT000072,SHP002253,40ft,Delayed,Dubai Port
+CNT000073,SHP001872,20ft,Delayed,Durban Port
+CNT000074,SHP001568,40ft,Delayed,Durban Port
+CNT000075,SHP002808,40ft,In Transit,Hamburg Port
+CNT000076,SHP002594,Reefer,Delivered,Durban Port
+CNT000077,SHP000847,Reefer,Delivered,Dubai Port
+CNT000078,SHP001474,20ft,Delivered,Lagos Port
+CNT000079,SHP000210,20ft,In Transit,Rotterdam Port
+CNT000080,SHP001350,40ft,In Transit,Hamburg Port
+CNT000081,SHP000800,Reefer,In Transit,Lagos Port
+CNT000082,SHP000307,Reefer,Delivered,Rotterdam Port
+CNT000083,SHP000600,20ft,In Transit,Singapore Port
+CNT000084,SHP001799,20ft,Delayed,Durban Port
+CNT000085,SHP002311,20ft,Delayed,Shanghai Port
+CNT000086,SHP001074,40ft,In Transit,Rotterdam Port
+CNT000087,SHP002508,40ft,Delivered,Singapore Port
+CNT000088,SHP002451,Reefer,In Transit,Rotterdam Port
+CNT000089,SHP001133,40ft,Delayed,Los Angeles Port
+CNT000090,SHP000581,40ft,Delayed,Durban Port
+CNT000091,SHP000629,40ft,Delayed,Lagos Port
+CNT000092,SHP001353,20ft,In Transit,Lagos Port
+CNT000093,SHP001532,Reefer,Delayed,Hamburg Port
+CNT000094,SHP001548,Reefer,Delivered,Shanghai Port
+CNT000095,SHP000255,40ft,In Transit,Los Angeles Port
+CNT000096,SHP000028,20ft,In Transit,Dubai Port
+CNT000097,SHP002970,20ft,Delayed,Shanghai Port
+CNT000098,SHP001147,Reefer,In Transit,Los Angeles Port
+CNT000099,SHP000015,40ft,Delivered,Los Angeles Port
+CNT000100,SHP001316,40ft,Delayed,Lagos Port
+CNT000101,SHP001034,40ft,In Transit,Los Angeles Port
+CNT000102,SHP001578,20ft,In Transit,Dubai Port
+CNT000103,SHP000557,Reefer,In Transit,Dubai Port
+CNT000104,SHP001075,40ft,In Transit,Lagos Port
+CNT000105,SHP002140,Reefer,Delivered,Hamburg Port
+CNT000106,SHP001531,20ft,Delivered,Shanghai Port
+CNT000107,SHP001985,20ft,Delivered,Rotterdam Port
+CNT000108,SHP000399,Reefer,Delivered,Hamburg Port
+CNT000109,SHP001049,40ft,Delivered,Durban Port
+CNT000110,SHP000165,20ft,Delivered,Los Angeles Port
+CNT000111,SHP001692,20ft,Delivered,Durban Port
+CNT000112,SHP002074,Reefer,Delivered,Singapore Port
+CNT000113,SHP002460,20ft,Delivered,Rotterdam Port
+CNT000114,SHP000817,20ft,Delivered,Shanghai Port
+CNT000115,SHP002955,Reefer,Delivered,Durban Port
+CNT000116,SHP002260,Reefer,In Transit,Dubai Port
+CNT000117,SHP000582,20ft,Delivered,Singapore Port
+CNT000118,SHP001785,Reefer,Delayed,Dubai Port
+CNT000119,SHP001506,20ft,Delivered,Dubai Port
+CNT000120,SHP000533,Reefer,In Transit,Singapore Port
+CNT000121,SHP000797,20ft,In Transit,Rotterdam Port
+CNT000122,SHP001168,Reefer,Delayed,Los Angeles Port
+CNT000123,SHP001245,Reefer,Delayed,Los Angeles Port
+CNT000124,SHP001311,20ft,Delivered,Shanghai Port
+CNT000125,SHP001438,Reefer,In Transit,Durban Port
+CNT000126,SHP001490,Reefer,In Transit,Dubai Port
+CNT000127,SHP001548,Reefer,In Transit,Durban Port
+CNT000128,SHP000783,40ft,In Transit,Los Angeles Port
+CNT000129,SHP000724,40ft,Delivered,Durban Port
+CNT000130,SHP002595,20ft,In Transit,Rotterdam Port
+CNT000131,SHP001908,40ft,In Transit,Dubai Port
+CNT000132,SHP000029,Reefer,Delivered,Singapore Port
+CNT000133,SHP000528,40ft,Delayed,Durban Port
+CNT000134,SHP001207,40ft,In Transit,Singapore Port
+CNT000135,SHP001533,Reefer,In Transit,Lagos Port
+CNT000136,SHP001219,40ft,Delivered,Los Angeles Port
+CNT000137,SHP000047,20ft,Delivered,Los Angeles Port
+CNT000138,SHP002056,20ft,Delayed,Lagos Port
+CNT000139,SHP002400,40ft,In Transit,Dubai Port
+CNT000140,SHP000755,40ft,Delayed,Los Angeles Port
+CNT000141,SHP000734,40ft,In Transit,Shanghai Port
+CNT000142,SHP002464,20ft,In Transit,Shanghai Port
+CNT000143,SHP002466,20ft,Delayed,Durban Port
+CNT000144,SHP002253,20ft,Delayed,Durban Port
+CNT000145,SHP002785,Reefer,Delivered,Singapore Port
+CNT000146,SHP002418,40ft,Delayed,Durban Port
+CNT000147,SHP001731,20ft,Delayed,Rotterdam Port
+CNT000148,SHP002280,20ft,Delivered,Shanghai Port
+CNT000149,SHP000054,20ft,Delayed,Shanghai Port
+CNT000150,SHP002867,Reefer,In Transit,Rotterdam Port
+CNT000151,SHP001875,40ft,In Transit,Hamburg Port
+CNT000152,SHP000493,Reefer,In Transit,Durban Port
+CNT000153,SHP000088,40ft,Delivered,Los Angeles Port
+CNT000154,SHP002937,Reefer,In Transit,Shanghai Port
+CNT000155,SHP001835,20ft,Delayed,Los Angeles Port
+CNT000156,SHP002381,40ft,Delivered,Los Angeles Port
+CNT000157,SHP002205,20ft,In Transit,Shanghai Port
+CNT000158,SHP002165,40ft,In Transit,Singapore Port
+CNT000159,SHP000699,40ft,Delivered,Lagos Port
+CNT000160,SHP002005,20ft,Delivered,Shanghai Port
+CNT000161,SHP002137,20ft,Delayed,Durban Port
+CNT000162,SHP000547,20ft,Delivered,Singapore Port
+CNT000163,SHP000547,20ft,Delivered,Hamburg Port
+CNT000164,SHP000519,40ft,Delivered,Dubai Port
+CNT000165,SHP002650,20ft,Delayed,Lagos Port
+CNT000166,SHP001374,20ft,Delayed,Durban Port
+CNT000167,SHP000555,Reefer,In Transit,Durban Port
+CNT000168,SHP001704,40ft,Delayed,Los Angeles Port
+CNT000169,SHP001338,40ft,In Transit,Los Angeles Port
+CNT000170,SHP002863,Reefer,Delayed,Los Angeles Port
+CNT000171,SHP000101,20ft,Delayed,Lagos Port
+CNT000172,SHP002961,40ft,In Transit,Rotterdam Port
+CNT000173,SHP002968,40ft,In Transit,Singapore Port
+CNT000174,SHP000861,40ft,In Transit,Durban Port
+CNT000175,SHP002376,Reefer,Delayed,Rotterdam Port
+CNT000176,SHP000576,20ft,Delivered,Los Angeles Port
+CNT000177,SHP001180,20ft,In Transit,Singapore Port
+CNT000178,SHP002187,20ft,In Transit,Durban Port
+CNT000179,SHP000703,20ft,Delayed,Singapore Port
+CNT000180,SHP000945,Reefer,Delayed,Lagos Port
+CNT000181,SHP001868,20ft,Delivered,Lagos Port
+CNT000182,SHP002597,Reefer,In Transit,Hamburg Port
+CNT000183,SHP000196,20ft,In Transit,Lagos Port
+CNT000184,SHP000653,Reefer,Delayed,Hamburg Port
+CNT000185,SHP000203,40ft,Delivered,Shanghai Port
+CNT000186,SHP000208,20ft,Delivered,Lagos Port
+CNT000187,SHP001186,20ft,Delayed,Los Angeles Port
+CNT000188,SHP001342,20ft,Delivered,Singapore Port
+CNT000189,SHP001440,40ft,Delayed,Lagos Port
+CNT000190,SHP001953,40ft,Delayed,Shanghai Port
+CNT000191,SHP000811,Reefer,Delivered,Singapore Port
+CNT000192,SHP000282,40ft,Delivered,Shanghai Port
+CNT000193,SHP001897,40ft,In Transit,Lagos Port
+CNT000194,SHP001413,Reefer,Delayed,Rotterdam Port
+CNT000195,SHP001999,20ft,Delivered,Singapore Port
+CNT000196,SHP001055,20ft,Delivered,Los Angeles Port
+CNT000197,SHP000085,20ft,Delayed,Lagos Port
+CNT000198,SHP001249,20ft,Delayed,Singapore Port
+CNT000199,SHP002676,20ft,Delivered,Durban Port
+CNT000200,SHP002582,20ft,Delivered,Rotterdam Port
+CNT000201,SHP002672,20ft,Delayed,Shanghai Port
+CNT000202,SHP001958,Reefer,In Transit,Rotterdam Port
+CNT000203,SHP002362,20ft,Delivered,Shanghai Port
+CNT000204,SHP002728,40ft,In Transit,Lagos Port
+CNT000205,SHP001496,20ft,Delivered,Hamburg Port
+CNT000206,SHP001401,20ft,Delayed,Lagos Port
+CNT000207,SHP000840,Reefer,Delivered,Rotterdam Port
+CNT000208,SHP001853,40ft,In Transit,Lagos Port
+CNT000209,SHP000243,20ft,Delivered,Shanghai Port
+CNT000210,SHP002215,Reefer,Delivered,Hamburg Port
+CNT000211,SHP002869,40ft,In Transit,Los Angeles Port
+CNT000212,SHP000117,40ft,In Transit,Lagos Port
+CNT000213,SHP000361,20ft,Delivered,Rotterdam Port
+CNT000214,SHP000756,Reefer,Delayed,Rotterdam Port
+CNT000215,SHP002885,Reefer,Delivered,Shanghai Port
+CNT000216,SHP000064,40ft,Delivered,Shanghai Port
+CNT000217,SHP000733,20ft,Delivered,Los Angeles Port
+CNT000218,SHP002126,Reefer,Delayed,Rotterdam Port
+CNT000219,SHP000206,Reefer,In Transit,Rotterdam Port
+CNT000220,SHP002864,Reefer,Delivered,Los Angeles Port
+CNT000221,SHP002093,Reefer,Delayed,Rotterdam Port
+CNT000222,SHP001260,20ft,Delivered,Los Angeles Port
+CNT000223,SHP000934,Reefer,In Transit,Lagos Port
+CNT000224,SHP000118,40ft,In Transit,Singapore Port
+CNT000225,SHP001126,20ft,Delivered,Hamburg Port
+CNT000226,SHP002095,40ft,Delivered,Singapore Port
+CNT000227,SHP000163,40ft,Delivered,Shanghai Port
+CNT000228,SHP000328,Reefer,Delayed,Durban Port
+CNT000229,SHP000138,40ft,In Transit,Singapore Port
+CNT000230,SHP001681,20ft,Delivered,Dubai Port
+CNT000231,SHP001872,Reefer,In Transit,Los Angeles Port
+CNT000232,SHP000191,40ft,Delivered,Durban Port
+CNT000233,SHP001146,Reefer,In Transit,Singapore Port
+CNT000234,SHP000095,Reefer,Delivered,Rotterdam Port
+CNT000235,SHP000436,40ft,Delayed,Dubai Port
+CNT000236,SHP000322,Reefer,Delivered,Los Angeles Port
+CNT000237,SHP002307,20ft,Delayed,Durban Port
+CNT000238,SHP002431,Reefer,Delivered,Hamburg Port
+CNT000239,SHP000156,20ft,Delivered,Singapore Port
+CNT000240,SHP001756,20ft,Delayed,Los Angeles Port
+CNT000241,SHP002616,40ft,Delayed,Rotterdam Port
+CNT000242,SHP001862,40ft,Delivered,Lagos Port
+CNT000243,SHP000722,20ft,In Transit,Dubai Port
+CNT000244,SHP000829,Reefer,In Transit,Lagos Port
+CNT000245,SHP001347,Reefer,Delayed,Durban Port
+CNT000246,SHP002760,40ft,Delivered,Shanghai Port
+CNT000247,SHP002828,Reefer,Delayed,Hamburg Port
+CNT000248,SHP002646,Reefer,Delayed,Rotterdam Port
+CNT000249,SHP000564,Reefer,Delayed,Rotterdam Port
+CNT000250,SHP000797,20ft,Delayed,Hamburg Port
+CNT000251,SHP000768,40ft,Delayed,Shanghai Port
+CNT000252,SHP000579,Reefer,In Transit,Los Angeles Port
+CNT000253,SHP001465,20ft,Delayed,Lagos Port
+CNT000254,SHP002902,20ft,Delivered,Hamburg Port
+CNT000255,SHP000242,40ft,In Transit,Dubai Port
+CNT000256,SHP001182,Reefer,Delayed,Lagos Port
+CNT000257,SHP002118,Reefer,Delayed,Shanghai Port
+CNT000258,SHP002903,20ft,Delivered,Rotterdam Port
+CNT000259,SHP000566,40ft,In Transit,Dubai Port
+CNT000260,SHP000833,20ft,Delayed,Los Angeles Port
+CNT000261,SHP000131,Reefer,In Transit,Shanghai Port
+CNT000262,SHP000517,40ft,Delivered,Lagos Port
+CNT000263,SHP002537,Reefer,Delayed,Dubai Port
+CNT000264,SHP001103,Reefer,In Transit,Lagos Port
+CNT000265,SHP002242,20ft,Delivered,Rotterdam Port
+CNT000266,SHP000961,Reefer,Delivered,Durban Port
+CNT000267,SHP000914,40ft,In Transit,Hamburg Port
+CNT000268,SHP000667,20ft,Delayed,Durban Port
+CNT000269,SHP002916,40ft,In Transit,Durban Port
+CNT000270,SHP002215,Reefer,In Transit,Singapore Port
+CNT000271,SHP001105,40ft,In Transit,Los Angeles Port
+CNT000272,SHP001477,20ft,Delivered,Dubai Port
+CNT000273,SHP000920,Reefer,In Transit,Los Angeles Port
+CNT000274,SHP002349,20ft,Delivered,Durban Port
+CNT000275,SHP000755,20ft,In Transit,Shanghai Port
+CNT000276,SHP001327,40ft,In Transit,Dubai Port
+CNT000277,SHP000150,Reefer,In Transit,Los Angeles Port
+CNT000278,SHP001533,20ft,In Transit,Shanghai Port
+CNT000279,SHP000451,20ft,In Transit,Lagos Port
+CNT000280,SHP000116,20ft,Delivered,Shanghai Port
+CNT000281,SHP000393,40ft,Delayed,Shanghai Port
+CNT000282,SHP000069,20ft,In Transit,Rotterdam Port
+CNT000283,SHP002014,20ft,In Transit,Shanghai Port
+CNT000284,SHP000017,20ft,Delayed,Dubai Port
+CNT000285,SHP001934,Reefer,Delayed,Hamburg Port
+CNT000286,SHP000762,40ft,Delivered,Dubai Port
+CNT000287,SHP000553,20ft,In Transit,Dubai Port
+CNT000288,SHP000050,Reefer,Delivered,Los Angeles Port
+CNT000289,SHP002476,40ft,Delivered,Lagos Port
+CNT000290,SHP002394,40ft,Delivered,Rotterdam Port
+CNT000291,SHP000141,20ft,In Transit,Durban Port
+CNT000292,SHP000519,Reefer,Delayed,Rotterdam Port
+CNT000293,SHP001791,40ft,Delivered,Singapore Port
+CNT000294,SHP000469,Reefer,Delayed,Hamburg Port
+CNT000295,SHP001628,Reefer,Delivered,Lagos Port
+CNT000296,SHP001055,Reefer,Delayed,Lagos Port
+CNT000297,SHP000551,20ft,Delivered,Dubai Port
+CNT000298,SHP001758,Reefer,Delivered,Hamburg Port
+CNT000299,SHP000309,Reefer,Delayed,Los Angeles Port
+CNT000300,SHP001872,Reefer,Delayed,Singapore Port
+CNT000301,SHP001401,20ft,Delayed,Singapore Port
+CNT000302,SHP001248,Reefer,Delayed,Rotterdam Port
+CNT000303,SHP001969,40ft,Delivered,Dubai Port
+CNT000304,SHP001073,20ft,Delayed,Hamburg Port
+CNT000305,SHP000741,20ft,Delayed,Hamburg Port
+CNT000306,SHP002647,20ft,In Transit,Dubai Port
+CNT000307,SHP000048,40ft,In Transit,Singapore Port
+CNT000308,SHP000114,20ft,Delivered,Los Angeles Port
+CNT000309,SHP000715,40ft,In Transit,Hamburg Port
+CNT000310,SHP001494,20ft,Delivered,Durban Port
+CNT000311,SHP001452,20ft,Delivered,Hamburg Port
+CNT000312,SHP000054,40ft,Delivered,Singapore Port
+CNT000313,SHP000992,20ft,Delayed,Singapore Port
+CNT000314,SHP001957,40ft,Delayed,Durban Port
+CNT000315,SHP002110,Reefer,In Transit,Dubai Port
+CNT000316,SHP001778,Reefer,Delivered,Lagos Port
+CNT000317,SHP000047,Reefer,Delayed,Lagos Port
+CNT000318,SHP001836,20ft,In Transit,Shanghai Port
+CNT000319,SHP000673,Reefer,Delivered,Singapore Port
+CNT000320,SHP002244,Reefer,Delayed,Lagos Port
+CNT000321,SHP002721,40ft,Delayed,Singapore Port
+CNT000322,SHP002785,20ft,Delivered,Los Angeles Port
+CNT000323,SHP001929,Reefer,In Transit,Durban Port
+CNT000324,SHP002368,40ft,Delayed,Durban Port
+CNT000325,SHP001920,40ft,Delayed,Los Angeles Port
+CNT000326,SHP001340,20ft,In Transit,Hamburg Port
+CNT000327,SHP000221,40ft,Delayed,Durban Port
+CNT000328,SHP002000,40ft,In Transit,Singapore Port
+CNT000329,SHP001765,20ft,In Transit,Singapore Port
+CNT000330,SHP002167,20ft,In Transit,Rotterdam Port
+CNT000331,SHP000154,20ft,Delivered,Singapore Port
+CNT000332,SHP000834,20ft,Delivered,Hamburg Port
+CNT000333,SHP001460,Reefer,Delivered,Hamburg Port
+CNT000334,SHP000364,20ft,Delayed,Shanghai Port
+CNT000335,SHP000726,Reefer,Delivered,Dubai Port
+CNT000336,SHP000923,20ft,In Transit,Lagos Port
+CNT000337,SHP001744,20ft,Delayed,Lagos Port
+CNT000338,SHP001553,20ft,In Transit,Shanghai Port
+CNT000339,SHP002855,20ft,Delivered,Lagos Port
+CNT000340,SHP000550,40ft,In Transit,Lagos Port
+CNT000341,SHP000411,Reefer,In Transit,Los Angeles Port
+CNT000342,SHP002071,Reefer,In Transit,Dubai Port
+CNT000343,SHP002455,40ft,In Transit,Shanghai Port
+CNT000344,SHP002877,40ft,Delayed,Los Angeles Port
+CNT000345,SHP002003,20ft,Delivered,Hamburg Port
+CNT000346,SHP002221,20ft,Delivered,Rotterdam Port
+CNT000347,SHP002491,40ft,Delivered,Shanghai Port
+CNT000348,SHP002565,40ft,Delivered,Shanghai Port
+CNT000349,SHP001730,Reefer,Delivered,Singapore Port
+CNT000350,SHP001391,Reefer,Delivered,Hamburg Port
+CNT000351,SHP000463,Reefer,In Transit,Durban Port
+CNT000352,SHP002081,Reefer,Delivered,Dubai Port
+CNT000353,SHP002595,20ft,Delivered,Durban Port
+CNT000354,SHP001908,Reefer,Delayed,Durban Port
+CNT000355,SHP001167,Reefer,Delayed,Los Angeles Port
+CNT000356,SHP002740,40ft,Delayed,Dubai Port
+CNT000357,SHP000986,Reefer,Delivered,Rotterdam Port
+CNT000358,SHP000798,20ft,In Transit,Durban Port
+CNT000359,SHP000836,20ft,In Transit,Durban Port
+CNT000360,SHP000637,20ft,Delivered,Lagos Port
+CNT000361,SHP000114,Reefer,Delayed,Hamburg Port
+CNT000362,SHP002918,40ft,Delayed,Rotterdam Port
+CNT000363,SHP002077,Reefer,In Transit,Dubai Port
+CNT000364,SHP002274,Reefer,Delivered,Los Angeles Port
+CNT000365,SHP000839,40ft,Delivered,Los Angeles Port
+CNT000366,SHP001369,40ft,In Transit,Shanghai Port
+CNT000367,SHP000336,20ft,Delivered,Rotterdam Port
+CNT000368,SHP000596,Reefer,Delayed,Lagos Port
+CNT000369,SHP002966,Reefer,Delayed,Hamburg Port
+CNT000370,SHP002334,Reefer,Delivered,Lagos Port
+CNT000371,SHP002787,20ft,In Transit,Durban Port
+CNT000372,SHP001516,Reefer,Delayed,Hamburg Port
+CNT000373,SHP002788,Reefer,Delivered,Rotterdam Port
+CNT000374,SHP001205,20ft,Delivered,Dubai Port
+CNT000375,SHP002918,Reefer,Delayed,Durban Port
+CNT000376,SHP001883,20ft,Delivered,Singapore Port
+CNT000377,SHP002579,20ft,Delayed,Lagos Port
+CNT000378,SHP001533,Reefer,Delayed,Lagos Port
+CNT000379,SHP002854,Reefer,Delivered,Singapore Port
+CNT000380,SHP001996,20ft,Delivered,Los Angeles Port
+CNT000381,SHP001733,40ft,In Transit,Hamburg Port
+CNT000382,SHP001087,40ft,In Transit,Dubai Port
+CNT000383,SHP001319,Reefer,Delayed,Dubai Port
+CNT000384,SHP001432,40ft,In Transit,Durban Port
+CNT000385,SHP000493,20ft,Delayed,Durban Port
+CNT000386,SHP000090,Reefer,Delayed,Los Angeles Port
+CNT000387,SHP001169,Reefer,In Transit,Los Angeles Port
+CNT000388,SHP002134,Reefer,In Transit,Dubai Port
+CNT000389,SHP001509,40ft,In Transit,Singapore Port
+CNT000390,SHP000817,Reefer,Delayed,Lagos Port
+CNT000391,SHP000873,40ft,In Transit,Dubai Port
+CNT000392,SHP000447,40ft,Delivered,Shanghai Port
+CNT000393,SHP001717,20ft,Delayed,Singapore Port
+CNT000394,SHP001131,20ft,Delayed,Lagos Port
+CNT000395,SHP001083,40ft,In Transit,Dubai Port
+CNT000396,SHP000495,40ft,Delayed,Lagos Port
+CNT000397,SHP001452,40ft,In Transit,Rotterdam Port
+CNT000398,SHP002901,40ft,In Transit,Los Angeles Port
+CNT000399,SHP002769,20ft,Delayed,Lagos Port
+CNT000400,SHP002044,20ft,Delayed,Durban Port
+CNT000401,SHP001094,40ft,Delayed,Shanghai Port
+CNT000402,SHP000763,40ft,In Transit,Rotterdam Port
+CNT000403,SHP001906,20ft,Delivered,Dubai Port
+CNT000404,SHP000447,20ft,Delayed,Rotterdam Port
+CNT000405,SHP002365,40ft,Delayed,Dubai Port
+CNT000406,SHP001202,40ft,In Transit,Dubai Port
+CNT000407,SHP002520,20ft,Delayed,Singapore Port
+CNT000408,SHP002935,20ft,In Transit,Dubai Port
+CNT000409,SHP002525,40ft,In Transit,Rotterdam Port
+CNT000410,SHP001998,20ft,In Transit,Singapore Port
+CNT000411,SHP001741,20ft,Delayed,Durban Port
+CNT000412,SHP000418,40ft,In Transit,Singapore Port
+CNT000413,SHP000285,20ft,Delivered,Singapore Port
+CNT000414,SHP001816,40ft,Delayed,Rotterdam Port
+CNT000415,SHP000415,40ft,Delayed,Shanghai Port
+CNT000416,SHP002736,20ft,In Transit,Dubai Port
+CNT000417,SHP000521,20ft,Delayed,Shanghai Port
+CNT000418,SHP000767,Reefer,Delayed,Durban Port
+CNT000419,SHP002302,20ft,Delivered,Los Angeles Port
+CNT000420,SHP001054,20ft,Delivered,Lagos Port
+CNT000421,SHP001963,Reefer,Delayed,Durban Port
+CNT000422,SHP001216,Reefer,Delayed,Los Angeles Port
+CNT000423,SHP002360,Reefer,In Transit,Singapore Port
+CNT000424,SHP001214,Reefer,Delayed,Shanghai Port
+CNT000425,SHP001299,Reefer,Delivered,Los Angeles Port
+CNT000426,SHP001822,40ft,Delivered,Los Angeles Port
+CNT000427,SHP000218,20ft,In Transit,Lagos Port
+CNT000428,SHP000507,Reefer,Delivered,Dubai Port
+CNT000429,SHP001231,Reefer,Delayed,Shanghai Port
+CNT000430,SHP002261,40ft,Delayed,Dubai Port
+CNT000431,SHP001164,40ft,Delayed,Dubai Port
+CNT000432,SHP002706,Reefer,In Transit,Shanghai Port
+CNT000433,SHP000899,40ft,Delayed,Durban Port
+CNT000434,SHP000654,Reefer,Delivered,Los Angeles Port
+CNT000435,SHP002271,40ft,Delayed,Durban Port
+CNT000436,SHP001199,40ft,Delivered,Shanghai Port
+CNT000437,SHP001500,40ft,Delivered,Hamburg Port
+CNT000438,SHP001425,20ft,In Transit,Rotterdam Port
+CNT000439,SHP002800,40ft,In Transit,Durban Port
+CNT000440,SHP000361,Reefer,Delayed,Shanghai Port
+CNT000441,SHP000095,Reefer,Delivered,Dubai Port
+CNT000442,SHP002456,20ft,Delivered,Shanghai Port
+CNT000443,SHP001914,40ft,Delivered,Durban Port
+CNT000444,SHP001826,20ft,Delayed,Los Angeles Port
+CNT000445,SHP002767,40ft,In Transit,Hamburg Port
+CNT000446,SHP000075,40ft,Delivered,Dubai Port
+CNT000447,SHP000599,40ft,Delivered,Los Angeles Port
+CNT000448,SHP002150,40ft,Delivered,Durban Port
+CNT000449,SHP000626,Reefer,In Transit,Durban Port
+CNT000450,SHP001537,Reefer,Delayed,Dubai Port
+CNT000451,SHP002719,40ft,In Transit,Durban Port
+CNT000452,SHP001310,20ft,Delivered,Singapore Port
+CNT000453,SHP000795,Reefer,Delayed,Los Angeles Port
+CNT000454,SHP000134,20ft,In Transit,Rotterdam Port
+CNT000455,SHP000558,40ft,Delivered,Rotterdam Port
+CNT000456,SHP000416,40ft,Delivered,Hamburg Port
+CNT000457,SHP000388,Reefer,Delayed,Dubai Port
+CNT000458,SHP002886,40ft,In Transit,Hamburg Port
+CNT000459,SHP002101,40ft,Delivered,Los Angeles Port
+CNT000460,SHP002725,Reefer,Delivered,Lagos Port
+CNT000461,SHP002511,Reefer,Delivered,Singapore Port
+CNT000462,SHP002483,Reefer,Delivered,Singapore Port
+CNT000463,SHP000202,20ft,Delivered,Durban Port
+CNT000464,SHP000266,20ft,Delivered,Shanghai Port
+CNT000465,SHP001156,20ft,In Transit,Rotterdam Port
+CNT000466,SHP001891,20ft,In Transit,Lagos Port
+CNT000467,SHP000888,40ft,Delivered,Rotterdam Port
+CNT000468,SHP002197,20ft,Delivered,Shanghai Port
+CNT000469,SHP002332,Reefer,Delivered,Rotterdam Port
+CNT000470,SHP001297,Reefer,Delivered,Dubai Port
+CNT000471,SHP002978,20ft,Delivered,Lagos Port
+CNT000472,SHP002967,20ft,In Transit,Durban Port
+CNT000473,SHP001603,Reefer,Delayed,Durban Port
+CNT000474,SHP001378,20ft,In Transit,Hamburg Port
+CNT000475,SHP002158,Reefer,In Transit,Singapore Port
+CNT000476,SHP001322,40ft,In Transit,Hamburg Port
+CNT000477,SHP000210,40ft,Delayed,Singapore Port
+CNT000478,SHP002054,40ft,Delivered,Rotterdam Port
+CNT000479,SHP000819,40ft,Delivered,Durban Port
+CNT000480,SHP001277,40ft,Delivered,Dubai Port
+CNT000481,SHP001697,40ft,In Transit,Lagos Port
+CNT000482,SHP000208,40ft,Delayed,Los Angeles Port
+CNT000483,SHP000989,Reefer,Delivered,Hamburg Port
+CNT000484,SHP001519,Reefer,Delayed,Lagos Port
+CNT000485,SHP001201,20ft,Delivered,Hamburg Port
+CNT000486,SHP001924,40ft,Delayed,Hamburg Port
+CNT000487,SHP001328,40ft,Delivered,Lagos Port
+CNT000488,SHP002458,40ft,Delivered,Singapore Port
+CNT000489,SHP000443,20ft,Delayed,Lagos Port
+CNT000490,SHP000299,40ft,Delivered,Lagos Port
+CNT000491,SHP002718,Reefer,Delivered,Durban Port
+CNT000492,SHP000654,20ft,Delivered,Los Angeles Port
+CNT000493,SHP001308,20ft,In Transit,Durban Port
+CNT000494,SHP000739,40ft,Delivered,Singapore Port
+CNT000495,SHP000205,40ft,Delivered,Los Angeles Port
+CNT000496,SHP000792,Reefer,Delayed,Dubai Port
+CNT000497,SHP002545,40ft,In Transit,Dubai Port
+CNT000498,SHP000127,Reefer,Delivered,Durban Port
+CNT000499,SHP000779,Reefer,Delayed,Rotterdam Port
+CNT000500,SHP001614,40ft,Delivered,Hamburg Port
+CNT000501,SHP000306,Reefer,Delayed,Rotterdam Port
+CNT000502,SHP002899,20ft,Delivered,Shanghai Port
+CNT000503,SHP002032,Reefer,Delayed,Los Angeles Port
+CNT000504,SHP000747,40ft,In Transit,Shanghai Port
+CNT000505,SHP001537,Reefer,Delayed,Lagos Port
+CNT000506,SHP000502,40ft,In Transit,Los Angeles Port
+CNT000507,SHP002502,Reefer,Delivered,Hamburg Port
+CNT000508,SHP002350,40ft,In Transit,Lagos Port
+CNT000509,SHP000999,20ft,Delayed,Lagos Port
+CNT000510,SHP001305,Reefer,In Transit,Lagos Port
+CNT000511,SHP002481,20ft,Delivered,Singapore Port
+CNT000512,SHP000608,20ft,Delivered,Durban Port
+CNT000513,SHP001098,20ft,Delayed,Singapore Port
+CNT000514,SHP001469,Reefer,Delivered,Singapore Port
+CNT000515,SHP002484,40ft,Delivered,Lagos Port
+CNT000516,SHP001699,Reefer,Delayed,Shanghai Port
+CNT000517,SHP002918,20ft,Delivered,Lagos Port
+CNT000518,SHP001405,20ft,Delivered,Shanghai Port
+CNT000519,SHP001738,40ft,In Transit,Rotterdam Port
+CNT000520,SHP000328,40ft,In Transit,Singapore Port
+CNT000521,SHP002384,20ft,Delayed,Dubai Port
+CNT000522,SHP001284,20ft,Delivered,Singapore Port
+CNT000523,SHP000199,Reefer,In Transit,Durban Port
+CNT000524,SHP002336,40ft,In Transit,Shanghai Port
+CNT000525,SHP002842,20ft,In Transit,Shanghai Port
+CNT000526,SHP001016,40ft,Delayed,Shanghai Port
+CNT000527,SHP000969,Reefer,Delayed,Singapore Port
+CNT000528,SHP000818,20ft,In Transit,Los Angeles Port
+CNT000529,SHP000060,20ft,In Transit,Durban Port
+CNT000530,SHP002627,40ft,Delivered,Shanghai Port
+CNT000531,SHP001283,40ft,Delayed,Durban Port
+CNT000532,SHP000583,40ft,Delivered,Lagos Port
+CNT000533,SHP001795,20ft,Delivered,Dubai Port
+CNT000534,SHP000143,20ft,Delayed,Singapore Port
+CNT000535,SHP001119,40ft,Delivered,Rotterdam Port
+CNT000536,SHP002687,Reefer,In Transit,Dubai Port
+CNT000537,SHP002041,Reefer,Delayed,Lagos Port
+CNT000538,SHP002213,20ft,Delivered,Dubai Port
+CNT000539,SHP000390,20ft,In Transit,Hamburg Port
+CNT000540,SHP002515,Reefer,Delivered,Rotterdam Port
+CNT000541,SHP000031,Reefer,Delayed,Los Angeles Port
+CNT000542,SHP000590,40ft,Delayed,Rotterdam Port
+CNT000543,SHP002975,Reefer,Delivered,Rotterdam Port
+CNT000544,SHP002575,20ft,In Transit,Hamburg Port
+CNT000545,SHP002888,Reefer,Delivered,Los Angeles Port
+CNT000546,SHP000366,Reefer,In Transit,Shanghai Port
+CNT000547,SHP001784,20ft,Delayed,Shanghai Port
+CNT000548,SHP000826,20ft,Delivered,Shanghai Port
+CNT000549,SHP001086,Reefer,Delayed,Dubai Port
+CNT000550,SHP002250,40ft,In Transit,Los Angeles Port
+CNT000551,SHP000468,Reefer,In Transit,Hamburg Port
+CNT000552,SHP002103,20ft,Delivered,Hamburg Port
+CNT000553,SHP000318,Reefer,In Transit,Lagos Port
+CNT000554,SHP000274,20ft,In Transit,Singapore Port
+CNT000555,SHP000129,40ft,In Transit,Dubai Port
+CNT000556,SHP002908,20ft,In Transit,Durban Port
+CNT000557,SHP002232,Reefer,In Transit,Los Angeles Port
+CNT000558,SHP000717,40ft,Delayed,Hamburg Port
+CNT000559,SHP000477,Reefer,In Transit,Rotterdam Port
+CNT000560,SHP000987,Reefer,Delayed,Rotterdam Port
+CNT000561,SHP001954,20ft,In Transit,Durban Port
+CNT000562,SHP002477,20ft,Delivered,Los Angeles Port
+CNT000563,SHP002725,20ft,In Transit,Rotterdam Port
+CNT000564,SHP001887,20ft,Delivered,Hamburg Port
+CNT000565,SHP001603,40ft,Delivered,Hamburg Port
+CNT000566,SHP002057,40ft,Delayed,Lagos Port
+CNT000567,SHP001728,40ft,Delivered,Lagos Port
+CNT000568,SHP000446,40ft,Delayed,Rotterdam Port
+CNT000569,SHP002198,Reefer,In Transit,Singapore Port
+CNT000570,SHP000315,40ft,Delivered,Durban Port
+CNT000571,SHP001949,20ft,Delivered,Singapore Port
+CNT000572,SHP001934,Reefer,In Transit,Los Angeles Port
+CNT000573,SHP002388,Reefer,Delayed,Rotterdam Port
+CNT000574,SHP002148,Reefer,Delivered,Lagos Port
+CNT000575,SHP002706,Reefer,In Transit,Rotterdam Port
+CNT000576,SHP001856,Reefer,In Transit,Hamburg Port
+CNT000577,SHP001488,Reefer,Delayed,Singapore Port
+CNT000578,SHP001910,40ft,Delivered,Singapore Port
+CNT000579,SHP001520,20ft,Delivered,Rotterdam Port
+CNT000580,SHP002989,Reefer,In Transit,Durban Port
+CNT000581,SHP002537,Reefer,In Transit,Rotterdam Port
+CNT000582,SHP002610,Reefer,Delivered,Los Angeles Port
+CNT000583,SHP002420,40ft,Delayed,Hamburg Port
+CNT000584,SHP001413,20ft,Delivered,Dubai Port
+CNT000585,SHP000370,40ft,In Transit,Hamburg Port
+CNT000586,SHP000393,40ft,Delivered,Singapore Port
+CNT000587,SHP002818,Reefer,Delayed,Hamburg Port
+CNT000588,SHP001880,40ft,In Transit,Rotterdam Port
+CNT000589,SHP001165,40ft,In Transit,Dubai Port
+CNT000590,SHP002505,Reefer,Delivered,Los Angeles Port
+CNT000591,SHP002254,20ft,Delayed,Los Angeles Port
+CNT000592,SHP001637,20ft,Delivered,Los Angeles Port
+CNT000593,SHP002087,20ft,Delivered,Lagos Port
+CNT000594,SHP001611,Reefer,Delayed,Shanghai Port
+CNT000595,SHP002690,40ft,Delivered,Shanghai Port
+CNT000596,SHP000200,20ft,Delivered,Shanghai Port
+CNT000597,SHP002796,Reefer,Delayed,Dubai Port
+CNT000598,SHP000973,Reefer,Delivered,Hamburg Port
+CNT000599,SHP001487,20ft,Delivered,Lagos Port
+CNT000600,SHP000033,20ft,In Transit,Los Angeles Port
+CNT000601,SHP000376,Reefer,In Transit,Shanghai Port
+CNT000602,SHP000347,20ft,In Transit,Dubai Port
+CNT000603,SHP001298,40ft,Delayed,Singapore Port
+CNT000604,SHP001513,20ft,Delayed,Rotterdam Port
+CNT000605,SHP002541,Reefer,In Transit,Rotterdam Port
+CNT000606,SHP000791,40ft,In Transit,Hamburg Port
+CNT000607,SHP000692,Reefer,In Transit,Los Angeles Port
+CNT000608,SHP000582,40ft,In Transit,Shanghai Port
+CNT000609,SHP002284,20ft,Delivered,Lagos Port
+CNT000610,SHP002654,Reefer,Delayed,Los Angeles Port
+CNT000611,SHP000626,Reefer,Delivered,Los Angeles Port
+CNT000612,SHP001046,40ft,Delivered,Lagos Port
+CNT000613,SHP000947,20ft,Delayed,Rotterdam Port
+CNT000614,SHP000275,Reefer,In Transit,Los Angeles Port
+CNT000615,SHP000317,Reefer,Delivered,Shanghai Port
+CNT000616,SHP002807,40ft,Delayed,Shanghai Port
+CNT000617,SHP000348,40ft,In Transit,Dubai Port
+CNT000618,SHP001505,40ft,Delayed,Lagos Port
+CNT000619,SHP000881,Reefer,Delivered,Singapore Port
+CNT000620,SHP000970,40ft,In Transit,Hamburg Port
+CNT000621,SHP002002,40ft,Delayed,Lagos Port
+CNT000622,SHP002584,20ft,Delivered,Durban Port
+CNT000623,SHP002547,Reefer,In Transit,Dubai Port
+CNT000624,SHP000346,40ft,Delivered,Los Angeles Port
+CNT000625,SHP000429,40ft,In Transit,Durban Port
+CNT000626,SHP001906,Reefer,In Transit,Singapore Port
+CNT000627,SHP000468,20ft,In Transit,Lagos Port
+CNT000628,SHP001078,20ft,In Transit,Hamburg Port
+CNT000629,SHP002625,20ft,In Transit,Hamburg Port
+CNT000630,SHP001214,40ft,In Transit,Hamburg Port
+CNT000631,SHP002492,20ft,Delayed,Los Angeles Port
+CNT000632,SHP000163,40ft,Delivered,Shanghai Port
+CNT000633,SHP002952,40ft,In Transit,Rotterdam Port
+CNT000634,SHP000918,20ft,Delivered,Singapore Port
+CNT000635,SHP001671,20ft,Delayed,Rotterdam Port
+CNT000636,SHP002970,40ft,In Transit,Singapore Port
+CNT000637,SHP001903,20ft,In Transit,Shanghai Port
+CNT000638,SHP000011,20ft,In Transit,Dubai Port
+CNT000639,SHP002632,20ft,Delayed,Hamburg Port
+CNT000640,SHP002837,40ft,Delivered,Hamburg Port
+CNT000641,SHP001424,40ft,Delivered,Shanghai Port
+CNT000642,SHP002091,20ft,Delayed,Rotterdam Port
+CNT000643,SHP002793,40ft,Delivered,Dubai Port
+CNT000644,SHP001699,40ft,Delayed,Los Angeles Port
+CNT000645,SHP000675,20ft,Delivered,Los Angeles Port
+CNT000646,SHP001127,20ft,Delivered,Lagos Port
+CNT000647,SHP001872,40ft,In Transit,Singapore Port
+CNT000648,SHP001688,40ft,In Transit,Dubai Port
+CNT000649,SHP002923,Reefer,In Transit,Singapore Port
+CNT000650,SHP001241,20ft,In Transit,Hamburg Port
+CNT000651,SHP002767,40ft,Delayed,Lagos Port
+CNT000652,SHP002051,40ft,Delivered,Singapore Port
+CNT000653,SHP000788,40ft,Delayed,Dubai Port
+CNT000654,SHP000720,Reefer,Delivered,Los Angeles Port
+CNT000655,SHP000041,40ft,In Transit,Los Angeles Port
+CNT000656,SHP001262,40ft,Delayed,Singapore Port
+CNT000657,SHP000036,40ft,Delayed,Lagos Port
+CNT000658,SHP000473,40ft,Delivered,Singapore Port
+CNT000659,SHP001711,40ft,In Transit,Lagos Port
+CNT000660,SHP001330,40ft,Delivered,Hamburg Port
+CNT000661,SHP000429,40ft,Delivered,Rotterdam Port
+CNT000662,SHP001268,40ft,In Transit,Hamburg Port
+CNT000663,SHP002409,Reefer,Delivered,Los Angeles Port
+CNT000664,SHP001803,40ft,Delivered,Dubai Port
+CNT000665,SHP000569,40ft,Delayed,Lagos Port
+CNT000666,SHP002864,Reefer,Delayed,Lagos Port
+CNT000667,SHP001154,20ft,In Transit,Dubai Port
+CNT000668,SHP001824,Reefer,Delayed,Singapore Port
+CNT000669,SHP000962,40ft,Delayed,Hamburg Port
+CNT000670,SHP002938,20ft,In Transit,Durban Port
+CNT000671,SHP002835,Reefer,Delayed,Singapore Port
+CNT000672,SHP001148,40ft,In Transit,Los Angeles Port
+CNT000673,SHP002564,Reefer,Delivered,Los Angeles Port
+CNT000674,SHP000860,40ft,In Transit,Shanghai Port
+CNT000675,SHP000850,40ft,Delayed,Singapore Port
+CNT000676,SHP000427,40ft,In Transit,Singapore Port
+CNT000677,SHP000024,Reefer,In Transit,Lagos Port
+CNT000678,SHP002648,Reefer,Delivered,Hamburg Port
+CNT000679,SHP000347,20ft,Delivered,Singapore Port
+CNT000680,SHP001883,20ft,Delayed,Dubai Port
+CNT000681,SHP002326,Reefer,Delivered,Los Angeles Port
+CNT000682,SHP000612,20ft,In Transit,Singapore Port
+CNT000683,SHP001570,Reefer,In Transit,Singapore Port
+CNT000684,SHP002442,Reefer,In Transit,Shanghai Port
+CNT000685,SHP001299,40ft,Delivered,Durban Port
+CNT000686,SHP002730,40ft,Delayed,Hamburg Port
+CNT000687,SHP002771,20ft,In Transit,Rotterdam Port
+CNT000688,SHP001180,20ft,In Transit,Singapore Port
+CNT000689,SHP002700,40ft,In Transit,Shanghai Port
+CNT000690,SHP002028,20ft,In Transit,Dubai Port
+CNT000691,SHP000510,40ft,Delivered,Dubai Port
+CNT000692,SHP001827,40ft,In Transit,Hamburg Port
+CNT000693,SHP001119,20ft,Delivered,Singapore Port
+CNT000694,SHP002328,Reefer,Delivered,Los Angeles Port
+CNT000695,SHP001245,40ft,Delivered,Lagos Port
+CNT000696,SHP000278,Reefer,Delivered,Los Angeles Port
+CNT000697,SHP001618,40ft,Delivered,Rotterdam Port
+CNT000698,SHP000623,20ft,In Transit,Shanghai Port
+CNT000699,SHP002002,20ft,Delivered,Shanghai Port
+CNT000700,SHP000576,Reefer,Delayed,Rotterdam Port
+CNT000701,SHP002064,20ft,In Transit,Singapore Port
+CNT000702,SHP000930,40ft,Delayed,Shanghai Port
+CNT000703,SHP001685,Reefer,Delivered,Dubai Port
+CNT000704,SHP000790,Reefer,Delivered,Rotterdam Port
+CNT000705,SHP000624,20ft,Delayed,Rotterdam Port
+CNT000706,SHP000777,Reefer,Delivered,Rotterdam Port
+CNT000707,SHP001216,20ft,Delivered,Lagos Port
+CNT000708,SHP001380,20ft,Delivered,Hamburg Port
+CNT000709,SHP000238,20ft,In Transit,Rotterdam Port
+CNT000710,SHP002548,20ft,Delivered,Lagos Port
+CNT000711,SHP002445,Reefer,Delayed,Dubai Port
+CNT000712,SHP001572,Reefer,Delivered,Lagos Port
+CNT000713,SHP000741,Reefer,In Transit,Dubai Port
+CNT000714,SHP001220,20ft,In Transit,Durban Port
+CNT000715,SHP002528,40ft,In Transit,Lagos Port
+CNT000716,SHP001122,40ft,Delayed,Dubai Port
+CNT000717,SHP000209,20ft,Delayed,Hamburg Port
+CNT000718,SHP000495,Reefer,In Transit,Shanghai Port
+CNT000719,SHP002517,40ft,Delivered,Durban Port
+CNT000720,SHP001698,20ft,Delayed,Dubai Port
+CNT000721,SHP001101,Reefer,Delayed,Hamburg Port
+CNT000722,SHP000984,20ft,Delayed,Dubai Port
+CNT000723,SHP001867,20ft,In Transit,Lagos Port
+CNT000724,SHP002747,20ft,In Transit,Hamburg Port
+CNT000725,SHP000712,Reefer,Delayed,Hamburg Port
+CNT000726,SHP002067,20ft,Delivered,Rotterdam Port
+CNT000727,SHP001454,20ft,In Transit,Singapore Port
+CNT000728,SHP001574,Reefer,Delivered,Rotterdam Port
+CNT000729,SHP000742,20ft,Delivered,Rotterdam Port
+CNT000730,SHP002561,40ft,Delivered,Los Angeles Port
+CNT000731,SHP001219,Reefer,In Transit,Hamburg Port
+CNT000732,SHP002173,20ft,Delayed,Rotterdam Port
+CNT000733,SHP002710,Reefer,Delayed,Hamburg Port
+CNT000734,SHP000324,20ft,Delivered,Shanghai Port
+CNT000735,SHP002183,40ft,In Transit,Lagos Port
+CNT000736,SHP000134,40ft,Delayed,Durban Port
+CNT000737,SHP000301,Reefer,In Transit,Rotterdam Port
+CNT000738,SHP001833,20ft,Delayed,Dubai Port
+CNT000739,SHP000019,20ft,In Transit,Dubai Port
+CNT000740,SHP002422,Reefer,In Transit,Durban Port
+CNT000741,SHP002589,40ft,In Transit,Shanghai Port
+CNT000742,SHP000528,40ft,Delivered,Singapore Port
+CNT000743,SHP000035,Reefer,Delivered,Lagos Port
+CNT000744,SHP001479,20ft,In Transit,Hamburg Port
+CNT000745,SHP000171,40ft,In Transit,Los Angeles Port
+CNT000746,SHP000866,Reefer,Delivered,Singapore Port
+CNT000747,SHP002536,40ft,Delayed,Hamburg Port
+CNT000748,SHP001910,40ft,Delivered,Hamburg Port
+CNT000749,SHP002619,Reefer,In Transit,Dubai Port
+CNT000750,SHP000284,40ft,Delivered,Lagos Port
+CNT000751,SHP000316,Reefer,Delayed,Los Angeles Port
+CNT000752,SHP001635,Reefer,Delivered,Rotterdam Port
+CNT000753,SHP000142,Reefer,In Transit,Hamburg Port
+CNT000754,SHP002413,40ft,Delivered,Dubai Port
+CNT000755,SHP000899,40ft,Delayed,Shanghai Port
+CNT000756,SHP001831,40ft,Delivered,Durban Port
+CNT000757,SHP000183,20ft,In Transit,Rotterdam Port
+CNT000758,SHP002935,Reefer,In Transit,Rotterdam Port
+CNT000759,SHP000382,20ft,Delivered,Dubai Port
+CNT000760,SHP000321,20ft,Delayed,Durban Port
+CNT000761,SHP001827,Reefer,Delayed,Durban Port
+CNT000762,SHP000303,40ft,In Transit,Shanghai Port
+CNT000763,SHP001717,20ft,Delayed,Singapore Port
+CNT000764,SHP002414,Reefer,Delivered,Dubai Port
+CNT000765,SHP002847,40ft,Delivered,Singapore Port
+CNT000766,SHP001718,20ft,Delayed,Dubai Port
+CNT000767,SHP000685,40ft,Delivered,Dubai Port
+CNT000768,SHP000202,Reefer,Delivered,Dubai Port
+CNT000769,SHP000180,40ft,In Transit,Singapore Port
+CNT000770,SHP000799,40ft,Delayed,Durban Port
+CNT000771,SHP002114,20ft,In Transit,Singapore Port
+CNT000772,SHP002368,Reefer,Delayed,Durban Port
+CNT000773,SHP000651,20ft,In Transit,Rotterdam Port
+CNT000774,SHP001339,20ft,In Transit,Rotterdam Port
+CNT000775,SHP002820,20ft,Delivered,Dubai Port
+CNT000776,SHP002634,40ft,Delivered,Dubai Port
+CNT000777,SHP000988,Reefer,Delayed,Durban Port
+CNT000778,SHP000428,40ft,Delayed,Shanghai Port
+CNT000779,SHP000500,Reefer,Delivered,Singapore Port
+CNT000780,SHP000752,40ft,In Transit,Dubai Port
+CNT000781,SHP000181,40ft,In Transit,Durban Port
+CNT000782,SHP002352,40ft,Delayed,Singapore Port
+CNT000783,SHP002813,Reefer,Delayed,Durban Port
+CNT000784,SHP001454,Reefer,Delayed,Rotterdam Port
+CNT000785,SHP000663,20ft,Delayed,Hamburg Port
+CNT000786,SHP001974,Reefer,In Transit,Singapore Port
+CNT000787,SHP001091,Reefer,Delivered,Durban Port
+CNT000788,SHP001801,Reefer,In Transit,Dubai Port
+CNT000789,SHP001077,Reefer,Delivered,Dubai Port
+CNT000790,SHP002113,40ft,In Transit,Rotterdam Port
+CNT000791,SHP001458,40ft,Delayed,Hamburg Port
+CNT000792,SHP001382,20ft,Delivered,Durban Port
+CNT000793,SHP000172,40ft,Delayed,Hamburg Port
+CNT000794,SHP001704,Reefer,Delivered,Singapore Port
+CNT000795,SHP002199,40ft,In Transit,Dubai Port
+CNT000796,SHP002300,40ft,In Transit,Hamburg Port
+CNT000797,SHP000113,20ft,Delivered,Shanghai Port
+CNT000798,SHP001307,Reefer,Delayed,Lagos Port
+CNT000799,SHP000835,Reefer,Delayed,Singapore Port
+CNT000800,SHP002167,Reefer,Delayed,Lagos Port
+CNT000801,SHP002804,Reefer,Delayed,Los Angeles Port
+CNT000802,SHP002062,40ft,In Transit,Durban Port
+CNT000803,SHP002569,40ft,Delivered,Shanghai Port
+CNT000804,SHP001467,40ft,Delayed,Dubai Port
+CNT000805,SHP000163,Reefer,Delivered,Singapore Port
+CNT000806,SHP002271,20ft,Delivered,Rotterdam Port
+CNT000807,SHP000321,20ft,Delivered,Rotterdam Port
+CNT000808,SHP001917,20ft,Delivered,Shanghai Port
+CNT000809,SHP002565,20ft,In Transit,Hamburg Port
+CNT000810,SHP002027,20ft,In Transit,Rotterdam Port
+CNT000811,SHP002453,20ft,Delayed,Dubai Port
+CNT000812,SHP000461,Reefer,Delayed,Lagos Port
+CNT000813,SHP001804,Reefer,Delivered,Dubai Port
+CNT000814,SHP002604,Reefer,Delivered,Singapore Port
+CNT000815,SHP002327,40ft,Delivered,Shanghai Port
+CNT000816,SHP002136,40ft,Delayed,Dubai Port
+CNT000817,SHP001625,Reefer,Delayed,Dubai Port
+CNT000818,SHP001273,20ft,Delayed,Lagos Port
+CNT000819,SHP000024,40ft,Delayed,Los Angeles Port
+CNT000820,SHP000527,Reefer,Delivered,Rotterdam Port
+CNT000821,SHP001080,40ft,Delayed,Los Angeles Port
+CNT000822,SHP002585,20ft,Delayed,Durban Port
+CNT000823,SHP000223,40ft,In Transit,Singapore Port
+CNT000824,SHP000705,40ft,Delayed,Durban Port
+CNT000825,SHP001051,20ft,Delayed,Singapore Port
+CNT000826,SHP000724,40ft,Delivered,Shanghai Port
+CNT000827,SHP002016,20ft,Delivered,Shanghai Port
+CNT000828,SHP000285,40ft,In Transit,Durban Port
+CNT000829,SHP001975,40ft,Delayed,Rotterdam Port
+CNT000830,SHP001064,20ft,Delayed,Rotterdam Port
+CNT000831,SHP002106,20ft,Delivered,Hamburg Port
+CNT000832,SHP001839,20ft,Delivered,Los Angeles Port
+CNT000833,SHP000494,40ft,Delayed,Singapore Port
+CNT000834,SHP001753,Reefer,Delayed,Shanghai Port
+CNT000835,SHP002401,20ft,Delivered,Shanghai Port
+CNT000836,SHP002938,20ft,Delivered,Dubai Port
+CNT000837,SHP001183,20ft,In Transit,Dubai Port
+CNT000838,SHP000509,20ft,Delivered,Los Angeles Port
+CNT000839,SHP001796,40ft,Delayed,Hamburg Port
+CNT000840,SHP002005,40ft,In Transit,Hamburg Port
+CNT000841,SHP002311,40ft,Delayed,Rotterdam Port
+CNT000842,SHP002299,40ft,Delivered,Los Angeles Port
+CNT000843,SHP002778,20ft,In Transit,Lagos Port
+CNT000844,SHP002571,40ft,Delayed,Hamburg Port
+CNT000845,SHP001866,20ft,Delivered,Singapore Port
+CNT000846,SHP001876,20ft,Delivered,Durban Port
+CNT000847,SHP002449,Reefer,Delivered,Dubai Port
+CNT000848,SHP001355,Reefer,Delivered,Shanghai Port
+CNT000849,SHP002677,40ft,Delivered,Shanghai Port
+CNT000850,SHP001509,40ft,Delivered,Hamburg Port
+CNT000851,SHP002100,Reefer,Delayed,Los Angeles Port
+CNT000852,SHP000546,20ft,In Transit,Durban Port
+CNT000853,SHP001633,20ft,In Transit,Dubai Port
+CNT000854,SHP002884,Reefer,Delivered,Singapore Port
+CNT000855,SHP001145,Reefer,Delivered,Lagos Port
+CNT000856,SHP000808,40ft,Delivered,Dubai Port
+CNT000857,SHP001534,40ft,Delayed,Rotterdam Port
+CNT000858,SHP000813,40ft,Delayed,Rotterdam Port
+CNT000859,SHP001215,Reefer,Delayed,Dubai Port
+CNT000860,SHP002470,40ft,Delayed,Rotterdam Port
+CNT000861,SHP002600,40ft,Delivered,Hamburg Port
+CNT000862,SHP002289,20ft,Delayed,Hamburg Port
+CNT000863,SHP001268,Reefer,Delayed,Rotterdam Port
+CNT000864,SHP000774,20ft,In Transit,Durban Port
+CNT000865,SHP001147,40ft,In Transit,Dubai Port
+CNT000866,SHP000795,Reefer,Delivered,Dubai Port
+CNT000867,SHP001348,Reefer,In Transit,Hamburg Port
+CNT000868,SHP002743,40ft,Delayed,Dubai Port
+CNT000869,SHP002775,Reefer,Delayed,Rotterdam Port
+CNT000870,SHP002218,Reefer,Delayed,Hamburg Port
+CNT000871,SHP001834,20ft,Delayed,Los Angeles Port
+CNT000872,SHP002280,Reefer,In Transit,Dubai Port
+CNT000873,SHP002208,20ft,Delivered,Los Angeles Port
+CNT000874,SHP002631,40ft,In Transit,Los Angeles Port
+CNT000875,SHP001122,20ft,Delivered,Shanghai Port
+CNT000876,SHP001594,20ft,Delayed,Durban Port
+CNT000877,SHP002243,20ft,Delivered,Hamburg Port
+CNT000878,SHP002674,20ft,Delayed,Los Angeles Port
+CNT000879,SHP000508,40ft,Delayed,Durban Port
+CNT000880,SHP000840,40ft,Delivered,Hamburg Port
+CNT000881,SHP001624,Reefer,Delivered,Shanghai Port
+CNT000882,SHP001094,40ft,Delivered,Shanghai Port
+CNT000883,SHP000472,40ft,Delivered,Rotterdam Port
+CNT000884,SHP002740,40ft,Delayed,Lagos Port
+CNT000885,SHP001305,40ft,Delayed,Rotterdam Port
+CNT000886,SHP001932,Reefer,Delivered,Shanghai Port
+CNT000887,SHP000202,Reefer,In Transit,Los Angeles Port
+CNT000888,SHP002830,Reefer,Delivered,Durban Port
+CNT000889,SHP001017,Reefer,In Transit,Hamburg Port
+CNT000890,SHP000974,20ft,Delivered,Hamburg Port
+CNT000891,SHP001850,Reefer,In Transit,Shanghai Port
+CNT000892,SHP001265,40ft,In Transit,Shanghai Port
+CNT000893,SHP000045,40ft,Delivered,Dubai Port
+CNT000894,SHP002640,40ft,Delivered,Lagos Port
+CNT000895,SHP000592,Reefer,In Transit,Lagos Port
+CNT000896,SHP000130,20ft,Delivered,Shanghai Port
+CNT000897,SHP000658,20ft,Delayed,Singapore Port
+CNT000898,SHP000276,Reefer,Delivered,Rotterdam Port
+CNT000899,SHP002666,Reefer,Delivered,Singapore Port
+CNT000900,SHP000752,40ft,Delayed,Dubai Port
+CNT000901,SHP002194,Reefer,Delivered,Singapore Port
+CNT000902,SHP000889,40ft,Delayed,Durban Port
+CNT000903,SHP001563,Reefer,In Transit,Singapore Port
+CNT000904,SHP001440,20ft,Delayed,Singapore Port
+CNT000905,SHP000560,20ft,Delayed,Rotterdam Port
+CNT000906,SHP001730,Reefer,Delivered,Singapore Port
+CNT000907,SHP001797,20ft,Delayed,Durban Port
+CNT000908,SHP001879,40ft,Delayed,Singapore Port
+CNT000909,SHP001941,Reefer,Delivered,Los Angeles Port
+CNT000910,SHP002234,40ft,Delivered,Dubai Port
+CNT000911,SHP000534,40ft,Delivered,Shanghai Port
+CNT000912,SHP001792,Reefer,Delivered,Lagos Port
+CNT000913,SHP001973,40ft,In Transit,Hamburg Port
+CNT000914,SHP001564,40ft,In Transit,Singapore Port
+CNT000915,SHP001123,40ft,Delayed,Singapore Port
+CNT000916,SHP002035,Reefer,Delayed,Los Angeles Port
+CNT000917,SHP001356,20ft,Delayed,Hamburg Port
+CNT000918,SHP002256,40ft,In Transit,Shanghai Port
+CNT000919,SHP001967,Reefer,Delayed,Los Angeles Port
+CNT000920,SHP001843,20ft,Delivered,Singapore Port
+CNT000921,SHP002350,40ft,Delivered,Singapore Port
+CNT000922,SHP002026,20ft,Delayed,Rotterdam Port
+CNT000923,SHP002250,20ft,Delayed,Los Angeles Port
+CNT000924,SHP001665,Reefer,Delivered,Los Angeles Port
+CNT000925,SHP001310,40ft,Delayed,Lagos Port
+CNT000926,SHP000353,40ft,Delivered,Durban Port
+CNT000927,SHP001698,20ft,In Transit,Lagos Port
+CNT000928,SHP001091,40ft,Delayed,Dubai Port
+CNT000929,SHP002836,Reefer,Delayed,Durban Port
+CNT000930,SHP002610,Reefer,In Transit,Lagos Port
+CNT000931,SHP002425,Reefer,Delivered,Hamburg Port
+CNT000932,SHP001299,40ft,Delayed,Lagos Port
+CNT000933,SHP001272,Reefer,Delivered,Durban Port
+CNT000934,SHP001920,Reefer,Delivered,Hamburg Port
+CNT000935,SHP001556,Reefer,Delayed,Dubai Port
+CNT000936,SHP001129,Reefer,Delivered,Rotterdam Port
+CNT000937,SHP002655,20ft,Delayed,Durban Port
+CNT000938,SHP002697,20ft,Delayed,Hamburg Port
+CNT000939,SHP000801,Reefer,Delivered,Singapore Port
+CNT000940,SHP000535,40ft,Delayed,Durban Port
+CNT000941,SHP002706,20ft,Delayed,Hamburg Port
+CNT000942,SHP001932,20ft,Delayed,Dubai Port
+CNT000943,SHP001632,40ft,In Transit,Rotterdam Port
+CNT000944,SHP002641,40ft,In Transit,Dubai Port
+CNT000945,SHP000023,40ft,In Transit,Hamburg Port
+CNT000946,SHP001675,Reefer,Delivered,Singapore Port
+CNT000947,SHP001252,40ft,Delivered,Rotterdam Port
+CNT000948,SHP000185,Reefer,In Transit,Rotterdam Port
+CNT000949,SHP001806,40ft,Delivered,Rotterdam Port
+CNT000950,SHP002223,Reefer,Delayed,Shanghai Port
+CNT000951,SHP000122,20ft,Delayed,Hamburg Port
+CNT000952,SHP000085,Reefer,In Transit,Los Angeles Port
+CNT000953,SHP001084,Reefer,Delivered,Lagos Port
+CNT000954,SHP001595,40ft,Delivered,Los Angeles Port
+CNT000955,SHP001690,40ft,Delayed,Singapore Port
+CNT000956,SHP001931,40ft,In Transit,Shanghai Port
+CNT000957,SHP002142,Reefer,Delayed,Lagos Port
+CNT000958,SHP002511,Reefer,Delivered,Rotterdam Port
+CNT000959,SHP001571,20ft,In Transit,Shanghai Port
+CNT000960,SHP000296,Reefer,Delayed,Hamburg Port
+CNT000961,SHP001018,Reefer,Delayed,Hamburg Port
+CNT000962,SHP000470,20ft,Delayed,Hamburg Port
+CNT000963,SHP001133,40ft,Delivered,Shanghai Port
+CNT000964,SHP001094,Reefer,Delayed,Los Angeles Port
+CNT000965,SHP000138,20ft,Delayed,Singapore Port
+CNT000966,SHP001211,Reefer,Delayed,Lagos Port
+CNT000967,SHP000678,Reefer,In Transit,Lagos Port
+CNT000968,SHP002690,20ft,In Transit,Durban Port
+CNT000969,SHP001967,20ft,Delivered,Rotterdam Port
+CNT000970,SHP002602,20ft,Delayed,Singapore Port
+CNT000971,SHP001495,Reefer,Delivered,Dubai Port
+CNT000972,SHP001456,20ft,In Transit,Shanghai Port
+CNT000973,SHP000462,20ft,In Transit,Lagos Port
+CNT000974,SHP000986,Reefer,In Transit,Durban Port
+CNT000975,SHP000152,40ft,In Transit,Rotterdam Port
+CNT000976,SHP001121,40ft,Delivered,Durban Port
+CNT000977,SHP002795,40ft,Delivered,Shanghai Port
+CNT000978,SHP002308,Reefer,In Transit,Lagos Port
+CNT000979,SHP002830,20ft,Delivered,Los Angeles Port
+CNT000980,SHP002491,40ft,In Transit,Durban Port
+CNT000981,SHP001622,Reefer,Delivered,Rotterdam Port
+CNT000982,SHP001523,40ft,Delivered,Hamburg Port
+CNT000983,SHP002957,40ft,Delivered,Dubai Port
+CNT000984,SHP001180,Reefer,Delivered,Hamburg Port
+CNT000985,SHP000124,40ft,Delayed,Hamburg Port
+CNT000986,SHP001503,Reefer,Delayed,Durban Port
+CNT000987,SHP000991,40ft,Delivered,Rotterdam Port
+CNT000988,SHP002945,40ft,In Transit,Rotterdam Port
+CNT000989,SHP000998,40ft,Delayed,Durban Port
+CNT000990,SHP000770,Reefer,Delivered,Los Angeles Port
+CNT000991,SHP001384,40ft,In Transit,Singapore Port
+CNT000992,SHP000986,Reefer,Delivered,Rotterdam Port
+CNT000993,SHP001411,40ft,Delayed,Dubai Port
+CNT000994,SHP002750,Reefer,Delivered,Los Angeles Port
+CNT000995,SHP001565,40ft,In Transit,Durban Port
+CNT000996,SHP001718,Reefer,In Transit,Durban Port
+CNT000997,SHP002860,Reefer,Delivered,Lagos Port
+CNT000998,SHP001287,Reefer,Delivered,Shanghai Port
+CNT000999,SHP000354,20ft,In Transit,Los Angeles Port
+CNT001000,SHP001452,Reefer,Delayed,Los Angeles Port
+CNT001001,SHP000339,20ft,Delivered,Singapore Port
+CNT001002,SHP001915,Reefer,Delayed,Hamburg Port
+CNT001003,SHP000127,40ft,Delayed,Hamburg Port
+CNT001004,SHP000909,20ft,Delayed,Dubai Port
+CNT001005,SHP001810,40ft,Delayed,Hamburg Port
+CNT001006,SHP002380,Reefer,Delayed,Lagos Port
+CNT001007,SHP002935,40ft,Delivered,Los Angeles Port
+CNT001008,SHP000372,40ft,In Transit,Dubai Port
+CNT001009,SHP000202,20ft,Delayed,Durban Port
+CNT001010,SHP000007,Reefer,In Transit,Singapore Port
+CNT001011,SHP002430,20ft,Delayed,Dubai Port
+CNT001012,SHP000891,40ft,Delayed,Lagos Port
+CNT001013,SHP002036,Reefer,In Transit,Singapore Port
+CNT001014,SHP002564,20ft,Delayed,Durban Port
+CNT001015,SHP002130,40ft,Delayed,Los Angeles Port
+CNT001016,SHP001043,Reefer,Delayed,Durban Port
+CNT001017,SHP002100,Reefer,Delayed,Dubai Port
+CNT001018,SHP002633,Reefer,In Transit,Los Angeles Port
+CNT001019,SHP001572,20ft,In Transit,Durban Port
+CNT001020,SHP001956,20ft,Delivered,Rotterdam Port
+CNT001021,SHP002915,40ft,In Transit,Durban Port
+CNT001022,SHP001968,Reefer,Delayed,Lagos Port
+CNT001023,SHP000717,20ft,Delayed,Hamburg Port
+CNT001024,SHP002289,Reefer,In Transit,Singapore Port
+CNT001025,SHP001417,20ft,In Transit,Singapore Port
+CNT001026,SHP002345,Reefer,In Transit,Shanghai Port
+CNT001027,SHP001474,40ft,In Transit,Rotterdam Port
+CNT001028,SHP001707,40ft,In Transit,Singapore Port
+CNT001029,SHP000953,40ft,Delivered,Dubai Port
+CNT001030,SHP000255,40ft,Delivered,Singapore Port
+CNT001031,SHP001310,Reefer,In Transit,Shanghai Port
+CNT001032,SHP001546,20ft,Delayed,Lagos Port
+CNT001033,SHP001037,Reefer,Delivered,Singapore Port
+CNT001034,SHP000207,Reefer,Delayed,Durban Port
+CNT001035,SHP001248,Reefer,Delayed,Los Angeles Port
+CNT001036,SHP001784,40ft,In Transit,Shanghai Port
+CNT001037,SHP000299,Reefer,Delivered,Singapore Port
+CNT001038,SHP000096,Reefer,Delayed,Los Angeles Port
+CNT001039,SHP002579,40ft,Delivered,Hamburg Port
+CNT001040,SHP001044,Reefer,Delivered,Durban Port
+CNT001041,SHP001396,20ft,Delayed,Los Angeles Port
+CNT001042,SHP001324,40ft,Delivered,Dubai Port
+CNT001043,SHP000306,20ft,Delayed,Durban Port
+CNT001044,SHP002704,Reefer,In Transit,Shanghai Port
+CNT001045,SHP000743,Reefer,Delayed,Dubai Port
+CNT001046,SHP001650,20ft,In Transit,Los Angeles Port
+CNT001047,SHP001956,Reefer,In Transit,Hamburg Port
+CNT001048,SHP000003,Reefer,In Transit,Hamburg Port
+CNT001049,SHP001305,20ft,In Transit,Rotterdam Port
+CNT001050,SHP002342,40ft,Delayed,Shanghai Port
+CNT001051,SHP002761,40ft,In Transit,Lagos Port
+CNT001052,SHP000378,20ft,Delivered,Dubai Port
+CNT001053,SHP001402,Reefer,Delayed,Durban Port
+CNT001054,SHP002029,20ft,In Transit,Shanghai Port
+CNT001055,SHP002787,Reefer,Delivered,Durban Port
+CNT001056,SHP001682,20ft,Delivered,Hamburg Port
+CNT001057,SHP001971,20ft,Delayed,Singapore Port
+CNT001058,SHP001892,Reefer,In Transit,Durban Port
+CNT001059,SHP001642,20ft,Delivered,Durban Port
+CNT001060,SHP000110,Reefer,Delivered,Los Angeles Port
+CNT001061,SHP001198,Reefer,In Transit,Shanghai Port
+CNT001062,SHP001864,40ft,Delayed,Lagos Port
+CNT001063,SHP001362,20ft,Delivered,Los Angeles Port
+CNT001064,SHP002607,20ft,Delivered,Hamburg Port
+CNT001065,SHP001718,40ft,Delayed,Dubai Port
+CNT001066,SHP000762,20ft,Delivered,Durban Port
+CNT001067,SHP002039,Reefer,Delivered,Shanghai Port
+CNT001068,SHP001412,Reefer,Delivered,Dubai Port
+CNT001069,SHP000777,20ft,Delayed,Los Angeles Port
+CNT001070,SHP000514,20ft,In Transit,Los Angeles Port
+CNT001071,SHP002141,Reefer,Delivered,Dubai Port
+CNT001072,SHP001030,Reefer,In Transit,Shanghai Port
+CNT001073,SHP002238,Reefer,In Transit,Durban Port
+CNT001074,SHP000757,20ft,Delivered,Shanghai Port
+CNT001075,SHP000365,20ft,In Transit,Los Angeles Port
+CNT001076,SHP000901,40ft,Delayed,Shanghai Port
+CNT001077,SHP002275,40ft,Delayed,Lagos Port
+CNT001078,SHP001377,40ft,Delayed,Rotterdam Port
+CNT001079,SHP001298,20ft,In Transit,Los Angeles Port
+CNT001080,SHP000448,40ft,Delivered,Lagos Port
+CNT001081,SHP001675,Reefer,In Transit,Durban Port
+CNT001082,SHP002091,20ft,In Transit,Hamburg Port
+CNT001083,SHP001655,Reefer,Delivered,Shanghai Port
+CNT001084,SHP001508,Reefer,Delayed,Hamburg Port
+CNT001085,SHP001008,Reefer,Delivered,Dubai Port
+CNT001086,SHP000497,40ft,In Transit,Shanghai Port
+CNT001087,SHP000080,Reefer,Delayed,Los Angeles Port
+CNT001088,SHP001631,40ft,Delayed,Singapore Port
+CNT001089,SHP001710,40ft,Delayed,Lagos Port
+CNT001090,SHP002905,Reefer,Delivered,Lagos Port
+CNT001091,SHP002576,40ft,In Transit,Singapore Port
+CNT001092,SHP002520,20ft,Delivered,Lagos Port
+CNT001093,SHP002749,Reefer,Delayed,Lagos Port
+CNT001094,SHP002521,Reefer,In Transit,Los Angeles Port
+CNT001095,SHP000177,20ft,In Transit,Rotterdam Port
+CNT001096,SHP002390,40ft,Delivered,Dubai Port
+CNT001097,SHP000541,Reefer,Delayed,Dubai Port
+CNT001098,SHP002505,20ft,Delivered,Durban Port
+CNT001099,SHP001617,40ft,In Transit,Singapore Port
+CNT001100,SHP000714,Reefer,Delayed,Shanghai Port
+CNT001101,SHP001325,40ft,In Transit,Shanghai Port
+CNT001102,SHP002474,20ft,In Transit,Durban Port
+CNT001103,SHP001636,40ft,In Transit,Hamburg Port
+CNT001104,SHP000671,40ft,Delivered,Lagos Port
+CNT001105,SHP002723,20ft,In Transit,Shanghai Port
+CNT001106,SHP000315,Reefer,In Transit,Shanghai Port
+CNT001107,SHP002481,20ft,Delivered,Dubai Port
+CNT001108,SHP000365,40ft,Delayed,Lagos Port
+CNT001109,SHP001372,Reefer,Delayed,Singapore Port
+CNT001110,SHP000626,40ft,Delivered,Durban Port
+CNT001111,SHP001209,20ft,Delayed,Durban Port
+CNT001112,SHP002535,20ft,In Transit,Durban Port
+CNT001113,SHP002803,20ft,Delivered,Dubai Port
+CNT001114,SHP002196,20ft,In Transit,Singapore Port
+CNT001115,SHP001504,20ft,Delivered,Durban Port
+CNT001116,SHP001714,20ft,Delayed,Shanghai Port
+CNT001117,SHP002622,20ft,Delivered,Rotterdam Port
+CNT001118,SHP000908,Reefer,In Transit,Hamburg Port
+CNT001119,SHP001782,Reefer,Delivered,Los Angeles Port
+CNT001120,SHP002114,Reefer,Delivered,Los Angeles Port
+CNT001121,SHP002734,Reefer,In Transit,Singapore Port
+CNT001122,SHP001782,Reefer,Delivered,Rotterdam Port
+CNT001123,SHP002443,20ft,Delivered,Rotterdam Port
+CNT001124,SHP002603,40ft,In Transit,Los Angeles Port
+CNT001125,SHP000858,40ft,In Transit,Los Angeles Port
+CNT001126,SHP000372,Reefer,In Transit,Lagos Port
+CNT001127,SHP002565,Reefer,Delivered,Lagos Port
+CNT001128,SHP002582,20ft,Delayed,Dubai Port
+CNT001129,SHP000589,Reefer,Delayed,Los Angeles Port
+CNT001130,SHP002530,20ft,Delivered,Hamburg Port
+CNT001131,SHP000604,40ft,In Transit,Los Angeles Port
+CNT001132,SHP001826,Reefer,Delivered,Shanghai Port
+CNT001133,SHP001162,Reefer,Delayed,Hamburg Port
+CNT001134,SHP001583,20ft,In Transit,Singapore Port
+CNT001135,SHP002069,20ft,In Transit,Dubai Port
+CNT001136,SHP001582,Reefer,Delivered,Singapore Port
+CNT001137,SHP000683,Reefer,Delayed,Los Angeles Port
+CNT001138,SHP000489,Reefer,In Transit,Rotterdam Port
+CNT001139,SHP000402,20ft,Delivered,Singapore Port
+CNT001140,SHP000159,40ft,Delivered,Rotterdam Port
+CNT001141,SHP001652,Reefer,Delayed,Singapore Port
+CNT001142,SHP000925,20ft,In Transit,Dubai Port
+CNT001143,SHP001804,20ft,Delayed,Hamburg Port
+CNT001144,SHP000986,40ft,Delayed,Dubai Port
+CNT001145,SHP001322,Reefer,Delivered,Hamburg Port
+CNT001146,SHP001073,20ft,Delayed,Hamburg Port
+CNT001147,SHP000177,20ft,In Transit,Lagos Port
+CNT001148,SHP000949,20ft,In Transit,Rotterdam Port
+CNT001149,SHP000061,20ft,Delivered,Rotterdam Port
+CNT001150,SHP002001,20ft,Delivered,Rotterdam Port
+CNT001151,SHP000119,20ft,In Transit,Singapore Port
+CNT001152,SHP002833,Reefer,In Transit,Hamburg Port
+CNT001153,SHP001389,20ft,Delayed,Durban Port
+CNT001154,SHP001041,20ft,Delivered,Dubai Port
+CNT001155,SHP002127,Reefer,In Transit,Rotterdam Port
+CNT001156,SHP001600,40ft,Delayed,Durban Port
+CNT001157,SHP000604,Reefer,In Transit,Shanghai Port
+CNT001158,SHP001204,40ft,Delivered,Shanghai Port
+CNT001159,SHP002121,20ft,Delivered,Los Angeles Port
+CNT001160,SHP000170,40ft,Delivered,Los Angeles Port
+CNT001161,SHP002003,20ft,Delivered,Shanghai Port
+CNT001162,SHP000573,20ft,In Transit,Singapore Port
+CNT001163,SHP000740,40ft,Delayed,Singapore Port
+CNT001164,SHP001291,40ft,Delayed,Lagos Port
+CNT001165,SHP001976,Reefer,In Transit,Lagos Port
+CNT001166,SHP001874,Reefer,Delayed,Singapore Port
+CNT001167,SHP001713,20ft,In Transit,Dubai Port
+CNT001168,SHP000634,Reefer,Delivered,Rotterdam Port
+CNT001169,SHP000414,20ft,Delayed,Dubai Port
+CNT001170,SHP000810,40ft,In Transit,Rotterdam Port
+CNT001171,SHP002753,20ft,Delayed,Singapore Port
+CNT001172,SHP000012,40ft,In Transit,Dubai Port
+CNT001173,SHP002932,20ft,Delivered,Singapore Port
+CNT001174,SHP000523,Reefer,Delayed,Durban Port
+CNT001175,SHP001189,Reefer,Delayed,Los Angeles Port
+CNT001176,SHP001977,40ft,Delayed,Dubai Port
+CNT001177,SHP002271,20ft,Delayed,Rotterdam Port
+CNT001178,SHP000912,20ft,Delivered,Durban Port
+CNT001179,SHP001263,20ft,In Transit,Lagos Port
+CNT001180,SHP002531,Reefer,Delayed,Rotterdam Port
+CNT001181,SHP002203,20ft,In Transit,Rotterdam Port
+CNT001182,SHP000332,40ft,Delivered,Singapore Port
+CNT001183,SHP001880,Reefer,Delivered,Lagos Port
+CNT001184,SHP000507,20ft,Delivered,Lagos Port
+CNT001185,SHP001245,40ft,Delivered,Dubai Port
+CNT001186,SHP002759,Reefer,In Transit,Shanghai Port
+CNT001187,SHP002512,40ft,Delayed,Durban Port
+CNT001188,SHP000814,Reefer,In Transit,Shanghai Port
+CNT001189,SHP001632,40ft,Delayed,Hamburg Port
+CNT001190,SHP002482,Reefer,Delayed,Lagos Port
+CNT001191,SHP000780,40ft,Delivered,Singapore Port
+CNT001192,SHP001332,20ft,Delayed,Los Angeles Port
+CNT001193,SHP002325,40ft,Delayed,Los Angeles Port
+CNT001194,SHP000041,Reefer,Delivered,Singapore Port
+CNT001195,SHP002062,20ft,Delayed,Shanghai Port
+CNT001196,SHP000265,40ft,Delivered,Durban Port
+CNT001197,SHP000440,20ft,Delayed,Shanghai Port
+CNT001198,SHP001055,Reefer,Delayed,Dubai Port
+CNT001199,SHP001643,Reefer,Delivered,Singapore Port
+CNT001200,SHP002765,40ft,In Transit,Los Angeles Port
+CNT001201,SHP000628,Reefer,Delayed,Shanghai Port
+CNT001202,SHP000381,20ft,Delivered,Durban Port
+CNT001203,SHP001076,Reefer,Delivered,Durban Port
+CNT001204,SHP001429,20ft,Delayed,Singapore Port
+CNT001205,SHP000544,Reefer,Delayed,Hamburg Port
+CNT001206,SHP000179,20ft,Delivered,Rotterdam Port
+CNT001207,SHP000528,Reefer,Delivered,Rotterdam Port
+CNT001208,SHP002106,20ft,Delayed,Los Angeles Port
+CNT001209,SHP002664,20ft,In Transit,Hamburg Port
+CNT001210,SHP000601,Reefer,Delayed,Durban Port
+CNT001211,SHP000629,40ft,In Transit,Lagos Port
+CNT001212,SHP000027,40ft,Delayed,Durban Port
+CNT001213,SHP002595,20ft,Delayed,Dubai Port
+CNT001214,SHP001391,Reefer,In Transit,Shanghai Port
+CNT001215,SHP002408,Reefer,In Transit,Dubai Port
+CNT001216,SHP000960,40ft,Delivered,Lagos Port
+CNT001217,SHP002308,40ft,Delayed,Dubai Port
+CNT001218,SHP001435,40ft,In Transit,Rotterdam Port
+CNT001219,SHP001195,20ft,Delivered,Dubai Port
+CNT001220,SHP000101,20ft,Delayed,Rotterdam Port
+CNT001221,SHP002346,20ft,In Transit,Dubai Port
+CNT001222,SHP000246,40ft,Delayed,Singapore Port
+CNT001223,SHP000664,Reefer,Delayed,Lagos Port
+CNT001224,SHP002815,20ft,Delayed,Durban Port
+CNT001225,SHP002337,20ft,In Transit,Dubai Port
+CNT001226,SHP002753,40ft,In Transit,Hamburg Port
+CNT001227,SHP000608,40ft,Delivered,Hamburg Port
+CNT001228,SHP000717,40ft,Delayed,Lagos Port
+CNT001229,SHP002143,40ft,Delivered,Los Angeles Port
+CNT001230,SHP000169,40ft,In Transit,Lagos Port
+CNT001231,SHP000555,20ft,Delivered,Dubai Port
+CNT001232,SHP001431,20ft,Delivered,Rotterdam Port
+CNT001233,SHP001616,Reefer,In Transit,Shanghai Port
+CNT001234,SHP001995,40ft,Delayed,Hamburg Port
+CNT001235,SHP001257,20ft,In Transit,Shanghai Port
+CNT001236,SHP000834,Reefer,Delivered,Hamburg Port
+CNT001237,SHP001889,20ft,In Transit,Dubai Port
+CNT001238,SHP001134,40ft,Delayed,Shanghai Port
+CNT001239,SHP001884,Reefer,Delivered,Rotterdam Port
+CNT001240,SHP000561,40ft,In Transit,Los Angeles Port
+CNT001241,SHP002260,40ft,Delayed,Los Angeles Port
+CNT001242,SHP000605,20ft,In Transit,Rotterdam Port
+CNT001243,SHP002284,40ft,Delivered,Rotterdam Port
+CNT001244,SHP001681,40ft,Delivered,Rotterdam Port
+CNT001245,SHP001792,40ft,Delayed,Los Angeles Port
+CNT001246,SHP002678,20ft,In Transit,Los Angeles Port
+CNT001247,SHP002651,20ft,In Transit,Rotterdam Port
+CNT001248,SHP001262,40ft,Delayed,Dubai Port
+CNT001249,SHP002921,40ft,Delivered,Shanghai Port
+CNT001250,SHP001913,Reefer,In Transit,Dubai Port
+CNT001251,SHP000775,40ft,Delivered,Shanghai Port
+CNT001252,SHP002772,40ft,Delayed,Shanghai Port
+CNT001253,SHP000667,40ft,In Transit,Los Angeles Port
+CNT001254,SHP000184,40ft,Delivered,Los Angeles Port
+CNT001255,SHP001908,20ft,Delayed,Hamburg Port
+CNT001256,SHP000126,20ft,In Transit,Lagos Port
+CNT001257,SHP000658,Reefer,Delayed,Hamburg Port
+CNT001258,SHP000778,40ft,Delivered,Durban Port
+CNT001259,SHP000578,20ft,In Transit,Los Angeles Port
+CNT001260,SHP001959,Reefer,Delivered,Los Angeles Port
+CNT001261,SHP001912,20ft,Delivered,Shanghai Port
+CNT001262,SHP002651,40ft,Delayed,Lagos Port
+CNT001263,SHP001532,20ft,Delivered,Rotterdam Port
+CNT001264,SHP000534,40ft,Delayed,Lagos Port
+CNT001265,SHP001660,20ft,In Transit,Los Angeles Port
+CNT001266,SHP001827,20ft,Delayed,Lagos Port
+CNT001267,SHP000754,40ft,In Transit,Lagos Port
+CNT001268,SHP002608,Reefer,Delivered,Los Angeles Port
+CNT001269,SHP000785,Reefer,Delayed,Dubai Port
+CNT001270,SHP000775,20ft,In Transit,Rotterdam Port
+CNT001271,SHP001692,40ft,In Transit,Los Angeles Port
+CNT001272,SHP002634,40ft,Delivered,Hamburg Port
+CNT001273,SHP000105,20ft,Delayed,Rotterdam Port
+CNT001274,SHP001574,Reefer,Delivered,Lagos Port
+CNT001275,SHP002079,20ft,Delivered,Shanghai Port
+CNT001276,SHP001082,20ft,In Transit,Los Angeles Port
+CNT001277,SHP001218,Reefer,In Transit,Durban Port
+CNT001278,SHP000274,Reefer,Delivered,Los Angeles Port
+CNT001279,SHP000446,40ft,Delivered,Lagos Port
+CNT001280,SHP002228,20ft,Delivered,Rotterdam Port
+CNT001281,SHP001972,Reefer,Delivered,Shanghai Port
+CNT001282,SHP001960,Reefer,Delayed,Lagos Port
+CNT001283,SHP000971,Reefer,Delivered,Singapore Port
+CNT001284,SHP001770,20ft,Delivered,Hamburg Port
+CNT001285,SHP000083,Reefer,Delivered,Lagos Port
+CNT001286,SHP000439,40ft,In Transit,Shanghai Port
+CNT001287,SHP002672,40ft,In Transit,Los Angeles Port
+CNT001288,SHP000744,40ft,In Transit,Durban Port
+CNT001289,SHP001292,Reefer,In Transit,Dubai Port
+CNT001290,SHP002068,40ft,Delivered,Los Angeles Port
+CNT001291,SHP002360,Reefer,In Transit,Lagos Port
+CNT001292,SHP002773,20ft,In Transit,Singapore Port
+CNT001293,SHP000489,Reefer,In Transit,Lagos Port
+CNT001294,SHP000719,20ft,In Transit,Shanghai Port
+CNT001295,SHP000546,Reefer,Delivered,Los Angeles Port
+CNT001296,SHP000030,20ft,Delayed,Los Angeles Port
+CNT001297,SHP000372,Reefer,Delayed,Shanghai Port
+CNT001298,SHP001053,Reefer,Delayed,Durban Port
+CNT001299,SHP000454,Reefer,Delayed,Dubai Port
+CNT001300,SHP002418,20ft,Delayed,Shanghai Port
+CNT001301,SHP000078,20ft,In Transit,Hamburg Port
+CNT001302,SHP000755,40ft,In Transit,Dubai Port
+CNT001303,SHP001017,20ft,Delayed,Hamburg Port
+CNT001304,SHP000306,20ft,Delayed,Lagos Port
+CNT001305,SHP002752,Reefer,Delivered,Hamburg Port
+CNT001306,SHP002307,Reefer,In Transit,Lagos Port
+CNT001307,SHP002706,Reefer,Delivered,Durban Port
+CNT001308,SHP001701,20ft,Delivered,Durban Port
+CNT001309,SHP002996,20ft,Delayed,Rotterdam Port
+CNT001310,SHP000551,Reefer,In Transit,Rotterdam Port
+CNT001311,SHP001526,20ft,Delayed,Hamburg Port
+CNT001312,SHP001367,20ft,In Transit,Lagos Port
+CNT001313,SHP002347,20ft,Delayed,Durban Port
+CNT001314,SHP000787,40ft,Delayed,Shanghai Port
+CNT001315,SHP002300,20ft,Delayed,Los Angeles Port
+CNT001316,SHP002927,Reefer,Delayed,Durban Port
+CNT001317,SHP000905,20ft,In Transit,Hamburg Port
+CNT001318,SHP002838,20ft,Delayed,Hamburg Port
+CNT001319,SHP000438,Reefer,In Transit,Durban Port
+CNT001320,SHP001065,Reefer,Delivered,Singapore Port
+CNT001321,SHP001056,Reefer,In Transit,Dubai Port
+CNT001322,SHP000661,Reefer,Delayed,Shanghai Port
+CNT001323,SHP000728,40ft,Delayed,Lagos Port
+CNT001324,SHP001783,40ft,Delayed,Durban Port
+CNT001325,SHP000083,Reefer,In Transit,Los Angeles Port
+CNT001326,SHP002873,40ft,In Transit,Lagos Port
+CNT001327,SHP001559,20ft,In Transit,Durban Port
+CNT001328,SHP000219,20ft,In Transit,Los Angeles Port
+CNT001329,SHP001364,40ft,Delayed,Lagos Port
+CNT001330,SHP002277,20ft,Delivered,Shanghai Port
+CNT001331,SHP000707,40ft,Delayed,Rotterdam Port
+CNT001332,SHP000181,20ft,Delayed,Shanghai Port
+CNT001333,SHP001135,Reefer,Delayed,Lagos Port
+CNT001334,SHP002444,40ft,In Transit,Los Angeles Port
+CNT001335,SHP000131,Reefer,In Transit,Shanghai Port
+CNT001336,SHP000020,40ft,Delivered,Rotterdam Port
+CNT001337,SHP001704,40ft,Delivered,Dubai Port
+CNT001338,SHP000784,20ft,Delayed,Shanghai Port
+CNT001339,SHP000007,Reefer,Delayed,Rotterdam Port
+CNT001340,SHP001823,20ft,Delivered,Dubai Port
+CNT001341,SHP000227,20ft,Delayed,Los Angeles Port
+CNT001342,SHP000645,40ft,Delivered,Lagos Port
+CNT001343,SHP000793,40ft,In Transit,Los Angeles Port
+CNT001344,SHP000053,20ft,Delivered,Lagos Port
+CNT001345,SHP000611,20ft,In Transit,Dubai Port
+CNT001346,SHP002828,Reefer,Delayed,Dubai Port
+CNT001347,SHP001457,20ft,Delivered,Durban Port
+CNT001348,SHP000027,20ft,Delayed,Shanghai Port
+CNT001349,SHP000332,20ft,Delivered,Los Angeles Port
+CNT001350,SHP002303,20ft,Delivered,Durban Port
+CNT001351,SHP002822,Reefer,Delivered,Rotterdam Port
+CNT001352,SHP001594,Reefer,Delayed,Dubai Port
+CNT001353,SHP001266,20ft,In Transit,Los Angeles Port
+CNT001354,SHP001511,40ft,In Transit,Los Angeles Port
+CNT001355,SHP002343,40ft,In Transit,Lagos Port
+CNT001356,SHP001710,Reefer,In Transit,Rotterdam Port
+CNT001357,SHP002375,Reefer,In Transit,Dubai Port
+CNT001358,SHP000131,40ft,In Transit,Rotterdam Port
+CNT001359,SHP002610,20ft,Delayed,Durban Port
+CNT001360,SHP002637,40ft,Delivered,Los Angeles Port
+CNT001361,SHP002364,Reefer,In Transit,Shanghai Port
+CNT001362,SHP002146,Reefer,In Transit,Dubai Port
+CNT001363,SHP000481,20ft,Delayed,Lagos Port
+CNT001364,SHP000234,20ft,Delivered,Dubai Port
+CNT001365,SHP000685,40ft,Delivered,Hamburg Port
+CNT001366,SHP002601,Reefer,Delayed,Singapore Port
+CNT001367,SHP001503,20ft,Delivered,Lagos Port
+CNT001368,SHP002196,Reefer,In Transit,Dubai Port
+CNT001369,SHP002975,40ft,Delivered,Singapore Port
+CNT001370,SHP001272,Reefer,In Transit,Singapore Port
+CNT001371,SHP000598,20ft,Delivered,Lagos Port
+CNT001372,SHP002472,20ft,Delayed,Lagos Port
+CNT001373,SHP000280,Reefer,Delivered,Los Angeles Port
+CNT001374,SHP001790,40ft,Delayed,Durban Port
+CNT001375,SHP000559,40ft,In Transit,Singapore Port
+CNT001376,SHP001279,Reefer,Delivered,Singapore Port
+CNT001377,SHP001524,40ft,Delayed,Los Angeles Port
+CNT001378,SHP000584,Reefer,Delayed,Lagos Port
+CNT001379,SHP001199,Reefer,Delayed,Rotterdam Port
+CNT001380,SHP001465,40ft,Delayed,Rotterdam Port
+CNT001381,SHP001965,Reefer,Delivered,Shanghai Port
+CNT001382,SHP002756,20ft,Delivered,Hamburg Port
+CNT001383,SHP002856,40ft,Delayed,Durban Port
+CNT001384,SHP001748,Reefer,Delayed,Shanghai Port
+CNT001385,SHP002696,20ft,Delayed,Rotterdam Port
+CNT001386,SHP000237,20ft,Delivered,Shanghai Port
+CNT001387,SHP002371,40ft,Delayed,Durban Port
+CNT001388,SHP000459,40ft,Delayed,Shanghai Port
+CNT001389,SHP001389,20ft,In Transit,Hamburg Port
+CNT001390,SHP001824,20ft,Delayed,Shanghai Port
+CNT001391,SHP002823,Reefer,Delivered,Lagos Port
+CNT001392,SHP000274,40ft,Delivered,Rotterdam Port
+CNT001393,SHP000647,20ft,Delivered,Durban Port
+CNT001394,SHP000791,40ft,Delayed,Shanghai Port
+CNT001395,SHP001913,Reefer,In Transit,Dubai Port
+CNT001396,SHP000018,20ft,Delayed,Lagos Port
+CNT001397,SHP000274,Reefer,Delivered,Hamburg Port
+CNT001398,SHP001343,40ft,In Transit,Los Angeles Port
+CNT001399,SHP001754,40ft,In Transit,Rotterdam Port
+CNT001400,SHP000704,40ft,Delivered,Singapore Port
+CNT001401,SHP002244,20ft,In Transit,Lagos Port
+CNT001402,SHP002096,20ft,Delayed,Lagos Port
+CNT001403,SHP001808,Reefer,Delivered,Dubai Port
+CNT001404,SHP001131,20ft,In Transit,Singapore Port
+CNT001405,SHP001802,40ft,Delayed,Singapore Port
+CNT001406,SHP001269,40ft,Delivered,Durban Port
+CNT001407,SHP002794,40ft,Delivered,Hamburg Port
+CNT001408,SHP001728,40ft,Delayed,Rotterdam Port
+CNT001409,SHP000782,40ft,Delayed,Dubai Port
+CNT001410,SHP000881,Reefer,Delivered,Los Angeles Port
+CNT001411,SHP002544,20ft,Delayed,Durban Port
+CNT001412,SHP002970,40ft,In Transit,Los Angeles Port
+CNT001413,SHP002039,40ft,In Transit,Rotterdam Port
+CNT001414,SHP000733,40ft,Delayed,Hamburg Port
+CNT001415,SHP000666,40ft,Delivered,Los Angeles Port
+CNT001416,SHP001726,20ft,In Transit,Los Angeles Port
+CNT001417,SHP002621,20ft,Delayed,Hamburg Port
+CNT001418,SHP000527,Reefer,In Transit,Dubai Port
+CNT001419,SHP000362,Reefer,In Transit,Lagos Port
+CNT001420,SHP000428,40ft,In Transit,Dubai Port
+CNT001421,SHP001817,20ft,Delivered,Rotterdam Port
+CNT001422,SHP002609,Reefer,In Transit,Los Angeles Port
+CNT001423,SHP000927,Reefer,Delivered,Rotterdam Port
+CNT001424,SHP001875,40ft,In Transit,Rotterdam Port
+CNT001425,SHP002120,20ft,Delivered,Dubai Port
+CNT001426,SHP002726,Reefer,In Transit,Shanghai Port
+CNT001427,SHP002871,Reefer,In Transit,Lagos Port
+CNT001428,SHP002819,20ft,In Transit,Lagos Port
+CNT001429,SHP001661,40ft,In Transit,Hamburg Port
+CNT001430,SHP000233,20ft,In Transit,Shanghai Port
+CNT001431,SHP000288,Reefer,Delivered,Los Angeles Port
+CNT001432,SHP000191,40ft,Delayed,Shanghai Port
+CNT001433,SHP002517,20ft,Delayed,Lagos Port
+CNT001434,SHP000169,Reefer,Delivered,Lagos Port
+CNT001435,SHP001325,20ft,In Transit,Los Angeles Port
+CNT001436,SHP000745,20ft,Delayed,Lagos Port
+CNT001437,SHP002794,40ft,Delayed,Los Angeles Port
+CNT001438,SHP002245,Reefer,In Transit,Lagos Port
+CNT001439,SHP001648,20ft,Delayed,Durban Port
+CNT001440,SHP002779,20ft,Delivered,Singapore Port
+CNT001441,SHP000225,Reefer,Delivered,Hamburg Port
+CNT001442,SHP001871,Reefer,Delayed,Lagos Port
+CNT001443,SHP001839,20ft,Delayed,Lagos Port
+CNT001444,SHP000445,40ft,Delayed,Durban Port
+CNT001445,SHP000969,40ft,In Transit,Los Angeles Port
+CNT001446,SHP001173,Reefer,In Transit,Hamburg Port
+CNT001447,SHP002830,20ft,Delayed,Los Angeles Port
+CNT001448,SHP001649,Reefer,Delayed,Dubai Port
+CNT001449,SHP000635,20ft,Delivered,Rotterdam Port
+CNT001450,SHP001036,20ft,Delayed,Hamburg Port
+CNT001451,SHP002999,Reefer,In Transit,Rotterdam Port
+CNT001452,SHP001556,20ft,Delayed,Los Angeles Port
+CNT001453,SHP000618,20ft,Delivered,Shanghai Port
+CNT001454,SHP000973,20ft,Delivered,Singapore Port
+CNT001455,SHP000604,40ft,In Transit,Los Angeles Port
+CNT001456,SHP000339,20ft,Delivered,Shanghai Port
+CNT001457,SHP002919,Reefer,Delivered,Durban Port
+CNT001458,SHP001306,Reefer,In Transit,Lagos Port
+CNT001459,SHP001341,Reefer,Delivered,Lagos Port
+CNT001460,SHP000739,Reefer,Delayed,Durban Port
+CNT001461,SHP001950,40ft,Delivered,Lagos Port
+CNT001462,SHP002384,40ft,In Transit,Durban Port
+CNT001463,SHP002774,20ft,Delivered,Singapore Port
+CNT001464,SHP002887,20ft,Delivered,Durban Port
+CNT001465,SHP001943,Reefer,Delivered,Durban Port
+CNT001466,SHP000181,20ft,Delivered,Durban Port
+CNT001467,SHP002434,Reefer,In Transit,Dubai Port
+CNT001468,SHP000366,20ft,Delayed,Hamburg Port
+CNT001469,SHP001562,20ft,Delayed,Singapore Port
+CNT001470,SHP002252,20ft,Delivered,Hamburg Port
+CNT001471,SHP000430,Reefer,Delayed,Shanghai Port
+CNT001472,SHP000955,40ft,Delivered,Durban Port
+CNT001473,SHP000366,Reefer,In Transit,Dubai Port
+CNT001474,SHP000934,40ft,Delayed,Hamburg Port
+CNT001475,SHP001449,40ft,In Transit,Singapore Port
+CNT001476,SHP000307,40ft,Delayed,Singapore Port
+CNT001477,SHP000297,Reefer,Delivered,Hamburg Port
+CNT001478,SHP001491,40ft,Delayed,Los Angeles Port
+CNT001479,SHP001843,20ft,Delayed,Dubai Port
+CNT001480,SHP001293,20ft,In Transit,Hamburg Port
+CNT001481,SHP000940,20ft,Delayed,Dubai Port
+CNT001482,SHP001297,20ft,Delivered,Shanghai Port
+CNT001483,SHP000511,20ft,In Transit,Hamburg Port
+CNT001484,SHP001917,40ft,Delivered,Hamburg Port
+CNT001485,SHP001363,20ft,In Transit,Dubai Port
+CNT001486,SHP002753,Reefer,Delivered,Lagos Port
+CNT001487,SHP002186,Reefer,In Transit,Shanghai Port
+CNT001488,SHP002647,Reefer,Delivered,Durban Port
+CNT001489,SHP002953,40ft,In Transit,Rotterdam Port
+CNT001490,SHP000157,40ft,In Transit,Dubai Port
+CNT001491,SHP001425,Reefer,Delayed,Hamburg Port
+CNT001492,SHP001097,20ft,Delivered,Hamburg Port
+CNT001493,SHP001452,40ft,Delayed,Los Angeles Port
+CNT001494,SHP001621,40ft,Delivered,Lagos Port
+CNT001495,SHP002846,40ft,Delivered,Los Angeles Port
+CNT001496,SHP000090,20ft,In Transit,Los Angeles Port
+CNT001497,SHP000327,40ft,Delivered,Singapore Port
+CNT001498,SHP002637,40ft,Delayed,Singapore Port
+CNT001499,SHP001038,40ft,Delayed,Shanghai Port
+CNT001500,SHP002024,40ft,Delayed,Dubai Port
+CNT001501,SHP002263,Reefer,In Transit,Durban Port
+CNT001502,SHP002184,40ft,Delivered,Los Angeles Port
+CNT001503,SHP002632,40ft,In Transit,Durban Port
+CNT001504,SHP000039,40ft,Delayed,Hamburg Port
+CNT001505,SHP002729,Reefer,Delivered,Durban Port
+CNT001506,SHP002906,20ft,Delayed,Singapore Port
+CNT001507,SHP002152,20ft,In Transit,Rotterdam Port
+CNT001508,SHP002481,40ft,In Transit,Lagos Port
+CNT001509,SHP001324,Reefer,In Transit,Singapore Port
+CNT001510,SHP000737,20ft,Delivered,Dubai Port
+CNT001511,SHP002524,Reefer,Delivered,Hamburg Port
+CNT001512,SHP001340,20ft,In Transit,Rotterdam Port
+CNT001513,SHP002118,40ft,Delayed,Shanghai Port
+CNT001514,SHP002025,Reefer,Delayed,Durban Port
+CNT001515,SHP001325,40ft,Delivered,Singapore Port
+CNT001516,SHP000170,20ft,In Transit,Dubai Port
+CNT001517,SHP002049,40ft,Delayed,Singapore Port
+CNT001518,SHP002696,20ft,In Transit,Shanghai Port
+CNT001519,SHP000872,40ft,In Transit,Dubai Port
+CNT001520,SHP001368,Reefer,In Transit,Shanghai Port
+CNT001521,SHP001893,20ft,In Transit,Hamburg Port
+CNT001522,SHP000065,Reefer,In Transit,Shanghai Port
+CNT001523,SHP000442,20ft,Delivered,Dubai Port
+CNT001524,SHP001671,40ft,Delayed,Durban Port
+CNT001525,SHP001208,40ft,In Transit,Shanghai Port
+CNT001526,SHP000509,20ft,Delivered,Lagos Port
+CNT001527,SHP000763,Reefer,In Transit,Singapore Port
+CNT001528,SHP001889,40ft,In Transit,Singapore Port
+CNT001529,SHP001539,40ft,Delayed,Dubai Port
+CNT001530,SHP002720,40ft,Delayed,Los Angeles Port
+CNT001531,SHP001956,Reefer,In Transit,Los Angeles Port
+CNT001532,SHP002282,20ft,Delivered,Dubai Port
+CNT001533,SHP000234,40ft,Delayed,Dubai Port
+CNT001534,SHP002405,40ft,Delivered,Lagos Port
+CNT001535,SHP002951,20ft,In Transit,Singapore Port
+CNT001536,SHP000423,40ft,Delivered,Rotterdam Port
+CNT001537,SHP001483,20ft,Delivered,Los Angeles Port
+CNT001538,SHP001301,40ft,Delayed,Lagos Port
+CNT001539,SHP000194,Reefer,In Transit,Rotterdam Port
+CNT001540,SHP002129,Reefer,In Transit,Los Angeles Port
+CNT001541,SHP000465,40ft,Delivered,Singapore Port
+CNT001542,SHP001286,Reefer,Delayed,Shanghai Port
+CNT001543,SHP000775,40ft,Delivered,Durban Port
+CNT001544,SHP001208,20ft,In Transit,Shanghai Port
+CNT001545,SHP001828,20ft,In Transit,Dubai Port
+CNT001546,SHP000911,40ft,Delivered,Singapore Port
+CNT001547,SHP001130,20ft,Delayed,Lagos Port
+CNT001548,SHP000365,40ft,Delivered,Singapore Port
+CNT001549,SHP002120,Reefer,Delivered,Dubai Port
+CNT001550,SHP000307,20ft,Delivered,Durban Port
+CNT001551,SHP002984,Reefer,Delivered,Durban Port
+CNT001552,SHP001470,20ft,Delayed,Lagos Port
+CNT001553,SHP000061,40ft,In Transit,Shanghai Port
+CNT001554,SHP002358,Reefer,In Transit,Hamburg Port
+CNT001555,SHP000747,Reefer,In Transit,Shanghai Port
+CNT001556,SHP000662,40ft,Delayed,Lagos Port
+CNT001557,SHP000997,Reefer,Delayed,Dubai Port
+CNT001558,SHP000765,40ft,Delivered,Hamburg Port
+CNT001559,SHP000921,20ft,Delivered,Rotterdam Port
+CNT001560,SHP001105,20ft,In Transit,Shanghai Port
+CNT001561,SHP000256,40ft,Delivered,Durban Port
+CNT001562,SHP002001,20ft,Delayed,Shanghai Port
+CNT001563,SHP001407,20ft,Delivered,Dubai Port
+CNT001564,SHP002058,40ft,Delayed,Lagos Port
+CNT001565,SHP001634,40ft,Delivered,Singapore Port
+CNT001566,SHP000336,20ft,In Transit,Hamburg Port
+CNT001567,SHP001462,Reefer,Delayed,Shanghai Port
+CNT001568,SHP001469,40ft,Delivered,Durban Port
+CNT001569,SHP000002,40ft,Delivered,Rotterdam Port
+CNT001570,SHP002286,Reefer,Delivered,Shanghai Port
+CNT001571,SHP002767,Reefer,In Transit,Los Angeles Port
+CNT001572,SHP002025,20ft,Delivered,Lagos Port
+CNT001573,SHP002617,40ft,Delayed,Lagos Port
+CNT001574,SHP001039,Reefer,Delivered,Rotterdam Port
+CNT001575,SHP000965,40ft,In Transit,Durban Port
+CNT001576,SHP002949,Reefer,Delivered,Shanghai Port
+CNT001577,SHP000659,40ft,Delayed,Durban Port
+CNT001578,SHP001014,20ft,In Transit,Los Angeles Port
+CNT001579,SHP002101,40ft,Delayed,Dubai Port
+CNT001580,SHP000200,20ft,In Transit,Los Angeles Port
+CNT001581,SHP002816,40ft,Delivered,Rotterdam Port
+CNT001582,SHP001653,Reefer,Delayed,Durban Port
+CNT001583,SHP001747,20ft,Delivered,Singapore Port
+CNT001584,SHP002720,Reefer,Delivered,Singapore Port
+CNT001585,SHP000881,20ft,Delayed,Durban Port
+CNT001586,SHP000774,40ft,Delivered,Lagos Port
+CNT001587,SHP001815,Reefer,Delivered,Singapore Port
+CNT001588,SHP000230,40ft,In Transit,Los Angeles Port
+CNT001589,SHP002121,40ft,Delivered,Shanghai Port
+CNT001590,SHP002407,40ft,Delayed,Shanghai Port
+CNT001591,SHP002455,20ft,Delayed,Los Angeles Port
+CNT001592,SHP002686,40ft,Delayed,Lagos Port
+CNT001593,SHP000906,40ft,Delivered,Hamburg Port
+CNT001594,SHP000196,20ft,Delayed,Durban Port
+CNT001595,SHP002268,40ft,Delivered,Durban Port
+CNT001596,SHP002060,Reefer,Delivered,Rotterdam Port
+CNT001597,SHP001182,40ft,In Transit,Durban Port
+CNT001598,SHP001351,20ft,Delayed,Shanghai Port
+CNT001599,SHP001183,Reefer,In Transit,Hamburg Port
+CNT001600,SHP000828,Reefer,Delayed,Los Angeles Port
+CNT001601,SHP001020,40ft,Delayed,Singapore Port
+CNT001602,SHP001966,40ft,Delayed,Rotterdam Port
+CNT001603,SHP001008,Reefer,Delivered,Rotterdam Port
+CNT001604,SHP000829,Reefer,Delivered,Hamburg Port
+CNT001605,SHP001725,40ft,Delivered,Shanghai Port
+CNT001606,SHP001062,20ft,Delivered,Durban Port
+CNT001607,SHP000768,20ft,Delayed,Los Angeles Port
+CNT001608,SHP001389,20ft,In Transit,Dubai Port
+CNT001609,SHP002744,40ft,Delivered,Lagos Port
+CNT001610,SHP000519,40ft,Delivered,Shanghai Port
+CNT001611,SHP001216,40ft,In Transit,Hamburg Port
+CNT001612,SHP002691,Reefer,In Transit,Lagos Port
+CNT001613,SHP001168,40ft,Delivered,Lagos Port
+CNT001614,SHP001938,20ft,Delayed,Durban Port
+CNT001615,SHP001635,Reefer,In Transit,Singapore Port
+CNT001616,SHP002865,40ft,In Transit,Durban Port
+CNT001617,SHP001945,20ft,Delivered,Hamburg Port
+CNT001618,SHP000919,Reefer,Delivered,Los Angeles Port
+CNT001619,SHP002100,Reefer,Delivered,Rotterdam Port
+CNT001620,SHP001019,20ft,Delivered,Hamburg Port
+CNT001621,SHP002382,Reefer,Delayed,Lagos Port
+CNT001622,SHP000557,20ft,Delayed,Singapore Port
+CNT001623,SHP000179,Reefer,Delivered,Shanghai Port
+CNT001624,SHP001930,40ft,Delayed,Singapore Port
+CNT001625,SHP002651,20ft,In Transit,Shanghai Port
+CNT001626,SHP001885,20ft,Delivered,Durban Port
+CNT001627,SHP002528,40ft,Delayed,Hamburg Port
+CNT001628,SHP002179,40ft,Delivered,Lagos Port
+CNT001629,SHP001567,Reefer,Delayed,Hamburg Port
+CNT001630,SHP001470,40ft,In Transit,Dubai Port
+CNT001631,SHP001045,Reefer,In Transit,Durban Port
+CNT001632,SHP001329,20ft,In Transit,Lagos Port
+CNT001633,SHP000093,40ft,Delivered,Durban Port
+CNT001634,SHP000748,20ft,In Transit,Lagos Port
+CNT001635,SHP001160,40ft,In Transit,Rotterdam Port
+CNT001636,SHP000675,20ft,Delivered,Rotterdam Port
+CNT001637,SHP001346,Reefer,In Transit,Rotterdam Port
+CNT001638,SHP001961,40ft,Delayed,Durban Port
+CNT001639,SHP000452,40ft,Delivered,Singapore Port
+CNT001640,SHP000304,40ft,Delivered,Los Angeles Port
+CNT001641,SHP002519,Reefer,Delayed,Rotterdam Port
+CNT001642,SHP001851,40ft,Delayed,Shanghai Port
+CNT001643,SHP001160,Reefer,Delayed,Durban Port
+CNT001644,SHP002783,20ft,In Transit,Shanghai Port
+CNT001645,SHP001970,40ft,Delivered,Singapore Port
+CNT001646,SHP001556,40ft,Delivered,Rotterdam Port
+CNT001647,SHP000394,20ft,In Transit,Shanghai Port
+CNT001648,SHP002023,40ft,In Transit,Shanghai Port
+CNT001649,SHP001030,20ft,Delayed,Los Angeles Port
+CNT001650,SHP000495,20ft,Delivered,Dubai Port
+CNT001651,SHP002418,Reefer,Delivered,Shanghai Port
+CNT001652,SHP002876,40ft,In Transit,Hamburg Port
+CNT001653,SHP002913,40ft,In Transit,Los Angeles Port
+CNT001654,SHP000978,Reefer,Delayed,Hamburg Port
+CNT001655,SHP000327,Reefer,In Transit,Lagos Port
+CNT001656,SHP002061,Reefer,Delayed,Durban Port
+CNT001657,SHP001349,Reefer,In Transit,Durban Port
+CNT001658,SHP002067,20ft,Delivered,Durban Port
+CNT001659,SHP002158,40ft,Delayed,Hamburg Port
+CNT001660,SHP000792,Reefer,Delivered,Singapore Port
+CNT001661,SHP002107,20ft,In Transit,Dubai Port
+CNT001662,SHP002919,Reefer,In Transit,Rotterdam Port
+CNT001663,SHP000876,40ft,Delayed,Durban Port
+CNT001664,SHP002527,20ft,Delivered,Singapore Port
+CNT001665,SHP000068,40ft,In Transit,Lagos Port
+CNT001666,SHP002416,40ft,In Transit,Hamburg Port
+CNT001667,SHP002727,20ft,In Transit,Dubai Port
+CNT001668,SHP001096,20ft,In Transit,Los Angeles Port
+CNT001669,SHP000149,40ft,In Transit,Shanghai Port
+CNT001670,SHP000505,Reefer,Delivered,Singapore Port
+CNT001671,SHP002180,Reefer,In Transit,Shanghai Port
+CNT001672,SHP001797,20ft,Delayed,Los Angeles Port
+CNT001673,SHP002349,Reefer,In Transit,Shanghai Port
+CNT001674,SHP000088,Reefer,Delivered,Singapore Port
+CNT001675,SHP001930,Reefer,Delayed,Durban Port
+CNT001676,SHP001805,Reefer,In Transit,Durban Port
+CNT001677,SHP000336,40ft,In Transit,Singapore Port
+CNT001678,SHP001807,20ft,Delivered,Los Angeles Port
+CNT001679,SHP002874,Reefer,Delivered,Lagos Port
+CNT001680,SHP002334,40ft,Delivered,Los Angeles Port
+CNT001681,SHP001260,20ft,Delivered,Hamburg Port
+CNT001682,SHP001935,40ft,Delayed,Los Angeles Port
+CNT001683,SHP001308,Reefer,In Transit,Los Angeles Port
+CNT001684,SHP000699,20ft,Delayed,Durban Port
+CNT001685,SHP001711,40ft,Delivered,Rotterdam Port
+CNT001686,SHP000629,40ft,Delayed,Lagos Port
+CNT001687,SHP002297,20ft,Delayed,Hamburg Port
+CNT001688,SHP000720,20ft,In Transit,Shanghai Port
+CNT001689,SHP001508,40ft,Delivered,Durban Port
+CNT001690,SHP001233,40ft,Delayed,Dubai Port
+CNT001691,SHP001011,Reefer,Delivered,Shanghai Port
+CNT001692,SHP001922,40ft,Delayed,Los Angeles Port
+CNT001693,SHP000099,20ft,Delivered,Dubai Port
+CNT001694,SHP000167,20ft,In Transit,Shanghai Port
+CNT001695,SHP002990,40ft,In Transit,Shanghai Port
+CNT001696,SHP002937,20ft,Delivered,Lagos Port
+CNT001697,SHP000657,Reefer,In Transit,Shanghai Port
+CNT001698,SHP002398,20ft,Delayed,Los Angeles Port
+CNT001699,SHP002034,20ft,Delayed,Dubai Port
+CNT001700,SHP002829,40ft,Delivered,Lagos Port
+CNT001701,SHP001609,40ft,In Transit,Shanghai Port
+CNT001702,SHP000622,40ft,In Transit,Durban Port
+CNT001703,SHP001586,20ft,Delayed,Rotterdam Port
+CNT001704,SHP001708,Reefer,Delayed,Lagos Port
+CNT001705,SHP002271,20ft,Delayed,Lagos Port
+CNT001706,SHP000425,Reefer,Delivered,Shanghai Port
+CNT001707,SHP000050,20ft,In Transit,Shanghai Port
+CNT001708,SHP001483,20ft,Delayed,Shanghai Port
+CNT001709,SHP002303,Reefer,Delayed,Dubai Port
+CNT001710,SHP002446,Reefer,Delayed,Los Angeles Port
+CNT001711,SHP000848,20ft,Delivered,Singapore Port
+CNT001712,SHP001857,20ft,Delayed,Durban Port
+CNT001713,SHP002729,20ft,In Transit,Singapore Port
+CNT001714,SHP001050,20ft,Delayed,Dubai Port
+CNT001715,SHP001297,40ft,In Transit,Singapore Port
+CNT001716,SHP002604,Reefer,Delayed,Dubai Port
+CNT001717,SHP002771,Reefer,Delivered,Shanghai Port
+CNT001718,SHP000645,40ft,Delayed,Hamburg Port
+CNT001719,SHP001693,Reefer,In Transit,Lagos Port
+CNT001720,SHP000678,Reefer,Delayed,Los Angeles Port
+CNT001721,SHP002836,40ft,Delayed,Lagos Port
+CNT001722,SHP002869,Reefer,Delayed,Singapore Port
+CNT001723,SHP000765,20ft,Delivered,Hamburg Port
+CNT001724,SHP001346,Reefer,Delayed,Lagos Port
+CNT001725,SHP000673,20ft,Delivered,Hamburg Port
+CNT001726,SHP001462,40ft,Delayed,Dubai Port
+CNT001727,SHP001466,40ft,Delivered,Singapore Port
+CNT001728,SHP001833,Reefer,Delayed,Los Angeles Port
+CNT001729,SHP001925,20ft,Delayed,Shanghai Port
+CNT001730,SHP001741,40ft,Delayed,Durban Port
+CNT001731,SHP000494,Reefer,Delivered,Rotterdam Port
+CNT001732,SHP002120,40ft,In Transit,Shanghai Port
+CNT001733,SHP001833,40ft,In Transit,Lagos Port
+CNT001734,SHP000617,Reefer,Delivered,Los Angeles Port
+CNT001735,SHP001575,Reefer,Delayed,Shanghai Port
+CNT001736,SHP001454,Reefer,Delayed,Dubai Port
+CNT001737,SHP001170,20ft,In Transit,Durban Port
+CNT001738,SHP000406,40ft,Delivered,Dubai Port
+CNT001739,SHP002915,Reefer,Delayed,Los Angeles Port
+CNT001740,SHP000434,20ft,In Transit,Singapore Port
+CNT001741,SHP002092,40ft,In Transit,Lagos Port
+CNT001742,SHP001892,20ft,In Transit,Rotterdam Port
+CNT001743,SHP000172,20ft,In Transit,Hamburg Port
+CNT001744,SHP000566,40ft,Delayed,Los Angeles Port
+CNT001745,SHP000848,20ft,Delayed,Rotterdam Port
+CNT001746,SHP001615,20ft,In Transit,Durban Port
+CNT001747,SHP002363,40ft,Delayed,Los Angeles Port
+CNT001748,SHP000917,20ft,In Transit,Durban Port
+CNT001749,SHP000172,Reefer,In Transit,Shanghai Port
+CNT001750,SHP000985,20ft,Delivered,Rotterdam Port
+CNT001751,SHP000307,40ft,Delivered,Durban Port
+CNT001752,SHP002461,20ft,Delivered,Shanghai Port
+CNT001753,SHP001584,20ft,Delivered,Hamburg Port
+CNT001754,SHP001471,Reefer,Delivered,Lagos Port
+CNT001755,SHP001556,40ft,Delayed,Durban Port
+CNT001756,SHP001655,40ft,In Transit,Shanghai Port
+CNT001757,SHP002578,Reefer,Delivered,Durban Port
+CNT001758,SHP002694,40ft,In Transit,Rotterdam Port
+CNT001759,SHP001038,20ft,In Transit,Durban Port
+CNT001760,SHP000446,Reefer,Delivered,Dubai Port
+CNT001761,SHP002815,20ft,In Transit,Singapore Port
+CNT001762,SHP001115,40ft,In Transit,Durban Port
+CNT001763,SHP001529,Reefer,Delivered,Lagos Port
+CNT001764,SHP000699,40ft,In Transit,Hamburg Port
+CNT001765,SHP001251,20ft,Delivered,Hamburg Port
+CNT001766,SHP000714,20ft,In Transit,Lagos Port
+CNT001767,SHP000694,Reefer,Delayed,Rotterdam Port
+CNT001768,SHP001151,20ft,Delivered,Rotterdam Port
+CNT001769,SHP002263,40ft,Delivered,Singapore Port
+CNT001770,SHP001170,20ft,Delivered,Rotterdam Port
+CNT001771,SHP002996,Reefer,In Transit,Singapore Port
+CNT001772,SHP002654,Reefer,Delivered,Hamburg Port
+CNT001773,SHP001387,Reefer,In Transit,Hamburg Port
+CNT001774,SHP001764,20ft,Delivered,Shanghai Port
+CNT001775,SHP002643,20ft,In Transit,Lagos Port
+CNT001776,SHP000198,20ft,In Transit,Rotterdam Port
+CNT001777,SHP001661,Reefer,Delivered,Los Angeles Port
+CNT001778,SHP001594,Reefer,Delayed,Dubai Port
+CNT001779,SHP001641,20ft,Delayed,Los Angeles Port
+CNT001780,SHP000628,Reefer,In Transit,Rotterdam Port
+CNT001781,SHP000491,Reefer,Delivered,Lagos Port
+CNT001782,SHP002727,20ft,Delivered,Hamburg Port
+CNT001783,SHP000944,Reefer,Delivered,Durban Port
+CNT001784,SHP002757,40ft,In Transit,Dubai Port
+CNT001785,SHP001720,40ft,Delivered,Shanghai Port
+CNT001786,SHP000706,20ft,Delayed,Singapore Port
+CNT001787,SHP000144,Reefer,Delivered,Lagos Port
+CNT001788,SHP001338,40ft,Delayed,Dubai Port
+CNT001789,SHP001985,Reefer,In Transit,Rotterdam Port
+CNT001790,SHP000782,40ft,Delayed,Los Angeles Port
+CNT001791,SHP000060,20ft,Delivered,Rotterdam Port
+CNT001792,SHP002941,20ft,Delayed,Lagos Port
+CNT001793,SHP002032,Reefer,Delayed,Rotterdam Port
+CNT001794,SHP002167,20ft,In Transit,Singapore Port
+CNT001795,SHP000860,40ft,Delivered,Rotterdam Port
+CNT001796,SHP000215,Reefer,Delivered,Los Angeles Port
+CNT001797,SHP002153,20ft,Delayed,Los Angeles Port
+CNT001798,SHP002158,Reefer,Delivered,Durban Port
+CNT001799,SHP002875,Reefer,In Transit,Rotterdam Port
+CNT001800,SHP002426,40ft,In Transit,Hamburg Port
+CNT001801,SHP001500,20ft,In Transit,Los Angeles Port
+CNT001802,SHP000009,20ft,Delivered,Hamburg Port
+CNT001803,SHP002260,20ft,Delayed,Lagos Port
+CNT001804,SHP001205,Reefer,Delayed,Dubai Port
+CNT001805,SHP002812,20ft,Delivered,Dubai Port
+CNT001806,SHP001166,Reefer,Delivered,Rotterdam Port
+CNT001807,SHP001264,40ft,Delayed,Los Angeles Port
+CNT001808,SHP000624,40ft,In Transit,Dubai Port
+CNT001809,SHP002522,Reefer,Delivered,Lagos Port
+CNT001810,SHP000359,Reefer,In Transit,Hamburg Port
+CNT001811,SHP001648,40ft,Delivered,Rotterdam Port
+CNT001812,SHP000135,Reefer,Delivered,Lagos Port
+CNT001813,SHP002697,20ft,Delivered,Shanghai Port
+CNT001814,SHP002917,20ft,In Transit,Lagos Port
+CNT001815,SHP001121,20ft,Delayed,Rotterdam Port
+CNT001816,SHP001684,20ft,Delayed,Dubai Port
+CNT001817,SHP000899,20ft,Delayed,Rotterdam Port
+CNT001818,SHP001596,40ft,Delivered,Singapore Port
+CNT001819,SHP001760,40ft,Delayed,Los Angeles Port
+CNT001820,SHP002206,Reefer,In Transit,Shanghai Port
+CNT001821,SHP001166,40ft,Delayed,Hamburg Port
+CNT001822,SHP001107,40ft,Delayed,Los Angeles Port
+CNT001823,SHP001405,20ft,In Transit,Singapore Port
+CNT001824,SHP001075,40ft,Delayed,Shanghai Port
+CNT001825,SHP001766,20ft,Delayed,Shanghai Port
+CNT001826,SHP002539,Reefer,Delivered,Singapore Port
+CNT001827,SHP002118,Reefer,In Transit,Singapore Port
+CNT001828,SHP001345,20ft,In Transit,Durban Port
+CNT001829,SHP001486,Reefer,Delayed,Durban Port
+CNT001830,SHP002450,Reefer,In Transit,Dubai Port
+CNT001831,SHP000162,20ft,Delayed,Dubai Port
+CNT001832,SHP002598,20ft,Delayed,Dubai Port
+CNT001833,SHP000316,20ft,Delayed,Rotterdam Port
+CNT001834,SHP002743,20ft,Delivered,Los Angeles Port
+CNT001835,SHP000726,20ft,In Transit,Lagos Port
+CNT001836,SHP002817,20ft,Delayed,Shanghai Port
+CNT001837,SHP001724,20ft,Delayed,Singapore Port
+CNT001838,SHP002971,20ft,Delivered,Los Angeles Port
+CNT001839,SHP000812,40ft,In Transit,Lagos Port
+CNT001840,SHP001272,Reefer,In Transit,Rotterdam Port
+CNT001841,SHP001785,20ft,In Transit,Hamburg Port
+CNT001842,SHP001556,40ft,In Transit,Singapore Port
+CNT001843,SHP002058,20ft,Delivered,Los Angeles Port
+CNT001844,SHP002416,20ft,In Transit,Dubai Port
+CNT001845,SHP002437,Reefer,Delayed,Los Angeles Port
+CNT001846,SHP000023,Reefer,In Transit,Singapore Port
+CNT001847,SHP001966,20ft,Delayed,Singapore Port
+CNT001848,SHP002799,Reefer,Delivered,Los Angeles Port
+CNT001849,SHP002320,40ft,In Transit,Lagos Port
+CNT001850,SHP000808,40ft,Delivered,Durban Port
+CNT001851,SHP000005,Reefer,Delayed,Lagos Port
+CNT001852,SHP001796,20ft,Delivered,Durban Port
+CNT001853,SHP002140,20ft,Delivered,Dubai Port
+CNT001854,SHP001222,40ft,Delivered,Hamburg Port
+CNT001855,SHP001148,40ft,Delivered,Durban Port
+CNT001856,SHP000828,Reefer,In Transit,Shanghai Port
+CNT001857,SHP001990,20ft,Delayed,Dubai Port
+CNT001858,SHP001794,20ft,In Transit,Lagos Port
+CNT001859,SHP000629,40ft,Delivered,Dubai Port
+CNT001860,SHP001054,40ft,In Transit,Dubai Port
+CNT001861,SHP001741,40ft,Delayed,Los Angeles Port
+CNT001862,SHP000698,Reefer,In Transit,Dubai Port
+CNT001863,SHP000004,40ft,Delivered,Hamburg Port
+CNT001864,SHP002221,20ft,In Transit,Shanghai Port
+CNT001865,SHP000733,Reefer,Delayed,Rotterdam Port
+CNT001866,SHP000909,Reefer,Delayed,Durban Port
+CNT001867,SHP001387,40ft,In Transit,Dubai Port
+CNT001868,SHP000648,Reefer,Delayed,Rotterdam Port
+CNT001869,SHP000346,Reefer,In Transit,Rotterdam Port
+CNT001870,SHP001866,40ft,In Transit,Singapore Port
+CNT001871,SHP001077,40ft,Delivered,Dubai Port
+CNT001872,SHP002300,Reefer,Delayed,Rotterdam Port
+CNT001873,SHP000010,40ft,Delivered,Los Angeles Port
+CNT001874,SHP001465,20ft,Delayed,Singapore Port
+CNT001875,SHP001340,20ft,In Transit,Singapore Port
+CNT001876,SHP001067,Reefer,Delayed,Lagos Port
+CNT001877,SHP001524,40ft,Delivered,Hamburg Port
+CNT001878,SHP000291,40ft,Delivered,Shanghai Port
+CNT001879,SHP002760,Reefer,In Transit,Rotterdam Port
+CNT001880,SHP000288,20ft,Delayed,Hamburg Port
+CNT001881,SHP000916,Reefer,In Transit,Lagos Port
+CNT001882,SHP001317,Reefer,Delivered,Los Angeles Port
+CNT001883,SHP002400,Reefer,Delayed,Los Angeles Port
+CNT001884,SHP001039,Reefer,Delivered,Los Angeles Port
+CNT001885,SHP001353,40ft,Delivered,Lagos Port
+CNT001886,SHP001115,Reefer,In Transit,Dubai Port
+CNT001887,SHP001864,40ft,Delivered,Los Angeles Port
+CNT001888,SHP000849,40ft,In Transit,Singapore Port
+CNT001889,SHP000431,20ft,Delivered,Los Angeles Port
+CNT001890,SHP000558,40ft,Delivered,Durban Port
+CNT001891,SHP001961,40ft,Delayed,Lagos Port
+CNT001892,SHP001332,40ft,Delivered,Hamburg Port
+CNT001893,SHP000994,40ft,Delayed,Durban Port
+CNT001894,SHP000219,40ft,In Transit,Durban Port
+CNT001895,SHP000912,40ft,Delivered,Singapore Port
+CNT001896,SHP002132,Reefer,Delayed,Lagos Port
+CNT001897,SHP002301,40ft,In Transit,Lagos Port
+CNT001898,SHP001364,Reefer,Delivered,Los Angeles Port
+CNT001899,SHP000122,Reefer,In Transit,Hamburg Port
+CNT001900,SHP000625,20ft,Delayed,Los Angeles Port
+CNT001901,SHP002109,40ft,Delayed,Hamburg Port
+CNT001902,SHP000956,40ft,Delivered,Durban Port
+CNT001903,SHP000125,40ft,In Transit,Durban Port
+CNT001904,SHP002003,Reefer,Delivered,Los Angeles Port
+CNT001905,SHP002173,20ft,Delivered,Durban Port
+CNT001906,SHP002034,Reefer,In Transit,Dubai Port
+CNT001907,SHP002710,40ft,Delivered,Rotterdam Port
+CNT001908,SHP001545,20ft,Delivered,Hamburg Port
+CNT001909,SHP000777,Reefer,Delayed,Singapore Port
+CNT001910,SHP002880,Reefer,Delivered,Durban Port
+CNT001911,SHP002779,Reefer,Delayed,Shanghai Port
+CNT001912,SHP000198,20ft,Delivered,Rotterdam Port
+CNT001913,SHP001375,Reefer,In Transit,Durban Port
+CNT001914,SHP002812,40ft,In Transit,Dubai Port
+CNT001915,SHP001369,20ft,In Transit,Singapore Port
+CNT001916,SHP002223,Reefer,Delivered,Hamburg Port
+CNT001917,SHP001496,20ft,Delivered,Lagos Port
+CNT001918,SHP002123,20ft,In Transit,Shanghai Port
+CNT001919,SHP002111,Reefer,Delayed,Shanghai Port
+CNT001920,SHP001646,Reefer,Delayed,Lagos Port
+CNT001921,SHP002228,20ft,Delivered,Durban Port
+CNT001922,SHP000999,40ft,In Transit,Los Angeles Port
+CNT001923,SHP001004,Reefer,Delayed,Singapore Port
+CNT001924,SHP001883,20ft,In Transit,Lagos Port
+CNT001925,SHP000245,Reefer,In Transit,Singapore Port
+CNT001926,SHP002849,Reefer,Delivered,Hamburg Port
+CNT001927,SHP001470,20ft,Delivered,Lagos Port
+CNT001928,SHP000299,40ft,In Transit,Hamburg Port
+CNT001929,SHP001512,Reefer,Delivered,Los Angeles Port
+CNT001930,SHP000338,40ft,Delayed,Shanghai Port
+CNT001931,SHP002818,Reefer,Delayed,Los Angeles Port
+CNT001932,SHP000808,40ft,Delayed,Dubai Port
+CNT001933,SHP000389,40ft,Delayed,Los Angeles Port
+CNT001934,SHP000999,40ft,Delivered,Los Angeles Port
+CNT001935,SHP002775,40ft,Delayed,Durban Port
+CNT001936,SHP000122,40ft,Delivered,Singapore Port
+CNT001937,SHP002741,20ft,In Transit,Dubai Port
+CNT001938,SHP002521,40ft,Delayed,Dubai Port
+CNT001939,SHP002207,Reefer,Delivered,Durban Port
+CNT001940,SHP001619,20ft,Delayed,Singapore Port
+CNT001941,SHP002257,40ft,Delivered,Shanghai Port
+CNT001942,SHP000308,Reefer,Delivered,Rotterdam Port
+CNT001943,SHP000882,20ft,Delayed,Durban Port
+CNT001944,SHP002408,20ft,Delayed,Durban Port
+CNT001945,SHP002933,20ft,Delivered,Los Angeles Port
+CNT001946,SHP001387,Reefer,Delivered,Los Angeles Port
+CNT001947,SHP002894,40ft,In Transit,Shanghai Port
+CNT001948,SHP001876,Reefer,In Transit,Durban Port
+CNT001949,SHP002823,20ft,Delayed,Singapore Port
+CNT001950,SHP000255,20ft,Delivered,Hamburg Port
+CNT001951,SHP001836,Reefer,Delivered,Rotterdam Port
+CNT001952,SHP002465,20ft,In Transit,Singapore Port
+CNT001953,SHP001226,Reefer,In Transit,Dubai Port
+CNT001954,SHP001351,20ft,In Transit,Hamburg Port
+CNT001955,SHP001254,40ft,Delayed,Dubai Port
+CNT001956,SHP000579,Reefer,In Transit,Los Angeles Port
+CNT001957,SHP000442,20ft,Delayed,Singapore Port
+CNT001958,SHP000251,20ft,Delivered,Los Angeles Port
+CNT001959,SHP002058,20ft,Delayed,Shanghai Port
+CNT001960,SHP002565,40ft,Delivered,Los Angeles Port
+CNT001961,SHP002903,Reefer,Delayed,Los Angeles Port
+CNT001962,SHP001914,40ft,Delayed,Los Angeles Port
+CNT001963,SHP002123,Reefer,Delivered,Hamburg Port
+CNT001964,SHP001944,Reefer,Delivered,Los Angeles Port
+CNT001965,SHP002381,40ft,In Transit,Singapore Port
+CNT001966,SHP000445,40ft,Delivered,Shanghai Port
+CNT001967,SHP002131,40ft,Delivered,Dubai Port
+CNT001968,SHP001292,40ft,Delivered,Durban Port
+CNT001969,SHP002987,Reefer,In Transit,Hamburg Port
+CNT001970,SHP001217,20ft,Delivered,Lagos Port
+CNT001971,SHP001238,40ft,Delivered,Los Angeles Port
+CNT001972,SHP002511,20ft,Delivered,Rotterdam Port
+CNT001973,SHP002295,40ft,Delayed,Dubai Port
+CNT001974,SHP000219,20ft,Delayed,Rotterdam Port
+CNT001975,SHP002886,Reefer,Delayed,Hamburg Port
+CNT001976,SHP001412,Reefer,Delayed,Rotterdam Port
+CNT001977,SHP000123,Reefer,Delayed,Singapore Port
+CNT001978,SHP002928,20ft,Delayed,Hamburg Port
+CNT001979,SHP002066,20ft,Delivered,Singapore Port
+CNT001980,SHP002425,Reefer,Delayed,Hamburg Port
+CNT001981,SHP001403,20ft,Delayed,Dubai Port
+CNT001982,SHP001541,Reefer,Delayed,Los Angeles Port
+CNT001983,SHP002774,40ft,In Transit,Los Angeles Port
+CNT001984,SHP002748,Reefer,In Transit,Shanghai Port
+CNT001985,SHP002087,Reefer,In Transit,Rotterdam Port
+CNT001986,SHP002561,20ft,In Transit,Durban Port
+CNT001987,SHP001784,40ft,In Transit,Los Angeles Port
+CNT001988,SHP002272,Reefer,Delayed,Shanghai Port
+CNT001989,SHP002817,40ft,Delivered,Rotterdam Port
+CNT001990,SHP002135,40ft,Delayed,Shanghai Port
+CNT001991,SHP001385,20ft,In Transit,Los Angeles Port
+CNT001992,SHP002904,20ft,Delivered,Singapore Port
+CNT001993,SHP000767,40ft,Delayed,Singapore Port
+CNT001994,SHP002015,Reefer,Delivered,Lagos Port
+CNT001995,SHP000387,40ft,In Transit,Lagos Port
+CNT001996,SHP000069,20ft,In Transit,Los Angeles Port
+CNT001997,SHP000897,Reefer,Delayed,Shanghai Port
+CNT001998,SHP001196,Reefer,In Transit,Durban Port
+CNT001999,SHP002010,20ft,Delayed,Singapore Port
+CNT002000,SHP000887,Reefer,Delivered,Hamburg Port
+CNT002001,SHP002342,20ft,In Transit,Los Angeles Port
+CNT002002,SHP001597,20ft,Delivered,Durban Port
+CNT002003,SHP002540,20ft,Delivered,Los Angeles Port
+CNT002004,SHP001015,40ft,Delayed,Lagos Port
+CNT002005,SHP001519,20ft,Delayed,Los Angeles Port
+CNT002006,SHP002966,20ft,In Transit,Hamburg Port
+CNT002007,SHP000399,20ft,Delayed,Shanghai Port
+CNT002008,SHP000869,20ft,In Transit,Singapore Port
+CNT002009,SHP001527,Reefer,In Transit,Rotterdam Port
+CNT002010,SHP000468,Reefer,In Transit,Rotterdam Port
+CNT002011,SHP000026,Reefer,Delivered,Singapore Port
+CNT002012,SHP001015,Reefer,Delivered,Shanghai Port
+CNT002013,SHP002785,20ft,Delivered,Los Angeles Port
+CNT002014,SHP002355,40ft,In Transit,Hamburg Port
+CNT002015,SHP002094,Reefer,Delivered,Los Angeles Port
+CNT002016,SHP000419,20ft,In Transit,Shanghai Port
+CNT002017,SHP002053,Reefer,In Transit,Rotterdam Port
+CNT002018,SHP000236,20ft,In Transit,Dubai Port
+CNT002019,SHP002576,40ft,In Transit,Los Angeles Port
+CNT002020,SHP002732,40ft,In Transit,Rotterdam Port
+CNT002021,SHP002674,20ft,In Transit,Dubai Port
+CNT002022,SHP000516,Reefer,In Transit,Durban Port
+CNT002023,SHP000615,40ft,Delivered,Lagos Port
+CNT002024,SHP001925,40ft,Delayed,Lagos Port
+CNT002025,SHP002508,20ft,Delayed,Rotterdam Port
+CNT002026,SHP002143,20ft,Delivered,Los Angeles Port
+CNT002027,SHP002503,40ft,In Transit,Rotterdam Port
+CNT002028,SHP002320,20ft,Delivered,Lagos Port
+CNT002029,SHP001906,40ft,In Transit,Singapore Port
+CNT002030,SHP001800,Reefer,Delivered,Dubai Port
+CNT002031,SHP001360,Reefer,Delivered,Los Angeles Port
+CNT002032,SHP002532,20ft,In Transit,Singapore Port
+CNT002033,SHP001692,20ft,In Transit,Dubai Port
+CNT002034,SHP001184,20ft,Delayed,Lagos Port
+CNT002035,SHP001519,20ft,In Transit,Singapore Port
+CNT002036,SHP002663,Reefer,Delivered,Dubai Port
+CNT002037,SHP000861,20ft,Delivered,Hamburg Port
+CNT002038,SHP002556,20ft,Delivered,Shanghai Port
+CNT002039,SHP001139,20ft,Delayed,Shanghai Port
+CNT002040,SHP000748,20ft,Delivered,Lagos Port
+CNT002041,SHP002691,40ft,Delivered,Hamburg Port
+CNT002042,SHP002760,Reefer,Delivered,Singapore Port
+CNT002043,SHP002398,20ft,In Transit,Rotterdam Port
+CNT002044,SHP000680,20ft,Delayed,Hamburg Port
+CNT002045,SHP001128,40ft,In Transit,Durban Port
+CNT002046,SHP002727,20ft,In Transit,Singapore Port
+CNT002047,SHP000504,40ft,In Transit,Shanghai Port
+CNT002048,SHP001752,40ft,Delivered,Durban Port
+CNT002049,SHP002969,Reefer,Delivered,Singapore Port
+CNT002050,SHP000261,40ft,Delivered,Shanghai Port
+CNT002051,SHP000394,20ft,In Transit,Lagos Port
+CNT002052,SHP000417,40ft,In Transit,Lagos Port
+CNT002053,SHP002716,20ft,Delivered,Durban Port
+CNT002054,SHP001181,40ft,In Transit,Shanghai Port
+CNT002055,SHP000231,Reefer,Delayed,Lagos Port
+CNT002056,SHP000771,20ft,Delivered,Singapore Port
+CNT002057,SHP002425,Reefer,Delayed,Lagos Port
+CNT002058,SHP002078,Reefer,Delivered,Durban Port
+CNT002059,SHP001825,Reefer,In Transit,Lagos Port
+CNT002060,SHP001467,Reefer,Delivered,Singapore Port
+CNT002061,SHP001852,20ft,In Transit,Singapore Port
+CNT002062,SHP001340,20ft,Delayed,Shanghai Port
+CNT002063,SHP000462,40ft,Delayed,Los Angeles Port
+CNT002064,SHP002241,20ft,In Transit,Singapore Port
+CNT002065,SHP001014,40ft,Delivered,Rotterdam Port
+CNT002066,SHP002423,Reefer,Delivered,Dubai Port
+CNT002067,SHP001066,20ft,Delayed,Shanghai Port
+CNT002068,SHP001785,40ft,Delayed,Hamburg Port
+CNT002069,SHP000757,40ft,In Transit,Los Angeles Port
+CNT002070,SHP000829,Reefer,Delayed,Singapore Port
+CNT002071,SHP001028,40ft,In Transit,Dubai Port
+CNT002072,SHP000038,20ft,In Transit,Los Angeles Port
+CNT002073,SHP002798,40ft,Delivered,Rotterdam Port
+CNT002074,SHP002741,Reefer,In Transit,Singapore Port
+CNT002075,SHP001070,40ft,Delivered,Rotterdam Port
+CNT002076,SHP002307,20ft,Delayed,Los Angeles Port
+CNT002077,SHP002477,20ft,Delayed,Hamburg Port
+CNT002078,SHP001178,20ft,In Transit,Singapore Port
+CNT002079,SHP001821,20ft,In Transit,Durban Port
+CNT002080,SHP000403,Reefer,Delivered,Lagos Port
+CNT002081,SHP000223,40ft,Delayed,Hamburg Port
+CNT002082,SHP002391,Reefer,In Transit,Rotterdam Port
+CNT002083,SHP000706,20ft,Delivered,Lagos Port
+CNT002084,SHP002167,Reefer,Delivered,Durban Port
+CNT002085,SHP000069,40ft,In Transit,Los Angeles Port
+CNT002086,SHP000722,40ft,In Transit,Singapore Port
+CNT002087,SHP002414,40ft,Delayed,Dubai Port
+CNT002088,SHP002375,40ft,Delivered,Dubai Port
+CNT002089,SHP002064,20ft,Delayed,Dubai Port
+CNT002090,SHP000456,Reefer,In Transit,Durban Port
+CNT002091,SHP002169,20ft,In Transit,Rotterdam Port
+CNT002092,SHP002213,Reefer,Delayed,Hamburg Port
+CNT002093,SHP000896,20ft,Delayed,Hamburg Port
+CNT002094,SHP001467,40ft,In Transit,Los Angeles Port
+CNT002095,SHP000070,40ft,Delivered,Rotterdam Port
+CNT002096,SHP000211,40ft,Delayed,Los Angeles Port
+CNT002097,SHP001772,40ft,Delayed,Los Angeles Port
+CNT002098,SHP002303,Reefer,Delayed,Lagos Port
+CNT002099,SHP002844,Reefer,In Transit,Dubai Port
+CNT002100,SHP002358,20ft,Delayed,Lagos Port
+CNT002101,SHP000726,Reefer,Delayed,Durban Port
+CNT002102,SHP000729,20ft,In Transit,Los Angeles Port
+CNT002103,SHP002882,20ft,Delayed,Shanghai Port
+CNT002104,SHP002705,20ft,Delivered,Dubai Port
+CNT002105,SHP002201,20ft,Delayed,Los Angeles Port
+CNT002106,SHP001100,Reefer,Delayed,Hamburg Port
+CNT002107,SHP002031,40ft,In Transit,Rotterdam Port
+CNT002108,SHP002829,Reefer,Delayed,Lagos Port
+CNT002109,SHP000312,20ft,In Transit,Los Angeles Port
+CNT002110,SHP002611,Reefer,In Transit,Shanghai Port
+CNT002111,SHP002750,20ft,Delivered,Shanghai Port
+CNT002112,SHP002661,20ft,In Transit,Los Angeles Port
+CNT002113,SHP002251,40ft,In Transit,Hamburg Port
+CNT002114,SHP001716,20ft,Delivered,Lagos Port
+CNT002115,SHP002761,40ft,Delivered,Hamburg Port
+CNT002116,SHP002879,Reefer,Delivered,Durban Port
+CNT002117,SHP002449,Reefer,Delivered,Rotterdam Port
+CNT002118,SHP002080,40ft,Delivered,Shanghai Port
+CNT002119,SHP001331,20ft,Delivered,Hamburg Port
+CNT002120,SHP000782,20ft,Delayed,Dubai Port
+CNT002121,SHP001218,40ft,Delayed,Los Angeles Port
+CNT002122,SHP000105,40ft,Delivered,Singapore Port
+CNT002123,SHP002896,40ft,Delayed,Dubai Port
+CNT002124,SHP000431,40ft,Delayed,Lagos Port
+CNT002125,SHP002691,40ft,Delayed,Dubai Port
+CNT002126,SHP001490,Reefer,Delivered,Los Angeles Port
+CNT002127,SHP002980,Reefer,In Transit,Dubai Port
+CNT002128,SHP001555,20ft,Delayed,Rotterdam Port
+CNT002129,SHP001382,Reefer,In Transit,Los Angeles Port
+CNT002130,SHP000033,Reefer,Delayed,Durban Port
+CNT002131,SHP002961,Reefer,In Transit,Durban Port
+CNT002132,SHP002162,20ft,Delayed,Singapore Port
+CNT002133,SHP001832,40ft,In Transit,Shanghai Port
+CNT002134,SHP002238,40ft,In Transit,Hamburg Port
+CNT002135,SHP000344,40ft,Delayed,Lagos Port
+CNT002136,SHP000323,40ft,Delayed,Dubai Port
+CNT002137,SHP000095,40ft,In Transit,Hamburg Port
+CNT002138,SHP001024,20ft,Delayed,Hamburg Port
+CNT002139,SHP001926,Reefer,In Transit,Hamburg Port
+CNT002140,SHP000511,40ft,Delivered,Shanghai Port
+CNT002141,SHP000356,20ft,In Transit,Durban Port
+CNT002142,SHP002415,40ft,Delivered,Los Angeles Port
+CNT002143,SHP002701,Reefer,Delayed,Rotterdam Port
+CNT002144,SHP000446,Reefer,In Transit,Lagos Port
+CNT002145,SHP001830,Reefer,Delivered,Rotterdam Port
+CNT002146,SHP000339,20ft,Delivered,Shanghai Port
+CNT002147,SHP001435,20ft,Delivered,Los Angeles Port
+CNT002148,SHP002420,Reefer,In Transit,Dubai Port
+CNT002149,SHP001667,Reefer,Delivered,Lagos Port
+CNT002150,SHP002423,Reefer,Delayed,Dubai Port
+CNT002151,SHP002244,20ft,Delivered,Hamburg Port
+CNT002152,SHP002041,Reefer,Delivered,Dubai Port
+CNT002153,SHP001059,Reefer,Delayed,Dubai Port
+CNT002154,SHP002508,40ft,Delivered,Rotterdam Port
+CNT002155,SHP001156,20ft,In Transit,Hamburg Port
+CNT002156,SHP002641,40ft,In Transit,Durban Port
+CNT002157,SHP002021,40ft,Delivered,Singapore Port
+CNT002158,SHP002939,20ft,In Transit,Durban Port
+CNT002159,SHP001184,20ft,Delivered,Shanghai Port
+CNT002160,SHP001076,20ft,In Transit,Lagos Port
+CNT002161,SHP000091,40ft,In Transit,Rotterdam Port
+CNT002162,SHP002375,Reefer,Delivered,Los Angeles Port
+CNT002163,SHP000384,Reefer,In Transit,Singapore Port
+CNT002164,SHP002829,Reefer,Delayed,Durban Port
+CNT002165,SHP001779,40ft,Delayed,Rotterdam Port
+CNT002166,SHP002693,Reefer,Delayed,Hamburg Port
+CNT002167,SHP001219,20ft,Delayed,Singapore Port
+CNT002168,SHP000354,Reefer,Delivered,Los Angeles Port
+CNT002169,SHP000876,20ft,Delivered,Los Angeles Port
+CNT002170,SHP001240,20ft,Delivered,Shanghai Port
+CNT002171,SHP000443,20ft,In Transit,Lagos Port
+CNT002172,SHP002992,20ft,Delayed,Rotterdam Port
+CNT002173,SHP001744,Reefer,In Transit,Singapore Port
+CNT002174,SHP002606,20ft,In Transit,Singapore Port
+CNT002175,SHP002422,40ft,Delayed,Rotterdam Port
+CNT002176,SHP000143,Reefer,Delayed,Shanghai Port
+CNT002177,SHP000345,20ft,Delayed,Dubai Port
+CNT002178,SHP001937,20ft,Delayed,Rotterdam Port
+CNT002179,SHP002981,20ft,Delayed,Rotterdam Port
+CNT002180,SHP001396,20ft,In Transit,Hamburg Port
+CNT002181,SHP000655,20ft,In Transit,Durban Port
+CNT002182,SHP000969,Reefer,In Transit,Dubai Port
+CNT002183,SHP001509,Reefer,Delayed,Durban Port
+CNT002184,SHP001772,40ft,In Transit,Lagos Port
+CNT002185,SHP002973,20ft,Delivered,Hamburg Port
+CNT002186,SHP002044,Reefer,In Transit,Durban Port
+CNT002187,SHP002578,Reefer,Delivered,Durban Port
+CNT002188,SHP001697,40ft,Delayed,Lagos Port
+CNT002189,SHP002388,40ft,Delivered,Singapore Port
+CNT002190,SHP002314,20ft,Delivered,Dubai Port
+CNT002191,SHP001259,Reefer,In Transit,Durban Port
+CNT002192,SHP001138,20ft,In Transit,Shanghai Port
+CNT002193,SHP000444,40ft,In Transit,Singapore Port
+CNT002194,SHP001650,Reefer,Delayed,Dubai Port
+CNT002195,SHP002046,Reefer,In Transit,Los Angeles Port
+CNT002196,SHP002844,40ft,In Transit,Dubai Port
+CNT002197,SHP001130,20ft,Delayed,Singapore Port
+CNT002198,SHP002052,Reefer,In Transit,Singapore Port
+CNT002199,SHP002911,Reefer,Delivered,Singapore Port
+CNT002200,SHP002462,Reefer,Delivered,Shanghai Port
+CNT002201,SHP001838,Reefer,Delivered,Durban Port
+CNT002202,SHP000234,20ft,Delayed,Hamburg Port
+CNT002203,SHP001614,Reefer,Delivered,Los Angeles Port
+CNT002204,SHP002380,20ft,Delayed,Rotterdam Port
+CNT002205,SHP001934,40ft,Delayed,Durban Port
+CNT002206,SHP000495,Reefer,Delivered,Lagos Port
+CNT002207,SHP000759,40ft,Delayed,Rotterdam Port
+CNT002208,SHP001486,Reefer,Delivered,Rotterdam Port
+CNT002209,SHP000700,20ft,In Transit,Shanghai Port
+CNT002210,SHP001773,Reefer,In Transit,Dubai Port
+CNT002211,SHP001031,20ft,Delivered,Shanghai Port
+CNT002212,SHP000783,Reefer,Delivered,Shanghai Port
+CNT002213,SHP002189,Reefer,In Transit,Shanghai Port
+CNT002214,SHP000402,40ft,Delivered,Dubai Port
+CNT002215,SHP001587,40ft,In Transit,Rotterdam Port
+CNT002216,SHP001087,20ft,In Transit,Shanghai Port
+CNT002217,SHP001923,Reefer,Delayed,Dubai Port
+CNT002218,SHP002365,40ft,In Transit,Los Angeles Port
+CNT002219,SHP002336,40ft,In Transit,Singapore Port
+CNT002220,SHP001923,40ft,Delivered,Singapore Port
+CNT002221,SHP000720,40ft,In Transit,Singapore Port
+CNT002222,SHP000602,Reefer,Delivered,Dubai Port
+CNT002223,SHP001291,Reefer,In Transit,Los Angeles Port
+CNT002224,SHP002338,Reefer,In Transit,Dubai Port
+CNT002225,SHP001531,Reefer,Delivered,Rotterdam Port
+CNT002226,SHP001549,Reefer,In Transit,Rotterdam Port
+CNT002227,SHP001301,Reefer,In Transit,Shanghai Port
+CNT002228,SHP000980,20ft,Delivered,Los Angeles Port
+CNT002229,SHP000006,40ft,In Transit,Singapore Port
+CNT002230,SHP002090,40ft,Delivered,Hamburg Port
+CNT002231,SHP000554,Reefer,In Transit,Rotterdam Port
+CNT002232,SHP001243,40ft,In Transit,Lagos Port
+CNT002233,SHP002048,40ft,In Transit,Los Angeles Port
+CNT002234,SHP002272,20ft,In Transit,Singapore Port
+CNT002235,SHP000442,Reefer,Delayed,Hamburg Port
+CNT002236,SHP002767,20ft,Delivered,Lagos Port
+CNT002237,SHP000216,40ft,Delivered,Dubai Port
+CNT002238,SHP002988,20ft,Delayed,Los Angeles Port
+CNT002239,SHP001635,40ft,In Transit,Rotterdam Port
+CNT002240,SHP000600,40ft,Delivered,Shanghai Port
+CNT002241,SHP000909,20ft,In Transit,Lagos Port
+CNT002242,SHP000618,40ft,Delivered,Singapore Port
+CNT002243,SHP002815,40ft,In Transit,Dubai Port
+CNT002244,SHP001500,Reefer,Delayed,Lagos Port
+CNT002245,SHP002429,40ft,In Transit,Shanghai Port
+CNT002246,SHP001878,20ft,In Transit,Durban Port
+CNT002247,SHP002769,20ft,Delivered,Durban Port
+CNT002248,SHP001534,Reefer,Delivered,Singapore Port
+CNT002249,SHP001190,20ft,Delivered,Durban Port
+CNT002250,SHP002044,20ft,Delivered,Dubai Port
+CNT002251,SHP000132,40ft,Delivered,Hamburg Port
+CNT002252,SHP000735,40ft,Delayed,Rotterdam Port
+CNT002253,SHP001057,20ft,In Transit,Los Angeles Port
+CNT002254,SHP002040,20ft,Delayed,Los Angeles Port
+CNT002255,SHP002783,Reefer,In Transit,Shanghai Port
+CNT002256,SHP000885,Reefer,In Transit,Lagos Port
+CNT002257,SHP001789,40ft,Delayed,Shanghai Port
+CNT002258,SHP002437,20ft,Delayed,Los Angeles Port
+CNT002259,SHP000583,40ft,Delivered,Singapore Port
+CNT002260,SHP001176,40ft,Delivered,Singapore Port
+CNT002261,SHP002511,20ft,In Transit,Rotterdam Port
+CNT002262,SHP001244,40ft,Delivered,Shanghai Port
+CNT002263,SHP000594,Reefer,In Transit,Rotterdam Port
+CNT002264,SHP001557,40ft,In Transit,Los Angeles Port
+CNT002265,SHP002424,Reefer,In Transit,Shanghai Port
+CNT002266,SHP000165,40ft,Delivered,Los Angeles Port
+CNT002267,SHP002507,Reefer,Delayed,Rotterdam Port
+CNT002268,SHP000183,20ft,Delayed,Singapore Port
+CNT002269,SHP001152,20ft,Delivered,Rotterdam Port
+CNT002270,SHP000556,20ft,Delivered,Los Angeles Port
+CNT002271,SHP001370,40ft,Delayed,Lagos Port
+CNT002272,SHP001637,20ft,Delivered,Los Angeles Port
+CNT002273,SHP002526,20ft,Delivered,Durban Port
+CNT002274,SHP002473,20ft,In Transit,Singapore Port
+CNT002275,SHP002540,40ft,Delayed,Rotterdam Port
+CNT002276,SHP002156,20ft,Delayed,Lagos Port
+CNT002277,SHP000230,20ft,Delivered,Los Angeles Port
+CNT002278,SHP001952,Reefer,In Transit,Dubai Port
+CNT002279,SHP000533,20ft,In Transit,Dubai Port
+CNT002280,SHP002353,40ft,In Transit,Los Angeles Port
+CNT002281,SHP001203,20ft,Delivered,Durban Port
+CNT002282,SHP001429,Reefer,Delivered,Rotterdam Port
+CNT002283,SHP000044,40ft,Delayed,Rotterdam Port
+CNT002284,SHP000857,40ft,Delivered,Lagos Port
+CNT002285,SHP000798,40ft,Delivered,Singapore Port
+CNT002286,SHP002822,20ft,Delivered,Hamburg Port
+CNT002287,SHP000625,40ft,In Transit,Los Angeles Port
+CNT002288,SHP002288,Reefer,In Transit,Durban Port
+CNT002289,SHP000829,20ft,Delayed,Shanghai Port
+CNT002290,SHP002332,40ft,Delivered,Lagos Port
+CNT002291,SHP002746,20ft,In Transit,Singapore Port
+CNT002292,SHP002829,Reefer,Delayed,Hamburg Port
+CNT002293,SHP000474,20ft,Delivered,Dubai Port
+CNT002294,SHP001190,Reefer,Delayed,Rotterdam Port
+CNT002295,SHP001033,40ft,Delivered,Lagos Port
+CNT002296,SHP002671,Reefer,Delivered,Los Angeles Port
+CNT002297,SHP002208,Reefer,Delivered,Lagos Port
+CNT002298,SHP000820,20ft,In Transit,Singapore Port
+CNT002299,SHP002637,40ft,Delivered,Shanghai Port
+CNT002300,SHP000087,Reefer,Delayed,Los Angeles Port
+CNT002301,SHP001007,Reefer,Delayed,Shanghai Port
+CNT002302,SHP000662,40ft,Delayed,Los Angeles Port
+CNT002303,SHP001499,40ft,In Transit,Los Angeles Port
+CNT002304,SHP000196,Reefer,Delayed,Hamburg Port
+CNT002305,SHP002206,20ft,In Transit,Shanghai Port
+CNT002306,SHP002548,Reefer,In Transit,Shanghai Port
+CNT002307,SHP000908,Reefer,In Transit,Durban Port
+CNT002308,SHP002530,40ft,Delivered,Singapore Port
+CNT002309,SHP002874,Reefer,Delivered,Lagos Port
+CNT002310,SHP002119,20ft,Delayed,Rotterdam Port
+CNT002311,SHP001685,40ft,Delivered,Dubai Port
+CNT002312,SHP001917,Reefer,In Transit,Los Angeles Port
+CNT002313,SHP002061,20ft,Delivered,Lagos Port
+CNT002314,SHP002518,20ft,Delayed,Rotterdam Port
+CNT002315,SHP002066,Reefer,In Transit,Shanghai Port
+CNT002316,SHP000965,40ft,Delivered,Durban Port
+CNT002317,SHP000434,20ft,Delivered,Singapore Port
+CNT002318,SHP000372,Reefer,Delayed,Los Angeles Port
+CNT002319,SHP000274,Reefer,In Transit,Hamburg Port
+CNT002320,SHP002192,40ft,In Transit,Durban Port
+CNT002321,SHP001369,40ft,In Transit,Lagos Port
+CNT002322,SHP002544,20ft,In Transit,Los Angeles Port
+CNT002323,SHP001520,20ft,Delayed,Shanghai Port
+CNT002324,SHP000685,20ft,In Transit,Dubai Port
+CNT002325,SHP002056,40ft,Delivered,Hamburg Port
+CNT002326,SHP001512,Reefer,Delivered,Hamburg Port
+CNT002327,SHP000038,40ft,In Transit,Singapore Port
+CNT002328,SHP001883,20ft,In Transit,Rotterdam Port
+CNT002329,SHP000234,40ft,Delayed,Dubai Port
+CNT002330,SHP001459,40ft,Delivered,Los Angeles Port
+CNT002331,SHP000004,20ft,In Transit,Lagos Port
+CNT002332,SHP000742,Reefer,Delivered,Durban Port
+CNT002333,SHP002371,20ft,Delivered,Dubai Port
+CNT002334,SHP001922,40ft,In Transit,Shanghai Port
+CNT002335,SHP000998,20ft,In Transit,Hamburg Port
+CNT002336,SHP001447,20ft,Delayed,Hamburg Port
+CNT002337,SHP000432,40ft,In Transit,Shanghai Port
+CNT002338,SHP000045,Reefer,Delivered,Dubai Port
+CNT002339,SHP000284,40ft,In Transit,Durban Port
+CNT002340,SHP000353,20ft,Delayed,Shanghai Port
+CNT002341,SHP000115,Reefer,Delayed,Lagos Port
+CNT002342,SHP001882,Reefer,Delayed,Hamburg Port
+CNT002343,SHP001794,20ft,Delayed,Hamburg Port
+CNT002344,SHP001063,40ft,Delayed,Dubai Port
+CNT002345,SHP001018,20ft,In Transit,Dubai Port
+CNT002346,SHP002876,Reefer,Delayed,Durban Port
+CNT002347,SHP002026,40ft,Delayed,Rotterdam Port
+CNT002348,SHP002177,20ft,In Transit,Dubai Port
+CNT002349,SHP000230,20ft,Delayed,Durban Port
+CNT002350,SHP002359,40ft,Delivered,Lagos Port
+CNT002351,SHP002758,20ft,Delivered,Hamburg Port
+CNT002352,SHP001415,40ft,In Transit,Lagos Port
+CNT002353,SHP002727,40ft,Delayed,Los Angeles Port
+CNT002354,SHP001749,Reefer,In Transit,Los Angeles Port
+CNT002355,SHP001110,Reefer,Delayed,Los Angeles Port
+CNT002356,SHP002710,20ft,Delayed,Durban Port
+CNT002357,SHP002650,Reefer,Delivered,Dubai Port
+CNT002358,SHP002059,Reefer,In Transit,Shanghai Port
+CNT002359,SHP001388,Reefer,In Transit,Rotterdam Port
+CNT002360,SHP002315,20ft,In Transit,Dubai Port
+CNT002361,SHP000216,40ft,Delayed,Rotterdam Port
+CNT002362,SHP002163,40ft,Delayed,Hamburg Port
+CNT002363,SHP000419,40ft,In Transit,Dubai Port
+CNT002364,SHP000930,40ft,In Transit,Rotterdam Port
+CNT002365,SHP000473,20ft,Delayed,Dubai Port
+CNT002366,SHP002247,40ft,Delivered,Shanghai Port
+CNT002367,SHP002478,20ft,Delayed,Los Angeles Port
+CNT002368,SHP000113,20ft,Delayed,Hamburg Port
+CNT002369,SHP001188,20ft,Delayed,Lagos Port
+CNT002370,SHP002737,Reefer,Delayed,Shanghai Port
+CNT002371,SHP001167,Reefer,Delayed,Dubai Port
+CNT002372,SHP000083,20ft,Delayed,Hamburg Port
+CNT002373,SHP002422,40ft,Delayed,Rotterdam Port
+CNT002374,SHP000813,Reefer,Delivered,Durban Port
+CNT002375,SHP001574,20ft,In Transit,Dubai Port
+CNT002376,SHP000655,40ft,In Transit,Dubai Port
+CNT002377,SHP000266,40ft,Delayed,Shanghai Port
+CNT002378,SHP001270,Reefer,In Transit,Shanghai Port
+CNT002379,SHP002555,Reefer,In Transit,Lagos Port
+CNT002380,SHP002129,40ft,In Transit,Singapore Port
+CNT002381,SHP001596,Reefer,In Transit,Hamburg Port
+CNT002382,SHP002231,20ft,In Transit,Rotterdam Port
+CNT002383,SHP002627,Reefer,Delivered,Shanghai Port
+CNT002384,SHP001911,40ft,Delivered,Dubai Port
+CNT002385,SHP000346,40ft,Delivered,Rotterdam Port
+CNT002386,SHP001457,Reefer,Delayed,Los Angeles Port
+CNT002387,SHP001290,40ft,Delivered,Singapore Port
+CNT002388,SHP001295,Reefer,In Transit,Shanghai Port
+CNT002389,SHP000998,20ft,Delivered,Shanghai Port
+CNT002390,SHP002784,40ft,In Transit,Rotterdam Port
+CNT002391,SHP002241,40ft,Delivered,Rotterdam Port
+CNT002392,SHP002020,Reefer,Delayed,Singapore Port
+CNT002393,SHP002493,40ft,Delivered,Singapore Port
+CNT002394,SHP001591,40ft,Delayed,Lagos Port
+CNT002395,SHP002333,20ft,In Transit,Shanghai Port
+CNT002396,SHP002375,40ft,In Transit,Durban Port
+CNT002397,SHP000151,Reefer,Delayed,Lagos Port
+CNT002398,SHP001458,Reefer,In Transit,Dubai Port
+CNT002399,SHP001761,40ft,Delayed,Durban Port
+CNT002400,SHP000439,40ft,In Transit,Dubai Port
+CNT002401,SHP002667,Reefer,Delivered,Hamburg Port
+CNT002402,SHP002310,20ft,Delayed,Los Angeles Port
+CNT002403,SHP002567,20ft,In Transit,Los Angeles Port
+CNT002404,SHP001703,40ft,Delayed,Singapore Port
+CNT002405,SHP002278,40ft,Delivered,Dubai Port
+CNT002406,SHP001198,40ft,In Transit,Durban Port
+CNT002407,SHP002287,40ft,Delivered,Singapore Port
+CNT002408,SHP002356,20ft,In Transit,Los Angeles Port
+CNT002409,SHP001553,20ft,Delayed,Rotterdam Port
+CNT002410,SHP002470,20ft,Delayed,Dubai Port
+CNT002411,SHP002596,40ft,Delayed,Rotterdam Port
+CNT002412,SHP001364,20ft,Delayed,Dubai Port
+CNT002413,SHP002811,Reefer,In Transit,Hamburg Port
+CNT002414,SHP002733,Reefer,Delayed,Singapore Port
+CNT002415,SHP002710,40ft,Delivered,Lagos Port
+CNT002416,SHP000072,Reefer,In Transit,Lagos Port
+CNT002417,SHP001250,Reefer,Delivered,Rotterdam Port
+CNT002418,SHP000684,Reefer,Delayed,Hamburg Port
+CNT002419,SHP000595,Reefer,Delivered,Rotterdam Port
+CNT002420,SHP000219,Reefer,Delayed,Durban Port
+CNT002421,SHP000081,40ft,Delivered,Lagos Port
+CNT002422,SHP000706,20ft,Delivered,Singapore Port
+CNT002423,SHP002021,20ft,Delivered,Rotterdam Port
+CNT002424,SHP001568,40ft,Delayed,Dubai Port
+CNT002425,SHP002108,20ft,In Transit,Rotterdam Port
+CNT002426,SHP000769,20ft,Delayed,Rotterdam Port
+CNT002427,SHP001874,20ft,Delivered,Durban Port
+CNT002428,SHP000071,20ft,Delayed,Singapore Port
+CNT002429,SHP000725,40ft,Delayed,Hamburg Port
+CNT002430,SHP001878,40ft,Delivered,Hamburg Port
+CNT002431,SHP000095,Reefer,Delivered,Rotterdam Port
+CNT002432,SHP000176,Reefer,In Transit,Los Angeles Port
+CNT002433,SHP002614,Reefer,Delayed,Rotterdam Port
+CNT002434,SHP001826,Reefer,Delayed,Durban Port
+CNT002435,SHP000575,40ft,Delayed,Singapore Port
+CNT002436,SHP001310,Reefer,Delivered,Rotterdam Port
+CNT002437,SHP002899,20ft,Delivered,Hamburg Port
+CNT002438,SHP000246,40ft,Delivered,Durban Port
+CNT002439,SHP001510,40ft,Delivered,Los Angeles Port
+CNT002440,SHP002987,20ft,Delayed,Hamburg Port
+CNT002441,SHP001850,Reefer,Delayed,Dubai Port
+CNT002442,SHP001893,20ft,Delayed,Lagos Port
+CNT002443,SHP002213,Reefer,Delivered,Durban Port
+CNT002444,SHP000301,40ft,Delivered,Singapore Port
+CNT002445,SHP002919,40ft,In Transit,Rotterdam Port
+CNT002446,SHP001069,40ft,Delayed,Singapore Port
+CNT002447,SHP002811,20ft,Delayed,Shanghai Port
+CNT002448,SHP002822,Reefer,In Transit,Los Angeles Port
+CNT002449,SHP001455,20ft,In Transit,Rotterdam Port
+CNT002450,SHP000533,20ft,Delayed,Lagos Port
+CNT002451,SHP000250,20ft,Delayed,Dubai Port
+CNT002452,SHP000456,40ft,In Transit,Shanghai Port
+CNT002453,SHP002732,Reefer,Delivered,Singapore Port
+CNT002454,SHP002618,20ft,In Transit,Hamburg Port
+CNT002455,SHP002353,Reefer,Delayed,Singapore Port
+CNT002456,SHP002241,Reefer,In Transit,Shanghai Port
+CNT002457,SHP001324,Reefer,In Transit,Los Angeles Port
+CNT002458,SHP000663,20ft,Delivered,Singapore Port
+CNT002459,SHP000179,Reefer,In Transit,Los Angeles Port
+CNT002460,SHP002499,20ft,Delayed,Hamburg Port
+CNT002461,SHP001005,40ft,Delivered,Lagos Port
+CNT002462,SHP002080,40ft,Delayed,Rotterdam Port
+CNT002463,SHP001455,20ft,Delayed,Singapore Port
+CNT002464,SHP000917,Reefer,In Transit,Hamburg Port
+CNT002465,SHP002381,40ft,Delayed,Hamburg Port
+CNT002466,SHP002951,20ft,Delivered,Hamburg Port
+CNT002467,SHP000780,Reefer,Delayed,Rotterdam Port
+CNT002468,SHP001804,Reefer,In Transit,Rotterdam Port
+CNT002469,SHP002655,Reefer,Delivered,Los Angeles Port
+CNT002470,SHP002163,Reefer,In Transit,Durban Port
+CNT002471,SHP002326,Reefer,In Transit,Los Angeles Port
+CNT002472,SHP002268,40ft,Delayed,Durban Port
+CNT002473,SHP000427,40ft,In Transit,Durban Port
+CNT002474,SHP000152,40ft,Delayed,Singapore Port
+CNT002475,SHP002346,Reefer,In Transit,Los Angeles Port
+CNT002476,SHP002442,40ft,In Transit,Shanghai Port
+CNT002477,SHP001208,40ft,Delivered,Dubai Port
+CNT002478,SHP001859,40ft,Delayed,Durban Port
+CNT002479,SHP002324,20ft,Delayed,Lagos Port
+CNT002480,SHP000005,Reefer,Delivered,Los Angeles Port
+CNT002481,SHP001886,Reefer,Delayed,Hamburg Port
+CNT002482,SHP000306,40ft,Delivered,Hamburg Port
+CNT002483,SHP002531,20ft,Delivered,Hamburg Port
+CNT002484,SHP000537,40ft,In Transit,Rotterdam Port
+CNT002485,SHP001414,40ft,Delivered,Dubai Port
+CNT002486,SHP002265,Reefer,In Transit,Los Angeles Port
+CNT002487,SHP001058,Reefer,Delayed,Lagos Port
+CNT002488,SHP002742,20ft,Delayed,Singapore Port
+CNT002489,SHP000335,40ft,Delayed,Lagos Port
+CNT002490,SHP001955,40ft,Delayed,Dubai Port
+CNT002491,SHP001084,40ft,In Transit,Hamburg Port
+CNT002492,SHP001111,Reefer,In Transit,Singapore Port
+CNT002493,SHP001868,Reefer,Delivered,Hamburg Port
+CNT002494,SHP001189,40ft,Delayed,Los Angeles Port
+CNT002495,SHP002637,Reefer,Delayed,Los Angeles Port
+CNT002496,SHP000428,20ft,In Transit,Shanghai Port
+CNT002497,SHP002509,40ft,Delivered,Shanghai Port
+CNT002498,SHP002889,20ft,Delayed,Lagos Port
+CNT002499,SHP002274,20ft,Delivered,Dubai Port
+CNT002500,SHP002113,20ft,Delivered,Hamburg Port
+CNT002501,SHP001335,Reefer,Delayed,Hamburg Port
+CNT002502,SHP002132,40ft,Delayed,Los Angeles Port
+CNT002503,SHP000412,40ft,In Transit,Rotterdam Port
+CNT002504,SHP002468,Reefer,In Transit,Hamburg Port
+CNT002505,SHP002248,20ft,In Transit,Durban Port
+CNT002506,SHP000843,Reefer,Delivered,Singapore Port
+CNT002507,SHP000062,40ft,Delivered,Dubai Port
+CNT002508,SHP001163,Reefer,In Transit,Dubai Port
+CNT002509,SHP001902,40ft,In Transit,Rotterdam Port
+CNT002510,SHP002340,40ft,Delayed,Dubai Port
+CNT002511,SHP002595,Reefer,In Transit,Rotterdam Port
+CNT002512,SHP000932,Reefer,Delivered,Singapore Port
+CNT002513,SHP002434,Reefer,Delayed,Durban Port
+CNT002514,SHP001024,40ft,Delayed,Hamburg Port
+CNT002515,SHP002801,20ft,Delayed,Shanghai Port
+CNT002516,SHP001727,20ft,Delayed,Lagos Port
+CNT002517,SHP001894,40ft,In Transit,Shanghai Port
+CNT002518,SHP002248,40ft,In Transit,Los Angeles Port
+CNT002519,SHP001886,20ft,Delayed,Los Angeles Port
+CNT002520,SHP001689,Reefer,Delayed,Dubai Port
+CNT002521,SHP000922,20ft,Delivered,Durban Port
+CNT002522,SHP001906,Reefer,Delayed,Hamburg Port
+CNT002523,SHP001171,20ft,Delivered,Lagos Port
+CNT002524,SHP000009,Reefer,Delayed,Shanghai Port
+CNT002525,SHP001776,Reefer,In Transit,Hamburg Port
+CNT002526,SHP001038,20ft,Delivered,Los Angeles Port
+CNT002527,SHP001508,40ft,Delivered,Lagos Port
+CNT002528,SHP000316,20ft,Delayed,Dubai Port
+CNT002529,SHP001542,40ft,Delivered,Durban Port
+CNT002530,SHP001816,40ft,In Transit,Shanghai Port
+CNT002531,SHP001843,Reefer,Delivered,Shanghai Port
+CNT002532,SHP002702,40ft,Delivered,Dubai Port
+CNT002533,SHP002674,40ft,Delivered,Rotterdam Port
+CNT002534,SHP001007,20ft,In Transit,Hamburg Port
+CNT002535,SHP000357,40ft,In Transit,Shanghai Port
+CNT002536,SHP001731,Reefer,Delayed,Hamburg Port
+CNT002537,SHP002830,20ft,Delayed,Hamburg Port
+CNT002538,SHP000391,40ft,Delayed,Shanghai Port
+CNT002539,SHP001586,40ft,In Transit,Singapore Port
+CNT002540,SHP000582,40ft,Delayed,Durban Port
+CNT002541,SHP001644,Reefer,Delayed,Durban Port
+CNT002542,SHP001093,20ft,In Transit,Los Angeles Port
+CNT002543,SHP001909,40ft,Delivered,Lagos Port
+CNT002544,SHP001107,Reefer,Delivered,Rotterdam Port
+CNT002545,SHP000007,20ft,In Transit,Hamburg Port
+CNT002546,SHP001634,40ft,In Transit,Durban Port
+CNT002547,SHP000039,Reefer,Delivered,Durban Port
+CNT002548,SHP000489,40ft,In Transit,Singapore Port
+CNT002549,SHP002786,Reefer,In Transit,Singapore Port
+CNT002550,SHP000533,Reefer,Delivered,Lagos Port
+CNT002551,SHP002561,20ft,Delayed,Shanghai Port
+CNT002552,SHP001683,Reefer,Delivered,Hamburg Port
+CNT002553,SHP000720,20ft,Delayed,Dubai Port
+CNT002554,SHP001578,Reefer,Delivered,Rotterdam Port
+CNT002555,SHP000855,Reefer,Delivered,Dubai Port
+CNT002556,SHP001915,40ft,Delayed,Lagos Port
+CNT002557,SHP002352,20ft,In Transit,Durban Port
+CNT002558,SHP000641,20ft,Delayed,Durban Port
+CNT002559,SHP000077,Reefer,In Transit,Rotterdam Port
+CNT002560,SHP002052,20ft,In Transit,Los Angeles Port
+CNT002561,SHP001382,40ft,Delayed,Los Angeles Port
+CNT002562,SHP001837,Reefer,In Transit,Hamburg Port
+CNT002563,SHP000382,40ft,Delivered,Lagos Port
+CNT002564,SHP000821,20ft,Delayed,Dubai Port
+CNT002565,SHP001617,Reefer,Delayed,Singapore Port
+CNT002566,SHP000050,20ft,Delivered,Los Angeles Port
+CNT002567,SHP000988,40ft,In Transit,Hamburg Port
+CNT002568,SHP002950,40ft,Delayed,Hamburg Port
+CNT002569,SHP002145,Reefer,In Transit,Los Angeles Port
+CNT002570,SHP001247,Reefer,Delayed,Singapore Port
+CNT002571,SHP000817,40ft,In Transit,Rotterdam Port
+CNT002572,SHP002380,40ft,Delayed,Singapore Port
+CNT002573,SHP002058,20ft,In Transit,Hamburg Port
+CNT002574,SHP001761,20ft,Delayed,Lagos Port
+CNT002575,SHP002952,40ft,In Transit,Dubai Port
+CNT002576,SHP002068,40ft,Delivered,Durban Port
+CNT002577,SHP002467,20ft,In Transit,Hamburg Port
+CNT002578,SHP002023,40ft,Delivered,Dubai Port
+CNT002579,SHP001668,20ft,In Transit,Hamburg Port
+CNT002580,SHP001313,Reefer,In Transit,Singapore Port
+CNT002581,SHP001863,20ft,Delivered,Dubai Port
+CNT002582,SHP001888,20ft,Delivered,Shanghai Port
+CNT002583,SHP000313,40ft,In Transit,Hamburg Port
+CNT002584,SHP000366,Reefer,In Transit,Shanghai Port
+CNT002585,SHP001519,20ft,Delivered,Hamburg Port
+CNT002586,SHP001964,20ft,Delayed,Durban Port
+CNT002587,SHP002664,40ft,In Transit,Los Angeles Port
+CNT002588,SHP002597,Reefer,Delivered,Durban Port
+CNT002589,SHP002650,20ft,Delayed,Shanghai Port
+CNT002590,SHP000755,40ft,Delivered,Rotterdam Port
+CNT002591,SHP002845,Reefer,Delayed,Durban Port
+CNT002592,SHP002132,20ft,In Transit,Rotterdam Port
+CNT002593,SHP000164,Reefer,Delivered,Dubai Port
+CNT002594,SHP002615,Reefer,In Transit,Durban Port
+CNT002595,SHP002302,20ft,Delayed,Rotterdam Port
+CNT002596,SHP001858,20ft,Delayed,Rotterdam Port
+CNT002597,SHP002242,40ft,Delivered,Dubai Port
+CNT002598,SHP000362,20ft,Delivered,Rotterdam Port
+CNT002599,SHP001938,40ft,Delayed,Shanghai Port
+CNT002600,SHP000465,Reefer,Delivered,Shanghai Port
+CNT002601,SHP000153,40ft,In Transit,Lagos Port
+CNT002602,SHP000836,20ft,In Transit,Lagos Port
+CNT002603,SHP002213,40ft,Delayed,Rotterdam Port
+CNT002604,SHP001368,40ft,In Transit,Singapore Port
+CNT002605,SHP000585,40ft,Delivered,Lagos Port
+CNT002606,SHP000892,Reefer,Delivered,Durban Port
+CNT002607,SHP002502,40ft,In Transit,Singapore Port
+CNT002608,SHP000556,Reefer,Delivered,Dubai Port
+CNT002609,SHP000305,40ft,Delayed,Lagos Port
+CNT002610,SHP000605,40ft,Delivered,Los Angeles Port
+CNT002611,SHP001100,40ft,Delivered,Singapore Port
+CNT002612,SHP000624,Reefer,In Transit,Shanghai Port
+CNT002613,SHP000322,40ft,Delayed,Dubai Port
+CNT002614,SHP001276,20ft,Delivered,Lagos Port
+CNT002615,SHP000623,40ft,Delayed,Los Angeles Port
+CNT002616,SHP002460,Reefer,In Transit,Rotterdam Port
+CNT002617,SHP002111,40ft,In Transit,Durban Port
+CNT002618,SHP002004,40ft,Delivered,Rotterdam Port
+CNT002619,SHP001635,20ft,In Transit,Rotterdam Port
+CNT002620,SHP001429,Reefer,In Transit,Los Angeles Port
+CNT002621,SHP000359,40ft,Delivered,Lagos Port
+CNT002622,SHP000112,Reefer,Delivered,Lagos Port
+CNT002623,SHP001539,Reefer,Delayed,Hamburg Port
+CNT002624,SHP002062,40ft,Delayed,Singapore Port
+CNT002625,SHP002763,Reefer,Delayed,Hamburg Port
+CNT002626,SHP002376,Reefer,Delivered,Durban Port
+CNT002627,SHP000896,20ft,Delayed,Rotterdam Port
+CNT002628,SHP000009,20ft,Delivered,Rotterdam Port
+CNT002629,SHP000384,20ft,In Transit,Shanghai Port
+CNT002630,SHP000101,Reefer,Delivered,Dubai Port
+CNT002631,SHP002279,20ft,Delivered,Dubai Port
+CNT002632,SHP001340,40ft,Delayed,Hamburg Port
+CNT002633,SHP000632,Reefer,In Transit,Hamburg Port
+CNT002634,SHP001443,40ft,In Transit,Dubai Port
+CNT002635,SHP000992,20ft,Delayed,Durban Port
+CNT002636,SHP000990,Reefer,Delayed,Rotterdam Port
+CNT002637,SHP000924,Reefer,Delayed,Durban Port
+CNT002638,SHP000625,20ft,In Transit,Durban Port
+CNT002639,SHP002760,20ft,In Transit,Dubai Port
+CNT002640,SHP002884,40ft,Delivered,Dubai Port
+CNT002641,SHP001747,Reefer,In Transit,Singapore Port
+CNT002642,SHP002509,20ft,Delayed,Lagos Port
+CNT002643,SHP002883,40ft,In Transit,Hamburg Port
+CNT002644,SHP001078,40ft,In Transit,Rotterdam Port
+CNT002645,SHP001239,20ft,Delivered,Rotterdam Port
+CNT002646,SHP001242,20ft,In Transit,Los Angeles Port
+CNT002647,SHP000799,20ft,Delivered,Singapore Port
+CNT002648,SHP002173,40ft,Delivered,Shanghai Port
+CNT002649,SHP002491,20ft,Delayed,Hamburg Port
+CNT002650,SHP000906,20ft,In Transit,Singapore Port
+CNT002651,SHP000155,40ft,Delivered,Rotterdam Port
+CNT002652,SHP000495,20ft,Delivered,Los Angeles Port
+CNT002653,SHP000490,20ft,Delivered,Shanghai Port
+CNT002654,SHP002452,20ft,Delayed,Shanghai Port
+CNT002655,SHP002823,40ft,Delivered,Singapore Port
+CNT002656,SHP000214,40ft,Delayed,Durban Port
+CNT002657,SHP000521,40ft,Delivered,Lagos Port
+CNT002658,SHP000870,40ft,Delivered,Rotterdam Port
+CNT002659,SHP002060,Reefer,Delayed,Dubai Port
+CNT002660,SHP000451,20ft,In Transit,Hamburg Port
+CNT002661,SHP000810,20ft,Delayed,Hamburg Port
+CNT002662,SHP000229,40ft,In Transit,Hamburg Port
+CNT002663,SHP001834,Reefer,Delayed,Shanghai Port
+CNT002664,SHP002600,40ft,Delayed,Los Angeles Port
+CNT002665,SHP001472,40ft,In Transit,Lagos Port
+CNT002666,SHP000634,20ft,Delayed,Singapore Port
+CNT002667,SHP001324,40ft,Delayed,Rotterdam Port
+CNT002668,SHP000551,40ft,Delayed,Hamburg Port
+CNT002669,SHP000695,40ft,In Transit,Singapore Port
+CNT002670,SHP000322,Reefer,In Transit,Dubai Port
+CNT002671,SHP001361,20ft,Delivered,Durban Port
+CNT002672,SHP000735,20ft,Delivered,Rotterdam Port
+CNT002673,SHP001730,40ft,Delivered,Dubai Port
+CNT002674,SHP002898,Reefer,Delivered,Durban Port
+CNT002675,SHP001168,20ft,In Transit,Dubai Port
+CNT002676,SHP001409,20ft,Delivered,Dubai Port
+CNT002677,SHP002762,Reefer,In Transit,Lagos Port
+CNT002678,SHP002588,Reefer,Delivered,Durban Port
+CNT002679,SHP001629,40ft,In Transit,Shanghai Port
+CNT002680,SHP001324,20ft,Delayed,Durban Port
+CNT002681,SHP001876,20ft,Delayed,Hamburg Port
+CNT002682,SHP001806,40ft,Delivered,Rotterdam Port
+CNT002683,SHP002212,Reefer,In Transit,Lagos Port
+CNT002684,SHP001977,Reefer,Delayed,Los Angeles Port
+CNT002685,SHP000197,40ft,Delayed,Los Angeles Port
+CNT002686,SHP000353,Reefer,Delayed,Dubai Port
+CNT002687,SHP000430,40ft,Delayed,Shanghai Port
+CNT002688,SHP001380,Reefer,In Transit,Lagos Port
+CNT002689,SHP001211,Reefer,In Transit,Singapore Port
+CNT002690,SHP000766,Reefer,Delivered,Shanghai Port
+CNT002691,SHP001349,20ft,Delivered,Lagos Port
+CNT002692,SHP000745,Reefer,Delivered,Rotterdam Port
+CNT002693,SHP002595,20ft,Delayed,Rotterdam Port
+CNT002694,SHP001957,40ft,Delayed,Hamburg Port
+CNT002695,SHP002138,Reefer,Delivered,Singapore Port
+CNT002696,SHP000939,20ft,In Transit,Rotterdam Port
+CNT002697,SHP002411,20ft,Delayed,Rotterdam Port
+CNT002698,SHP001736,20ft,Delivered,Los Angeles Port
+CNT002699,SHP000726,20ft,Delayed,Durban Port
+CNT002700,SHP002908,20ft,Delivered,Hamburg Port
+CNT002701,SHP000551,20ft,In Transit,Singapore Port
+CNT002702,SHP001977,Reefer,Delivered,Singapore Port
+CNT002703,SHP001072,20ft,In Transit,Singapore Port
+CNT002704,SHP001286,20ft,Delayed,Singapore Port
+CNT002705,SHP001865,40ft,In Transit,Dubai Port
+CNT002706,SHP001468,20ft,In Transit,Hamburg Port
+CNT002707,SHP002457,Reefer,In Transit,Lagos Port
+CNT002708,SHP000043,Reefer,In Transit,Dubai Port
+CNT002709,SHP000221,20ft,Delivered,Shanghai Port
+CNT002710,SHP001048,40ft,Delayed,Dubai Port
+CNT002711,SHP002071,40ft,Delivered,Singapore Port
+CNT002712,SHP000975,20ft,Delivered,Los Angeles Port
+CNT002713,SHP002270,40ft,Delayed,Singapore Port
+CNT002714,SHP001927,20ft,In Transit,Durban Port
+CNT002715,SHP000629,20ft,Delivered,Los Angeles Port
+CNT002716,SHP000389,20ft,Delivered,Dubai Port
+CNT002717,SHP001184,20ft,Delayed,Hamburg Port
+CNT002718,SHP001160,40ft,In Transit,Lagos Port
+CNT002719,SHP001598,40ft,Delayed,Singapore Port
+CNT002720,SHP000340,40ft,Delivered,Singapore Port
+CNT002721,SHP001800,Reefer,In Transit,Lagos Port
+CNT002722,SHP001969,40ft,Delivered,Singapore Port
+CNT002723,SHP001705,40ft,Delivered,Rotterdam Port
+CNT002724,SHP001955,20ft,Delivered,Dubai Port
+CNT002725,SHP002205,40ft,In Transit,Durban Port
+CNT002726,SHP002391,40ft,In Transit,Durban Port
+CNT002727,SHP001995,20ft,Delayed,Dubai Port
+CNT002728,SHP000747,Reefer,Delayed,Singapore Port
+CNT002729,SHP000759,Reefer,Delivered,Hamburg Port
+CNT002730,SHP001895,20ft,In Transit,Hamburg Port
+CNT002731,SHP000486,40ft,In Transit,Hamburg Port
+CNT002732,SHP000999,20ft,In Transit,Lagos Port
+CNT002733,SHP002314,Reefer,In Transit,Rotterdam Port
+CNT002734,SHP000868,20ft,Delayed,Los Angeles Port
+CNT002735,SHP002601,20ft,Delivered,Durban Port
+CNT002736,SHP002883,40ft,Delivered,Singapore Port
+CNT002737,SHP002581,20ft,Delivered,Rotterdam Port
+CNT002738,SHP001708,Reefer,Delayed,Dubai Port
+CNT002739,SHP002281,Reefer,In Transit,Shanghai Port
+CNT002740,SHP000861,40ft,Delivered,Dubai Port
+CNT002741,SHP000789,40ft,In Transit,Shanghai Port
+CNT002742,SHP000063,20ft,Delayed,Singapore Port
+CNT002743,SHP000395,Reefer,Delivered,Hamburg Port
+CNT002744,SHP000451,40ft,Delayed,Hamburg Port
+CNT002745,SHP000834,Reefer,In Transit,Singapore Port
+CNT002746,SHP002662,40ft,Delayed,Lagos Port
+CNT002747,SHP001360,40ft,Delayed,Durban Port
+CNT002748,SHP002620,20ft,Delayed,Durban Port
+CNT002749,SHP000008,Reefer,Delayed,Shanghai Port
+CNT002750,SHP002229,20ft,Delayed,Durban Port
+CNT002751,SHP002074,20ft,Delayed,Shanghai Port
+CNT002752,SHP000233,40ft,Delivered,Dubai Port
+CNT002753,SHP001517,20ft,Delayed,Dubai Port
+CNT002754,SHP002550,40ft,Delivered,Hamburg Port
+CNT002755,SHP000241,Reefer,In Transit,Shanghai Port
+CNT002756,SHP002445,20ft,Delivered,Durban Port
+CNT002757,SHP000082,20ft,Delayed,Los Angeles Port
+CNT002758,SHP001140,Reefer,Delivered,Los Angeles Port
+CNT002759,SHP000721,20ft,Delivered,Lagos Port
+CNT002760,SHP002607,40ft,Delayed,Dubai Port
+CNT002761,SHP002075,Reefer,In Transit,Durban Port
+CNT002762,SHP001215,20ft,In Transit,Lagos Port
+CNT002763,SHP001199,20ft,Delayed,Dubai Port
+CNT002764,SHP001444,40ft,Delivered,Hamburg Port
+CNT002765,SHP000928,40ft,Delivered,Singapore Port
+CNT002766,SHP002600,20ft,In Transit,Los Angeles Port
+CNT002767,SHP001412,40ft,Delayed,Shanghai Port
+CNT002768,SHP002464,40ft,Delivered,Lagos Port
+CNT002769,SHP001523,20ft,In Transit,Hamburg Port
+CNT002770,SHP000987,Reefer,Delivered,Shanghai Port
+CNT002771,SHP002272,Reefer,Delayed,Durban Port
+CNT002772,SHP002320,40ft,Delayed,Durban Port
+CNT002773,SHP002474,20ft,In Transit,Dubai Port
+CNT002774,SHP002218,40ft,In Transit,Dubai Port
+CNT002775,SHP001074,20ft,Delayed,Lagos Port
+CNT002776,SHP001198,Reefer,Delayed,Durban Port
+CNT002777,SHP000063,Reefer,Delivered,Rotterdam Port
+CNT002778,SHP000440,40ft,Delivered,Hamburg Port
+CNT002779,SHP002310,40ft,In Transit,Los Angeles Port
+CNT002780,SHP001045,20ft,Delayed,Hamburg Port
+CNT002781,SHP000521,20ft,Delivered,Singapore Port
+CNT002782,SHP000126,Reefer,In Transit,Singapore Port
+CNT002783,SHP000058,20ft,Delivered,Dubai Port
+CNT002784,SHP000100,40ft,Delayed,Lagos Port
+CNT002785,SHP002173,20ft,Delayed,Lagos Port
+CNT002786,SHP002416,20ft,In Transit,Singapore Port
+CNT002787,SHP000288,Reefer,In Transit,Shanghai Port
+CNT002788,SHP001430,20ft,Delivered,Durban Port
+CNT002789,SHP002599,20ft,Delivered,Hamburg Port
+CNT002790,SHP001000,20ft,Delayed,Durban Port
+CNT002791,SHP002590,20ft,Delivered,Los Angeles Port
+CNT002792,SHP002048,20ft,Delayed,Los Angeles Port
+CNT002793,SHP000774,40ft,In Transit,Lagos Port
+CNT002794,SHP000179,Reefer,In Transit,Rotterdam Port
+CNT002795,SHP001864,20ft,Delivered,Lagos Port
+CNT002796,SHP002891,40ft,In Transit,Singapore Port
+CNT002797,SHP002471,Reefer,Delayed,Shanghai Port
+CNT002798,SHP001539,Reefer,Delayed,Durban Port
+CNT002799,SHP002093,Reefer,In Transit,Singapore Port
+CNT002800,SHP001846,20ft,Delayed,Hamburg Port
+CNT002801,SHP000547,Reefer,Delayed,Shanghai Port
+CNT002802,SHP001155,20ft,Delivered,Los Angeles Port
+CNT002803,SHP000599,40ft,In Transit,Hamburg Port
+CNT002804,SHP002046,40ft,In Transit,Dubai Port
+CNT002805,SHP001273,20ft,In Transit,Singapore Port
+CNT002806,SHP000295,20ft,In Transit,Dubai Port
+CNT002807,SHP001294,20ft,In Transit,Rotterdam Port
+CNT002808,SHP001120,20ft,In Transit,Singapore Port
+CNT002809,SHP000588,20ft,In Transit,Rotterdam Port
+CNT002810,SHP001862,40ft,Delivered,Dubai Port
+CNT002811,SHP000965,40ft,Delayed,Rotterdam Port
+CNT002812,SHP002263,Reefer,Delayed,Hamburg Port
+CNT002813,SHP001505,40ft,Delayed,Hamburg Port
+CNT002814,SHP002765,20ft,Delivered,Singapore Port
+CNT002815,SHP002860,40ft,In Transit,Durban Port
+CNT002816,SHP000672,20ft,In Transit,Hamburg Port
+CNT002817,SHP001371,Reefer,Delayed,Dubai Port
+CNT002818,SHP000436,Reefer,Delivered,Dubai Port
+CNT002819,SHP000063,20ft,In Transit,Singapore Port
+CNT002820,SHP002954,20ft,Delivered,Rotterdam Port
+CNT002821,SHP002924,40ft,Delivered,Rotterdam Port
+CNT002822,SHP002855,Reefer,Delivered,Los Angeles Port
+CNT002823,SHP002468,40ft,In Transit,Hamburg Port
+CNT002824,SHP001687,Reefer,Delivered,Dubai Port
+CNT002825,SHP001479,20ft,Delivered,Hamburg Port
+CNT002826,SHP000175,Reefer,Delivered,Dubai Port
+CNT002827,SHP002489,40ft,Delayed,Dubai Port
+CNT002828,SHP002896,Reefer,Delivered,Rotterdam Port
+CNT002829,SHP000083,40ft,In Transit,Rotterdam Port
+CNT002830,SHP000156,40ft,In Transit,Durban Port
+CNT002831,SHP000571,Reefer,In Transit,Durban Port
+CNT002832,SHP002883,20ft,Delivered,Lagos Port
+CNT002833,SHP001804,Reefer,Delivered,Durban Port
+CNT002834,SHP000235,40ft,Delivered,Dubai Port
+CNT002835,SHP000717,Reefer,Delivered,Dubai Port
+CNT002836,SHP001977,40ft,Delivered,Hamburg Port
+CNT002837,SHP001440,20ft,In Transit,Singapore Port
+CNT002838,SHP002699,Reefer,In Transit,Dubai Port
+CNT002839,SHP000276,Reefer,In Transit,Lagos Port
+CNT002840,SHP000024,Reefer,In Transit,Lagos Port
+CNT002841,SHP000571,40ft,Delayed,Hamburg Port
+CNT002842,SHP000429,Reefer,Delivered,Lagos Port
+CNT002843,SHP001455,Reefer,Delivered,Los Angeles Port
+CNT002844,SHP002835,Reefer,Delivered,Durban Port
+CNT002845,SHP002364,Reefer,Delayed,Singapore Port
+CNT002846,SHP002952,20ft,Delayed,Durban Port
+CNT002847,SHP000512,20ft,Delivered,Rotterdam Port
+CNT002848,SHP001871,Reefer,Delivered,Hamburg Port
+CNT002849,SHP001978,40ft,Delayed,Rotterdam Port
+CNT002850,SHP000496,Reefer,Delivered,Rotterdam Port
+CNT002851,SHP000392,20ft,In Transit,Shanghai Port
+CNT002852,SHP002469,Reefer,Delayed,Durban Port
+CNT002853,SHP000496,Reefer,Delivered,Rotterdam Port
+CNT002854,SHP000940,40ft,Delayed,Dubai Port
+CNT002855,SHP002589,Reefer,Delivered,Durban Port
+CNT002856,SHP001623,40ft,Delivered,Rotterdam Port
+CNT002857,SHP001914,40ft,In Transit,Shanghai Port
+CNT002858,SHP002746,Reefer,Delivered,Singapore Port
+CNT002859,SHP001132,20ft,Delayed,Rotterdam Port
+CNT002860,SHP002520,20ft,Delivered,Los Angeles Port
+CNT002861,SHP002554,Reefer,Delivered,Dubai Port
+CNT002862,SHP002583,Reefer,Delivered,Los Angeles Port
+CNT002863,SHP000965,Reefer,Delayed,Hamburg Port
+CNT002864,SHP000074,Reefer,In Transit,Hamburg Port
+CNT002865,SHP002956,20ft,Delivered,Los Angeles Port
+CNT002866,SHP001810,20ft,In Transit,Rotterdam Port
+CNT002867,SHP000019,20ft,Delayed,Shanghai Port
+CNT002868,SHP001764,40ft,In Transit,Dubai Port
+CNT002869,SHP002173,Reefer,In Transit,Los Angeles Port
+CNT002870,SHP000666,Reefer,In Transit,Los Angeles Port
+CNT002871,SHP002449,20ft,Delayed,Shanghai Port
+CNT002872,SHP000829,20ft,Delivered,Hamburg Port
+CNT002873,SHP002514,20ft,Delivered,Singapore Port
+CNT002874,SHP001245,40ft,In Transit,Shanghai Port
+CNT002875,SHP002716,40ft,In Transit,Los Angeles Port
+CNT002876,SHP001345,Reefer,In Transit,Los Angeles Port
+CNT002877,SHP001018,20ft,Delivered,Dubai Port
+CNT002878,SHP001347,Reefer,Delayed,Rotterdam Port
+CNT002879,SHP000411,Reefer,Delivered,Shanghai Port
+CNT002880,SHP000050,Reefer,Delivered,Singapore Port
+CNT002881,SHP000122,Reefer,Delivered,Los Angeles Port
+CNT002882,SHP001231,Reefer,In Transit,Shanghai Port
+CNT002883,SHP000463,20ft,Delivered,Hamburg Port
+CNT002884,SHP002153,Reefer,Delivered,Shanghai Port
+CNT002885,SHP001546,Reefer,Delayed,Dubai Port
+CNT002886,SHP002100,40ft,Delayed,Dubai Port
+CNT002887,SHP002124,20ft,Delivered,Rotterdam Port
+CNT002888,SHP002242,Reefer,Delivered,Hamburg Port
+CNT002889,SHP002135,20ft,Delayed,Lagos Port
+CNT002890,SHP002178,40ft,In Transit,Singapore Port
+CNT002891,SHP000123,40ft,Delivered,Shanghai Port
+CNT002892,SHP001431,Reefer,In Transit,Singapore Port
+CNT002893,SHP000580,40ft,Delivered,Rotterdam Port
+CNT002894,SHP000960,Reefer,Delayed,Hamburg Port
+CNT002895,SHP001002,20ft,In Transit,Lagos Port
+CNT002896,SHP000543,40ft,Delayed,Dubai Port
+CNT002897,SHP001110,Reefer,Delivered,Dubai Port
+CNT002898,SHP001333,Reefer,Delayed,Los Angeles Port
+CNT002899,SHP001574,Reefer,Delivered,Dubai Port
+CNT002900,SHP000646,40ft,Delayed,Durban Port
+CNT002901,SHP000216,20ft,In Transit,Shanghai Port
+CNT002902,SHP000846,40ft,Delivered,Los Angeles Port
+CNT002903,SHP000178,20ft,Delivered,Durban Port
+CNT002904,SHP002170,Reefer,In Transit,Los Angeles Port
+CNT002905,SHP000810,40ft,Delayed,Los Angeles Port
+CNT002906,SHP000842,Reefer,Delayed,Durban Port
+CNT002907,SHP002864,40ft,Delayed,Durban Port
+CNT002908,SHP002447,20ft,In Transit,Shanghai Port
+CNT002909,SHP002007,40ft,In Transit,Los Angeles Port
+CNT002910,SHP002899,20ft,Delayed,Dubai Port
+CNT002911,SHP002282,40ft,Delayed,Durban Port
+CNT002912,SHP002138,20ft,Delayed,Lagos Port
+CNT002913,SHP001408,40ft,Delivered,Los Angeles Port
+CNT002914,SHP000270,20ft,Delivered,Los Angeles Port
+CNT002915,SHP000960,Reefer,Delayed,Rotterdam Port
+CNT002916,SHP001791,20ft,In Transit,Singapore Port
+CNT002917,SHP002902,40ft,In Transit,Lagos Port
+CNT002918,SHP002753,40ft,Delayed,Lagos Port
+CNT002919,SHP001563,Reefer,Delayed,Los Angeles Port
+CNT002920,SHP000936,Reefer,In Transit,Durban Port
+CNT002921,SHP001413,Reefer,In Transit,Hamburg Port
+CNT002922,SHP001981,20ft,Delayed,Lagos Port
+CNT002923,SHP000182,20ft,Delayed,Durban Port
+CNT002924,SHP000473,20ft,Delayed,Hamburg Port
+CNT002925,SHP001635,40ft,Delayed,Singapore Port
+CNT002926,SHP000121,Reefer,Delivered,Dubai Port
+CNT002927,SHP002437,40ft,Delivered,Lagos Port
+CNT002928,SHP001978,20ft,Delivered,Hamburg Port
+CNT002929,SHP000355,40ft,Delivered,Singapore Port
+CNT002930,SHP000514,Reefer,Delayed,Los Angeles Port
+CNT002931,SHP001244,Reefer,In Transit,Hamburg Port
+CNT002932,SHP002604,20ft,Delayed,Los Angeles Port
+CNT002933,SHP002841,40ft,Delayed,Hamburg Port
+CNT002934,SHP000955,Reefer,In Transit,Shanghai Port
+CNT002935,SHP001849,20ft,Delayed,Durban Port
+CNT002936,SHP000683,Reefer,Delayed,Hamburg Port
+CNT002937,SHP001808,40ft,Delivered,Lagos Port
+CNT002938,SHP000945,40ft,Delivered,Rotterdam Port
+CNT002939,SHP000475,40ft,Delayed,Dubai Port
+CNT002940,SHP000841,Reefer,In Transit,Shanghai Port
+CNT002941,SHP002412,40ft,In Transit,Singapore Port
+CNT002942,SHP000698,Reefer,Delivered,Hamburg Port
+CNT002943,SHP000620,20ft,In Transit,Durban Port
+CNT002944,SHP001752,20ft,Delivered,Hamburg Port
+CNT002945,SHP002755,20ft,In Transit,Durban Port
+CNT002946,SHP002785,20ft,In Transit,Hamburg Port
+CNT002947,SHP001089,Reefer,Delivered,Los Angeles Port
+CNT002948,SHP000941,20ft,Delivered,Hamburg Port
+CNT002949,SHP002279,20ft,Delayed,Durban Port
+CNT002950,SHP000063,40ft,Delayed,Durban Port
+CNT002951,SHP000134,20ft,Delivered,Lagos Port
+CNT002952,SHP000814,Reefer,In Transit,Singapore Port
+CNT002953,SHP002707,40ft,In Transit,Rotterdam Port
+CNT002954,SHP000480,Reefer,Delivered,Dubai Port
+CNT002955,SHP002473,Reefer,In Transit,Durban Port
+CNT002956,SHP002562,20ft,In Transit,Singapore Port
+CNT002957,SHP001076,Reefer,Delivered,Lagos Port
+CNT002958,SHP001692,20ft,In Transit,Durban Port
+CNT002959,SHP002694,20ft,Delayed,Los Angeles Port
+CNT002960,SHP000973,40ft,In Transit,Rotterdam Port
+CNT002961,SHP001121,40ft,Delayed,Shanghai Port
+CNT002962,SHP000031,40ft,In Transit,Hamburg Port
+CNT002963,SHP000476,20ft,Delayed,Singapore Port
+CNT002964,SHP002289,Reefer,Delivered,Rotterdam Port
+CNT002965,SHP000961,Reefer,In Transit,Durban Port
+CNT002966,SHP000474,20ft,Delivered,Durban Port
+CNT002967,SHP001843,40ft,In Transit,Durban Port
+CNT002968,SHP000758,40ft,Delivered,Hamburg Port
+CNT002969,SHP000795,Reefer,Delivered,Rotterdam Port
+CNT002970,SHP001559,40ft,Delayed,Singapore Port
+CNT002971,SHP000682,40ft,Delayed,Hamburg Port
+CNT002972,SHP000742,40ft,Delivered,Lagos Port
+CNT002973,SHP000698,20ft,Delivered,Shanghai Port
+CNT002974,SHP001180,Reefer,Delayed,Hamburg Port
+CNT002975,SHP002612,40ft,Delayed,Lagos Port
+CNT002976,SHP001522,40ft,In Transit,Los Angeles Port
+CNT002977,SHP000884,Reefer,Delivered,Los Angeles Port
+CNT002978,SHP001126,Reefer,Delayed,Durban Port
+CNT002979,SHP000608,40ft,Delivered,Shanghai Port
+CNT002980,SHP002030,40ft,Delayed,Singapore Port
+CNT002981,SHP002033,20ft,In Transit,Durban Port
+CNT002982,SHP001332,20ft,Delivered,Rotterdam Port
+CNT002983,SHP001390,20ft,In Transit,Hamburg Port
+CNT002984,SHP000804,40ft,Delivered,Singapore Port
+CNT002985,SHP001532,Reefer,Delivered,Dubai Port
+CNT002986,SHP000642,20ft,Delayed,Shanghai Port
+CNT002987,SHP001950,Reefer,Delayed,Lagos Port
+CNT002988,SHP002477,40ft,In Transit,Lagos Port
+CNT002989,SHP002587,20ft,Delivered,Dubai Port
+CNT002990,SHP000498,20ft,Delayed,Shanghai Port
+CNT002991,SHP000266,20ft,Delivered,Durban Port
+CNT002992,SHP001515,20ft,Delayed,Singapore Port
+CNT002993,SHP002480,20ft,Delayed,Durban Port
+CNT002994,SHP002512,40ft,In Transit,Durban Port
+CNT002995,SHP002726,20ft,Delayed,Rotterdam Port
+CNT002996,SHP000022,Reefer,Delivered,Singapore Port
+CNT002997,SHP001907,Reefer,In Transit,Lagos Port
+CNT002998,SHP002899,40ft,Delayed,Los Angeles Port
+CNT002999,SHP002535,20ft,Delayed,Singapore Port
+CNT003000,SHP002956,20ft,Delivered,Rotterdam Port

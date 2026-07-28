@@ -1,0 +1,9 @@
+port_id,port_name,country,capacity,congestion_level
+PRT001,Shanghai Port,China,1893929,0.26
+PRT002,Rotterdam Port,Netherlands,1548548,0.71
+PRT003,Lagos Port,Nigeria,1992288,0.24
+PRT004,Los Angeles Port,USA,1117841,0.17
+PRT005,Singapore Port,Singapore,1654171,0.65
+PRT006,Dubai Port,UAE,1848317,0.86
+PRT007,Hamburg Port,Germany,1304336,0.1
+PRT008,Durban Port,South Africa,1657021,0.51
