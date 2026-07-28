@@ -1,67 +1,938 @@
-# Demand Planning and Inventory Optimization
+# FlowPlan: Demand, Inventory & Capacity Intelligence
 
-A SQL project that connects shipment demand, inventory position, and capacity planning into one working view, built around a simple planning rule: inventory and capacity should follow demand, not guesswork.
+**A SQL planning intelligence system for aligning shipment demand, inventory exposure, and network capacity across a maritime logistics operation.**
 
-## Business problem
+---
 
-Planning decisions in logistics are usually made in one of two failure modes. Either there isn't enough inventory or capacity to meet actual demand, which creates stockouts and service pressure, or there's too much of it sitting idle, which ties up money and warehouse space for no return. Both mistakes come from the same root cause: planning without a clear, current view of where demand is actually coming from and how it's moving.
+## Project Overview
 
-This project builds that view for a maritime shipping operation. It answers where shipment demand is concentrated, which customers are driving it, what the current inventory position looks like, which products are at risk of running out, where stock is piling up without being used, and which origins need more or less capacity based on actual shipment activity rather than assumption.
+Logistics planning has two expensive failure modes.
 
-## Data source
+**Too little capacity or inventory**, and the business risks stockouts, service failures, rushed replenishment, and missed demand.
 
-Same underlying maritime dataset used across this series: 3,000 shipments across an 8-port network, plus 3,000 inventory records tracking stock by warehouse and product.
+**Too much capacity or inventory**, and cash gets trapped in stock, warehouse space sits occupied, and operational resources are committed where they are not needed.
 
-Shipments provides origin, destination, departure date, weight, and volume, which together make up the demand signal.
+Both problems come from the same planning gap:
 
-Customers_maritime links each shipment back to the company driving it.
+> **Resources are being positioned without a reliable view of where demand is actually occurring.**
 
-Inventory tracks stock level, inbound quantity, and outbound quantity per warehouse and product combination, which is what the net stock and stockout checks are built from.
+FlowPlan addresses that problem by connecting shipment activity, customer demand, inventory position, and origin-level capacity signals into one planning framework.
 
-All source files sit in the [`/data`](../data) folder at the root of this repository.
+Built in SQL across **3,000 shipments and 3,000 inventory records**, the system helps planners answer:
 
-## Methodology
+> **Where is demand growing?**
+> **Which routes and customers are driving it?**
+> **Where is inventory becoming dangerously thin?**
+> **Where is excess stock tying up working capital?**
+> **Which origins are experiencing volatile demand?**
+> **Where should capacity increase, decrease, or remain stable?**
 
-I split this into three connected planning views, which is how the business questions were actually framed.
+The objective is to move planning from:
 
-Demand first. I built a simplified demand view, v_demand_base, holding just the fields needed for this kind of analysis: shipment ID, origin, destination, departure date, weight, and volume. From there, monthly shipment volume shows when demand is changing over time. Origin-destination pairs show where demand concentrates by lane. Customer-level grouping shows who's actually driving that demand, which matters for capacity conversations with specific accounts.
+> **"What do we think we will need?"**
 
-Inventory second. Net stock is calculated directly as current stock plus inbound minus outbound, which gives a simple forward-looking position rather than just a snapshot. Two screening rules sit on top of that: a stockout flag for anything where stock is already below outbound requirements, and an overstock flag for anything sitting above a 5,000 unit threshold, both intentionally simple so they surface candidates for review rather than pretending to be a final answer.
+toward:
 
-Capacity third. Standard deviation of shipment weight by origin port measures how predictable demand is at each location, since a volatile origin needs more planning buffer than a stable one. And a straightforward capacity signal (increase, reduce, or hold steady) translates raw shipment counts per origin into a planning action, using thresholds the script states plainly rather than hiding inside a formula.
+> **"What is actual network activity telling us to prepare for?"**
 
-## Analysis and error check
+---
 
-I found three issues worth flagging, one of which the original script's own comments had already partly noticed but didn't actually fix.
+# Business Problem
 
-The first was the demand-versus-inventory comparison, and it's the one I want to spend the most time on because it was the most serious. The original query joined shipments to inventory using ON s.destination_port IS NOT NULL. That condition is true for almost every row on both sides of the join, so it isn't really filtering anything. It functions as a full cross join instead: every shipment record gets matched against every inventory record. With 3,000 rows on each side, that's up to nine million combined rows, and the SUM(stock_level) in the original query ends up adding the same inventory figures in over and over, once for every shipment tied to that destination. The number that comes out the other end looks like a real supply figure but isn't measuring anything meaningful. To be fair to whoever wrote the original version, the comments directly above that query already flagged that the join doesn't map to a specific destination, warehouse, or product, which is the right observation. But a comment acknowledging a problem isn't the same as fixing it, so I did: shipment demand by destination and total inventory across the whole network are now calculated as two separate, already-summarized result sets, and only those two summaries get combined, using a cross join that's actually safe because one side of it is guaranteed to be exactly one row. I want to be equally direct about the limitation that's still there afterward: this is a network-level comparison for context, not a true demand-to-supply match, because the data itself has no column connecting a specific warehouse or product to a specific destination port. That's a gap in the data model, not something a smarter query can patch over, and I'd rather say that plainly than dress up a fixed query as more precise than it actually is.
+Demand, inventory, and capacity are connected decisions.
 
-The second issue was the same customer grouping problem found in the cost-to-serve project. Customers_maritime has 3,000 rows, but a small set of company names repeat across hundreds of different customer IDs, countries, and contract values. Grouping "who is driving demand" by company name alone would merge distinct customer accounts into a single inflated row. I fixed this the same way as before, adding customer ID into the grouping so demand gets measured at the real account level.
+But they are often managed separately.
 
-The third was a missing safeguard on the view definition, the same small fix applied across all three scripts in this series, so v_demand_base can be recreated safely if it already exists.
+Commercial teams see customer demand.
 
-I did not find any issues with the stockout logic, the overstock threshold, or the capacity signal thresholds. Those are planning rules by design, and the original script is upfront that 5,000 units and the 100/30 shipment thresholds are planning conventions rather than universal definitions, which is exactly the right way to present a threshold like that.
+Warehouse teams see inventory.
 
-## Insight
+Operations teams see port activity and capacity.
 
-Demand wasn't spread evenly across the network. A small number of origin-destination pairs carried a disproportionate share of shipment volume, and a similarly small number of customer accounts, once correctly separated by customer ID, accounted for a meaningful chunk of total shipment weight. On the inventory side, the stockout and overstock screens both returned real candidates, meaning the network is carrying risk in both directions at once: some product-warehouse combinations are genuinely short on stock relative to outbound demand, while others are sitting well above the overstock threshold with no clear demand pulling that stock down. The capacity signal, run against real origin-level shipment counts, produced a mixed set of increase, reduce, and stable recommendations rather than one uniform answer, which is what you'd expect from a network handling genuinely different levels of activity at each port.
+When those views are disconnected, the business can simultaneously have:
 
-## Recommendation
+* Excess Stock in One Location
+* Shortages in Another
+* Capacity Sitting Idle
+* Busy Origins Under Pressure
+* High-Demand Accounts Competing for Limited Resources
+* Working Capital Trapped in Slow-Moving Inventory
 
-Prioritize the flagged stockout risk items first, since those represent immediate service exposure, and cross-check them against the busiest origin-destination pairs to catch cases where a popular lane is also sitting on thin inventory. Review the overstock list separately from a working capital angle, since freeing up cash tied to unused stock is a lower-urgency but real opportunity. On capacity, treat the increase and reduce flags as a starting conversation with operations rather than an automatic instruction, since the underlying thresholds are a planning convention and should be sanity-checked against known seasonal patterns before capacity actually changes.
+A revenue report will not expose those problems.
 
-## Business impact
+FlowPlan creates a planning layer between commercial activity and operational resources.
 
-Getting inventory and capacity closer to actual demand protects margin from both directions. Understocking a fast-moving lane risks lost business and rushed, expensive replenishment. Overstocking ties up working capital that could be deployed elsewhere. Neither mistake shows up clearly on a simple revenue report, which is exactly why a planning view like this one, built directly from shipment and inventory records rather than assumption, is worth having as a standing report rather than a one-time exercise.
+---
 
-## What was done
+# Planning Questions
 
-I built a demand base view and used it to answer where, when, and from whom shipment demand is coming, then layered a net stock, stockout, and overstock screen on top of the inventory table, and closed with a capacity signal tied to real shipment counts by origin. During review, I found and corrected a serious join fan-out in the demand-versus-inventory comparison that the original script had flagged but not actually fixed, corrected the same customer grouping issue found in the related cost-to-serve project, and added a missing safeguard to the view definition.
+The system is designed around three connected decisions.
 
-## Tools used and how they helped
+### Demand
 
-Built in SQL using a view for the reusable demand base, common table expressions to properly separate and summarize the demand and supply sides before combining them, CASE-based classification for stockout, overstock, and capacity signals, STDEV for measuring demand volatility by origin, and CAST to keep the stock level summation numerically safe at scale. The common table expression fix here is worth calling out specifically: it's the same technique used to fix the fuel price comparison in the cost-to-serve project, and it's the general pattern for any situation where you need to compare two tables that don't share a real one-to-one key. Summarize each side down first, then join the summaries, not the raw tables.
+**Where, when, and from whom is demand coming?**
 
-## Results
+### Inventory
 
-The corrected script delivers three connected planning views: monthly and route-level demand trends with corrected customer attribution, a full net stock position with stockout and overstock screening, and a capacity signal by origin backed by a real volatility measure. The most serious issue in this script, a fan-out join inflating the demand-to-supply comparison to millions of meaningless rows, was found and properly fixed rather than left as a documented limitation, and the remaining gap (no product-to-destination key in the source data) is now stated clearly rather than implied by an approximate number.
+**Where is stock becoming constrained or excessive?**
+
+### Capacity
+
+**Where does network activity justify more or less operating capacity?**
+
+Together, these create a planning chain:
+
+```text id="xgphn5"
+DEMAND
+   ↓
+INVENTORY REQUIREMENTS
+   ↓
+CAPACITY REQUIREMENTS
+   ↓
+RESOURCE ALLOCATION
+```
+
+The principle is simple:
+
+> **Inventory and capacity should respond to observed demand rather than static assumptions.**
+
+---
+
+# Data Sources
+
+FlowPlan uses three core datasets from the maritime logistics environment.
+
+| Dataset              |  Rows | Business Role                                   |
+| -------------------- | ----: | ----------------------------------------------- |
+| `shipments`          | 3,000 | Shipment demand across origin-destination lanes |
+| `customers_maritime` | 3,000 | Customer accounts generating network demand     |
+| `inventory`          | 3,000 | Warehouse and product-level stock position      |
+
+Shipment records provide:
+
+* Origin Port
+* Destination Port
+* Departure Date
+* Shipment Weight
+* Shipment Volume
+
+Inventory records provide:
+
+* Warehouse
+* Product
+* Current Stock
+* Inbound Quantity
+* Outbound Quantity
+
+Customer records connect shipment activity to the accounts generating that demand.
+
+---
+
+# Planning Intelligence Architecture
+
+```text id="vdr5rc"
+                         NETWORK ACTIVITY
+                                |
+              --------------------------------
+              |                              |
+              ↓                              ↓
+          SHIPMENTS                       CUSTOMERS
+              |                              |
+              -------------------------------
+                             |
+                             ↓
+                     DEMAND INTELLIGENCE
+                             |
+              -------------------------------
+              |              |              |
+              ↓              ↓              ↓
+           Monthly         Route         Customer
+            Demand         Demand          Demand
+              |              |              |
+              -------------------------------
+                             |
+                             ↓
+                       DEMAND SIGNAL
+                             |
+          -----------------------------------------
+          |                                       |
+          ↓                                       ↓
+      INVENTORY                                CAPACITY
+          |                                       |
+          ↓                                       ↓
+     Net Position                         Origin Activity
+          |                                       |
+    -------------                          ----------------
+    |           |                          |              |
+    ↓           ↓                          ↓              ↓
+ Stockout    Overstock                 Volatility    Utilization
+   Risk       Exposure                     |              |
+    |           |                          ----------------
+    -------------                                  |
+          |                                        ↓
+          ↓                               Capacity Signal
+ Inventory Action                                  |
+          |                                        |
+          ------------------------------------------
+                             |
+                             ↓
+                     PLANNING ACTIONS
+                             |
+           ------------------------------------
+           |                |                 |
+           ↓                ↓                 ↓
+       REPLENISH        REBALANCE          ADJUST
+         STOCK           INVENTORY         CAPACITY
+```
+
+---
+
+# Methodology
+
+The analysis is structured around three planning layers.
+
+---
+
+# Layer 1: Demand Intelligence
+
+A reusable demand view, `v_demand_base`, standardizes the shipment fields required for planning.
+
+It captures:
+
+* Shipment ID
+* Origin
+* Destination
+* Departure Date
+* Shipment Weight
+* Shipment Volume
+
+From this base, demand is evaluated across three dimensions.
+
+### Time
+
+Monthly shipment activity shows how network demand changes over time.
+
+### Route
+
+Origin-destination analysis identifies where shipment activity is concentrated.
+
+### Customer
+
+Account-level analysis identifies which customer relationships generate the most network demand.
+
+Together, these answer:
+
+> **Where is demand coming from, when is it happening, and who is driving it?**
+
+---
+
+# Layer 2: Inventory Intelligence
+
+Inventory planning requires more than looking at current stock.
+
+FlowPlan calculates:
+
+```text id="77d0nq"
+Net Stock
+=
+Current Stock
++
+Inbound Quantity
+-
+Outbound Quantity
+```
+
+This creates a more useful forward position than current stock alone.
+
+The system then screens inventory for two opposite risks.
+
+---
+
+## Stockout Exposure
+
+Inventory is flagged where available stock is insufficient relative to expected outbound movement.
+
+This identifies product-warehouse combinations requiring immediate planning attention.
+
+Potential business consequences include:
+
+* Order Delays
+* Service-Level Failures
+* Emergency Replenishment
+* Lost Sales
+* Higher Expediting Costs
+
+---
+
+## Overstock Exposure
+
+Inventory above the defined planning threshold is flagged for review.
+
+Overstock creates a different economic problem:
+
+* Working Capital Becomes Trapped
+* Warehouse Space Is Consumed
+* Handling Requirements Increase
+* Inventory Can Remain Idle
+* Capital Cannot Be Deployed Elsewhere
+
+The system therefore treats inventory risk in both directions:
+
+> **Too little stock creates service risk.**
+
+> **Too much stock creates capital-efficiency risk.**
+
+---
+
+# Layer 3: Capacity Intelligence
+
+Shipment activity is aggregated by origin to understand where operating pressure is concentrated.
+
+The model evaluates:
+
+* Shipment Count
+* Shipment Weight
+* Demand Variability
+
+A capacity signal then classifies each origin into:
+
+### Increase Capacity
+
+Activity is sufficiently high to justify additional planning attention.
+
+### Maintain Capacity
+
+Current activity sits within the expected operating range.
+
+### Reduce Capacity
+
+Activity is comparatively low and may not justify the current resource level.
+
+These signals are planning prompts, not automatic operating instructions.
+
+They tell planners:
+
+> **Where should we investigate capacity allocation?**
+
+not:
+
+> **Change capacity immediately without operational review.**
+
+---
+
+# Demand Volatility
+
+Average demand alone is not enough for capacity planning.
+
+Two origins can process the same average shipment weight while behaving very differently.
+
+```text id="tl06x8"
+Origin A
+Weekly Demand:
+98, 101, 99, 102, 100
+
+Origin B
+Weekly Demand:
+20, 180, 40, 200, 60
+```
+
+Their averages may be similar.
+
+Their planning requirements are not.
+
+Origin B requires greater flexibility because demand is less predictable.
+
+FlowPlan uses standard deviation to measure this variability.
+
+The planning question therefore becomes:
+
+> **How much demand do we handle, and how predictable is it?**
+
+---
+
+# Critical Finding 1: The Original Demand-to-Inventory Join Was Not a Real Join
+
+The most serious problem in the original analysis occurred when shipment demand was compared with inventory.
+
+The join condition was effectively:
+
+```sql id="al85qw"
+ON shipment.destination_port IS NOT NULL
+```
+
+That condition does not connect a shipment to:
+
+* A Warehouse
+* A Product
+* An Inventory Record
+
+For almost every valid shipment, the condition is simply true.
+
+The result behaves like a cross join.
+
+With:
+
+```text id="ol7iw5"
+3,000 Shipments
+×
+3,000 Inventory Records
+```
+
+the query could create:
+
+```text id="4pbj3m"
+9,000,000 combined rows
+```
+
+before aggregation.
+
+---
+
+# Why This Matters
+
+The resulting inventory total may look like a legitimate supply figure.
+
+But the same stock records are being repeated for shipment after shipment.
+
+The query therefore answers no meaningful planning question.
+
+This is more dangerous than a SQL error.
+
+An error stops the report.
+
+A fan-out can produce a polished number that management assumes is correct.
+
+---
+
+# Correction: Separate Demand and Supply Before Comparing Them
+
+Shipment demand and inventory are now summarized independently.
+
+```text id="zyql5j"
+SHIPMENTS
+    |
+    ↓
+Aggregate Demand
+    |
+    ----------------
+                    |
+                    ↓
+             Planning Context
+                    ↑
+    ----------------
+    |
+    ↓
+Aggregate Inventory
+    ↑
+    |
+INVENTORY
+```
+
+Only after both sides have been reduced to their intended analytical level are they combined.
+
+This eliminates the millions of artificial shipment-inventory combinations.
+
+---
+
+# An Important Limitation
+
+Fixing the SQL does **not** create a relationship that does not exist in the source data.
+
+The available datasets do not provide a reliable key connecting:
+
+```text id="m6qoz8"
+Destination Port
+        ↓
+Warehouse
+        ↓
+Product Demand
+```
+
+That means FlowPlan cannot honestly claim:
+
+> **Port X requires 4,500 units of Product Y from Warehouse Z.**
+
+The data does not support that level of precision.
+
+The corrected comparison therefore provides **network-level demand and inventory context**, not destination-level supply matching.
+
+This distinction is deliberate.
+
+> **A smarter query cannot compensate for a missing business relationship in the data model.**
+
+---
+
+# What the Data Model Needs Next
+
+To turn the current planning model into true demand-to-inventory allocation, the source system needs additional relationships.
+
+Ideally:
+
+```text id="g6j8fn"
+Shipment
+   |
+   ↓
+Product / SKU
+   |
+   ↓
+Destination
+   |
+   ↓
+Serving Warehouse
+   |
+   ↓
+Available Inventory
+```
+
+That would require fields or mapping tables connecting:
+
+* Shipments to Product/SKU
+* Ports to Serving Warehouses
+* Warehouses to Service Regions
+* Shipment Demand to Inventory Units
+
+With those relationships, the system could support:
+
+* SKU-Level Demand Planning
+* Destination-Level Stock Coverage
+* Replenishment Requirements
+* Warehouse Rebalancing
+* Days of Supply
+* Safety Stock
+* Inventory Allocation
+
+The current project identifies that architectural requirement instead of inventing precision the data cannot support.
+
+---
+
+# Critical Finding 2: Company Name Was Not a Customer Key
+
+The customer dataset contains repeated company names across separate:
+
+* Customer IDs
+* Countries
+* Contract Values
+
+Grouping demand only by company name would merge independent customer relationships.
+
+A large brand could therefore appear to generate enormous demand simply because hundreds of separate accounts were collapsed into one label.
+
+---
+
+# Correction: Account-Level Demand
+
+Demand is grouped using:
+
+```text id="o5d22u"
+Customer ID
++
+Company Name
+```
+
+Customer ID defines the account.
+
+Company name provides the readable business label.
+
+This allows commercial and operations teams to understand which **actual customer relationships** are driving demand.
+
+---
+
+# Monthly Demand Intelligence
+
+Monthly shipment trends provide the first layer of planning visibility.
+
+They help identify:
+
+* Rising Demand
+* Falling Demand
+* Seasonal Peaks
+* Activity Slowdowns
+* Periods Requiring Capacity Review
+
+This creates a stronger basis for planning than static annual averages.
+
+---
+
+# Route Demand Intelligence
+
+Origin-destination lanes are ranked by shipment activity.
+
+This identifies where network demand is concentrated.
+
+High-demand lanes may require:
+
+* Greater Capacity
+* More Frequent Scheduling
+* Stronger Inventory Support
+* Priority Service Planning
+* Closer Operational Monitoring
+
+Low-demand lanes may indicate opportunities to:
+
+* Consolidate Shipments
+* Reduce Frequency
+* Reallocate Capacity
+
+The point is not simply to know which route is busiest.
+
+It is to understand:
+
+> **Where network resources are actually being consumed.**
+
+---
+
+# Customer Demand Intelligence
+
+Customer demand is evaluated at account level.
+
+This allows planners to identify:
+
+* Accounts Driving Significant Shipment Volume
+* Customers Creating Concentrated Capacity Requirements
+* Relationships That May Require Dedicated Planning
+* Accounts Whose Demand Changes Could Materially Affect Network utilization
+
+This also supports commercial conversations.
+
+If one account consumes a meaningful share of capacity on a lane, contract discussions should consider that operational footprint.
+
+---
+
+# Inventory Position Intelligence
+
+Net stock provides a forward-looking inventory view.
+
+The system separates inventory into planning states:
+
+### Stockout Risk
+
+Potential service exposure requiring urgent review.
+
+### Healthy Position
+
+Inventory currently operating within the defined planning range.
+
+### Overstock Exposure
+
+Potential working-capital inefficiency requiring rebalancing or procurement review.
+
+The objective is to turn warehouse records into a planning queue.
+
+---
+
+# Working Capital Perspective
+
+Overstock is not merely a warehouse problem.
+
+Inventory represents capital.
+
+When stock sits unused, money that could fund:
+
+* Operations
+* Fleet Capacity
+* Technology
+* Commercial Growth
+* Other Inventory
+
+remains tied up.
+
+That makes inventory optimization both an operational and financial problem.
+
+---
+
+# Capacity Planning Intelligence
+
+Origin-level shipment activity is converted into a capacity signal.
+
+The current model uses transparent planning thresholds.
+
+Those thresholds are intentionally treated as conventions rather than universal truths.
+
+Their purpose is to identify:
+
+> **Where planners should investigate capacity**
+
+rather than prescribe capacity automatically.
+
+A production implementation should eventually incorporate:
+
+* Seasonal Patterns
+* Actual Port Capacity
+* Vessel Availability
+* Customer Commitments
+* Service-Level Agreements
+* Forecast Demand
+* Historical Utilization
+
+---
+
+# Planning Priorities
+
+FlowPlan produces three types of operational attention.
+
+## Priority 1: Service Protection
+
+Address stockout exposure first.
+
+These conditions can directly affect customer service and revenue.
+
+---
+
+## Priority 2: Capacity Alignment
+
+Review origins showing sustained high activity or high volatility.
+
+Capacity decisions should account for both demand level and unpredictability.
+
+---
+
+## Priority 3: Working Capital Efficiency
+
+Review overstocked product-warehouse combinations.
+
+These are generally less urgent than stockout risks but represent opportunities to release capital and warehouse capacity.
+
+---
+
+# Business Recommendations
+
+## 1. Build a Stockout Review Queue
+
+Product-warehouse combinations flagged for stockout exposure should be reviewed regularly.
+
+The immediate questions are:
+
+* Is replenishment already inbound?
+* Is outbound demand accelerating?
+* Can inventory be transferred?
+* Does procurement need to act?
+
+The goal is to intervene before inventory shortage becomes service failure.
+
+---
+
+## 2. Review Overstock as a Cash Problem
+
+Overstocked inventory should be analyzed for:
+
+* Slow Movement
+* Procurement Frequency
+* Transfer Opportunities
+* Excess Safety Stock
+* Demand Changes
+
+The objective is not simply to reduce inventory.
+
+It is to release capital without creating future service risk.
+
+---
+
+## 3. Prioritize High-Demand Lanes
+
+The busiest origin-destination pairs should receive closer planning attention.
+
+If demand remains consistently high, operations should review whether:
+
+* Capacity Is Sufficient
+* Scheduling Frequency Is Appropriate
+* Inventory Support Is Adequate
+* Customer Commitments Match Available Resources
+
+---
+
+## 4. Account for Volatility Before Changing Capacity
+
+A high-demand origin with stable activity requires a different planning response from one experiencing sharp demand swings.
+
+Capacity decisions should therefore consider both:
+
+> **Demand Level**
+
+and:
+
+> **Demand Variability**
+
+---
+
+## 5. Fix the Missing Demand-to-Supply Relationship
+
+The largest next step is architectural.
+
+Connect shipments, products, destinations, and warehouses through proper operational keys.
+
+That upgrade would move FlowPlan from:
+
+> **Demand and inventory visibility**
+
+to:
+
+> **true inventory allocation and replenishment planning.**
+
+---
+
+# Business Value
+
+FlowPlan improves planning across four areas.
+
+## Service Reliability
+
+Stockout exposure becomes visible before shortages create shipment or customer-service problems.
+
+## Working Capital
+
+Excess inventory can be identified and reviewed rather than remaining invisible inside warehouse totals.
+
+## Capacity Allocation
+
+Origins can be evaluated according to actual activity and demand volatility, helping resources move toward areas of greater operational pressure.
+
+## Planning Confidence
+
+Invalid joins and unsupported supply-demand relationships are removed, preventing misleading numbers from becoming planning decisions.
+
+The shift is from:
+
+> **"How much inventory and capacity do we have?"**
+
+to:
+
+> **"Does the inventory and capacity we have align with where demand is actually occurring?"**
+
+---
+
+# Technical Corrections
+
+Three analytical issues were corrected.
+
+| Issue                             | Business Consequence                                                      | Correction                                                     |
+| --------------------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| Shipment-to-inventory pseudo-join | Up to 9 million artificial row combinations and meaningless supply totals | Aggregate demand and inventory independently before comparison |
+| Customer grouping by company name | Separate customer accounts merged into inflated demand totals             | Group using customer ID and company name                       |
+| Non-idempotent view creation      | Script could fail when rerun                                              | Add safe view recreation logic                                 |
+
+The project also documents a critical data-model limitation:
+
+> **No valid product-destination-warehouse relationship exists in the source data.**
+
+That limitation is preserved explicitly rather than hidden behind an approximate join.
+
+---
+
+# Tools & Techniques
+
+### SQL
+
+The planning workflow is implemented entirely in SQL.
+
+### Reusable Demand View
+
+`v_demand_base` standardizes shipment demand for downstream analysis.
+
+### Common Table Expressions
+
+CTEs separate demand and inventory calculations before the results are combined.
+
+This prevents many-to-many multiplication when the underlying datasets do not share a valid transactional key.
+
+### `CASE`
+
+Used to convert inventory and capacity conditions into readable planning signals.
+
+### Standard Deviation
+
+Measures variability in shipment activity by origin.
+
+### Aggregation
+
+Supports monthly, route, customer, warehouse, and origin-level planning views.
+
+### Numeric Casting
+
+Protects large inventory calculations and keeps aggregations numerically safe.
+
+---
+
+# Skills Demonstrated
+
+This project demonstrates proficiency in:
+
+* SQL
+* Demand Planning
+* Inventory Analytics
+* Capacity Planning
+* Logistics Analytics
+* Supply Chain Analytics
+* Inventory Optimization
+* Working Capital Analysis
+* Network Planning
+* Customer Demand Analysis
+* Data Modeling
+* SQL Debugging
+* Data Quality Validation
+* Join Grain Management
+* KPI Development
+* Decision Support Systems
+
+---
+
+# Project Deliverables
+
+The completed system provides:
+
+* Monthly Demand Analysis
+* Route Demand Ranking
+* Customer Demand Analysis
+* Net Inventory Position
+* Stockout Risk Screening
+* Overstock Exposure Screening
+* Network-Level Demand vs. Inventory Context
+* Origin-Level Demand Volatility
+* Capacity Planning Signals
+* Data Model Gap Identification
+* Corrected Reusable Demand View
+
+---
+
+# Results
+
+FlowPlan transforms **3,000 shipment records and 3,000 inventory positions** into a connected demand, inventory, and capacity planning system.
+
+The project identifies where network demand is concentrated, which customer accounts drive that demand, where inventory presents shortage or excess exposure, and which origins warrant capacity review.
+
+More importantly, the analysis corrects a major modeling issue in the original implementation:
+
+> **3,000 shipments and 3,000 inventory records could have been combined into as many as 9 million artificial rows because the original join did not contain a real demand-to-inventory relationship.**
+
+The corrected system removes that fan-out and clearly distinguishes between what the data can support today and what requires additional operational relationships.
+
+The final output helps planning teams answer:
+
+> **Where is demand concentrating?**
+
+> **Where are we exposed to stockouts?**
+
+> **Where is working capital trapped in excess inventory?**
+
+> **Which origins require capacity review?**
+
+> **How predictable is demand at each location?**
+
+> **And what data relationships must be added before true inventory allocation and replenishment optimization become possible?**
+
+The result is not simply an inventory report.
+
+It is a planning framework for putting **the right resources behind the right demand, at the right time, with fewer assumptions.**
+
+---
+
+# Repository Structure
+
+```text id="v6l7y9"
+demand-inventory-capacity-planning/
+├── README.md
+├── demand_inventory_optimization.sql
+└── data/
+    ├── shipments.csv
+    ├── customers_maritime.csv
+    └── inventory.csv
+```
