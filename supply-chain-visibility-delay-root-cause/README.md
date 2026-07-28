@@ -1,65 +1,859 @@
-# Supply Chain Visibility and Delay Root Cause Analysis
+# DelayWatch: Supply Chain Disruption & Root Cause Intelligence
 
-A SQL project built around a question every shipping operations team eventually asks: we know shipments are getting delayed, but why, where, and how badly?
+**A SQL operations intelligence system for detecting recurring shipment disruptions, identifying their root causes, locating network bottlenecks, and prioritizing operational intervention across a maritime logistics network.**
 
-## Business problem
+---
 
-A shipment status field that says "Delayed" tells you almost nothing useful on its own. It doesn't tell you if the problem was weather, customs, port congestion, or a mechanical issue. It doesn't tell you if the delay was two days or two weeks. It doesn't tell you whether one port is quietly becoming a bottleneck for the whole network, or whether a specific route keeps breaking down for the same reason every month.
+## Project Overview
 
-Operations teams need more than a delay count. They need to know where problems concentrate, what's actually causing them, how severe they tend to be, and whether congestion or weather is a real driver or just background noise. This project builds that layer of visibility on top of the raw shipment and delay records, turning "this shipment is late" into "this is the third time this route has had a customs delay this quarter, and it's getting worse."
+Knowing that a shipment is delayed is useful.
 
-## Data source
+Knowing **why delays keep happening, where they concentrate, how severe they become, and which problems keep returning** is what gives operations something to fix.
 
-This uses the same simulated maritime shipping dataset as the other two projects in this series, 3,000 shipments moving across an 8-port network. Two tables do most of the work here.
+A shipping network can report a reasonable overall delivery rate while specific ports, routes, or disruption types repeatedly create service failures underneath the average.
 
-Shipments carries the core shipment record: origin, destination, dates, status, revenue, and cost.
+A weather delay may be unavoidable.
 
-Delays_events is the disruption log. Each record ties back to a shipment and captures the delay reason (weather, port congestion, customs, or mechanical), how many days the delay lasted, a weather impact score, and a port congestion score.
+A route suffering the same disruption every month is different.
 
-Ports adds destination-level congestion ratings, which get pulled in to check whether congested ports are actually producing longer delays or whether congestion and delay severity are unrelated in this data.
+A congested destination repeatedly adding long delays is different.
 
-All source files sit in the [`/data`](../data) folder at the root of this repository.
+And a shipment that was delayed but eventually delivered should not disappear from disruption reporting simply because its final status changed.
 
-## Methodology
+**DelayWatch** turns shipment, disruption, and port data into a network reliability system designed to answer:
 
-I built this analysis in layers, starting broad and narrowing down to specific causes.
+> **How much of the network is being disrupted?**
+> **What is causing those disruptions?**
+> **Which causes create the longest delays?**
+> **Where are bottlenecks concentrated?**
+> **Which routes keep experiencing problems?**
+> **How strongly are congestion and weather associated with delay severity?**
+> **And where should operations intervene first?**
 
-First, a quick data availability check: how many shipments exist, and what does a sample of the delay log actually look like. That's a habit worth keeping even on a familiar dataset, because it catches obvious problems before you build anything on top of them.
+Built in SQL across **3,000 shipments moving through an eight-port maritime network**, the project moves delay reporting from a status field into a structured **root cause and operational prioritization framework**.
 
-Second, a single view, v_supply_chain_visibility, that connects shipment records to their delay events and destination port conditions in one place. Everything downstream reads from this view instead of re-joining the same three tables over and over.
+---
 
-Third, the headline number: what share of shipments are currently delayed. Then the breakdown questions, one at a time. What causes delays most often, and which causes take longest to resolve once they happen. Which destination ports see the most delay activity. Whether port congestion level actually correlates with longer delays. Which specific routes show up repeatedly in the delay log, since a route that keeps failing needs a different response than a one-off weather event. How much weather plays into the average delay. What the delays cost financially, tying operational disruption back to revenue and profit. And finally, delay severity bands, short, medium, and severe, to help prioritize where operations should look first.
+# Business Problem
 
-## Analysis and error check
+A status field such as:
 
-This script was in better shape than the other two when I reviewed it, but I still found two things worth fixing.
+```text
+Delayed
+```
 
-The first was a missing safeguard. The original script created v_supply_chain_visibility without checking whether it already existed, which means re-running the script on a database where that view was already built would just fail outright. I added a guard so the script can be run more than once without that friction. Small fix, but it's the kind of thing that turns a five-minute re-run into an annoying support ticket if it's missed.
+describes an outcome.
 
-The second was more substantive: the headline delay rate metric was narrower than it looked. The original query measured delay rate purely off shipment_status = 'Delayed'. That's a legitimate number, but it only captures shipments currently sitting in delayed status. A shipment that experienced a real disruption mid-transit and was eventually marked "Delivered" once it finally arrived would never show up in that count, even though it has a complete entry in the delay log. That's not a broken query. It's just a narrower question than "how much of our network has been touched by a disruption," which is usually the question people actually care about. I added a second version of the metric next to the first, built from distinct shipment IDs in the delay log, so both numbers sit side by side and nobody walks away thinking the status-based figure is the whole story.
+It does not diagnose the problem.
 
-Everything else held up under review. The joins that use INNER JOIN against delays_events (cause breakdown, port breakdown, route breakdown) are intentionally scoped that way, because those specific questions only make sense for shipments that actually have a recorded delay. And ports.port_name is unique across all 8 ports, so joining shipments to ports on that column doesn't create any duplication risk the way the route table did in the profitability project. I checked that specifically after finding the fan-out problem there, because it's exactly the kind of thing that quietly breaks a second query without anyone noticing.
+Two delayed shipments may represent completely different operational situations.
 
-## Insight
+```text
+Shipment A
+Delay: 2 days
+Cause: Weather
+Route: No recurring issue
 
-Delay causes were not evenly distributed. Some causes showed up far more often than others but resolved relatively quickly, while a smaller number of causes were rarer but dragged on much longer once they hit, which is exactly the distinction the frequency-versus-duration comparison was built to surface. A handful of destination ports carried a disproportionate share of delay events relative to the rest of the network, and congestion level at those ports lined up with longer average delays closely enough to treat as a real signal rather than coincidence. Certain origin-destination pairs also showed up repeatedly in the delay log rather than as isolated incidents, which points to a structural problem on those specific lanes (scheduling, carrier choice, or routing) rather than bad luck.
+Shipment B
+Delay: 11 days
+Cause: Port Congestion
+Route: Repeated disruption
+Destination: High-congestion port
+```
 
-## Recommendation
+Both shipments are technically delayed.
 
-Operations should treat the top few delay causes by duration, not just by frequency, as the priority list, since a rare but long disruption often costs more in downstream service impact than a common but short one. The congested destination ports identified here should get a direct review of berth scheduling or carrier allocation, since congestion and delay length are moving together at those locations. And the routes that show up repeatedly in the delay breakdown deserve a standing review rather than a one-time fix, because a route with a recurring problem will keep generating the same complaint every reporting period until something structural changes.
+They should not receive the same operational response.
 
-## Business impact
+The first may be an isolated external event.
 
-Disruption that isn't diagnosed just repeats. A shipment marked "Delayed" without a clear reason gets explained away individually, quarter after quarter, and the underlying pattern never gets fixed because nobody connects the dots across shipments. This analysis makes that pattern visible: it turns a pile of individual delay complaints into a short, ranked list of the actual root causes and the specific ports and routes driving them, which is what lets operations fix the recurring problem instead of apologizing for it every time it happens.
+The second may indicate a structural network problem.
 
-## What was done
+That distinction matters because operations cannot eliminate every disruption. What it can do is identify **recurring, severe, and concentrated problems** and allocate attention where intervention is most likely to improve service reliability.
 
-I built a single visibility layer connecting shipment records, delay events, and port congestion data, then used it to answer the core operational questions: how big is the delay problem, what's causing it, where is it concentrated, and how severe is it. I reviewed the original script for structural issues, found a missing safeguard and a metric that was narrower than intended, and corrected both, while confirming the rest of the join logic was sound against the actual data.
+DelayWatch is built around that principle.
 
-## Tools used and how they helped
+---
 
-Built in SQL using a view for the core join layer, INNER JOIN where the analysis specifically requires a recorded delay event, LEFT JOIN where all shipments need to stay in the picture regardless of delay status, CASE-based severity banding, and aggregate functions for frequency and duration comparisons. The view kept the three-table join logic in one place instead of repeating it across seven different queries, and the two-metric delay rate comparison is a simple example of a broader habit worth having: when a single number could be read two different ways, show both rather than picking one silently.
+# Business Questions
 
-## Results
+The system answers a sequence of operational questions:
 
-The corrected script delivers a complete delay diagnostic: overall delay rate measured two honest ways, delay causes ranked by both frequency and severity, destination ports and specific routes flagged for repeated disruption, a congestion correlation check, weather exposure context, the financial size of the disrupted shipment pool, and a severity classification ready to drive investigation priority. One structural gap (the missing view guard) and one metric scope issue were found and corrected during review, both documented with the reasoning behind the fix.
+1. How many shipments are currently delayed?
+2. How many shipments experienced a disruption at any point?
+3. What causes delays most frequently?
+4. Which causes create the longest disruptions?
+5. Which destination ports experience the most delay activity?
+6. Are congested ports associated with longer delays?
+7. Which origin-destination lanes experience repeated disruption?
+8. How much does weather feature in the disruption profile?
+9. What is the financial size of shipments affected by delays?
+10. Which disruption events should operations investigate first?
+
+Together, these move the analysis from:
+
+> **Delay Detection**
+
+to:
+
+> **Root Cause Diagnosis**
+
+to:
+
+> **Operational Prioritization**
+
+---
+
+# Data Sources
+
+DelayWatch combines three connected datasets.
+
+| Dataset         | Business Role                                                                              |
+| --------------- | ------------------------------------------------------------------------------------------ |
+| `shipments`     | Core shipment activity, origin, destination, dates, status, revenue, and cost              |
+| `delays_events` | Shipment disruption history, reason, delay duration, weather impact, and congestion impact |
+| `ports`         | Destination-level port information and congestion ratings                                  |
+
+The network contains **3,000 shipments across eight ports**.
+
+Delay events are classified into four operational causes:
+
+* Weather
+* Port Congestion
+* Customs
+* Mechanical
+
+Each disruption also records:
+
+* Delay Duration
+* Weather Impact Score
+* Port Congestion Score
+
+This makes it possible to analyze both **what happened** and **how severe the disruption became**.
+
+---
+
+# Operations Intelligence Architecture
+
+```text
+                       SHIPPING NETWORK
+                              |
+                 ---------------------------
+                 |                         |
+                 ↓                         ↓
+             SHIPMENTS                  PORTS
+                 |
+                 ↓
+            DELAY EVENTS
+                 |
+                 ↓
+        SUPPLY CHAIN VISIBILITY
+                 |
+      ---------------------------------
+      |               |               |
+      ↓               ↓               ↓
+   Frequency        Severity        Location
+      |               |               |
+      ↓               ↓               ↓
+ Delay Cause     Delay Duration    Ports / Routes
+      |               |               |
+      ---------------------------------
+                      |
+                      ↓
+              ROOT CAUSE ANALYSIS
+                      |
+        --------------------------------
+        |              |               |
+        ↓              ↓               ↓
+    Congestion       Weather       Recurrence
+        |              |               |
+        --------------------------------
+                      |
+                      ↓
+              DISRUPTION PRIORITY
+                      |
+          ---------------------------
+          |            |            |
+          ↓            ↓            ↓
+       Monitor       Review       Escalate
+          |            |            |
+          ---------------------------
+                      |
+                      ↓
+              OPERATIONS ACTION
+```
+
+---
+
+# Methodology
+
+The analysis moves from network visibility to diagnosis and then prioritization.
+
+## 1. Validate Data Availability
+
+Before building the analytical layer, the script checks:
+
+* Shipment availability
+* Delay-event availability
+* Sample disruption records
+
+This establishes that the required operational data exists before downstream KPIs are calculated.
+
+---
+
+## 2. Build a Reusable Visibility Layer
+
+A single view, `v_supply_chain_visibility`, connects:
+
+```text
+Shipment
+   +
+Delay Event
+   +
+Destination Port Conditions
+```
+
+This creates one reusable source for downstream disruption analysis instead of rebuilding the same three-table relationship across multiple queries.
+
+The view supports analysis across:
+
+* Shipment Status
+* Delay Cause
+* Delay Duration
+* Origin
+* Destination
+* Weather Impact
+* Port Congestion
+* Revenue
+* Cost
+
+---
+
+## 3. Measure Disruption Exposure
+
+Delay exposure is measured in two different ways because the two metrics answer different business questions.
+
+### Current Delay Rate
+
+Uses shipment status to identify shipments currently classified as delayed.
+
+This answers:
+
+> **How much of the network is delayed right now?**
+
+### Historical Disruption Exposure
+
+Uses distinct shipment IDs appearing in the delay log.
+
+This answers:
+
+> **How much of the network has experienced a recorded disruption?**
+
+Both metrics are retained because neither replaces the other.
+
+---
+
+# Critical Finding 1: "Currently Delayed" Is Not the Same as "Experienced a Delay"
+
+The original headline metric used:
+
+```text
+shipment_status = 'Delayed'
+```
+
+That is a valid operational KPI.
+
+But it has a narrower meaning than an overall disruption rate.
+
+Consider:
+
+```text
+Shipment A
+Experienced 6-day customs delay
+Final Status: Delivered
+```
+
+and:
+
+```text
+Shipment B
+Experienced 3-day congestion delay
+Current Status: Delayed
+```
+
+A status-based calculation counts Shipment B.
+
+It does not count Shipment A.
+
+Yet both shipments experienced operational disruption.
+
+This means relying on current shipment status alone can understate the network's historical disruption exposure.
+
+---
+
+# Correction: Two Delay Metrics
+
+DelayWatch reports both measures separately.
+
+```text
+CURRENT DELAY RATE
+        |
+        ↓
+Shipments currently marked Delayed
+```
+
+and:
+
+```text
+DISRUPTION EXPOSURE
+        |
+        ↓
+Distinct shipments appearing in delay history
+```
+
+This prevents one metric from being interpreted as something it does not measure.
+
+It also gives operations two useful views:
+
+> **What is happening now?**
+
+and:
+
+> **What has been happening across the network?**
+
+---
+
+# Delay Frequency vs. Delay Severity
+
+One of the most important distinctions in disruption analysis is:
+
+> **How often does the problem happen?**
+
+versus:
+
+> **How much damage does it cause when it happens?**
+
+These are not the same thing.
+
+For example:
+
+```text
+Cause A
+Events: 180
+Average Delay: 1.5 days
+
+Cause B
+Events: 70
+Average Delay: 9 days
+```
+
+Cause A occurs much more frequently.
+
+Cause B may create greater service exposure per incident.
+
+DelayWatch therefore evaluates disruption causes using both:
+
+* Event Frequency
+* Average Delay Duration
+
+This prevents the operations team from automatically treating the most common problem as the most important one.
+
+---
+
+# Root Cause Intelligence
+
+Delay causes are ranked according to their frequency and severity.
+
+The analysis covers:
+
+### Weather
+
+External disruption associated with environmental conditions.
+
+### Port Congestion
+
+Network pressure at destination facilities.
+
+### Customs
+
+Clearance-related disruption.
+
+### Mechanical
+
+Equipment or operational reliability problems.
+
+The objective is not simply to produce a pie chart of delay reasons.
+
+It is to identify:
+
+> **Which causes deserve management attention based on both recurrence and operational impact?**
+
+---
+
+# Port Bottleneck Intelligence
+
+Delay events are aggregated by destination port.
+
+This identifies ports carrying a disproportionate share of network disruption.
+
+A high-delay destination may indicate issues involving:
+
+* Berth Availability
+* Port Congestion
+* Scheduling
+* Carrier Allocation
+* Local Handling Capacity
+* Customs Processes
+
+The result is a ranked view of where network reliability is weakest geographically.
+
+---
+
+# Congestion Analysis
+
+DelayWatch compares port congestion conditions with delay duration.
+
+The purpose is to test whether:
+
+> **More congested destinations are also experiencing more severe delays.**
+
+That distinction matters.
+
+A port may have a high congestion rating without materially affecting shipment performance.
+
+Another may show both high congestion and prolonged disruption.
+
+The second case deserves greater operational attention because the congestion signal is showing up in actual service outcomes.
+
+---
+
+# Route Recurrence Intelligence
+
+A single disruption can be random.
+
+Repeated disruption on the same origin-destination lane is harder to dismiss.
+
+DelayWatch therefore aggregates delay events by:
+
+```text
+Origin Port
+      ↓
+Destination Port
+```
+
+to identify lanes repeatedly appearing in the disruption history.
+
+Recurring lane problems may indicate:
+
+* Weak Routing Decisions
+* Carrier Performance Problems
+* Scheduling Constraints
+* Destination Bottlenecks
+* Repeated Customs Friction
+* Structural Capacity Problems
+
+These routes should not be managed as isolated incidents.
+
+They require **lane-level investigation**.
+
+---
+
+# Weather Exposure
+
+Weather impact is analyzed separately from other operational causes.
+
+This matters because weather is often treated as an explanation for poor service performance without checking how much of the disruption profile it actually explains.
+
+DelayWatch uses the available weather-impact data to provide context around:
+
+* Weather-Associated Disruption
+* Average Delay Severity
+* Relative Exposure
+
+The purpose is to separate genuine weather-related disruption from problems that operations may actually be able to control.
+
+---
+
+# Financial Exposure
+
+Delay analysis becomes more useful when disruption is connected to commercial value.
+
+The visibility layer retains shipment:
+
+* Revenue
+* Cost
+
+This allows delayed shipment activity to be evaluated not only by event count but also by the financial size of the affected shipment pool.
+
+That helps distinguish between:
+
+> **A large number of relatively small disrupted shipments**
+
+and:
+
+> **A smaller number of commercially significant shipments experiencing disruption**
+
+The current data supports measuring financial exposure associated with delayed shipments.
+
+It does **not** support claiming that all shipment revenue or profit associated with a delay was lost because of that delay.
+
+That would require additional data on penalties, cancellations, demurrage, recovery cost, lost customers, or service credits.
+
+---
+
+# Delay Severity Classification
+
+Raw delay days are converted into severity bands.
+
+For example:
+
+```text
+SHORT DELAY
+      ↓
+Lower operational urgency
+
+MEDIUM DELAY
+      ↓
+Requires investigation
+
+SEVERE DELAY
+      ↓
+Priority operational review
+```
+
+This makes the output easier to operationalize.
+
+A planner should not have to inspect thousands of raw delay-duration values to decide what requires attention first.
+
+Severity classification converts those values into a manageable investigation queue.
+
+---
+
+# Critical Finding 2: The Core Join Was Structurally Sound
+
+After the fan-out issue discovered in the related route-profitability project, the port join in this analysis required specific validation.
+
+The visibility model connects shipment destinations to:
+
+```text
+ports.port_name
+```
+
+The eight port names are unique in the port dataset.
+
+That means the port join does not introduce the same many-to-many duplication problem found elsewhere in the maritime portfolio.
+
+This matters because reliable analytics is not only about finding broken logic.
+
+It is also about confirming that critical relationships are safe before trusting downstream KPIs.
+
+---
+
+# Critical Finding 3: The Original View Was Not Safely Re-Runnable
+
+The original script created `v_supply_chain_visibility` without handling the case where the view already existed.
+
+That means rerunning the project could fail before the analysis even began.
+
+The corrected version adds safe recreation logic so the analytical layer can be rebuilt without manual cleanup.
+
+This is a small technical change, but it makes the project more usable as a repeatable operational workflow rather than a one-time SQL exercise.
+
+---
+
+# Operational Prioritization Framework
+
+DelayWatch supports three levels of response.
+
+## Monitor
+
+Low-severity or isolated disruption.
+
+These events should remain visible but may not justify immediate intervention.
+
+## Review
+
+Repeated or moderate disruption requiring investigation.
+
+Examples include:
+
+* Recurring lane problems
+* Rising congestion exposure
+* Causes with meaningful average delay duration
+
+## Escalate
+
+Severe or persistent disruption with material operational exposure.
+
+These events should move to the front of the operations queue.
+
+The objective is to move from:
+
+> **"Here are all our delayed shipments."**
+
+to:
+
+> **"Here are the disruption patterns that deserve action first."**
+
+---
+
+# Business Recommendations
+
+## 1. Prioritize Causes by Severity and Frequency Together
+
+Operations should not rank disruption causes using event count alone.
+
+High-frequency, short-duration problems and lower-frequency, long-duration problems require different responses.
+
+The priority matrix should consider both:
+
+```text
+Frequency × Severity
+```
+
+before deciding where improvement effort goes.
+
+---
+
+## 2. Put Repeatedly Disrupted Lanes on Standing Review
+
+Routes that repeatedly appear in the delay history should be reviewed as structural problems.
+
+Investigate:
+
+* Carrier Choice
+* Sailing Schedule
+* Routing
+* Destination Constraints
+* Customs Exposure
+* Capacity
+
+If the same lane produces the same problem every reporting cycle, incident-by-incident management is no longer enough.
+
+---
+
+## 3. Investigate High-Congestion Destinations
+
+Ports showing both elevated congestion and longer delay duration deserve direct operational review.
+
+Potential interventions may include:
+
+* Schedule Adjustment
+* Alternative Carrier Allocation
+* Different Arrival Windows
+* Alternative Routing
+* Capacity Planning
+
+The exact intervention depends on the cause identified in the underlying events.
+
+---
+
+## 4. Separate Current Delays From Historical Reliability
+
+Management reporting should retain both:
+
+* Current Delay Rate
+* Historical Disruption Exposure
+
+The first supports daily operations.
+
+The second supports network improvement.
+
+Combining them into one vague "delay rate" hides useful information.
+
+---
+
+## 5. Add Commercial Consequence Data
+
+A strong next version of the system should connect disruption to actual business consequences such as:
+
+* SLA Penalties
+* Demurrage
+* Customer Credits
+* Expediting Costs
+* Cancellation
+* Lost Revenue
+* Customer Complaints
+
+That would allow the system to move from:
+
+> **Delay Severity**
+
+to:
+
+> **Financial Impact of Delay**
+
+and rank disruptions by actual business cost.
+
+---
+
+# Business Value
+
+DelayWatch creates value across four operational areas.
+
+## Service Reliability
+
+Recurring disruption becomes visible at cause, port, and route level instead of remaining scattered across individual shipment records.
+
+## Root Cause Management
+
+Operations can distinguish between frequent problems, severe problems, external disruption, and potentially controllable network issues.
+
+## Resource Prioritization
+
+Severity classification and recurring-lane analysis help teams focus investigation on the disruptions most likely to matter.
+
+## Management Visibility
+
+Current delay exposure and historical disruption exposure are separated, giving leadership a clearer view of both today's operational pressure and the network's underlying reliability.
+
+The shift is from:
+
+> **"How many shipments are delayed?"**
+
+to:
+
+> **"What keeps disrupting the network, where does it happen, how severe is it, and what should operations fix first?"**
+
+---
+
+# Technical Review
+
+The original analysis was structurally stronger than the other maritime projects, but two improvements were still required.
+
+| Issue                                            | Business Consequence                                                                | Correction                                                              |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Delay rate based only on current shipment status | Delivered shipments with historical disruption disappeared from the headline metric | Report current delay rate and historical disruption exposure separately |
+| View could not be recreated safely               | Re-running the workflow could fail                                                  | Add safe view recreation logic                                          |
+
+The core analytical joins were also validated.
+
+In particular, `ports.port_name` is unique across the eight-port dataset, so the destination-port join does not create row fan-out.
+
+---
+
+# Tools & Techniques
+
+### SQL
+
+The full disruption analysis is implemented in SQL.
+
+### Reusable Visibility View
+
+`v_supply_chain_visibility` centralizes shipment, delay, and destination-port context.
+
+### `INNER JOIN`
+
+Used when analysis specifically requires a recorded disruption event, such as delay cause or recurring-route analysis.
+
+### `LEFT JOIN`
+
+Used where all shipments must remain visible regardless of whether a delay event exists.
+
+### `CASE`
+
+Converts raw delay duration into operational severity bands.
+
+### `COUNT(DISTINCT ...)`
+
+Separates disrupted shipments from raw delay-event counts and prevents multiple events from automatically becoming multiple affected shipments.
+
+### Aggregation
+
+Supports delay frequency, average duration, port concentration, route recurrence, and financial exposure analysis.
+
+---
+
+# Skills Demonstrated
+
+This project demonstrates proficiency in:
+
+* SQL
+* Supply Chain Analytics
+* Logistics Analytics
+* Root Cause Analysis
+* Operational Performance Analysis
+* Delay & Disruption Analytics
+* Network Reliability
+* Port Operations Analysis
+* Route Performance Analysis
+* Data Modeling
+* KPI Development
+* Data Quality Validation
+* SQL Join Validation
+* Operational Prioritization
+* Decision Support Systems
+
+---
+
+# Project Deliverables
+
+The completed system provides:
+
+* Current Shipment Delay Rate
+* Historical Disruption Exposure
+* Delay Cause Analysis
+* Frequency vs. Severity Comparison
+* Destination Port Bottleneck Analysis
+* Congestion vs. Delay Analysis
+* Recurring Route Identification
+* Weather Exposure Analysis
+* Delayed Shipment Financial Exposure
+* Delay Severity Classification
+* Reusable Supply Chain Visibility Layer
+* Operational Prioritization Framework
+
+---
+
+# Results
+
+DelayWatch transforms **3,000 maritime shipment records, disruption events, and port conditions** into a network reliability and root cause intelligence system.
+
+The analysis moves beyond counting delayed shipments to identify:
+
+* What is causing disruption
+* Which causes persist longest
+* Where delays concentrate
+* Which lanes experience repeated problems
+* Whether congestion aligns with delay severity
+* How weather features in the disruption profile
+* Which disrupted shipments carry meaningful commercial exposure
+* Which incidents deserve investigation first
+
+The project also corrects an important KPI interpretation problem:
+
+> **A shipment that experienced a real disruption but was eventually delivered should not disappear from historical reliability reporting simply because its current status is no longer "Delayed."**
+
+DelayWatch therefore separates **current operational delay** from **historical disruption exposure**, giving operations a more complete view of network reliability.
+
+The final system helps answer:
+
+> **What is disrupting the network?**
+
+> **Where are the bottlenecks?**
+
+> **Which problems are recurring rather than isolated?**
+
+> **Which causes create the greatest delay severity?**
+
+> **Which ports and lanes deserve operational intervention?**
+
+> **And where should the team focus first if the goal is to improve service reliability?**
+
+The result is not a delay report.
+
+It is a **disruption diagnosis and operational prioritization system** built to help a logistics team find recurring failure patterns before they become normal operating conditions.
+
+---
+
+# Repository Structure
+
+```text
+supply-chain-delay-intelligence/
+├── README.md
+├── supply_chain_delay_analysis.sql
+└── data/
+    ├── shipments.csv
+    ├── delays_events.csv
+    └── ports.csv
+```
