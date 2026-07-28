@@ -1,77 +1,922 @@
-# Cost-to-Serve and Route Profitability Analysis
+# LaneProfit: Freight Margin & Cost-to-Serve Intelligence
 
-A SQL project that looks at a maritime shipping network and asks a simple question with a complicated answer: are we actually making money on the business we're doing, or just moving a lot of cargo around?
+**A SQL profitability intelligence system for identifying loss-making routes, expensive customer relationships, inefficient freight movements, and shipment-level margin leakage across a maritime logistics network.**
 
-## Business problem
+---
 
-Most shipping companies track revenue closely. Fewer of them track profit at the same level of detail, and that gap causes real damage. A route can look busy and important on a dashboard while quietly losing money on every container that moves through it. A customer can be one of your biggest accounts by revenue and still be a net drag on the business once you subtract what it actually costs to serve them.
+## Project Overview
 
-This project was built to close that gap for a maritime logistics operation. The company needed to know, at the shipment level, the route level, and the customer level, where money was being made and where it was being given away. Revenue tells you how much business moved through the network. It does not tell you whether that business was worth doing. This analysis is built to answer the second question.
+A full ship is not necessarily a profitable ship.
 
-## Data source
+A busy route is not necessarily a good route.
 
-The dataset is a simulated maritime shipping operation covering 3,000 shipments across an 8-port network (Shanghai, Rotterdam, Lagos, Los Angeles, Singapore, Dubai, Hamburg, and Durban). It includes several connected tables:
+And a large customer is not necessarily a valuable customer.
 
-Shipments hold the transactional core: origin, destination, dates, cargo type, weight, volume, revenue, and cost per shipment.
+That is the commercial problem behind LaneProfit.
 
-Routes describe the lanes themselves: distance in kilometers, average transit time in days, and fuel cost.
+Logistics businesses generate huge amounts of operational data around shipments, ports, routes, customers, transit times, fuel, revenue, and cost. But if management mainly tracks shipment volume and revenue, poor economics can remain hidden underneath strong activity.
 
-Customers hold company name, industry, country, and contract value for each account.
+A route can carry hundreds of shipments and still destroy margin.
 
-Fuel data tracks regional fuel prices over time, which matters because fuel is one of the biggest swing costs in ocean freight.
+A major account can generate significant revenue while costing too much to serve.
 
-This is realistic, generated data rather than a live company's books, but it's structured the way real shipping data is structured, and it behaves the way real data behaves, including the messy parts. That turned out to matter a lot once I actually started querying it, which I'll get to in the next section.
+A shipment can look commercially successful until transport cost is included.
 
-All source files sit in the [`/data`](../data) folder at the root of this repository.
+LaneProfit brings those economics together into one decision system.
 
-## Methodology
+Built in SQL across **3,000 maritime shipments and an eight-port international network**, the analysis evaluates profitability at four levels:
 
-I approached this in three passes, moving from the whole business down to individual decisions.
+* Portfolio
+* Route
+* Customer Account
+* Individual Shipment
 
-First, the baseline. Before splitting anything apart, I pulled total revenue, total cost, and total profit across the entire shipment portfolio. You need that number before any of the more granular breakdowns mean anything.
+The objective is to help commercial and operations teams answer a more useful question than:
 
-Second, the three lenses the business actually asked for: routes, customers, and shipments. For routes, I grouped shipments by origin and destination pair and ranked them from least to most profitable, so the worst-performing lanes surface immediately instead of getting buried in a long list. For customers, I did the same thing at the account level. For shipments, I built a simple rules engine that labels each shipment as needing a price increase, needing cost optimization, or being fine as is, based on where its profit lands relative to a $2,000 threshold.
+> **How much freight did we move?**
 
-Third, the context layers: cost per kilometer to normalize for route length, transit time against profit to see if slower routes are worth the wait, shipment weight against profit to check for a size-to-margin relationship, and regional fuel price against average shipment cost to see how much of the cost story is coming from something outside the company's control.
+The question is:
 
-I built one reusable view, v_profitability, that joins shipment financials to route characteristics, so most of the later queries could pull from a single clean source instead of repeating the same join logic five times.
+> **How much value did we keep after moving it, where are we losing margin, and what should we do about it?**
 
-## Analysis and error check
+---
 
-This is the part I want to be upfront about, because I didn't just write the queries and call it done. I went back through the script against the actual row counts and key structure in the data, and found four real problems. Two of them were serious enough that they would have changed the numbers a client actually sees.
+# Business Problem
 
-The first was a join fan-out in the route view. The routes table only covers an 8-port network, which caps the number of possible origin-destination pairs at 64. But the table actually holds 3,000 route records, meaning each pair shows up roughly 47 times on average, each with a slightly different distance, transit time, and fuel cost. The original view joined shipments to routes using just the origin and destination port names. Since that combination isn't unique in the routes table, every shipment matched dozens of route rows at once, and got duplicated in the result set that many times over. Anything built on top of that view, cost per kilometer, transit time versus profit, was quietly inflated. I fixed this by pre-aggregating the routes table down to one averaged row per origin-destination pair before the join ever happens, so each shipment now matches exactly one route record.
+Shipping economics are driven by more than revenue.
 
-The second was in the fuel price comparison. The original query joined fuel price records to shipments by matching on year alone, with no real shared key between a specific fuel record and a specific shipment. That turns the join into something close to a cross join: every fuel price entry for a given year gets matched against every shipment from that same year, regardless of region. Because shipment volume differs from year to year, the resulting "average" ends up weighted toward whichever year happened to contribute more matched rows, not toward a genuine regional average. I fixed this by summarizing fuel prices to one row per region per year, summarizing shipment cost to one row per year, and only then joining those two already-summarized tables together. That keeps the comparison honest.
+A shipment generates income, but delivering that shipment also consumes:
 
-The third was a grouping mistake in the weight-versus-profit query. Shipment weight is recorded to two decimal places, so grouping directly on weight_tons produced almost one row per shipment. It looked like an aggregation on paper but wasn't actually pooling anything together. I fixed this by bucketing weight into ranges (under 50 tons, 50 to 99, and so on), which is what that kind of analysis is supposed to look like.
+* Transport Capacity
+* Fuel
+* Route Time
+* Operational Resources
+* Port and Network Capacity
+* Customer-Specific Commercial Terms
 
-The fourth was in how customers were grouped. The customer table has 3,000 rows, but the same company name shows up under many different customer IDs, countries, and contract values. "Toyota Logistics," for example, appears well over 300 times across distinct accounts. Grouping profitability by company name alone would have merged hundreds of separate customer relationships into a single row. I fixed this by grouping on customer ID alongside company name, so the profitability figures reflect actual individual accounts, with the company name kept only as a label.
+If those costs are not connected to revenue at the correct level, management can mistake activity for performance.
 
-I also want to flag something I noticed but did not change, because it's a data quality issue rather than a query bug: some shipment records show an arrival date earlier than the departure date, which isn't physically possible. None of the queries in this script calculate duration directly from those two columns, so it doesn't affect anything here, but I'm calling it out because anyone extending this analysis to measure transit time from the raw dates should clean those records first.
+Consider two routes:
 
-## Insight
+```text
+Route A
+Revenue: $10M
+Cost:     $6M
+Profit:   $4M
 
-Once the fixes were in place, the picture that came out was consistent with what I'd expect from a real freight network under commercial pressure, not a uniformly healthy one. A meaningful share of routes were operating at negative or thin margins even while carrying decent shipment volume, which is the exact blind spot revenue-only reporting creates. On the customer side, once accounts were correctly separated by customer ID instead of collapsed by brand name, a similar pattern showed up: some of the largest accounts by shipment count were not the most profitable ones, and a few mid-volume accounts were quietly carrying strong margins without getting much management attention.
+Route B
+Revenue: $15M
+Cost:     $14.5M
+Profit:   $0.5M
+```
 
-The shipment-level action engine also did what it was built to do. Instead of a wall of numbers, it produces a short, ranked list of shipments that need a pricing conversation, a cost review, or nothing at all, which is the kind of output a commercial team can actually act on Monday morning.
+Route B generates 50% more revenue.
 
-## Recommendation
+But Route A generates eight times more profit.
 
-Three things follow directly from this. First, put the loss-making route list in front of whoever owns pricing and carrier contracts, not just operations, because the fix for a losing lane is sometimes commercial and sometimes operational, and you need both sides looking at the same list. Second, run a formal account review on the customer relationships sitting at the bottom of the profit ranking, especially the high-volume ones, before renewal conversations happen rather than after. Third, treat the shipment-level action labels as a weekly operating report, not a one-time analysis, so shipments sliding toward "Increase Price or Cut Cost" get caught early instead of after a quarter of accumulated losses.
+A revenue dashboard may prioritize Route B.
 
-## Business impact
+A profitability system would ask why the network is committing so much capacity to business that produces so little economic value.
 
-This shifts the conversation from "how much did we ship" to "how much did we keep," which is the conversation that actually protects margin. A route or account that looks fine on a revenue report but is losing money on a cost basis is a liability that compounds quietly, and it usually takes a proper cost-to-serve view like this one to catch it before it shows up as a bigger problem in the quarterly numbers. Catching even a handful of consistently loss-making lanes or accounts early, and either repricing or restructuring them, protects real margin that would otherwise leak out unnoticed.
+LaneProfit is designed to make that difference visible.
 
-## What was done
+---
 
-I built a single profitability view joining shipment financials to properly aggregated route data, then used it to answer three connected questions: which routes make money, which customers are worth serving, and which individual shipments need attention right now. Along the way, I reviewed every query against the real structure of the data, found four issues ranging from join fan-out to a meaningless grouping key, corrected all four, and documented exactly what was wrong and why, rather than quietly fixing them and moving on.
+# Business Questions
 
-## Tools used and how they helped
+The system answers nine commercial and operational questions:
 
-This was built entirely in SQL, using views, common table expressions, CASE-based classification logic, aggregate functions, and NULLIF to guard against division by zero in the cost-per-kilometer calculation. Views did the heavy lifting of keeping the logic reusable: instead of re-writing the shipment-to-route join five separate times, v_profitability holds it once, correctly aggregated, and every downstream query pulls from that single source of truth. Common table expressions were the fix for the fuel price problem specifically, because they let me summarize each side of a comparison independently before combining them, which is the only way to join two tables on a shared time period without one side multiplying the other.
+1. Is the shipping portfolio profitable overall?
+2. Which trade lanes create the most value?
+3. Which routes are generating revenue but weak or negative margins?
+4. Which customer accounts are expensive to serve?
+5. Are the highest-volume customers also the most profitable?
+6. Which individual shipments require pricing or cost intervention?
+7. Which routes carry unusually high cost relative to distance?
+8. How does shipment size relate to profitability?
+9. How much of the cost environment is associated with changing fuel prices?
 
-## Results
+The result is a profitability model that moves from:
 
-The corrected script produces a complete profitability picture across three levels of granularity: the whole shipment portfolio, every route lane ranked from worst to best, and every customer account ranked the same way, plus a shipment-level action list ready for a commercial or operations team to work from directly. Four real logic issues were found during review and corrected before delivery, each one documented with the reasoning behind the fix, so the numbers in this version can be trusted rather than just trusted because they came out of a script.
+> **Network Performance**
+
+to:
+
+> **Route Economics**
+
+to:
+
+> **Account Economics**
+
+to:
+
+> **Individual Shipment Action**
+
+---
+
+# Network Scope
+
+The simulated maritime network covers eight major ports:
+
+* Shanghai
+* Rotterdam
+* Lagos
+* Los Angeles
+* Singapore
+* Dubai
+* Hamburg
+* Durban
+
+The dataset contains **3,000 shipment records** across this network.
+
+---
+
+# Data Sources
+
+LaneProfit combines four connected datasets.
+
+| Dataset       | Business Role                                                                                |
+| ------------- | -------------------------------------------------------------------------------------------- |
+| **Shipments** | Shipment-level revenue, cost, cargo, weight, volume, origin, destination, and movement dates |
+| **Routes**    | Distance, expected transit time, and route-level fuel characteristics                        |
+| **Customers** | Account identity, industry, country, and contract value                                      |
+| **Fuel Data** | Regional fuel-price movements over time                                                      |
+
+Together, these allow shipment activity to be evaluated from both an operational and financial perspective.
+
+---
+
+# Profitability Architecture
+
+```text
+                       SHIPPING NETWORK
+                              |
+          ------------------------------------------
+          |                    |                   |
+          ↓                    ↓                   ↓
+      SHIPMENTS              ROUTES            CUSTOMERS
+          |                    |                   |
+          |                    ↓                   |
+          |              Route Rollup              |
+          |                    |                   |
+          ----------------------                   |
+                    |                              |
+                    ↓                              |
+           SHIPMENT ECONOMICS                      |
+                    |                              |
+                    -------------------------------
+                              |
+                              ↓
+                     PROFITABILITY MODEL
+                              |
+         ---------------------------------------------
+         |                |              |            |
+         ↓                ↓              ↓            ↓
+      Portfolio         Routes        Customers    Shipments
+      Economics        Economics      Economics     Economics
+         |                |              |            |
+         ---------------------------------------------
+                              |
+                              ↓
+                      MARGIN LEAKAGE ENGINE
+                              |
+             ---------------------------------
+             |               |               |
+             ↓               ↓               ↓
+         REPRICE        REDUCE COST        HEALTHY
+             |               |
+             -----------------
+                    |
+                    ↓
+             MANAGEMENT ACTION
+```
+
+---
+
+# Methodology
+
+The analysis follows four stages.
+
+## 1. Establish Portfolio Economics
+
+Before identifying weak routes or customers, the analysis calculates the economics of the entire shipment portfolio.
+
+Core metrics include:
+
+```text
+Total Revenue
+Total Cost
+Total Profit
+```
+
+with:
+
+```text
+Profit = Revenue - Cost
+```
+
+This establishes the financial baseline against which every subsequent breakdown is evaluated.
+
+---
+
+## 2. Build the Route Profitability Model
+
+Shipment financials are connected to route characteristics through a reusable profitability view.
+
+The model combines:
+
+* Origin
+* Destination
+* Shipment Revenue
+* Shipment Cost
+* Shipment Profit
+* Route Distance
+* Transit Time
+* Route Characteristics
+
+This creates the foundation for route-level commercial analysis.
+
+---
+
+## 3. Evaluate Customer Cost-to-Serve
+
+Profitability is then evaluated at individual customer-account level.
+
+This matters because:
+
+> **Revenue measures account size.**
+
+while:
+
+> **Profit measures account value.**
+
+A customer can rank highly on revenue and still be commercially weak once the cost of servicing its freight is included.
+
+---
+
+## 4. Convert Analysis Into Shipment Actions
+
+Individual shipments are classified according to their economics.
+
+Instead of giving the commercial team thousands of transaction rows, the system converts profitability into action categories such as:
+
+### Reprice
+
+The shipment economics indicate that the current commercial terms require review.
+
+### Optimize Cost
+
+Revenue may be acceptable, but the cost structure requires operational investigation.
+
+### Healthy
+
+The shipment is currently operating within an acceptable profitability range.
+
+The purpose is not classification for its own sake.
+
+It is to create a **commercial work queue**.
+
+---
+
+# Critical Finding 1: The Original Route Join Duplicated Shipments
+
+The most important technical problem appeared in the route model.
+
+The network contains eight ports.
+
+Even if every port could connect to every other port, there are only a limited number of origin-destination combinations.
+
+But the route dataset contains **3,000 records**.
+
+That means an origin-destination pair appears repeatedly with different:
+
+* Distance Values
+* Transit Times
+* Fuel Costs
+
+The original model joined shipments directly to routes using:
+
+```text
+Origin Port
++
+Destination Port
+```
+
+The problem is that this combination is not unique in the route table.
+
+---
+
+# How the Fan-Out Happened
+
+Suppose:
+
+```text
+Lagos → Rotterdam
+```
+
+appears 45 times in the route dataset.
+
+One Lagos-to-Rotterdam shipment joined to that table becomes:
+
+```text
+1 Shipment × 45 Route Records
+=
+45 Rows
+```
+
+The shipment's revenue and cost are repeated across those rows.
+
+Do that across thousands of shipments and the analytical model no longer represents shipments.
+
+It represents duplicated shipment-route combinations.
+
+The SQL still runs.
+
+The numbers still look numerical.
+
+They are simply wrong.
+
+---
+
+# Business Consequence
+
+The fan-out contaminated analyses involving:
+
+* Route Cost
+* Cost per Kilometer
+* Transit-Time Economics
+* Shipment Profitability
+
+A route could therefore appear more commercially significant simply because its origin-destination pair occurred more times in the route table.
+
+That is a data-model problem with a direct business consequence:
+
+> **Commercial decisions could be driven by duplication rather than economics.**
+
+---
+
+# Correction: Establish One Route Record Per Lane
+
+The route table is first aggregated to one analytical record per:
+
+```text
+Origin → Destination
+```
+
+Route characteristics are summarized before any shipment joins occur.
+
+The corrected model becomes:
+
+```text
+Raw Route Records
+        |
+        ↓
+Aggregate by Lane
+        |
+        ↓
+One Route Profile
+        |
+        ↓
+Join to Shipments
+        |
+        ↓
+One Shipment + One Route Profile
+```
+
+This preserves shipment grain while still providing the route context required for profitability analysis.
+
+---
+
+# Critical Finding 2: Customer Names Were Not Customer Accounts
+
+The customer dataset contains 3,000 rows.
+
+But company names repeat across multiple:
+
+* Customer IDs
+* Countries
+* Contract Values
+
+For example, the same corporate brand can appear hundreds of times as separate customer relationships.
+
+Grouping only by:
+
+```text
+Company Name
+```
+
+would merge those separate accounts into one artificial customer.
+
+That creates a major problem for cost-to-serve analysis.
+
+One profitable account and one unprofitable account belonging to the same corporate brand could cancel each other out.
+
+Management would never see the weak relationship.
+
+---
+
+# Correction: Analyze Accounts, Not Labels
+
+Customer profitability is therefore grouped using:
+
+```text
+Customer ID
++
+Company Name
+```
+
+The ID defines the commercial account.
+
+The company name remains the readable label.
+
+This means:
+
+> **Each customer relationship keeps its own economics.**
+
+That is the level at which pricing, contracts, service terms, and account reviews can actually be changed.
+
+---
+
+# Critical Finding 3: Fuel Comparison Used an Invalid Relationship
+
+The original fuel analysis matched shipments and fuel prices by year.
+
+But there was no direct relationship between a specific shipment and a specific regional fuel-price observation.
+
+Joining the raw tables on year could therefore multiply records heavily.
+
+The resulting average would reflect the shape of the join rather than a clean comparison of annual shipment cost and fuel conditions.
+
+---
+
+# Correction: Aggregate Before Comparing
+
+Fuel and shipment data are summarized independently.
+
+```text
+Fuel Data
+    |
+    ↓
+Region + Year Summary
+```
+
+and:
+
+```text
+Shipment Data
+    |
+    ↓
+Yearly Cost Summary
+```
+
+Only then are the summarized results compared.
+
+This prevents raw transactional records from multiplying each other and produces a cleaner basis for evaluating the external fuel-cost environment.
+
+---
+
+# Critical Finding 4: Shipment Weight Was Too Granular
+
+Shipment weight is recorded with decimal precision.
+
+Grouping directly by exact weight therefore creates almost one category per shipment.
+
+For example:
+
+```text
+71.28 tons
+71.31 tons
+71.47 tons
+71.83 tons
+```
+
+are technically different groups.
+
+But commercially, that tells management almost nothing.
+
+---
+
+# Correction: Weight Bands
+
+Shipments are grouped into meaningful ranges such as:
+
+```text
+Under 50 Tons
+50–99 Tons
+100–149 Tons
+150–199 Tons
+200+ Tons
+```
+
+The analysis can then test whether larger shipments tend to produce stronger economics or whether certain size bands consistently carry weak margins.
+
+---
+
+# Route Profitability Intelligence
+
+Routes are ranked using:
+
+* Shipment Volume
+* Revenue
+* Cost
+* Profit
+
+The objective is not simply to identify the busiest lanes.
+
+It is to identify:
+
+> **Which lanes convert network activity into economic value?**
+
+A high-volume route with weak or negative profit is a candidate for:
+
+* Repricing
+* Carrier Negotiation
+* Cost Reduction
+* Schedule Review
+* Service Redesign
+* Capacity Reallocation
+
+---
+
+# Customer Cost-to-Serve Intelligence
+
+Customer accounts are ranked by actual profitability.
+
+The analysis distinguishes between:
+
+> **Large Accounts**
+
+and:
+
+> **Profitable Accounts**
+
+because those categories do not necessarily contain the same customers.
+
+This helps management identify:
+
+### High-Volume, High-Profit Accounts
+
+Protect and grow.
+
+### High-Volume, Low-Profit Accounts
+
+Review pricing and service terms.
+
+### Lower-Volume, Strong-Margin Accounts
+
+Potential growth opportunities.
+
+### Loss-Making Accounts
+
+Reprice, restructure, or reassess the relationship.
+
+---
+
+# Shipment-Level Margin Intelligence
+
+Portfolio averages can hide bad individual movements.
+
+LaneProfit therefore evaluates individual shipment economics.
+
+A shipment can be profitable while its route is weak overall.
+
+A route can be profitable while individual shipments are being badly priced.
+
+Both levels matter.
+
+The shipment-level action engine surfaces movements requiring attention before repeated weak economics accumulate into a quarterly margin problem.
+
+---
+
+# Cost per Kilometer
+
+Absolute route cost is difficult to compare because routes have different distances.
+
+LaneProfit normalizes route economics using:
+
+```text
+Cost per Kilometer
+```
+
+This creates a common scale for comparing lanes.
+
+A long route may have a large total cost but still operate efficiently.
+
+A shorter route may look cheap in absolute terms while costing disproportionately more for every kilometer moved.
+
+Normalization makes that difference visible.
+
+---
+
+# Transit-Time Economics
+
+Transit time is evaluated against profitability to identify whether slower routes are producing enough commercial value to justify the network resources they consume.
+
+This does not assume that:
+
+> **Longer Transit = Bad Route**
+
+because some longer services may carry premium economics.
+
+The useful question is:
+
+> **Are we being compensated for the time and capacity this lane consumes?**
+
+---
+
+# Shipment Size Economics
+
+Weight bands allow the analysis to compare shipment size against profit.
+
+This can help identify whether:
+
+* Larger shipments produce economies of scale
+* Smaller shipments carry disproportionately high servicing cost
+* Certain shipment sizes need different pricing structures
+
+The analysis turns shipment weight into a commercial variable rather than leaving it as descriptive operational data.
+
+---
+
+# Fuel Cost Context
+
+Fuel is a major external cost driver in maritime logistics.
+
+LaneProfit compares changing fuel-price environments with shipment cost trends to provide context around cost pressure.
+
+This distinction matters.
+
+If route economics deteriorate while fuel prices rise sharply, part of the problem may be external.
+
+If costs deteriorate while fuel conditions remain stable, the issue is more likely internal to:
+
+* Carrier Terms
+* Route Design
+* Operational Efficiency
+* Service Structure
+* Pricing
+
+The analysis helps management know where to investigate.
+
+---
+
+# Data Quality Finding: Impossible Shipment Dates
+
+The dataset contains shipment records where:
+
+```text
+Arrival Date < Departure Date
+```
+
+That is physically impossible.
+
+The current profitability analysis does not calculate shipment duration directly from these dates, so the issue does not change the financial results presented here.
+
+But it creates an important boundary:
+
+> **Raw departure and arrival dates should not be used for transit-time calculations until those records are validated and corrected.**
+
+This is documented rather than silently cleaned because the available data does not establish what the correct dates should have been.
+
+---
+
+# Business Recommendations
+
+## 1. Put Loss-Making Lanes on a Commercial Review List
+
+Routes with sustained weak economics should be reviewed jointly by commercial and operations teams.
+
+The question is not automatically:
+
+> **Should we stop serving this route?**
+
+First determine whether the problem comes from:
+
+* Pricing
+* Transport Cost
+* Route Structure
+* Customer Mix
+* Service Requirements
+
+Different causes require different interventions.
+
+---
+
+## 2. Review High-Volume, Low-Profit Accounts Before Renewal
+
+Large customers with weak economics should be identified before contracts are renewed.
+
+Potential interventions include:
+
+* Price Renegotiation
+* Minimum Volume Commitments
+* Fuel Surcharges
+* Service-Level Changes
+* Route Restrictions
+* Contract Restructuring
+
+Revenue size alone should not protect an account from profitability review.
+
+---
+
+## 3. Operationalize the Shipment Action List
+
+The shipment-level recommendation engine should run regularly.
+
+Instead of discovering weak pricing after a quarter closes, commercial teams can identify problematic movements as they occur.
+
+This converts profitability analysis from:
+
+> **Historical Reporting**
+
+into:
+
+> **Margin Management**
+
+---
+
+## 4. Negotiate Routes Using Normalized Cost
+
+Carrier and route discussions should use cost per kilometer and route-level profitability rather than total cost alone.
+
+That creates a fairer comparison across lanes of different lengths.
+
+---
+
+## 5. Separate External Cost Pressure From Internal Inefficiency
+
+Fuel trends should be reviewed alongside shipment cost.
+
+When costs rise, management needs to know whether the network became less efficient or whether external fuel conditions changed.
+
+Without that distinction, the wrong part of the business may be targeted for cost reduction.
+
+---
+
+# Business Value
+
+LaneProfit improves profitability management across four areas.
+
+## Margin Protection
+
+Loss-making routes, accounts, and shipments become visible before they accumulate into larger financial problems.
+
+## Pricing Discipline
+
+Commercial teams can identify where revenue is not producing enough profit and target repricing where it matters most.
+
+## Account Management
+
+Customers can be evaluated according to the economics of the actual account rather than brand recognition or shipment volume.
+
+## Network Efficiency
+
+Route distance, transit time, shipment size, and fuel conditions provide context for why margins differ across the network.
+
+The shift is from:
+
+> **"How much cargo moved through the network?"**
+
+to:
+
+> **"Which cargo, customers, and lanes deserve the capacity we're giving them?"**
+
+---
+
+# Technical Corrections
+
+Four material analytical problems were identified and corrected.
+
+| Issue                             | Business Consequence                               | Correction                                              |
+| --------------------------------- | -------------------------------------------------- | ------------------------------------------------------- |
+| Non-unique route join             | Shipments duplicated across repeated route records | Aggregate routes to one profile per lane before joining |
+| Customer grouping by company name | Separate accounts merged into artificial customers | Group by customer ID and company name                   |
+| Raw fuel-to-shipment year join    | Record multiplication distorted comparison         | Aggregate both sides before joining                     |
+| Exact shipment-weight grouping    | Almost one group per shipment                      | Introduce meaningful weight bands                       |
+
+A separate data-quality issue involving impossible arrival and departure dates was also documented for future transit-time analysis.
+
+---
+
+# Tools & Techniques
+
+### SQL
+
+The complete profitability system is implemented using relational SQL.
+
+### Reusable Profitability View
+
+`v_profitability` provides a standardized source for shipment financials and route characteristics.
+
+### Pre-Aggregation
+
+Route data is reduced to the required analytical grain before joining to shipments, preventing fan-out.
+
+### Common Table Expressions
+
+CTEs independently summarize fuel and shipment data before comparisons are made.
+
+### `CASE`
+
+Used to convert shipment economics into business-readable action categories.
+
+### Aggregate Functions
+
+Support portfolio, route, customer, and shipment-level profitability analysis.
+
+### `NULLIF()`
+
+Protects normalized cost calculations from division by zero.
+
+### Analytical Bucketing
+
+Continuous shipment weight is converted into decision-useful categories rather than near-unique values.
+
+---
+
+# Skills Demonstrated
+
+This project demonstrates proficiency in:
+
+* SQL
+* Logistics Analytics
+* Maritime Shipping Analytics
+* Cost-to-Serve Analysis
+* Route Profitability
+* Customer Profitability
+* Commercial Analytics
+* Margin Analysis
+* Freight Economics
+* Transport Cost Analysis
+* Data Modeling
+* Data Quality Validation
+* Join Grain Management
+* SQL Debugging
+* KPI Development
+* Decision Support Systems
+
+---
+
+# Project Deliverables
+
+The completed analysis provides:
+
+* Portfolio Revenue, Cost & Profit Baseline
+* Route Profitability Ranking
+* Loss-Making Lane Identification
+* Customer Cost-to-Serve Analysis
+* Customer Profitability Ranking
+* Shipment-Level Action Engine
+* Cost-per-Kilometer Analysis
+* Transit-Time Profitability Analysis
+* Shipment Weight Profitability Bands
+* Fuel Cost Context Analysis
+* Data Quality Findings
+* Corrected Reusable Profitability Model
+
+---
+
+# Results
+
+LaneProfit transforms **3,000 maritime shipments across an eight-port international network** into a route, customer, and shipment-level profitability system.
+
+The project identified and corrected four analytical issues that could otherwise distort commercial decisions.
+
+Most importantly:
+
+> **The original route join could duplicate each shipment across dozens of route records because origin and destination were not unique in the route dataset.**
+
+and:
+
+> **Grouping customers by company name could combine hundreds of separate commercial relationships into one artificial account.**
+
+The corrected system preserves shipment-level financial integrity, evaluates actual customer accounts, normalizes route costs, adds external fuel context, and converts individual shipment economics into a commercial action list.
+
+The result is not another logistics dashboard.
+
+It is a decision system designed to answer:
+
+> **Which routes should we reprice or optimize?**
+
+> **Which customer relationships are worth growing?**
+
+> **Which accounts are consuming capacity without enough margin?**
+
+> **Which shipments need intervention now?**
+
+> **And where is the network generating activity without generating enough economic value?**
+
+---
+
+# Repository Structure
+
+```text
+cost-to-serve-route-profitability/
+├── README.md
+├── cost_to_serve_analysis.sql
+└── data/
+    ├── shipments.csv
+    ├── routes.csv
+    ├── customers.csv
+    └── fuel_data.csv
+```
